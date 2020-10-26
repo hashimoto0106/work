@@ -1,0 +1,6 @@
+SAVEIMG("test1.bmp")
+SAVEIMG("test2.bmp")
+SAVEIMG("test3.bmp")
+SAVEIMG("test4.bmp")
+SAVEIMG("test5.bmp")
+

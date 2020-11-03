@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="4030388739">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="construct_posnloop_hook_impl" lineNumber="57"/>
+    <functiondecl functionName="pre_posnloop_hook_impl" lineNumber="68"/>
+    <functioncall functionName="pre_posnloop_hook_impl"/>
+    <functioncall functionName="stepoffset_add"/>
+  </FileInfo>
+</analyzerinfo>

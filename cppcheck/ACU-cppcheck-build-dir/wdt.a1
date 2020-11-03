@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1750519174">
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/DRIVER/PUBLIC/pci_drv_ras.h:270:5" call-funcname="FrasWdtReset" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/ERROR/wdt.c" line="73" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/DRIVER/PUBLIC/pci_drv_pls.h:114:5" call-funcname="FplsWdtReset" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/ERROR/wdt.c" line="74" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/DRIVER/PUBLIC/pci_drv_ilc.h:160:5" call-funcname="FilcWdtReset" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/ERROR/wdt.c" line="76" col="14" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/DRIVER/PUBLIC/pci_drv_ras.h:270:5" call-funcname="FrasWdtReset" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/ERROR/wdt.c" line="98" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/DRIVER/PUBLIC/pci_drv_ilc.h:160:5" call-funcname="FilcWdtReset" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/ERROR/wdt.c" line="99" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/DRIVER/PUBLIC/pci_drv_pls.h:114:5" call-funcname="FplsWdtReset" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/ERROR/wdt.c" line="100" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/DRIVER/PUBLIC/pci_drv_ilc.h:160:5" call-funcname="FilcWdtReset" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/ERROR/wdt.c" line="111" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="wdtStart" lineNumber="61"/>
+    <functiondecl functionName="wdtReset" lineNumber="92"/>
+    <functiondecl functionName="wdtSetState" lineNumber="137"/>
+    <functioncall functionName="CpuDipSw"/>
+    <functioncall functionName="CpuWdtReset"/>
+    <functioncall functionName="FilcWdtReset"/>
+    <functioncall functionName="FplsWdtReset"/>
+    <functioncall functionName="FrasWdtReset"/>
+    <functioncall functionName="LM_DEBUG"/>
+    <functioncall functionName="LM_INFO"/>
+    <functioncall functionName="LM_SEVERE"/>
+    <functioncall functionName="LM_TRACE"/>
+    <functioncall functionName="LM_WARNING"/>
+    <functioncall functionName="WDT_DEBUG"/>
+    <functioncall functionName="WDT_HALT"/>
+    <functioncall functionName="WDT_NORMAL"/>
+    <functioncall functionName="WDT_REBOOT"/>
+    <functioncall functionName="__FUNCTION__"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="clogMsg"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="state"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="uchar"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="w_wdtStatus"/>
+  </FileInfo>
+</analyzerinfo>

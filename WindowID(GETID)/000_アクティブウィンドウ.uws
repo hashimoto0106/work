@@ -1,3 +1,0 @@
-SLEEP(2)
-id = GETID(GET_ACTIVE_WIN)
-SAVEIMG("000", id, , , , , , 70) // à≥èkó¶Ç70Ç…ê›íË

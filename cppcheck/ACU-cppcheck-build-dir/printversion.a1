@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2123052516">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="printVersion" lineNumber="54"/>
+    <functiondecl functionName="printVersion" lineNumber="54"/>
+    <functioncall functionName="AX2_NUM"/>
+    <functioncall functionName="AX3_NUM"/>
+    <functioncall functionName="AXIS_NUM"/>
+    <functioncall functionName="CardDriverVer"/>
+    <functioncall functionName="DSP2_NUM"/>
+    <functioncall functionName="DSP_NUM"/>
+    <functioncall functionName="INSTRUCTION"/>
+    <functioncall functionName="J2StdVer"/>
+    <functioncall functionName="KernelVer"/>
+    <functioncall functionName="OpifDriverVer"/>
+    <functioncall functionName="OswrapVer"/>
+    <functioncall functionName="SumcheckVer"/>
+    <functioncall functionName="SysdataVer"/>
+    <functioncall functionName="double"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="nullFuncImpl"/>
+    <functioncall functionName="post"/>
+    <functioncall functionName="pre"/>
+    <functioncall functionName="printDspVersion"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="void"/>
+  </FileInfo>
+</analyzerinfo>

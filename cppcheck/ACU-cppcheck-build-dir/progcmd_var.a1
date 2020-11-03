@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1850975436">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="construct_progcmd_hook_impl" lineNumber="61"/>
+    <functiondecl functionName="construct_progcmd_hook_impl" lineNumber="61"/>
+    <functiondecl functionName="construct_progcmd_hook_impl" lineNumber="61"/>
+    <functiondecl functionName="construct_progcmd_hook_impl" lineNumber="61"/>
+    <functiondecl functionName="construct_progcmd_hook_impl" lineNumber="61"/>
+    <functioncall functionName="AXIS_AX2"/>
+    <functioncall functionName="AXIS_AX3"/>
+    <functioncall functionName="AXIS_CR"/>
+    <functioncall functionName="AXIS_EL"/>
+    <functioncall functionName="AZintVal_impl"/>
+    <functioncall functionName="AZsearch_impl"/>
+    <functioncall functionName="ELintVal_impl"/>
+    <functioncall functionName="ELsearch_impl"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="idx"/>
+    <functioncall functionName="int"/>
+  </FileInfo>
+</analyzerinfo>

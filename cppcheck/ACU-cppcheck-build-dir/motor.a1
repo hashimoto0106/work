@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1544507580">
+        <error id="selfAssignment" severity="warning" msg="Redundant assignment of &apos;sigAx3EncdrAlm&apos; to itself." verbose="Redundant assignment of &apos;sigAx3EncdrAlm&apos; to itself." cwe="398" hash="11094689200137343091">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_CONT\motor.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_CONT\motor.c" line="115" column="21"/>
+            <symbol>sigAx3EncdrAlm</symbol>
+        </error>
+        <error id="selfAssignment" severity="warning" msg="Redundant assignment of &apos;sigAx3CntrOvfl&apos; to itself." verbose="Redundant assignment of &apos;sigAx3CntrOvfl&apos; to itself." cwe="398" hash="7057348595197486230">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_CONT\motor.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_CONT\motor.c" line="116" column="21"/>
+            <symbol>sigAx3CntrOvfl</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:49:6" call-funcname="s_make_1MotorEnbl" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="84" col="20" call-argexpr="&ax1" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:49:6" call-funcname="s_make_1MotorEnbl" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="84" col="20" call-argexpr="&w_Ax1MotorPattern" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:43:6" call-funcname="s_makeMotorEnbl" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="88" col="18" call-argexpr="&ax1" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:43:6" call-funcname="s_makeMotorEnbl" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="88" col="18" call-argexpr="&w_Ax1MotorPattern" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:49:6" call-funcname="s_make_1MotorEnbl" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="98" col="20" call-argexpr="&ax2" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:49:6" call-funcname="s_make_1MotorEnbl" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="98" col="20" call-argexpr="&w_Ax2MotorPattern" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:43:6" call-funcname="s_makeMotorEnbl" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="102" col="18" call-argexpr="&ax2" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:43:6" call-funcname="s_makeMotorEnbl" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="102" col="18" call-argexpr="&w_Ax2MotorPattern" call-argvaluetype="7" call-argvalue="4"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:49:6" my-argnr="1" my-argname="mot_enbl" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="182" col="2" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:49:6" my-argnr="2" my-argname="mot_pattern" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="181" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/motor.h:66:6" my-argnr="2" my-argname="first" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="301" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/motor.h:66:6" my-argnr="3" my-argname="second" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="304" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/motor.h:72:6" my-argnr="2" my-argname="first" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="321" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/motor.h:72:6" my-argnr="3" my-argname="second" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="324" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/motor.h:79:6" my-argnr="2" my-argname="first" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="342" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/motor.h:79:6" my-argnr="3" my-argname="second" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="345" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/motor.h:85:6" my-argnr="2" my-argname="first" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="362" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/motor.h:85:6" my-argnr="3" my-argname="second" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="365" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:64:6" my-argnr="1" my-argname="first" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="379" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:64:6" my-argnr="2" my-argname="sencond" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="380" col="3" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:49:6" call-funcname="s_make_1MotorEnbl" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="84" col="20" call-argexpr="&ax1" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:49:6" call-funcname="s_make_1MotorEnbl" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="84" col="20" call-argexpr="&w_Ax1MotorPattern" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:43:6" call-funcname="s_makeMotorEnbl" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="88" col="18" call-argexpr="&ax1" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:43:6" call-funcname="s_makeMotorEnbl" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="88" col="18" call-argexpr="&w_Ax1MotorPattern" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:49:6" call-funcname="s_make_1MotorEnbl" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="98" col="20" call-argexpr="&ax2" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:49:6" call-funcname="s_make_1MotorEnbl" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="98" col="20" call-argexpr="&w_Ax2MotorPattern" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:43:6" call-funcname="s_makeMotorEnbl" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="102" col="18" call-argexpr="&ax2" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:43:6" call-funcname="s_makeMotorEnbl" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="102" col="18" call-argexpr="&w_Ax2MotorPattern" call-argvaluetype="7" call-argvalue="4"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:49:6" my-argnr="1" my-argname="mot_enbl" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="182" col="2" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:49:6" my-argnr="2" my-argname="mot_pattern" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="181" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/motor.h:66:6" my-argnr="2" my-argname="first" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="301" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/motor.h:66:6" my-argnr="3" my-argname="second" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="304" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/motor.h:72:6" my-argnr="2" my-argname="first" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="321" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/motor.h:72:6" my-argnr="3" my-argname="second" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="324" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/motor.h:79:6" my-argnr="2" my-argname="first" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="342" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/motor.h:79:6" my-argnr="3" my-argname="second" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="345" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/motor.h:85:6" my-argnr="2" my-argname="first" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="362" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/motor.h:85:6" my-argnr="3" my-argname="second" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="365" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:64:6" my-argnr="1" my-argname="first" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="379" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:64:6" my-argnr="2" my-argname="sencond" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="380" col="3" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:49:6" call-funcname="s_make_1MotorEnbl" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="84" col="20" call-argexpr="&ax1" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:49:6" call-funcname="s_make_1MotorEnbl" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="84" col="20" call-argexpr="&w_Ax1MotorPattern" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:43:6" call-funcname="s_makeMotorEnbl" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="88" col="18" call-argexpr="&ax1" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:43:6" call-funcname="s_makeMotorEnbl" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="88" col="18" call-argexpr="&w_Ax1MotorPattern" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:49:6" call-funcname="s_make_1MotorEnbl" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="98" col="20" call-argexpr="&ax2" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:49:6" call-funcname="s_make_1MotorEnbl" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="98" col="20" call-argexpr="&w_Ax2MotorPattern" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:43:6" call-funcname="s_makeMotorEnbl" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="102" col="18" call-argexpr="&ax2" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:43:6" call-funcname="s_makeMotorEnbl" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="102" col="18" call-argexpr="&w_Ax2MotorPattern" call-argvaluetype="7" call-argvalue="4"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:49:6" my-argnr="1" my-argname="mot_enbl" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="182" col="2" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:49:6" my-argnr="2" my-argname="mot_pattern" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="181" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/motor.h:66:6" my-argnr="2" my-argname="first" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="301" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/motor.h:66:6" my-argnr="3" my-argname="second" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="304" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/motor.h:72:6" my-argnr="2" my-argname="first" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="321" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/motor.h:72:6" my-argnr="3" my-argname="second" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="324" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/motor.h:79:6" my-argnr="2" my-argname="first" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="342" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/motor.h:79:6" my-argnr="3" my-argname="second" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="345" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/motor.h:85:6" my-argnr="2" my-argname="first" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="362" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/motor.h:85:6" my-argnr="3" my-argname="second" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="365" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:64:6" my-argnr="1" my-argname="first" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="379" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:64:6" my-argnr="2" my-argname="sencond" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="380" col="3" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:49:6" call-funcname="s_make_1MotorEnbl" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="84" col="20" call-argexpr="&ax1" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:49:6" call-funcname="s_make_1MotorEnbl" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="84" col="20" call-argexpr="&w_Ax1MotorPattern" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:43:6" call-funcname="s_makeMotorEnbl" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="88" col="18" call-argexpr="&ax1" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:43:6" call-funcname="s_makeMotorEnbl" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="88" col="18" call-argexpr="&w_Ax1MotorPattern" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:49:6" call-funcname="s_make_1MotorEnbl" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="98" col="20" call-argexpr="&ax2" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:49:6" call-funcname="s_make_1MotorEnbl" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="98" col="20" call-argexpr="&w_Ax2MotorPattern" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:43:6" call-funcname="s_makeMotorEnbl" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="102" col="18" call-argexpr="&ax2" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:43:6" call-funcname="s_makeMotorEnbl" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="102" col="18" call-argexpr="&w_Ax2MotorPattern" call-argvaluetype="7" call-argvalue="4"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:49:6" my-argnr="1" my-argname="mot_enbl" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="182" col="2" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:49:6" my-argnr="2" my-argname="mot_pattern" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="181" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/motor.h:66:6" my-argnr="2" my-argname="first" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="301" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/motor.h:66:6" my-argnr="3" my-argname="second" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="304" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/motor.h:72:6" my-argnr="2" my-argname="first" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="321" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/motor.h:72:6" my-argnr="3" my-argname="second" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="324" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/motor.h:79:6" my-argnr="2" my-argname="first" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="342" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/motor.h:79:6" my-argnr="3" my-argname="second" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="345" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/motor.h:85:6" my-argnr="2" my-argname="first" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="362" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/motor.h:85:6" my-argnr="3" my-argname="second" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="365" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:64:6" my-argnr="1" my-argname="first" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="379" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c:64:6" my-argnr="2" my-argname="sencond" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/motor.c" line="380" col="3" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="m_motor_cont" lineNumber="79"/>
+    <functiondecl functionName="s_makeMotorEnbl" lineNumber="134"/>
+    <functiondecl functionName="s_make_1MotorEnbl" lineNumber="175"/>
+    <functiondecl functionName="ax1_mot_coder_alm" lineNumber="202"/>
+    <functiondecl functionName="ax2_mot_coder_alm" lineNumber="223"/>
+    <functiondecl functionName="ax1_mot_coder_sts" lineNumber="245"/>
+    <functiondecl functionName="ax2_mot_coder_sts" lineNumber="269"/>
+    <functiondecl functionName="az_mot_decoder" lineNumber="294"/>
+    <functiondecl functionName="ax1_mot_decoder" lineNumber="314"/>
+    <functiondecl functionName="el_mot_decoder" lineNumber="335"/>
+    <functiondecl functionName="ax2_mot_decoder" lineNumber="355"/>
+    <functiondecl functionName="set_1motor_single_sel" lineNumber="374"/>
+    <functiondecl functionName="m_motor_cont" lineNumber="79"/>
+    <functiondecl functionName="s_makeMotorEnbl" lineNumber="134"/>
+    <functiondecl functionName="s_make_1MotorEnbl" lineNumber="175"/>
+    <functiondecl functionName="ax1_mot_coder_alm" lineNumber="202"/>
+    <functiondecl functionName="ax2_mot_coder_alm" lineNumber="223"/>
+    <functiondecl functionName="ax1_mot_coder_sts" lineNumber="245"/>
+    <functiondecl functionName="ax2_mot_coder_sts" lineNumber="269"/>
+    <functiondecl functionName="az_mot_decoder" lineNumber="294"/>
+    <functiondecl functionName="ax1_mot_decoder" lineNumber="314"/>
+    <functiondecl functionName="el_mot_decoder" lineNumber="335"/>
+    <functiondecl functionName="ax2_mot_decoder" lineNumber="355"/>
+    <functiondecl functionName="set_1motor_single_sel" lineNumber="374"/>
+    <functiondecl functionName="m_motor_cont" lineNumber="79"/>
+    <functiondecl functionName="s_makeMotorEnbl" lineNumber="134"/>
+    <functiondecl functionName="s_make_1MotorEnbl" lineNumber="175"/>
+    <functiondecl functionName="ax1_mot_coder_alm" lineNumber="202"/>
+    <functiondecl functionName="ax2_mot_coder_alm" lineNumber="223"/>
+    <functiondecl functionName="ax1_mot_coder_sts" lineNumber="245"/>
+    <functiondecl functionName="ax2_mot_coder_sts" lineNumber="269"/>
+    <functiondecl functionName="az_mot_decoder" lineNumber="294"/>
+    <functiondecl functionName="ax1_mot_decoder" lineNumber="314"/>
+    <functiondecl functionName="el_mot_decoder" lineNumber="335"/>
+    <functiondecl functionName="ax2_mot_decoder" lineNumber="355"/>
+    <functiondecl functionName="set_1motor_single_sel" lineNumber="374"/>
+    <functiondecl functionName="m_motor_cont" lineNumber="79"/>
+    <functiondecl functionName="s_makeMotorEnbl" lineNumber="134"/>
+    <functiondecl functionName="s_make_1MotorEnbl" lineNumber="175"/>
+    <functiondecl functionName="ax1_mot_coder_alm" lineNumber="202"/>
+    <functiondecl functionName="ax2_mot_coder_alm" lineNumber="223"/>
+    <functiondecl functionName="ax1_mot_coder_sts" lineNumber="245"/>
+    <functiondecl functionName="ax2_mot_coder_sts" lineNumber="269"/>
+    <functiondecl functionName="az_mot_decoder" lineNumber="294"/>
+    <functiondecl functionName="ax1_mot_decoder" lineNumber="314"/>
+    <functiondecl functionName="el_mot_decoder" lineNumber="335"/>
+    <functiondecl functionName="ax2_mot_decoder" lineNumber="355"/>
+    <functiondecl functionName="set_1motor_single_sel" lineNumber="374"/>
+    <functioncall functionName="AX2_NUM"/>
+    <functioncall functionName="AX3_NUM"/>
+    <functioncall functionName="AXIS_NUM"/>
+    <functioncall functionName="DSP2_NUM"/>
+    <functioncall functionName="DSP_NUM"/>
+    <functioncall functionName="INTERLOCK_CBANK_FAULT"/>
+    <functioncall functionName="INTERLOCK_COND_OFF_ANS"/>
+    <functioncall functionName="INTERLOCK_DPA_FAULT"/>
+    <functioncall functionName="INTERLOCK_DPA_IF_FAULT"/>
+    <functioncall functionName="INTERLOCK_MOTOR_OVERHEAT"/>
+    <functioncall functionName="a_enbl"/>
+    <functioncall functionName="ax1"/>
+    <functioncall functionName="ax1_mot_coder_alm"/>
+    <functioncall functionName="ax1_mot_coder_sts"/>
+    <functioncall functionName="ax2"/>
+    <functioncall functionName="ax2_mot_coder_alm"/>
+    <functioncall functionName="ax2_mot_coder_sts"/>
+    <functioncall functionName="b_enbl"/>
+    <functioncall functionName="getVariability"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="init_mot_pattern"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="s_makeMotorEnbl"/>
+    <functioncall functionName="s_make_1MotorEnbl"/>
+    <functioncall functionName="second"/>
+    <functioncall functionName="sigAx1ACntrOvfl"/>
+    <functioncall functionName="sigAx1ADpaFlt"/>
+    <functioncall functionName="sigAx1ADrOnAns"/>
+    <functioncall functionName="sigAx1AEncdrAlm"/>
+    <functioncall functionName="sigAx1ASingleSel"/>
+    <functioncall functionName="sigAx1BCntrOvfl"/>
+    <functioncall functionName="sigAx1BDpaFlt"/>
+    <functioncall functionName="sigAx1BDrOnAns"/>
+    <functioncall functionName="sigAx1BEncdrAlm"/>
+    <functioncall functionName="sigAx1BSingleSel"/>
+    <functioncall functionName="sigAx2ACntrOvfl"/>
+    <functioncall functionName="sigAx2ADpaFlt"/>
+    <functioncall functionName="sigAx2ADrOnAns"/>
+    <functioncall functionName="sigAx2AEncdrAlm"/>
+    <functioncall functionName="sigAx2ASingleSel"/>
+    <functioncall functionName="sigAx2BCntrOvfl"/>
+    <functioncall functionName="sigAx2BDpaFlt"/>
+    <functioncall functionName="sigAx2BDrOnAns"/>
+    <functioncall functionName="sigAx2BEncdrAlm"/>
+    <functioncall functionName="sigAx2BSingleSel"/>
+    <functioncall functionName="sigAx3CntrOvfl"/>
+    <functioncall functionName="sigAx3DpaFlt"/>
+    <functioncall functionName="sigAx3DrOnAns"/>
+    <functioncall functionName="sigAx3EncdrAlm"/>
+    <functioncall functionName="w_Ax1InitMotorPattern"/>
+    <functioncall functionName="w_Ax1MotorPattern"/>
+    <functioncall functionName="w_Ax2InitMotorPattern"/>
+    <functioncall functionName="w_Ax2MotorPattern"/>
+    <functioncall functionName="w_Ax3InitMotorPattern"/>
+  </FileInfo>
+</analyzerinfo>

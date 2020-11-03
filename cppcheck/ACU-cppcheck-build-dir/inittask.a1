@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3106897662">
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 of 15 configurations. Use --force to check all configurations." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time." cwe="398">
+            <location file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_INIT\inittask.c" line="0" column="0"/>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: dsp_card_no" verbose="Unused variable: dsp_card_no" cwe="563" hash="2248308454917161258">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_INIT\inittask.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_INIT\inittask.c" line="257" column="9"/>
+            <symbol>dsp_card_no</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:63:5" call-funcname="acuScriptWakeup" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="142" col="23" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:63:5" call-funcname="acuScriptWakeup" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="142" col="23" call-argexpr="wakeup_wait" call-argvaluetype="0" call-argvalue="0">
+  <path file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_INIT\inittask.c" line="132" col="16" info="Assignment 'wakeup_wait=0', assigned value is 0"/>
+</function-call><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/runpulse.h:24:6" call-funcname="runpulseOut" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="296" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/runpulse.h:24:6" call-funcname="runpulseOut" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="391" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/runpulse.h:24:6" call-funcname="runpulseOut" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="391" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/runpulse.h:24:6" call-funcname="runpulseOut" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="399" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/runpulse.h:24:6" call-funcname="runpulseOut" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="410" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/runpulse.h:24:6" call-funcname="runpulseOut" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="410" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:63:5" call-funcname="acuScriptWakeup" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="142" col="8" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:59:5" my-argnr="1"/>
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:63:5" call-funcname="acuScriptWakeup" call-argnr="5" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="142" col="8" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:59:5" my-argnr="2"/>
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/variability.h:400:6" call-funcname="setVariability" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="174" col="2" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:63:5" my-argnr="4"/>
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/construction.h:43:6" call-funcname="constructAcu" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="175" col="2" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:63:5" my-argnr="5"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:63:5" call-funcname="acuScriptWakeup" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="142" col="23" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:63:5" call-funcname="acuScriptWakeup" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="142" col="23" call-argexpr="wakeup_wait" call-argvaluetype="0" call-argvalue="0">
+  <path file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_INIT\inittask.c" line="132" col="16" info="Assignment 'wakeup_wait=0', assigned value is 0"/>
+</function-call><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/runpulse.h:24:6" call-funcname="runpulseOut" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="296" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/runpulse.h:24:6" call-funcname="runpulseOut" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="391" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/runpulse.h:24:6" call-funcname="runpulseOut" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="391" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/runpulse.h:24:6" call-funcname="runpulseOut" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="399" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/runpulse.h:24:6" call-funcname="runpulseOut" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="410" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/runpulse.h:24:6" call-funcname="runpulseOut" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="410" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:63:5" call-funcname="acuScriptWakeup" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="142" col="8" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:59:5" my-argnr="1"/>
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:63:5" call-funcname="acuScriptWakeup" call-argnr="5" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="142" col="8" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:59:5" my-argnr="2"/>
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/variability.h:400:6" call-funcname="setVariability" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="174" col="2" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:63:5" my-argnr="4"/>
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/construction.h:43:6" call-funcname="constructAcu" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="175" col="2" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:63:5" my-argnr="5"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:63:5" call-funcname="acuScriptWakeup" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="142" col="23" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:63:5" call-funcname="acuScriptWakeup" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="142" col="23" call-argexpr="wakeup_wait" call-argvaluetype="0" call-argvalue="0">
+  <path file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_INIT\inittask.c" line="132" col="16" info="Assignment 'wakeup_wait=0', assigned value is 0"/>
+</function-call><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/runpulse.h:24:6" call-funcname="runpulseOut" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="296" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/runpulse.h:24:6" call-funcname="runpulseOut" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="391" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/runpulse.h:24:6" call-funcname="runpulseOut" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="391" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/runpulse.h:24:6" call-funcname="runpulseOut" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="399" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/runpulse.h:24:6" call-funcname="runpulseOut" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="410" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/runpulse.h:24:6" call-funcname="runpulseOut" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="410" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:63:5" call-funcname="acuScriptWakeup" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="142" col="8" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:59:5" my-argnr="1"/>
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:63:5" call-funcname="acuScriptWakeup" call-argnr="5" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="142" col="8" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:59:5" my-argnr="2"/>
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/variability.h:400:6" call-funcname="setVariability" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="174" col="2" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:63:5" my-argnr="4"/>
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/construction.h:43:6" call-funcname="constructAcu" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="175" col="2" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:63:5" my-argnr="5"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:63:5" call-funcname="acuScriptWakeup" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="142" col="23" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:63:5" call-funcname="acuScriptWakeup" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="142" col="23" call-argexpr="wakeup_wait" call-argvaluetype="0" call-argvalue="0">
+  <path file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_INIT\inittask.c" line="132" col="16" info="Assignment 'wakeup_wait=0', assigned value is 0"/>
+</function-call><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/runpulse.h:24:6" call-funcname="runpulseOut" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="296" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/runpulse.h:24:6" call-funcname="runpulseOut" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="391" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/runpulse.h:24:6" call-funcname="runpulseOut" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="391" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/runpulse.h:24:6" call-funcname="runpulseOut" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="399" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/runpulse.h:24:6" call-funcname="runpulseOut" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="410" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/runpulse.h:24:6" call-funcname="runpulseOut" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="410" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:63:5" call-funcname="acuScriptWakeup" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="142" col="8" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:59:5" my-argnr="1"/>
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:63:5" call-funcname="acuScriptWakeup" call-argnr="5" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="142" col="8" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:59:5" my-argnr="2"/>
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/variability.h:400:6" call-funcname="setVariability" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="174" col="2" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:63:5" my-argnr="4"/>
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/construction.h:43:6" call-funcname="constructAcu" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="175" col="2" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:63:5" my-argnr="5"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:63:5" call-funcname="acuScriptWakeup" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="142" col="23" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:63:5" call-funcname="acuScriptWakeup" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="142" col="23" call-argexpr="wakeup_wait" call-argvaluetype="0" call-argvalue="0">
+  <path file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_INIT\inittask.c" line="132" col="16" info="Assignment 'wakeup_wait=0', assigned value is 0"/>
+</function-call><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/runpulse.h:24:6" call-funcname="runpulseOut" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="296" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/runpulse.h:24:6" call-funcname="runpulseOut" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="391" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/runpulse.h:24:6" call-funcname="runpulseOut" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="391" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/runpulse.h:24:6" call-funcname="runpulseOut" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="399" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/runpulse.h:24:6" call-funcname="runpulseOut" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="410" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/runpulse.h:24:6" call-funcname="runpulseOut" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="410" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:63:5" call-funcname="acuScriptWakeup" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="142" col="8" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:59:5" my-argnr="1"/>
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:63:5" call-funcname="acuScriptWakeup" call-argnr="5" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="142" col="8" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:59:5" my-argnr="2"/>
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/variability.h:400:6" call-funcname="setVariability" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="174" col="2" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:63:5" my-argnr="4"/>
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/construction.h:43:6" call-funcname="constructAcu" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="175" col="2" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:63:5" my-argnr="5"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:63:5" call-funcname="acuScriptWakeup" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="142" col="23" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:63:5" call-funcname="acuScriptWakeup" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="142" col="23" call-argexpr="wakeup_wait" call-argvaluetype="0" call-argvalue="0">
+  <path file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_INIT\inittask.c" line="132" col="16" info="Assignment 'wakeup_wait=0', assigned value is 0"/>
+</function-call><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/runpulse.h:24:6" call-funcname="runpulseOut" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="296" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/runpulse.h:24:6" call-funcname="runpulseOut" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="391" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/runpulse.h:24:6" call-funcname="runpulseOut" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="391" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/runpulse.h:24:6" call-funcname="runpulseOut" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="399" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/runpulse.h:24:6" call-funcname="runpulseOut" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="410" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/runpulse.h:24:6" call-funcname="runpulseOut" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="410" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:63:5" call-funcname="acuScriptWakeup" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="142" col="8" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:59:5" my-argnr="1"/>
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:63:5" call-funcname="acuScriptWakeup" call-argnr="5" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="142" col="8" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:59:5" my-argnr="2"/>
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/variability.h:400:6" call-funcname="setVariability" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="174" col="2" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:63:5" my-argnr="4"/>
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/construction.h:43:6" call-funcname="constructAcu" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c" line="175" col="2" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_INIT/inittask.c:63:5" my-argnr="5"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="acuWakeup" lineNumber="123"/>
+    <functiondecl functionName="acuScriptWakeup" lineNumber="156"/>
+    <functiondecl functionName="goInittask" lineNumber="227"/>
+    <functiondecl functionName="p_inittask" lineNumber="252"/>
+    <functiondecl functionName="acuWakeup" lineNumber="123"/>
+    <functiondecl functionName="acuScriptWakeup" lineNumber="156"/>
+    <functiondecl functionName="goInittask" lineNumber="227"/>
+    <functiondecl functionName="p_inittask" lineNumber="252"/>
+    <functiondecl functionName="acuWakeup" lineNumber="123"/>
+    <functiondecl functionName="acuScriptWakeup" lineNumber="156"/>
+    <functiondecl functionName="goInittask" lineNumber="227"/>
+    <functiondecl functionName="p_inittask" lineNumber="252"/>
+    <functiondecl functionName="acuWakeup" lineNumber="123"/>
+    <functiondecl functionName="acuScriptWakeup" lineNumber="156"/>
+    <functiondecl functionName="goInittask" lineNumber="227"/>
+    <functiondecl functionName="p_inittask" lineNumber="252"/>
+    <functiondecl functionName="acuWakeup" lineNumber="123"/>
+    <functiondecl functionName="acuScriptWakeup" lineNumber="156"/>
+    <functiondecl functionName="goInittask" lineNumber="227"/>
+    <functiondecl functionName="p_inittask" lineNumber="252"/>
+    <functiondecl functionName="acuWakeup" lineNumber="123"/>
+    <functiondecl functionName="acuScriptWakeup" lineNumber="156"/>
+    <functiondecl functionName="goInittask" lineNumber="227"/>
+    <functiondecl functionName="p_inittask" lineNumber="252"/>
+    <functioncall functionName="AX2_NUM"/>
+    <functioncall functionName="AX3_NUM"/>
+    <functioncall functionName="AXIS_NUM"/>
+    <functioncall functionName="CpuDipSw"/>
+    <functioncall functionName="DOS_OPT_DEFAULT"/>
+    <functioncall functionName="DSP2_NUM"/>
+    <functioncall functionName="DSP_NUM"/>
+    <functioncall functionName="INSTRUCTION"/>
+    <functioncall functionName="LM_DEBUG"/>
+    <functioncall functionName="LM_INFO"/>
+    <functioncall functionName="LM_SEVERE"/>
+    <functioncall functionName="LM_TRACE"/>
+    <functioncall functionName="LM_WARNING"/>
+    <functioncall functionName="VX_FP_TASK"/>
+    <functioncall functionName="WDT_DEBUG"/>
+    <functioncall functionName="WDT_HALT"/>
+    <functioncall functionName="WDT_REBOOT"/>
+    <functioncall functionName="__FUNCTION__"/>
+    <functioncall functionName="acuScriptWakeup"/>
+    <functioncall functionName="almlogCreate"/>
+    <functioncall functionName="c_0div_enable"/>
+    <functioncall functionName="c_almlogInit"/>
+    <functioncall functionName="c_taskDelay"/>
+    <functioncall functionName="c_taskSpawn"/>
+    <functioncall functionName="cardDrvInit"/>
+    <functioncall functionName="cardIrqEnable"/>
+    <functioncall functionName="cardOpen"/>
+    <functioncall functionName="cardSetCycle"/>
+    <functioncall functionName="chgTaskPriority"/>
+    <functioncall functionName="clogInit"/>
+    <functioncall functionName="clogMsg"/>
+    <functioncall functionName="clogPriority"/>
+    <functioncall functionName="clogSetLevel"/>
+    <functioncall functionName="clog_level"/>
+    <functioncall functionName="constructAcu"/>
+    <functioncall functionName="construction"/>
+    <functioncall functionName="copyTime"/>
+    <functioncall functionName="dataLoadNow"/>
+    <functioncall functionName="dataRestoreNow"/>
+    <functioncall functionName="dosFsVolFormat"/>
+    <functioncall functionName="double"/>
+    <functioncall functionName="externalBusReset"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="getVariability"/>
+    <functioncall functionName="get_alarm_str"/>
+    <functioncall functionName="get_status_str"/>
+    <functioncall functionName="goInittask"/>
+    <functioncall functionName="haltlogCreate"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="loop_period"/>
+    <functioncall functionName="m_clock_init"/>
+    <functioncall functionName="m_conttask_init"/>
+    <functioncall functionName="m_eib7task_init"/>
+    <functioncall functionName="m_escape_zero_div"/>
+    <functioncall functionName="m_halt_init"/>
+    <functioncall functionName="m_looptask_init"/>
+    <functioncall functionName="m_opif_init"/>
+    <functioncall functionName="m_pulse_init"/>
+    <functioncall functionName="m_serialInit"/>
+    <functioncall functionName="m_setclkrate"/>
+    <functioncall functionName="m_syncTim_init"/>
+    <functioncall functionName="mkdir"/>
+    <functioncall functionName="p_inittask"/>
+    <functioncall functionName="pause"/>
+    <functioncall functionName="pci_comPciIntrEnable"/>
+    <functioncall functionName="pioInit"/>
+    <functioncall functionName="pioInput"/>
+    <functioncall functionName="printHwVersion"/>
+    <functioncall functionName="printMemoryBlock"/>
+    <functioncall functionName="printTime"/>
+    <functioncall functionName="printVersion"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="psuError_init"/>
+    <functioncall functionName="ret"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="runpulseOut"/>
+    <functioncall functionName="setSysRunpulse"/>
+    <functioncall functionName="setVariability"/>
+    <functioncall functionName="startAbsTimer"/>
+    <functioncall functionName="start_cycle"/>
+    <functioncall functionName="sysdat_ini"/>
+    <functioncall functionName="trkgFreqDataLoadNow"/>
+    <functioncall functionName="trkgFreqDataRestoreNow"/>
+    <functioncall functionName="uchar"/>
+    <functioncall functionName="variability"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="w_inittskid"/>
+    <functioncall functionName="wakeup_wait"/>
+    <functioncall functionName="wdtStart"/>
+  </FileInfo>
+</analyzerinfo>

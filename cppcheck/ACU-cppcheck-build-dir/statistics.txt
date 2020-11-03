@@ -1,0 +1,7 @@
+[03.11.2020]
+1604367931302
+cppcheck-error:17
+cppcheck-warning:118
+cppcheck-style:636
+cppcheck-performance:0
+cppcheck-portability:6

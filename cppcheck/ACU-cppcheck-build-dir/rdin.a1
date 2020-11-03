@@ -1,0 +1,218 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="511150486">
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 of 13 configurations. Use --force to check all configurations." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time." cwe="398">
+            <location file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_LOOP\rdin.c" line="0" column="0"/>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;ret&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;ret&apos; is reassigned a value before the old one has been used." cwe="563" hash="18292136849003989636">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_LOOP\rdin.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_LOOP\rdin.c" line="266" column="6" info="ret is overwritten"/>
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_LOOP\rdin.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_LOOP\rdin.c" line="258" column="6" info="ret is assigned"/>
+            <symbol>ret</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;holdError&apos; can be reduced." verbose="The scope of the variable &apos;holdError&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="959248425141020657">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_LOOP\rdin.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_LOOP\rdin.c" line="157" column="6"/>
+            <symbol>holdError</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;d_angle&apos; can be reduced." verbose="The scope of the variable &apos;d_angle&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="1472250170643114451">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_LOOP\rdin.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_LOOP\rdin.c" line="159" column="9"/>
+            <symbol>d_angle</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;slipAlarm&apos; can be reduced." verbose="The scope of the variable &apos;slipAlarm&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="6205001399891247379">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_LOOP\rdin.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_LOOP\rdin.c" line="160" column="6"/>
+            <symbol>slipAlarm</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;ret&apos; is assigned a value that is never used." verbose="Variable &apos;ret&apos; is assigned a value that is never used." cwe="563" hash="18073656622626474015">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_LOOP\rdin.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_LOOP\rdin.c" line="266" column="6"/>
+            <symbol>ret</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:57:6" call-funcname="rdinGetAng" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="128" col="13" call-argexpr="&w_ax1DetectAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:57:6" call-funcname="rdinGetAng" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="134" col="13" call-argexpr="&w_ax2DetectAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:57:6" call-funcname="rdinGetAng" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="140" col="13" call-argexpr="&w_ax3DetectAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:58:5" call-funcname="rdinGetParallelAngData" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="165" col="37" call-argexpr="&inData" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:58:5" call-funcname="rdinGetParallelAngData" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="165" col="37" call-argexpr="inData" call-argvaluetype="4" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:57:6" my-argnr="1" my-argname="pInputInf" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="162" col="6" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:58:5" my-argnr="1" my-argname="func" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="258" col="8" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:58:5" my-argnr="3" my-argname="pData" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="277" col="3" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:57:6" call-funcname="rdinGetAng" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="128" col="13" call-argexpr="&w_ax1DetectAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:57:6" call-funcname="rdinGetAng" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="134" col="13" call-argexpr="&w_ax2DetectAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:57:6" call-funcname="rdinGetAng" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="140" col="13" call-argexpr="&w_ax3DetectAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:58:5" call-funcname="rdinGetParallelAngData" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="165" col="37" call-argexpr="&inData" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:58:5" call-funcname="rdinGetParallelAngData" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="165" col="37" call-argexpr="inData" call-argvaluetype="4" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:57:6" my-argnr="1" my-argname="pInputInf" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="162" col="6" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:58:5" my-argnr="1" my-argname="func" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="258" col="8" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:58:5" my-argnr="3" my-argname="pData" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="277" col="3" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:57:6" call-funcname="rdinGetAng" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="128" col="13" call-argexpr="&w_ax1DetectAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:57:6" call-funcname="rdinGetAng" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="134" col="13" call-argexpr="&w_ax2DetectAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:57:6" call-funcname="rdinGetAng" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="140" col="13" call-argexpr="&w_ax3DetectAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:58:5" call-funcname="rdinGetParallelAngData" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="165" col="37" call-argexpr="&inData" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:58:5" call-funcname="rdinGetParallelAngData" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="165" col="37" call-argexpr="inData" call-argvaluetype="4" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:57:6" my-argnr="1" my-argname="pInputInf" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="162" col="6" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:58:5" my-argnr="1" my-argname="func" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="258" col="8" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:58:5" my-argnr="3" my-argname="pData" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="277" col="3" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:57:6" call-funcname="rdinGetAng" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="128" col="13" call-argexpr="&w_ax1DetectAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:57:6" call-funcname="rdinGetAng" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="134" col="13" call-argexpr="&w_ax2DetectAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:57:6" call-funcname="rdinGetAng" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="140" col="13" call-argexpr="&w_ax3DetectAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:58:5" call-funcname="rdinGetParallelAngData" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="165" col="37" call-argexpr="&inData" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:58:5" call-funcname="rdinGetParallelAngData" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="165" col="37" call-argexpr="inData" call-argvaluetype="4" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:57:6" my-argnr="1" my-argname="pInputInf" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="162" col="6" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:58:5" my-argnr="1" my-argname="func" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="258" col="8" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:58:5" my-argnr="3" my-argname="pData" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="277" col="3" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:57:6" call-funcname="rdinGetAng" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="128" col="13" call-argexpr="&w_ax1DetectAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:57:6" call-funcname="rdinGetAng" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="134" col="13" call-argexpr="&w_ax2DetectAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:57:6" call-funcname="rdinGetAng" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="140" col="13" call-argexpr="&w_ax3DetectAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:58:5" call-funcname="rdinGetParallelAngData" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="165" col="37" call-argexpr="&inData" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:58:5" call-funcname="rdinGetParallelAngData" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="165" col="37" call-argexpr="inData" call-argvaluetype="4" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:57:6" my-argnr="1" my-argname="pInputInf" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="162" col="6" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:58:5" my-argnr="1" my-argname="func" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="258" col="8" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:58:5" my-argnr="3" my-argname="pData" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="277" col="3" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:57:6" call-funcname="rdinGetAng" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="128" col="13" call-argexpr="&w_ax1DetectAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:57:6" call-funcname="rdinGetAng" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="134" col="13" call-argexpr="&w_ax2DetectAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:57:6" call-funcname="rdinGetAng" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="140" col="13" call-argexpr="&w_ax3DetectAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:58:5" call-funcname="rdinGetParallelAngData" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="165" col="37" call-argexpr="&inData" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:58:5" call-funcname="rdinGetParallelAngData" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="165" col="37" call-argexpr="inData" call-argvaluetype="4" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:57:6" my-argnr="1" my-argname="pInputInf" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="162" col="6" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:58:5" my-argnr="1" my-argname="func" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="258" col="8" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:58:5" my-argnr="3" my-argname="pData" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="277" col="3" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:57:6" call-funcname="rdinGetAng" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="128" col="13" call-argexpr="&w_ax1DetectAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:57:6" call-funcname="rdinGetAng" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="134" col="13" call-argexpr="&w_ax2DetectAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:57:6" call-funcname="rdinGetAng" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="140" col="13" call-argexpr="&w_ax3DetectAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:58:5" call-funcname="rdinGetParallelAngData" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="165" col="37" call-argexpr="&inData" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:58:5" call-funcname="rdinGetParallelAngData" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="165" col="37" call-argexpr="inData" call-argvaluetype="4" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:57:6" my-argnr="1" my-argname="pInputInf" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="162" col="6" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:58:5" my-argnr="1" my-argname="func" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="258" col="8" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c:58:5" my-argnr="3" my-argname="pData" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/rdin.c" line="277" col="3" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="m_rdin_get_ang" lineNumber="95"/>
+    <functiondecl functionName="m_rdin_get_impl" lineNumber="123"/>
+    <functiondecl functionName="rdinGetAng" lineNumber="155"/>
+    <functiondecl functionName="rdinGetParallelAngData" lineNumber="250"/>
+    <functiondecl functionName="rdinChgData" lineNumber="297"/>
+    <functiondecl functionName="rdinChkAngleSlip" lineNumber="342"/>
+    <functiondecl functionName="getAx1RdAngInFail" lineNumber="392"/>
+    <functiondecl functionName="getAx2RdAngInFail" lineNumber="398"/>
+    <functiondecl functionName="getAx3RdAngInFail" lineNumber="404"/>
+    <functiondecl functionName="getAx1RdSlipAlm" lineNumber="422"/>
+    <functiondecl functionName="getAx2RdSlipAlm" lineNumber="428"/>
+    <functiondecl functionName="getAx3RdSlipAlm" lineNumber="434"/>
+    <functiondecl functionName="m_rdin_get_ang" lineNumber="95"/>
+    <functiondecl functionName="m_rdin_get_impl" lineNumber="123"/>
+    <functiondecl functionName="rdinGetAng" lineNumber="155"/>
+    <functiondecl functionName="rdinGetParallelAngData" lineNumber="250"/>
+    <functiondecl functionName="rdinChgData" lineNumber="297"/>
+    <functiondecl functionName="rdinChkAngleSlip" lineNumber="342"/>
+    <functiondecl functionName="getAx1RdAngInFail" lineNumber="392"/>
+    <functiondecl functionName="getAx2RdAngInFail" lineNumber="398"/>
+    <functiondecl functionName="getAx3RdAngInFail" lineNumber="404"/>
+    <functiondecl functionName="getAx1RdSlipAlm" lineNumber="422"/>
+    <functiondecl functionName="getAx2RdSlipAlm" lineNumber="428"/>
+    <functiondecl functionName="getAx3RdSlipAlm" lineNumber="434"/>
+    <functiondecl functionName="m_rdin_get_ang" lineNumber="95"/>
+    <functiondecl functionName="m_rdin_get_impl" lineNumber="123"/>
+    <functiondecl functionName="rdinGetAng" lineNumber="155"/>
+    <functiondecl functionName="rdinGetParallelAngData" lineNumber="250"/>
+    <functiondecl functionName="rdinChgData" lineNumber="297"/>
+    <functiondecl functionName="rdinChkAngleSlip" lineNumber="342"/>
+    <functiondecl functionName="getAx1RdAngInFail" lineNumber="392"/>
+    <functiondecl functionName="getAx2RdAngInFail" lineNumber="398"/>
+    <functiondecl functionName="getAx3RdAngInFail" lineNumber="404"/>
+    <functiondecl functionName="getAx1RdSlipAlm" lineNumber="422"/>
+    <functiondecl functionName="getAx2RdSlipAlm" lineNumber="428"/>
+    <functiondecl functionName="getAx3RdSlipAlm" lineNumber="434"/>
+    <functiondecl functionName="m_rdin_get_ang" lineNumber="95"/>
+    <functiondecl functionName="m_rdin_get_impl" lineNumber="123"/>
+    <functiondecl functionName="rdinGetAng" lineNumber="155"/>
+    <functiondecl functionName="rdinGetParallelAngData" lineNumber="250"/>
+    <functiondecl functionName="rdinChgData" lineNumber="297"/>
+    <functiondecl functionName="rdinChkAngleSlip" lineNumber="342"/>
+    <functiondecl functionName="getAx1RdAngInFail" lineNumber="392"/>
+    <functiondecl functionName="getAx2RdAngInFail" lineNumber="398"/>
+    <functiondecl functionName="getAx3RdAngInFail" lineNumber="404"/>
+    <functiondecl functionName="getAx1RdSlipAlm" lineNumber="422"/>
+    <functiondecl functionName="getAx2RdSlipAlm" lineNumber="428"/>
+    <functiondecl functionName="getAx3RdSlipAlm" lineNumber="434"/>
+    <functiondecl functionName="m_rdin_get_ang" lineNumber="95"/>
+    <functiondecl functionName="m_rdin_get_impl" lineNumber="123"/>
+    <functiondecl functionName="rdinGetAng" lineNumber="155"/>
+    <functiondecl functionName="rdinGetParallelAngData" lineNumber="250"/>
+    <functiondecl functionName="rdinChgData" lineNumber="297"/>
+    <functiondecl functionName="rdinChkAngleSlip" lineNumber="342"/>
+    <functiondecl functionName="getAx1RdAngInFail" lineNumber="392"/>
+    <functiondecl functionName="getAx2RdAngInFail" lineNumber="398"/>
+    <functiondecl functionName="getAx3RdAngInFail" lineNumber="404"/>
+    <functiondecl functionName="getAx1RdSlipAlm" lineNumber="422"/>
+    <functiondecl functionName="getAx2RdSlipAlm" lineNumber="428"/>
+    <functiondecl functionName="getAx3RdSlipAlm" lineNumber="434"/>
+    <functiondecl functionName="m_rdin_get_ang" lineNumber="95"/>
+    <functiondecl functionName="m_rdin_get_impl" lineNumber="123"/>
+    <functiondecl functionName="rdinGetAng" lineNumber="155"/>
+    <functiondecl functionName="rdinGetParallelAngData" lineNumber="250"/>
+    <functiondecl functionName="rdinChgData" lineNumber="297"/>
+    <functiondecl functionName="rdinChkAngleSlip" lineNumber="342"/>
+    <functiondecl functionName="getAx1RdAngInFail" lineNumber="392"/>
+    <functiondecl functionName="getAx2RdAngInFail" lineNumber="398"/>
+    <functiondecl functionName="getAx3RdAngInFail" lineNumber="404"/>
+    <functiondecl functionName="getAx1RdSlipAlm" lineNumber="422"/>
+    <functiondecl functionName="getAx2RdSlipAlm" lineNumber="428"/>
+    <functiondecl functionName="getAx3RdSlipAlm" lineNumber="434"/>
+    <functiondecl functionName="m_rdin_get_ang" lineNumber="95"/>
+    <functiondecl functionName="m_rdin_get_impl" lineNumber="123"/>
+    <functiondecl functionName="rdinGetAng" lineNumber="155"/>
+    <functiondecl functionName="rdinGetParallelAngData" lineNumber="250"/>
+    <functiondecl functionName="rdinChgData" lineNumber="297"/>
+    <functiondecl functionName="rdinChkAngleSlip" lineNumber="342"/>
+    <functiondecl functionName="getAx1RdAngInFail" lineNumber="392"/>
+    <functiondecl functionName="getAx2RdAngInFail" lineNumber="398"/>
+    <functiondecl functionName="getAx3RdAngInFail" lineNumber="404"/>
+    <functiondecl functionName="getAx1RdSlipAlm" lineNumber="422"/>
+    <functiondecl functionName="getAx2RdSlipAlm" lineNumber="428"/>
+    <functiondecl functionName="getAx3RdSlipAlm" lineNumber="434"/>
+    <functioncall functionName="AX2_NUM"/>
+    <functioncall functionName="AX3_NUM"/>
+    <functioncall functionName="AXIS_NUM"/>
+    <functioncall functionName="DSP2_NUM"/>
+    <functioncall functionName="DSP_NUM"/>
+    <functioncall functionName="LM_DEBUG"/>
+    <functioncall functionName="LM_INFO"/>
+    <functioncall functionName="LM_SEVERE"/>
+    <functioncall functionName="LM_TRACE"/>
+    <functioncall functionName="LM_WARNING"/>
+    <functioncall functionName="RD_AX1"/>
+    <functioncall functionName="RD_AX2"/>
+    <functioncall functionName="RD_AX3"/>
+    <functioncall functionName="RD_AX_NUM"/>
+    <functioncall functionName="angle1"/>
+    <functioncall functionName="angle2"/>
+    <functioncall functionName="bitMask"/>
+    <functioncall functionName="centerAngle"/>
+    <functioncall functionName="d_angle"/>
+    <functioncall functionName="delta"/>
+    <functioncall functionName="detectAng_l"/>
+    <functioncall functionName="double"/>
+    <functioncall functionName="dt_rd_input_null"/>
+    <functioncall functionName="fabs"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="func"/>
+    <functioncall functionName="getAngFunc"/>
+    <functioncall functionName="getVariability"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="inAngle_l"/>
+    <functioncall functionName="inData"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="loop_period"/>
+    <functioncall functionName="lsb"/>
+    <functioncall functionName="m_rdin_get_impl"/>
+    <functioncall functionName="nBoard"/>
+    <functioncall functionName="nullFuncImpl"/>
+    <functioncall functionName="offset"/>
+    <functioncall functionName="pBitReverse"/>
+    <functioncall functionName="pOffset"/>
+    <functioncall functionName="pSlipRatio"/>
+    <functioncall functionName="pTravelRate"/>
+    <functioncall functionName="post"/>
+    <functioncall functionName="pre"/>
+    <functioncall functionName="rdinChgData"/>
+    <functioncall functionName="rdinChkAngleSlip"/>
+    <functioncall functionName="rdinGetAng"/>
+    <functioncall functionName="rdinGetParallelAngData"/>
+    <functioncall functionName="sigRdAngInFail"/>
+    <functioncall functionName="sigRdSlipAlm"/>
+    <functioncall functionName="ut_rdinGetParallelAngData_hook"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="w_ax1DetectAng"/>
+    <functioncall functionName="w_ax2DetectAng"/>
+    <functioncall functionName="w_ax3DetectAng"/>
+  </FileInfo>
+</analyzerinfo>

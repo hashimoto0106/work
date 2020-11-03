@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3537348005">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="c2dFilter" lineNumber="45"/>
+    <functioncall functionName="a0"/>
+    <functioncall functionName="a1"/>
+    <functioncall functionName="a2"/>
+    <functioncall functionName="b1"/>
+    <functioncall functionName="b2"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="in"/>
+    <functioncall functionName="input"/>
+    <functioncall functionName="memcmp"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="out"/>
+    <functioncall functionName="output"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="sizeof"/>
+  </FileInfo>
+</analyzerinfo>

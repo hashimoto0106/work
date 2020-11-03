@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1645698039">
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 of 14 configurations. Use --force to check all configurations." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time." cwe="398">
+            <location file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_LOOP\stowposn.c" line="0" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/stowposn.c:43:6" call-funcname="stowPosnAx2Cnt" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/stowposn.c" line="66" col="2" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/stowposn.c:41:6" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/stowposn.c:43:6" call-funcname="stowPosnAx2Cnt" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/stowposn.c" line="66" col="2" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/stowposn.c:41:6" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/stowposn.c:43:6" call-funcname="stowPosnAx2Cnt" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/stowposn.c" line="66" col="2" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/stowposn.c:41:6" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/stowposn.c:43:6" call-funcname="stowPosnAx2Cnt" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/stowposn.c" line="66" col="2" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/stowposn.c:41:6" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/stowposn.c:43:6" call-funcname="stowPosnAx2Cnt" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/stowposn.c" line="66" col="2" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/stowposn.c:41:6" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/stowposn.c:43:6" call-funcname="stowPosnAx2Cnt" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/stowposn.c" line="66" col="2" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/stowposn.c:41:6" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/stowposn.c:43:6" call-funcname="stowPosnAx2Cnt" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/stowposn.c" line="66" col="2" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/stowposn.c:41:6" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="cangle_stow_posn" lineNumber="61"/>
+    <functiondecl functionName="stowPosnCancelRdyRunOpn" lineNumber="74"/>
+    <functiondecl functionName="getStowPosnAx2Opn" lineNumber="86"/>
+    <functiondecl functionName="stowPosnCreateRdy" lineNumber="96"/>
+    <functiondecl functionName="stowPosnCreateOpn" lineNumber="110"/>
+    <functiondecl functionName="stowPosnAx2Cnt" lineNumber="127"/>
+    <functiondecl functionName="stowPosnSetAx2Cmd" lineNumber="163"/>
+    <functiondecl functionName="cangle_stow_posn_ax1" lineNumber="177"/>
+    <functiondecl functionName="cangle_stow_posn" lineNumber="61"/>
+    <functiondecl functionName="stowPosnCancelRdyRunOpn" lineNumber="74"/>
+    <functiondecl functionName="getStowPosnAx2Opn" lineNumber="86"/>
+    <functiondecl functionName="stowPosnCreateRdy" lineNumber="96"/>
+    <functiondecl functionName="stowPosnCreateOpn" lineNumber="110"/>
+    <functiondecl functionName="stowPosnAx2Cnt" lineNumber="127"/>
+    <functiondecl functionName="stowPosnSetAx2Cmd" lineNumber="163"/>
+    <functiondecl functionName="cangle_stow_posn_ax1" lineNumber="177"/>
+    <functiondecl functionName="cangle_stow_posn" lineNumber="61"/>
+    <functiondecl functionName="stowPosnCancelRdyRunOpn" lineNumber="74"/>
+    <functiondecl functionName="getStowPosnAx2Opn" lineNumber="86"/>
+    <functiondecl functionName="stowPosnCreateRdy" lineNumber="96"/>
+    <functiondecl functionName="stowPosnCreateOpn" lineNumber="110"/>
+    <functiondecl functionName="stowPosnAx2Cnt" lineNumber="127"/>
+    <functiondecl functionName="stowPosnSetAx2Cmd" lineNumber="163"/>
+    <functiondecl functionName="cangle_stow_posn_ax1" lineNumber="177"/>
+    <functiondecl functionName="cangle_stow_posn" lineNumber="61"/>
+    <functiondecl functionName="stowPosnCancelRdyRunOpn" lineNumber="74"/>
+    <functiondecl functionName="getStowPosnAx2Opn" lineNumber="86"/>
+    <functiondecl functionName="stowPosnCreateRdy" lineNumber="96"/>
+    <functiondecl functionName="stowPosnCreateOpn" lineNumber="110"/>
+    <functiondecl functionName="stowPosnAx2Cnt" lineNumber="127"/>
+    <functiondecl functionName="stowPosnSetAx2Cmd" lineNumber="163"/>
+    <functiondecl functionName="cangle_stow_posn_ax1" lineNumber="177"/>
+    <functiondecl functionName="cangle_stow_posn" lineNumber="61"/>
+    <functiondecl functionName="stowPosnCancelRdyRunOpn" lineNumber="74"/>
+    <functiondecl functionName="getStowPosnAx2Opn" lineNumber="86"/>
+    <functiondecl functionName="stowPosnCreateRdy" lineNumber="96"/>
+    <functiondecl functionName="stowPosnCreateOpn" lineNumber="110"/>
+    <functiondecl functionName="stowPosnAx2Cnt" lineNumber="127"/>
+    <functiondecl functionName="stowPosnSetAx2Cmd" lineNumber="163"/>
+    <functiondecl functionName="cangle_stow_posn_ax1" lineNumber="177"/>
+    <functiondecl functionName="cangle_stow_posn" lineNumber="61"/>
+    <functiondecl functionName="stowPosnCancelRdyRunOpn" lineNumber="74"/>
+    <functiondecl functionName="getStowPosnAx2Opn" lineNumber="86"/>
+    <functiondecl functionName="stowPosnCreateRdy" lineNumber="96"/>
+    <functiondecl functionName="stowPosnCreateOpn" lineNumber="110"/>
+    <functiondecl functionName="stowPosnAx2Cnt" lineNumber="127"/>
+    <functiondecl functionName="stowPosnSetAx2Cmd" lineNumber="163"/>
+    <functiondecl functionName="cangle_stow_posn_ax1" lineNumber="177"/>
+    <functiondecl functionName="cangle_stow_posn" lineNumber="61"/>
+    <functiondecl functionName="stowPosnCancelRdyRunOpn" lineNumber="74"/>
+    <functiondecl functionName="getStowPosnAx2Opn" lineNumber="86"/>
+    <functiondecl functionName="stowPosnCreateRdy" lineNumber="96"/>
+    <functiondecl functionName="stowPosnCreateOpn" lineNumber="110"/>
+    <functiondecl functionName="stowPosnAx2Cnt" lineNumber="127"/>
+    <functiondecl functionName="stowPosnSetAx2Cmd" lineNumber="163"/>
+    <functiondecl functionName="cangle_stow_posn_ax1" lineNumber="177"/>
+    <functioncall functionName="AX2_NUM"/>
+    <functioncall functionName="AX3_NUM"/>
+    <functioncall functionName="AXIS_NUM"/>
+    <functioncall functionName="DSP2_NUM"/>
+    <functioncall functionName="DSP_NUM"/>
+    <functioncall functionName="INTERLOCK_CBANK_FAULT"/>
+    <functioncall functionName="INTERLOCK_COND_OFF_ANS"/>
+    <functioncall functionName="INTERLOCK_DPA_FAULT"/>
+    <functioncall functionName="INTERLOCK_DPA_IF_FAULT"/>
+    <functioncall functionName="INTERLOCK_MOTOR_OVERHEAT"/>
+    <functioncall functionName="ax1_center_ang"/>
+    <functioncall functionName="ax2Cmd"/>
+    <functioncall functionName="centerAngle"/>
+    <functioncall functionName="getStowAx2AngleRdy"/>
+    <functioncall functionName="getStowPinNotRlse"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="posn"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="sigStowPosn_Ax2Opn"/>
+    <functioncall functionName="stowPosnAx2Cnt"/>
+    <functioncall functionName="stowPosnCreateRdy"/>
+    <functioncall functionName="void"/>
+  </FileInfo>
+</analyzerinfo>

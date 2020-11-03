@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3154471922">
+        <error id="invalidPrintfArgType_uint" severity="warning" msg="%x in format string (no. 2) requires &apos;unsigned int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%x in format string (no. 2) requires &apos;unsigned int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="3211850125481996142">
+            <location file0="..\workspace\DRIVER\SRC\pci_pls.c" file="..\workspace\DRIVER\SRC\pci_pls.c" line="890" column="4"/>
+        </error>
+        <error id="nullPointerArithmeticRedundantCheck" severity="warning" msg="Either the condition &apos;memAddr==(unsigned long*)0&apos; is redundant or there is pointer arithmetic with NULL pointer." verbose="Either the condition &apos;memAddr==(unsigned long*)0&apos; is redundant or there is pointer arithmetic with NULL pointer." cwe="682" hash="1791693720443431959">
+            <location file0="..\workspace\DRIVER\SRC\pci_pls.c" file="..\workspace\DRIVER\SRC\pci_pls.c" line="870" column="17" info="Null pointer addition"/>
+            <location file0="..\workspace\DRIVER\SRC\pci_pls.c" file="..\workspace\DRIVER\SRC\pci_pls.c" line="872" column="13" info="condition &apos;memAddr==(unsigned long*)0&apos;"/>
+        </error>
+        <error id="nullPointerArithmeticRedundantCheck" severity="warning" msg="Either the condition &apos;memAddr==(unsigned long*)0&apos; is redundant or there is pointer arithmetic with NULL pointer." verbose="Either the condition &apos;memAddr==(unsigned long*)0&apos; is redundant or there is pointer arithmetic with NULL pointer." cwe="682" hash="14672765313866551094">
+            <location file0="..\workspace\DRIVER\SRC\pci_pls.c" file="..\workspace\DRIVER\SRC\pci_pls.c" line="922" column="17" info="Null pointer addition"/>
+            <location file0="..\workspace\DRIVER\SRC\pci_pls.c" file="..\workspace\DRIVER\SRC\pci_pls.c" line="923" column="13" info="condition &apos;memAddr==(unsigned long*)0&apos;"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;absFreq&apos; can be reduced." verbose="The scope of the variable &apos;absFreq&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="5035909501081527301">
+            <location file0="..\workspace\DRIVER\SRC\pci_pls.c" file="..\workspace\DRIVER\SRC\pci_pls.c" line="400" column="11"/>
+            <symbol>absFreq</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_pls.h:108:5" call-funcname="FplsGetDipSwitch" call-argnr="2" file="../workspace/DRIVER/SRC/pci_pls.c" line="187" col="18" call-argexpr="&dipsw" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/SRC/pci_pls.c:41:15" call-funcname="pci_plsGetControlMode" call-argnr="2" file="../workspace/DRIVER/SRC/pci_pls.c" line="355" col="34" call-argexpr="nNo" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="..\workspace\DRIVER\SRC\pci_pls.c" line="350" col="11" info="Assuming that condition 'nNo<0' is not redundant"/>
+</function-call><function-call call-id="../workspace/DRIVER/SRC/pci_common.h:119:15" call-funcname="pci_comPCIendianChg" call-argnr="1" file="../workspace/DRIVER/SRC/pci_pls.c" line="368" col="47" call-argexpr="(unsigned long)drvOn" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="..\workspace\DRIVER\SRC\pci_pls.c" line="361" col="47" info="Assuming that condition 'drvOn!=0' is not redundant"/>
+</function-call><function-call call-id="../workspace/DRIVER/SRC/pci_pls.c:41:15" call-funcname="pci_plsGetControlMode" call-argnr="2" file="../workspace/DRIVER/SRC/pci_pls.c" line="419" col="34" call-argexpr="nNo" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="..\workspace\DRIVER\SRC\pci_pls.c" line="414" col="11" info="Assuming that condition 'nNo<0' is not redundant"/>
+</function-call><function-call call-id="../workspace/DRIVER/SRC/pci_common.h:119:15" call-funcname="pci_comPCIendianChg" call-argnr="1" file="../workspace/DRIVER/SRC/pci_pls.c" line="456" col="51" call-argexpr="0x0000UL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_common.h:119:15" call-funcname="pci_comPCIendianChg" call-argnr="1" file="../workspace/DRIVER/SRC/pci_pls.c" line="457" col="50" call-argexpr="0UL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_pls.c:41:15" call-funcname="pci_plsGetControlMode" call-argnr="2" file="../workspace/DRIVER/SRC/pci_pls.c" line="528" col="34" call-argexpr="nNo" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="..\workspace\DRIVER\SRC\pci_pls.c" line="523" col="11" info="Assuming that condition 'nNo<0' is not redundant"/>
+</function-call><function-call call-id="../workspace/DRIVER/SRC/pci_common.h:119:15" call-funcname="pci_comPCIendianChg" call-argnr="1" file="../workspace/DRIVER/SRC/pci_pls.c" line="557" col="50" call-argexpr="0UL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_common.h:119:15" call-funcname="pci_comPCIendianChg" call-argnr="1" file="../workspace/DRIVER/SRC/pci_pls.c" line="562" col="48" call-argexpr="(unsigned long)drvOn" call-argvaluetype="0" call-argvalue="0">
+  <path file="..\workspace\DRIVER\SRC\pci_pls.c" line="536" col="12" info="Assignment 'drvOn=0', assigned value is 0"/>
+</function-call><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_pls.h:134:16" call-funcname="FplsGetAddress" call-argnr="3" file="../workspace/DRIVER/SRC/pci_pls.c" line="869" col="26" call-argexpr="&blockSize" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_pls.h:134:16" call-funcname="FplsGetAddress" call-argnr="3" file="../workspace/DRIVER/SRC/pci_pls.c" line="869" col="26" call-argexpr="blockSize" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_pls.h:134:16" call-funcname="FplsGetAddress" call-argnr="3" file="../workspace/DRIVER/SRC/pci_pls.c" line="921" col="26" call-argexpr="&blockSize" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_pls.h:134:16" call-funcname="FplsGetAddress" call-argnr="3" file="../workspace/DRIVER/SRC/pci_pls.c" line="921" col="26" call-argexpr="blockSize" call-argvaluetype="4" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="../workspace/DRIVER/PUBLIC/pci_drv_pls.h:134:16" my-argnr="3" my-argname="blockSize" file="../workspace/DRIVER/SRC/pci_pls.c" line="791" col="3" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="FplsInit" lineNumber="62"/>
+    <functiondecl functionName="FplsOpen" lineNumber="88"/>
+    <functiondecl functionName="FplsClose" lineNumber="209"/>
+    <functiondecl functionName="FplsSetCycle" lineNumber="236"/>
+    <functiondecl functionName="FplsSetControlMode" lineNumber="284"/>
+    <functiondecl functionName="FplsSetDrive" lineNumber="330"/>
+    <functiondecl functionName="FplsSetOutput" lineNumber="390"/>
+    <functiondecl functionName="FplsSetDriveDirction" lineNumber="501"/>
+    <functiondecl functionName="FplsGetDipSwitch" lineNumber="582"/>
+    <functiondecl functionName="FplsWdtReset" lineNumber="616"/>
+    <functiondecl functionName="FplsGetWdtFault" lineNumber="650"/>
+    <functiondecl functionName="FplsGetSeu" lineNumber="690"/>
+    <functiondecl functionName="FplsHeartBeat" lineNumber="730"/>
+    <functiondecl functionName="FplsGetAddress" lineNumber="786"/>
+    <functiondecl functionName="FplsGetHwVersion" lineNumber="824"/>
+    <functiondecl functionName="FplsRegRead" lineNumber="862"/>
+    <functiondecl functionName="FplsRegWrite" lineNumber="913"/>
+    <functiondecl functionName="pci_plsDeviceSearch" lineNumber="966"/>
+    <functiondecl functionName="pci_plsDeviceRegist" lineNumber="990"/>
+    <functiondecl functionName="pci_plsDeviceDelete" lineNumber="1022"/>
+    <functiondecl functionName="pci_plsCardInit" lineNumber="1053"/>
+    <functiondecl functionName="pci_plsGetControlMode" lineNumber="1096"/>
+    <functioncall functionName="FplsGetAddress"/>
+    <functioncall functionName="FplsGetDipSwitch"/>
+    <functioncall functionName="absFreq"/>
+    <functioncall functionName="addr"/>
+    <functioncall functionName="baseAddr0"/>
+    <functioncall functionName="bit_alarm"/>
+    <functioncall functionName="blockSize"/>
+    <functioncall functionName="board_num"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="busNo"/>
+    <functioncall functionName="com_stat"/>
+    <functioncall functionName="ctrlMode"/>
+    <functioncall functionName="cycle"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="devNo"/>
+    <functioncall functionName="deviceID"/>
+    <functioncall functionName="dip_sw"/>
+    <functioncall functionName="dipsw"/>
+    <functioncall functionName="double"/>
+    <functioncall functionName="drvDir"/>
+    <functioncall functionName="drvOn"/>
+    <functioncall functionName="fabs"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="freq"/>
+    <functioncall functionName="funcNo"/>
+    <functioncall functionName="heart_beat"/>
+    <functioncall functionName="hwVersion"/>
+    <functioncall functionName="hw_version"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="index"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="intLine"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="memAddr0"/>
+    <functioncall functionName="nBlock"/>
+    <functioncall functionName="nBoard"/>
+    <functioncall functionName="nBoardDef"/>
+    <functioncall functionName="nCounter"/>
+    <functioncall functionName="nMemBlkAddr0"/>
+    <functioncall functionName="nNo"/>
+    <functioncall functionName="nNum"/>
+    <functioncall functionName="nPlsNum"/>
+    <functioncall functionName="offset"/>
+    <functioncall functionName="outCount"/>
+    <functioncall functionName="outFreq"/>
+    <functioncall functionName="pciConfigInLong"/>
+    <functioncall functionName="pciConfigOutLong"/>
+    <functioncall functionName="pciFindDevice"/>
+    <functioncall functionName="pci_comGetIoBlockAddr"/>
+    <functioncall functionName="pci_comGetMemBlockAddr"/>
+    <functioncall functionName="pci_comPCIendianChg"/>
+    <functioncall functionName="pci_plsCardInit"/>
+    <functioncall functionName="pci_plsDeviceDelete"/>
+    <functioncall functionName="pci_plsDeviceRegist"/>
+    <functioncall functionName="pci_plsDeviceSearch"/>
+    <functioncall functionName="pci_plsGetControlMode"/>
+    <functioncall functionName="period"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="ret"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="venderID"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="wdt_reset"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="603593625">
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 of 13 configurations. Use --force to check all configurations." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time." cwe="398">
+            <location file="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\P_LOOP\posncmd_var.c" line="0" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="construct_posncmd_hook_impl" lineNumber="66"/>
+    <functiondecl functionName="make_preset_posn_rdy_hook_impl" lineNumber="77"/>
+    <functiondecl functionName="make_colim_posn_opn" lineNumber="102"/>
+    <functiondecl functionName="construct_posncmd_hook_impl" lineNumber="66"/>
+    <functiondecl functionName="make_preset_posn_rdy_hook_impl" lineNumber="77"/>
+    <functiondecl functionName="make_colim_posn_opn" lineNumber="102"/>
+    <functiondecl functionName="construct_posncmd_hook_impl" lineNumber="66"/>
+    <functiondecl functionName="make_preset_posn_rdy_hook_impl" lineNumber="77"/>
+    <functiondecl functionName="make_colim_posn_opn" lineNumber="102"/>
+    <functiondecl functionName="construct_posncmd_hook_impl" lineNumber="66"/>
+    <functiondecl functionName="make_preset_posn_rdy_hook_impl" lineNumber="77"/>
+    <functiondecl functionName="make_colim_posn_opn" lineNumber="102"/>
+    <functiondecl functionName="construct_posncmd_hook_impl" lineNumber="66"/>
+    <functiondecl functionName="make_preset_posn_rdy_hook_impl" lineNumber="77"/>
+    <functiondecl functionName="make_colim_posn_opn" lineNumber="102"/>
+    <functiondecl functionName="construct_posncmd_hook_impl" lineNumber="66"/>
+    <functiondecl functionName="make_preset_posn_rdy_hook_impl" lineNumber="77"/>
+    <functiondecl functionName="make_colim_posn_opn" lineNumber="102"/>
+    <functiondecl functionName="construct_posncmd_hook_impl" lineNumber="66"/>
+    <functiondecl functionName="make_preset_posn_rdy_hook_impl" lineNumber="77"/>
+    <functiondecl functionName="make_colim_posn_opn" lineNumber="102"/>
+    <functioncall functionName="AX2_NUM"/>
+    <functioncall functionName="AX3_NUM"/>
+    <functioncall functionName="AXIS_NUM"/>
+    <functioncall functionName="DSP2_NUM"/>
+    <functioncall functionName="DSP_NUM"/>
+    <functioncall functionName="INTERLOCK_CBANK_FAULT"/>
+    <functioncall functionName="INTERLOCK_COND_OFF_ANS"/>
+    <functioncall functionName="INTERLOCK_DPA_FAULT"/>
+    <functioncall functionName="INTERLOCK_DPA_IF_FAULT"/>
+    <functioncall functionName="INTERLOCK_MOTOR_OVERHEAT"/>
+    <functioncall functionName="T_MODE_MAJOR_FILTER"/>
+    <functioncall functionName="T_MODE_MAJOR_LOOP"/>
+    <functioncall functionName="T_MODE_MINOR_FILTER"/>
+    <functioncall functionName="T_MODE_MINOR_LOOP"/>
+    <functioncall functionName="T_MODE_NO_TEST"/>
+    <functioncall functionName="T_MODE_POSN_FILTER"/>
+    <functioncall functionName="T_MODE_POSN_LOOP"/>
+    <functioncall functionName="ax1Angle"/>
+    <functioncall functionName="ax2Angle"/>
+    <functioncall functionName="colimWidth"/>
+    <functioncall functionName="fabs"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="make_preset_posn_rdy_hook_impl"/>
+    <functioncall functionName="void"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2603298448">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="construct_srvband_hook_impl" lineNumber="61"/>
+    <functiondecl functionName="post_srvband_hook_impl" lineNumber="72"/>
+    <functiondecl functionName="chg_servoband" lineNumber="83"/>
+    <functiondecl functionName="construct_srvband_hook_impl" lineNumber="61"/>
+    <functiondecl functionName="post_srvband_hook_impl" lineNumber="72"/>
+    <functiondecl functionName="chg_servoband" lineNumber="83"/>
+    <functiondecl functionName="construct_srvband_hook_impl" lineNumber="61"/>
+    <functiondecl functionName="post_srvband_hook_impl" lineNumber="72"/>
+    <functiondecl functionName="chg_servoband" lineNumber="83"/>
+    <functioncall functionName="chg_servoband"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="post_srvband_hook_impl"/>
+    <functioncall functionName="sigBandMediumOpn"/>
+    <functioncall functionName="sigBandMediumOpn_Old"/>
+    <functioncall functionName="sigBandNarrowOpn"/>
+    <functioncall functionName="sigBandNarrowOpn_Old"/>
+    <functioncall functionName="sigBandWideOpn"/>
+    <functioncall functionName="sigBandWideOpn_Old"/>
+    <functioncall functionName="w_servoband"/>
+    <functioncall functionName="w_servoband_Old"/>
+  </FileInfo>
+</analyzerinfo>

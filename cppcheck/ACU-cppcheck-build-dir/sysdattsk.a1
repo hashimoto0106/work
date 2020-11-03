@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2284019268">
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;trkgFreq_num&apos; can be reduced." verbose="The scope of the variable &apos;trkgFreq_num&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="12314361209936601972">
+            <location file0="..\workspace\SYSDATA\SRC\sysdattsk.c" file="..\workspace\SYSDATA\SRC\sysdattsk.c" line="404" column="6"/>
+            <symbol>trkgFreq_num</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;trkgFreq_len&apos; can be reduced." verbose="The scope of the variable &apos;trkgFreq_len&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="2534492785481594270">
+            <location file0="..\workspace\SYSDATA\SRC\sysdattsk.c" file="..\workspace\SYSDATA\SRC\sysdattsk.c" line="405" column="7"/>
+            <symbol>trkgFreq_len</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;res_num&apos; can be reduced." verbose="The scope of the variable &apos;res_num&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="6579981300113439013">
+            <location file0="..\workspace\SYSDATA\SRC\sysdattsk.c" file="..\workspace\SYSDATA\SRC\sysdattsk.c" line="448" column="7"/>
+            <symbol>res_num</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;res_max&apos; can be reduced." verbose="The scope of the variable &apos;res_max&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="11843465080690819334">
+            <location file0="..\workspace\SYSDATA\SRC\sysdattsk.c" file="..\workspace\SYSDATA\SRC\sysdattsk.c" line="449" column="7"/>
+            <symbol>res_max</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;len&apos; can be reduced." verbose="The scope of the variable &apos;len&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="8051293482599192253">
+            <location file0="..\workspace\SYSDATA\SRC\sysdattsk.c" file="..\workspace\SYSDATA\SRC\sysdattsk.c" line="450" column="6"/>
+            <symbol>len</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;trkgFreq_len&apos; can be reduced." verbose="The scope of the variable &apos;trkgFreq_len&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="7079028699067858513">
+            <location file0="..\workspace\SYSDATA\SRC\sysdattsk.c" file="..\workspace\SYSDATA\SRC\sysdattsk.c" line="510" column="7"/>
+            <symbol>trkgFreq_len</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;ret&apos; is assigned a value that is never used." verbose="Variable &apos;ret&apos; is assigned a value that is never used." cwe="563" hash="3920627206077586885">
+            <location file0="..\workspace\SYSDATA\SRC\sysdattsk.c" file="..\workspace\SYSDATA\SRC\sysdattsk.c" line="372" column="7"/>
+            <symbol>ret</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="../workspace/SYSDATA/SRC/sysdattsk.c:29:6" call-funcname="s_sysRunpulse" call-argnr="1" file="../workspace/SYSDATA/SRC/sysdattsk.c" line="139" col="18" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/SYSDATA/SRC/sysdattsk.c:29:6" call-funcname="s_sysRunpulse" call-argnr="1" file="../workspace/SYSDATA/SRC/sysdattsk.c" line="214" col="16" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/SYSDATA/SRC/sysdattsk.c:52:6" call-funcname="trkgFreqResFileMake" call-argnr="1" file="../workspace/SYSDATA/SRC/sysdattsk.c" line="324" col="21" call-argexpr="ret" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="..\workspace\SYSDATA\SRC\sysdattsk.c" line="325" col="10" info="Assuming that condition 'ret!=0' is not redundant"/>
+</function-call><function-call call-id="../workspace/SYSDATA/PUBLIC/sysdtadm.h:101:5" call-funcname="load_exec" call-argnr="2" file="../workspace/SYSDATA/SRC/sysdattsk.c" line="417" col="17" call-argexpr="trkgFreqname_datainf" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="../workspace/SYSDATA/SRC/sysdattsk.c:53:6" call-funcname="trkgFreqParamChk" call-argnr="1" file="../workspace/SYSDATA/SRC/sysdattsk.c" line="321" col="8" my-id="../workspace/SYSDATA/SRC/sysdattsk.c:54:6" my-argnr="1"/>
+<function-call call-id="../workspace/SYSDATA/SRC/sysdattsk.c:53:6" call-funcname="trkgFreqParamChk" call-argnr="1" file="../workspace/SYSDATA/SRC/sysdattsk.c" line="364" col="8" my-id="../workspace/SYSDATA/PUBLIC/sysdtadm.h:143:6" my-argnr="1"/>
+<function-call call-id="../workspace/SYSDATA/PUBLIC/sysdtadm.h:101:5" call-funcname="load_exec" call-argnr="2" file="../workspace/SYSDATA/SRC/sysdattsk.c" line="372" col="9" my-id="../workspace/SYSDATA/PUBLIC/sysdtadm.h:143:6" my-argnr="2"/>
+<function-call call-id="../workspace/SYSDATA/PUBLIC/sysdtadm.h:101:5" call-funcname="load_exec" call-argnr="1" file="../workspace/SYSDATA/SRC/sysdattsk.c" line="417" col="8" my-id="../workspace/SYSDATA/SRC/sysdattsk.c:53:6" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="p_sysdata" lineNumber="119"/>
+    <functiondecl functionName="getSysErr" lineNumber="227"/>
+    <functiondecl functionName="clearSysErr" lineNumber="239"/>
+    <functiondecl functionName="getSysHalt" lineNumber="252"/>
+    <functiondecl functionName="getSysAccess" lineNumber="266"/>
+    <functiondecl functionName="setSysRunpulse" lineNumber="278"/>
+    <functiondecl functionName="s_sysRunpulse" lineNumber="294"/>
+    <functiondecl functionName="trkgFreqParamUpdStore" lineNumber="311"/>
+    <functiondecl functionName="trkgFreqParamLoad" lineNumber="355"/>
+    <functiondecl functionName="trkgFreqParamChk" lineNumber="400"/>
+    <functiondecl functionName="trkgFreqResFileMake" lineNumber="443"/>
+    <functiondecl functionName="trkgFreqChrChk" lineNumber="505"/>
+    <functioncall functionName="DefTable"/>
+    <functioncall functionName="Deftbl_adr"/>
+    <functioncall functionName="VOIDFUNCPTR"/>
+    <functioncall functionName="__FUNCTION__"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="c_msgQReceive"/>
+    <functioncall functionName="callback"/>
+    <functioncall functionName="chk_num"/>
+    <functioncall functionName="cnt"/>
+    <functioncall functionName="continue"/>
+    <functioncall functionName="dw_fs_access"/>
+    <functioncall functionName="dw_sysdat_err"/>
+    <functioncall functionName="dw_syshalt"/>
+    <functioncall functionName="errno"/>
+    <functioncall functionName="fclose"/>
+    <functioncall functionName="filename"/>
+    <functioncall functionName="fopen"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="fp"/>
+    <functioncall functionName="fwrite"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="kind"/>
+    <functioncall functionName="len"/>
+    <functioncall functionName="load_exec"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="moji_num"/>
+    <functioncall functionName="on_off"/>
+    <functioncall functionName="permanentfile_adr"/>
+    <functioncall functionName="rcv_msg"/>
+    <functioncall functionName="res_num"/>
+    <functioncall functionName="resinfo"/>
+    <functioncall functionName="ret"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="runPulseFunc"/>
+    <functioncall functionName="runPulseNo"/>
+    <functioncall functionName="s_sysRunpulse"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="str"/>
+    <functioncall functionName="strcpy"/>
+    <functioncall functionName="strlen"/>
+    <functioncall functionName="sysLogSave"/>
+    <functioncall functionName="sysRunPulseFunc"/>
+    <functioncall functionName="sysRunPulseNo"/>
+    <functioncall functionName="sysdataLoad"/>
+    <functioncall functionName="sysdataRestore"/>
+    <functioncall functionName="sysdataSave"/>
+    <functioncall functionName="sysdataStore"/>
+    <functioncall functionName="sysdatfile_adr"/>
+    <functioncall functionName="systbl_adr"/>
+    <functioncall functionName="trkgFreqChrChk"/>
+    <functioncall functionName="trkgFreqParamChk"/>
+    <functioncall functionName="trkgFreqResFileMake"/>
+    <functioncall functionName="trkgFreq_len"/>
+    <functioncall functionName="trkgFreq_num"/>
+    <functioncall functionName="trkgFreqname_datainf"/>
+    <functioncall functionName="trkgFreqname_ok_chr"/>
+    <functioncall functionName="ushort"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="w_sysdatmbxid"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="writedata"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,242 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="473085290">
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 of 19 configurations. Use --force to check all configurations." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time." cwe="398">
+            <location file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_CONT\alarm.c" line="0" column="0"/>
+        </error>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/alarm_lcl.h:76:5" my-argnr="1" my-argname="arg1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/alarm.c" line="480" col="7" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/alarm_lcl.h:76:5" my-argnr="1" my-argname="arg1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/alarm.c" line="480" col="7" value="0"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/alarm_lcl.h:76:5" my-argnr="1" my-argname="arg1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/alarm.c" line="480" col="7" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/alarm_lcl.h:76:5" my-argnr="1" my-argname="arg1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/alarm.c" line="480" col="7" value="0"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/alarm_lcl.h:76:5" my-argnr="1" my-argname="arg1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/alarm.c" line="480" col="7" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/alarm_lcl.h:76:5" my-argnr="1" my-argname="arg1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/alarm.c" line="480" col="7" value="0"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/alarm_lcl.h:76:5" my-argnr="1" my-argname="arg1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/alarm.c" line="480" col="7" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/alarm_lcl.h:76:5" my-argnr="1" my-argname="arg1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/alarm.c" line="480" col="7" value="0"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/alarm_lcl.h:76:5" my-argnr="1" my-argname="arg1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/alarm.c" line="480" col="7" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/alarm_lcl.h:76:5" my-argnr="1" my-argname="arg1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/alarm.c" line="480" col="7" value="0"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/alarm_lcl.h:76:5" my-argnr="1" my-argname="arg1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/alarm.c" line="480" col="7" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/alarm_lcl.h:76:5" my-argnr="1" my-argname="arg1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/alarm.c" line="480" col="7" value="0"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/alarm_lcl.h:76:5" my-argnr="1" my-argname="arg1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/alarm.c" line="480" col="7" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/alarm_lcl.h:76:5" my-argnr="1" my-argname="arg1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/alarm.c" line="480" col="7" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="m_alm_init" lineNumber="158"/>
+    <functiondecl functionName="m_almmng" lineNumber="182"/>
+    <functiondecl functionName="m_almmng_impl" lineNumber="202"/>
+    <functiondecl functionName="s_make_status" lineNumber="248"/>
+    <functiondecl functionName="s_make_alm" lineNumber="275"/>
+    <functiondecl functionName="s_make_proper_alm" lineNumber="299"/>
+    <functiondecl functionName="getSignal" lineNumber="337"/>
+    <functiondecl functionName="getSignalNot" lineNumber="371"/>
+    <functiondecl functionName="getHdlSignal" lineNumber="405"/>
+    <functiondecl functionName="getStatus" lineNumber="440"/>
+    <functiondecl functionName="getStatusMode" lineNumber="476"/>
+    <functiondecl functionName="s_make_flt" lineNumber="502"/>
+    <functiondecl functionName="s_make_have_alm" lineNumber="557"/>
+    <functiondecl functionName="get_alarm_str" lineNumber="588"/>
+    <functiondecl functionName="get_status_str" lineNumber="623"/>
+    <functiondecl functionName="clearFault" lineNumber="657"/>
+    <functiondecl functionName="s_make_almLatch" lineNumber="676"/>
+    <functiondecl functionName="m_alm_init" lineNumber="158"/>
+    <functiondecl functionName="m_almmng" lineNumber="182"/>
+    <functiondecl functionName="m_almmng_impl" lineNumber="202"/>
+    <functiondecl functionName="s_make_status" lineNumber="248"/>
+    <functiondecl functionName="s_make_alm" lineNumber="275"/>
+    <functiondecl functionName="s_make_proper_alm" lineNumber="299"/>
+    <functiondecl functionName="getSignal" lineNumber="337"/>
+    <functiondecl functionName="getSignalNot" lineNumber="371"/>
+    <functiondecl functionName="getHdlSignal" lineNumber="405"/>
+    <functiondecl functionName="getStatus" lineNumber="440"/>
+    <functiondecl functionName="getStatusMode" lineNumber="476"/>
+    <functiondecl functionName="s_make_flt" lineNumber="502"/>
+    <functiondecl functionName="s_make_have_alm" lineNumber="557"/>
+    <functiondecl functionName="get_alarm_str" lineNumber="588"/>
+    <functiondecl functionName="get_status_str" lineNumber="623"/>
+    <functiondecl functionName="clearFault" lineNumber="657"/>
+    <functiondecl functionName="s_make_almLatch" lineNumber="676"/>
+    <functiondecl functionName="m_alm_init" lineNumber="158"/>
+    <functiondecl functionName="m_almmng" lineNumber="182"/>
+    <functiondecl functionName="m_almmng_impl" lineNumber="202"/>
+    <functiondecl functionName="s_make_status" lineNumber="248"/>
+    <functiondecl functionName="s_make_alm" lineNumber="275"/>
+    <functiondecl functionName="s_make_proper_alm" lineNumber="299"/>
+    <functiondecl functionName="getSignal" lineNumber="337"/>
+    <functiondecl functionName="getSignalNot" lineNumber="371"/>
+    <functiondecl functionName="getHdlSignal" lineNumber="405"/>
+    <functiondecl functionName="getStatus" lineNumber="440"/>
+    <functiondecl functionName="getStatusMode" lineNumber="476"/>
+    <functiondecl functionName="s_make_flt" lineNumber="502"/>
+    <functiondecl functionName="s_make_have_alm" lineNumber="557"/>
+    <functiondecl functionName="get_alarm_str" lineNumber="588"/>
+    <functiondecl functionName="get_status_str" lineNumber="623"/>
+    <functiondecl functionName="clearFault" lineNumber="657"/>
+    <functiondecl functionName="s_make_almLatch" lineNumber="676"/>
+    <functiondecl functionName="m_alm_init" lineNumber="158"/>
+    <functiondecl functionName="m_almmng" lineNumber="182"/>
+    <functiondecl functionName="m_almmng_impl" lineNumber="202"/>
+    <functiondecl functionName="s_make_status" lineNumber="248"/>
+    <functiondecl functionName="s_make_alm" lineNumber="275"/>
+    <functiondecl functionName="s_make_proper_alm" lineNumber="299"/>
+    <functiondecl functionName="getSignal" lineNumber="337"/>
+    <functiondecl functionName="getSignalNot" lineNumber="371"/>
+    <functiondecl functionName="getHdlSignal" lineNumber="405"/>
+    <functiondecl functionName="getStatus" lineNumber="440"/>
+    <functiondecl functionName="getStatusMode" lineNumber="476"/>
+    <functiondecl functionName="s_make_flt" lineNumber="502"/>
+    <functiondecl functionName="s_make_have_alm" lineNumber="557"/>
+    <functiondecl functionName="get_alarm_str" lineNumber="588"/>
+    <functiondecl functionName="get_status_str" lineNumber="623"/>
+    <functiondecl functionName="clearFault" lineNumber="657"/>
+    <functiondecl functionName="s_make_almLatch" lineNumber="676"/>
+    <functiondecl functionName="m_alm_init" lineNumber="158"/>
+    <functiondecl functionName="m_almmng" lineNumber="182"/>
+    <functiondecl functionName="m_almmng_impl" lineNumber="202"/>
+    <functiondecl functionName="s_make_status" lineNumber="248"/>
+    <functiondecl functionName="s_make_alm" lineNumber="275"/>
+    <functiondecl functionName="s_make_proper_alm" lineNumber="299"/>
+    <functiondecl functionName="getSignal" lineNumber="337"/>
+    <functiondecl functionName="getSignalNot" lineNumber="371"/>
+    <functiondecl functionName="getHdlSignal" lineNumber="405"/>
+    <functiondecl functionName="getStatus" lineNumber="440"/>
+    <functiondecl functionName="getStatusMode" lineNumber="476"/>
+    <functiondecl functionName="s_make_flt" lineNumber="502"/>
+    <functiondecl functionName="s_make_have_alm" lineNumber="557"/>
+    <functiondecl functionName="get_alarm_str" lineNumber="588"/>
+    <functiondecl functionName="get_status_str" lineNumber="623"/>
+    <functiondecl functionName="clearFault" lineNumber="657"/>
+    <functiondecl functionName="s_make_almLatch" lineNumber="676"/>
+    <functiondecl functionName="m_alm_init" lineNumber="158"/>
+    <functiondecl functionName="m_almmng" lineNumber="182"/>
+    <functiondecl functionName="m_almmng_impl" lineNumber="202"/>
+    <functiondecl functionName="s_make_status" lineNumber="248"/>
+    <functiondecl functionName="s_make_alm" lineNumber="275"/>
+    <functiondecl functionName="s_make_proper_alm" lineNumber="299"/>
+    <functiondecl functionName="getSignal" lineNumber="337"/>
+    <functiondecl functionName="getSignalNot" lineNumber="371"/>
+    <functiondecl functionName="getHdlSignal" lineNumber="405"/>
+    <functiondecl functionName="getStatus" lineNumber="440"/>
+    <functiondecl functionName="getStatusMode" lineNumber="476"/>
+    <functiondecl functionName="s_make_flt" lineNumber="502"/>
+    <functiondecl functionName="s_make_have_alm" lineNumber="557"/>
+    <functiondecl functionName="get_alarm_str" lineNumber="588"/>
+    <functiondecl functionName="get_status_str" lineNumber="623"/>
+    <functiondecl functionName="clearFault" lineNumber="657"/>
+    <functiondecl functionName="s_make_almLatch" lineNumber="676"/>
+    <functiondecl functionName="m_alm_init" lineNumber="158"/>
+    <functiondecl functionName="m_almmng" lineNumber="182"/>
+    <functiondecl functionName="m_almmng_impl" lineNumber="202"/>
+    <functiondecl functionName="s_make_status" lineNumber="248"/>
+    <functiondecl functionName="s_make_alm" lineNumber="275"/>
+    <functiondecl functionName="s_make_proper_alm" lineNumber="299"/>
+    <functiondecl functionName="getSignal" lineNumber="337"/>
+    <functiondecl functionName="getSignalNot" lineNumber="371"/>
+    <functiondecl functionName="getHdlSignal" lineNumber="405"/>
+    <functiondecl functionName="getStatus" lineNumber="440"/>
+    <functiondecl functionName="getStatusMode" lineNumber="476"/>
+    <functiondecl functionName="s_make_flt" lineNumber="502"/>
+    <functiondecl functionName="s_make_have_alm" lineNumber="557"/>
+    <functiondecl functionName="get_alarm_str" lineNumber="588"/>
+    <functiondecl functionName="get_status_str" lineNumber="623"/>
+    <functiondecl functionName="clearFault" lineNumber="657"/>
+    <functiondecl functionName="s_make_almLatch" lineNumber="676"/>
+    <functioncall functionName="AX2_NUM"/>
+    <functioncall functionName="AX3_NUM"/>
+    <functioncall functionName="AXIS_AX2"/>
+    <functioncall functionName="AXIS_AX3"/>
+    <functioncall functionName="AXIS_CR"/>
+    <functioncall functionName="AXIS_EL"/>
+    <functioncall functionName="AXIS_NUM"/>
+    <functioncall functionName="DSP2_NUM"/>
+    <functioncall functionName="DSP_NUM"/>
+    <functioncall functionName="FUNCPTR"/>
+    <functioncall functionName="INSTRUCTION"/>
+    <functioncall functionName="LM_DEBUG"/>
+    <functioncall functionName="LM_INFO"/>
+    <functioncall functionName="LM_SEVERE"/>
+    <functioncall functionName="LM_TRACE"/>
+    <functioncall functionName="LM_WARNING"/>
+    <functioncall functionName="__FUNCTION__"/>
+    <functioncall functionName="alarmNo"/>
+    <functioncall functionName="alarm_or"/>
+    <functioncall functionName="alm"/>
+    <functioncall functionName="alm_func"/>
+    <functioncall functionName="almmask"/>
+    <functioncall functionName="almraw"/>
+    <functioncall functionName="arg1"/>
+    <functioncall functionName="arg2"/>
+    <functioncall functionName="array_null"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="continue"/>
+    <functioncall functionName="double"/>
+    <functioncall functionName="driverError"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="flt"/>
+    <functioncall functionName="flt_l3"/>
+    <functioncall functionName="flt_led"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="func"/>
+    <functioncall functionName="getVariability"/>
+    <functioncall functionName="group"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="inf"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="item"/>
+    <functioncall functionName="largeItem"/>
+    <functioncall functionName="latch"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="m_almmng_impl"/>
+    <functioncall functionName="max_stat_num"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="nullFuncImpl"/>
+    <functioncall functionName="opif_discon_index"/>
+    <functioncall functionName="post"/>
+    <functioncall functionName="pre"/>
+    <functioncall functionName="ret"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="rslt"/>
+    <functioncall functionName="s_make_alm"/>
+    <functioncall functionName="s_make_almLatch"/>
+    <functioncall functionName="s_make_flt"/>
+    <functioncall functionName="s_make_have_alm"/>
+    <functioncall functionName="s_make_proper_alm"/>
+    <functioncall functionName="s_make_status"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="smallItem"/>
+    <functioncall functionName="stat"/>
+    <functioncall functionName="statusNo"/>
+    <functioncall functionName="strcpy"/>
+    <functioncall functionName="t_alm_null"/>
+    <functioncall functionName="t_stat_null"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="w_alm"/>
+    <functioncall functionName="w_almraw"/>
+  </FileInfo>
+</analyzerinfo>

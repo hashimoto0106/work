@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2898705663">
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="AX2_NUM"/>
+    <functioncall functionName="AX3_NUM"/>
+    <functioncall functionName="AXIS_NUM"/>
+    <functioncall functionName="DSP2_NUM"/>
+    <functioncall functionName="DSP_NUM"/>
+    <functioncall functionName="chgdata"/>
+    <functioncall functionName="dw_step_ax1_cyc_mon"/>
+    <functioncall functionName="dw_step_ax2_cyc_mon"/>
+    <functioncall functionName="dw_step_lvl_mon"/>
+    <functioncall functionName="dw_step_main_mon"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="w_Ax2RealAng"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3831466099">
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 of 13 configurations. Use --force to check all configurations." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time." cwe="398">
+            <location file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_LOOP\step.c" line="0" column="0"/>
+        </error>
+        <error id="internalAstError" severity="error" msg="Syntax Error: AST broken, &apos;if&apos; doesn&apos;t have two operands." verbose="Syntax Error: AST broken, &apos;if&apos; doesn&apos;t have two operands.">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_LOOP\step.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_LOOP\step.c" line="2246" column="4"/>
+        </error>
+</analyzerinfo>

@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1313851329">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="construct_dcpaif" lineNumber="253"/>
+    <functiondecl functionName="p_dcpaRecvTask" lineNumber="282"/>
+    <functiondecl functionName="p_dcpaSendTask" lineNumber="292"/>
+    <functiondecl functionName="wakeupDcpaSendTask" lineNumber="303"/>
+    <functiondecl functionName="construct_dcpaif" lineNumber="253"/>
+    <functiondecl functionName="p_dcpaRecvTask" lineNumber="282"/>
+    <functiondecl functionName="p_dcpaSendTask" lineNumber="292"/>
+    <functiondecl functionName="wakeupDcpaSendTask" lineNumber="303"/>
+    <functiondecl functionName="construct_dcpaif" lineNumber="253"/>
+    <functiondecl functionName="p_dcpaRecvTask" lineNumber="282"/>
+    <functiondecl functionName="p_dcpaSendTask" lineNumber="292"/>
+    <functiondecl functionName="wakeupDcpaSendTask" lineNumber="303"/>
+    <functiondecl functionName="construct_dcpaif" lineNumber="253"/>
+    <functiondecl functionName="p_dcpaRecvTask" lineNumber="282"/>
+    <functiondecl functionName="p_dcpaSendTask" lineNumber="292"/>
+    <functiondecl functionName="wakeupDcpaSendTask" lineNumber="303"/>
+    <functioncall functionName="AX2_NUM"/>
+    <functioncall functionName="AX3_NUM"/>
+    <functioncall functionName="AXIS_NUM"/>
+    <functioncall functionName="DSP2_NUM"/>
+    <functioncall functionName="DSP_NUM"/>
+    <functioncall functionName="PCIDRV_SIO_CHAR7"/>
+    <functioncall functionName="PCIDRV_SIO_DTR_DSBL"/>
+    <functioncall functionName="PCIDRV_SIO_FORMAT1"/>
+    <functioncall functionName="PCIDRV_SIO_JDG_DELIM"/>
+    <functioncall functionName="PCIDRV_SIO_PARI_EVEN"/>
+    <functioncall functionName="PCIDRV_SIO_RS422"/>
+    <functioncall functionName="PCIDRV_SIO_RTS_DSBL"/>
+    <functioncall functionName="PCIDRV_SIO_STOP1"/>
+    <functioncall functionName="POSITIVE"/>
+    <functioncall functionName="SIOUSER_OTHER"/>
+    <functioncall functionName="SIO_DATASIZE_MAX"/>
+    <functioncall functionName="SIO_DATA_END"/>
+    <functioncall functionName="VX_FP_TASK"/>
+    <functioncall functionName="ch"/>
+    <functioncall functionName="config_uart_dcpa_impl"/>
+    <functioncall functionName="dPositive"/>
+    <functioncall functionName="dcpaInfo"/>
+    <functioncall functionName="dcpaRecvTaskParam"/>
+    <functioncall functionName="dcpaRxCnv_impl"/>
+    <functioncall functionName="dcpaSendTaskParam"/>
+    <functioncall functionName="dcpaTxCnv_impl"/>
+    <functioncall functionName="dw_dcpaTxBuf"/>
+    <functioncall functionName="dw_dcpaif_channel"/>
+    <functioncall functionName="external"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="p_dcpaRecvTask"/>
+    <functioncall functionName="p_dcpaSendTask"/>
+    <functioncall functionName="p_serialRecvTask"/>
+    <functioncall functionName="p_serialSendTask"/>
+    <functioncall functionName="recvDataFromDCPA"/>
+    <functioncall functionName="s_rxtrns_bit"/>
+    <functioncall functionName="s_txtrns_bit"/>
+    <functioncall functionName="setSerialInfo"/>
+    <functioncall functionName="sigAx1ADpaFlt"/>
+    <functioncall functionName="sigAx1ADrOnAns"/>
+    <functioncall functionName="sigAx1BrakeFuseBlow"/>
+    <functioncall functionName="sigAx1BrakeRlseAns"/>
+    <functioncall functionName="sigAx2ADpaFlt"/>
+    <functioncall functionName="sigAx2ADrOnAns"/>
+    <functioncall functionName="sigAx2BrakeFuseBlow"/>
+    <functioncall functionName="sigAx2BrakeRlseAns"/>
+    <functioncall functionName="sigAzBkPwrRdy"/>
+    <functioncall functionName="sigAzCbTripAns"/>
+    <functioncall functionName="sigAzDpaAlm"/>
+    <functioncall functionName="sigAzDrOnAns"/>
+    <functioncall functionName="sigAzHtrPwrFlt"/>
+    <functioncall functionName="sigAzMcOnAns"/>
+    <functioncall functionName="sigDcpaFanFlt"/>
+    <functioncall functionName="sigDcpaIfFlt"/>
+    <functioncall functionName="sigDcpaMaint"/>
+    <functioncall functionName="sigDcpaTx_AzBkFuseBlow"/>
+    <functioncall functionName="sigDcpaTx_AzBkPwrRdy"/>
+    <functioncall functionName="sigDcpaTx_AzBkRlseAns"/>
+    <functioncall functionName="sigDcpaTx_AzCbTripAns"/>
+    <functioncall functionName="sigDcpaTx_AzDpaAlm"/>
+    <functioncall functionName="sigDcpaTx_AzDpaFlt"/>
+    <functioncall functionName="sigDcpaTx_AzDrOnAns"/>
+    <functioncall functionName="sigDcpaTx_AzHtrPwrFlt"/>
+    <functioncall functionName="sigDcpaTx_AzMcOnAns"/>
+    <functioncall functionName="sigDcpaTx_AzSvOnAns"/>
+    <functioncall functionName="sigDcpaTx_DcpaFanFlt"/>
+    <functioncall functionName="sigDcpaTx_DcpaMaint"/>
+    <functioncall functionName="sigDcpaTx_ElBkFuseBlow"/>
+    <functioncall functionName="sigDcpaTx_ElBkPwrRdy"/>
+    <functioncall functionName="sigDcpaTx_ElBkRlseAns"/>
+    <functioncall functionName="sigDcpaTx_ElCbTripAns"/>
+    <functioncall functionName="sigDcpaTx_ElDpaAlm"/>
+    <functioncall functionName="sigDcpaTx_ElDpaFlt"/>
+    <functioncall functionName="sigDcpaTx_ElDrOnAns"/>
+    <functioncall functionName="sigDcpaTx_ElHtrPwrFlt"/>
+    <functioncall functionName="sigDcpaTx_ElMcOnAns"/>
+    <functioncall functionName="sigDcpaTx_ElSvOnAns"/>
+    <functioncall functionName="sigDcpaTx_EmergencyStopAns"/>
+    <functioncall functionName="sigElBkPwrRdy"/>
+    <functioncall functionName="sigElCbTripAns"/>
+    <functioncall functionName="sigElDpaAlm"/>
+    <functioncall functionName="sigElDrOnAns"/>
+    <functioncall functionName="sigElHtrPwrFlt"/>
+    <functioncall functionName="sigElMcOnAns"/>
+    <functioncall functionName="sigEmergencyStopAns"/>
+    <functioncall functionName="sync_count"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="w_dcpaTout"/>
+    <functioncall functionName="wakeupDcpaSendTask"/>
+    <functioncall functionName="wakeupSerialSendTask"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,191 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2768219749">
+        <error id="invalidPrintfArgType_uint" severity="warning" msg="%x in format string (no. 2) requires &apos;unsigned int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%x in format string (no. 2) requires &apos;unsigned int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="7044125145512165321">
+            <location file0="..\workspace\DRIVER\SRC\pci_isoc2130.c" file="..\workspace\DRIVER\SRC\pci_isoc2130.c" line="646" column="4"/>
+        </error>
+        <error id="nullPointerArithmeticRedundantCheck" severity="warning" msg="Either the condition &apos;memAddr==(unsigned long*)0&apos; is redundant or there is pointer arithmetic with NULL pointer." verbose="Either the condition &apos;memAddr==(unsigned long*)0&apos; is redundant or there is pointer arithmetic with NULL pointer." cwe="682" hash="15011449841035989313">
+            <location file0="..\workspace\DRIVER\SRC\pci_isoc2130.c" file="..\workspace\DRIVER\SRC\pci_isoc2130.c" line="626" column="17" info="Null pointer addition"/>
+            <location file0="..\workspace\DRIVER\SRC\pci_isoc2130.c" file="..\workspace\DRIVER\SRC\pci_isoc2130.c" line="628" column="13" info="condition &apos;memAddr==(unsigned long*)0&apos;"/>
+        </error>
+        <error id="nullPointerArithmeticRedundantCheck" severity="warning" msg="Either the condition &apos;memAddr==(unsigned long*)0&apos; is redundant or there is pointer arithmetic with NULL pointer." verbose="Either the condition &apos;memAddr==(unsigned long*)0&apos; is redundant or there is pointer arithmetic with NULL pointer." cwe="682" hash="7196447468543516296">
+            <location file0="..\workspace\DRIVER\SRC\pci_isoc2130.c" file="..\workspace\DRIVER\SRC\pci_isoc2130.c" line="670" column="17" info="Null pointer addition"/>
+            <location file0="..\workspace\DRIVER\SRC\pci_isoc2130.c" file="..\workspace\DRIVER\SRC\pci_isoc2130.c" line="671" column="13" info="condition &apos;memAddr==(unsigned long*)0&apos;"/>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;pMemBlock0-&gt;reg&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;pMemBlock0-&gt;reg&apos; is reassigned a value before the old one has been used." cwe="563" hash="17195354712795073539">
+            <location file0="..\workspace\DRIVER\SRC\pci_isoc2130.c" file="..\workspace\DRIVER\SRC\pci_isoc2130.c" line="295" column="19" info="pMemBlock0-&gt;reg is overwritten"/>
+            <location file0="..\workspace\DRIVER\SRC\pci_isoc2130.c" file="..\workspace\DRIVER\SRC\pci_isoc2130.c" line="279" column="19" info="pMemBlock0-&gt;reg is assigned"/>
+            <symbol>pMemBlock0-&gt;reg</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;i&apos; can be reduced." verbose="The scope of the variable &apos;i&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="2554996411834957718">
+            <location file0="..\workspace\DRIVER\SRC\pci_isoc2130.c" file="..\workspace\DRIVER\SRC\pci_isoc2130.c" line="785" column="8"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;func&apos; can be reduced." verbose="The scope of the variable &apos;func&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="9312308308166235746">
+            <location file0="..\workspace\DRIVER\SRC\pci_isoc2130.c" file="..\workspace\DRIVER\SRC\pci_isoc2130.c" line="786" column="12"/>
+            <symbol>func</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;arg1&apos; can be reduced." verbose="The scope of the variable &apos;arg1&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="13384262106625284732">
+            <location file0="..\workspace\DRIVER\SRC\pci_isoc2130.c" file="..\workspace\DRIVER\SRC\pci_isoc2130.c" line="787" column="17"/>
+            <symbol>arg1</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;arg2&apos; can be reduced." verbose="The scope of the variable &apos;arg2&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="14345472979812024338">
+            <location file0="..\workspace\DRIVER\SRC\pci_isoc2130.c" file="..\workspace\DRIVER\SRC\pci_isoc2130.c" line="787" column="23"/>
+            <symbol>arg2</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.c:47:6" call-funcname="pci_isoC2130IntTimerVal" call-argnr="2" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="264" col="31" call-argexpr="&nSck" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.c:47:6" call-funcname="pci_isoC2130IntTimerVal" call-argnr="2" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="264" col="31" call-argexpr="nSck" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.c:47:6" call-funcname="pci_isoC2130IntTimerVal" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="264" col="31" call-argexpr="&nTctrl" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.c:47:6" call-funcname="pci_isoC2130IntTimerVal" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="264" col="31" call-argexpr="nTctrl" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.h:206:6" call-funcname="pci_isoC2130InputLogic" call-argnr="1" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="376" col="24" call-argexpr="nIsoNum" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="..\workspace\DRIVER\SRC\pci_isoc2130.c" line="368" col="15" info="Assuming that condition 'nIsoNum<0' is not redundant"/>
+</function-call><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.h:206:6" call-funcname="pci_isoC2130InputLogic" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="376" col="24" call-argexpr="&nInput" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.h:206:6" call-funcname="pci_isoC2130InputLogic" call-argnr="1" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="411" col="24" call-argexpr="nIsoNum" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="..\workspace\DRIVER\SRC\pci_isoc2130.c" line="403" col="15" info="Assuming that condition 'nIsoNum<0' is not redundant"/>
+</function-call><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.h:206:6" call-funcname="pci_isoC2130InputLogic" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="411" col="24" call-argexpr="&nInput" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.h:204:6" call-funcname="pci_isoC2130InputPort" call-argnr="1" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="471" col="23" call-argexpr="nIsoNum" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="..\workspace\DRIVER\SRC\pci_isoc2130.c" line="466" col="15" info="Assuming that condition 'nIsoNum<0' is not redundant"/>
+</function-call><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.h:204:6" call-funcname="pci_isoC2130InputPort" call-argnr="2" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="471" col="23" call-argexpr="&nPort" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.h:204:6" call-funcname="pci_isoC2130InputPort" call-argnr="2" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="471" col="23" call-argexpr="nPort" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.h:204:6" call-funcname="pci_isoC2130InputPort" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="471" col="23" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.h:208:6" call-funcname="pci_isoC2130DelChatt" call-argnr="1" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="474" col="22" call-argexpr="nIsoNum" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="..\workspace\DRIVER\SRC\pci_isoc2130.c" line="466" col="15" info="Assuming that condition 'nIsoNum<0' is not redundant"/>
+</function-call><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.h:208:6" call-funcname="pci_isoC2130DelChatt" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="474" col="22" call-argexpr="&nChatt" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.h:208:6" call-funcname="pci_isoC2130DelChatt" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="474" col="22" call-argexpr="nChatt" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.h:208:6" call-funcname="pci_isoC2130DelChatt" call-argnr="4" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="474" col="22" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.h:206:6" call-funcname="pci_isoC2130InputLogic" call-argnr="1" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="477" col="24" call-argexpr="nIsoNum" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="..\workspace\DRIVER\SRC\pci_isoc2130.c" line="466" col="15" info="Assuming that condition 'nIsoNum<0' is not redundant"/>
+</function-call><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.h:206:6" call-funcname="pci_isoC2130InputLogic" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="477" col="24" call-argexpr="&nInput" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.h:206:6" call-funcname="pci_isoC2130InputLogic" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="477" col="24" call-argexpr="nInput" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.h:206:6" call-funcname="pci_isoC2130InputLogic" call-argnr="4" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="477" col="24" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.h:204:6" call-funcname="pci_isoC2130InputPort" call-argnr="1" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="510" col="23" call-argexpr="nIsoNum" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="..\workspace\DRIVER\SRC\pci_isoc2130.c" line="505" col="15" info="Assuming that condition 'nIsoNum<0' is not redundant"/>
+</function-call><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.h:204:6" call-funcname="pci_isoC2130InputPort" call-argnr="2" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="510" col="23" call-argexpr="&nPort" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.h:204:6" call-funcname="pci_isoC2130InputPort" call-argnr="2" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="510" col="23" call-argexpr="nPort" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.h:208:6" call-funcname="pci_isoC2130DelChatt" call-argnr="1" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="513" col="22" call-argexpr="nIsoNum" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="..\workspace\DRIVER\SRC\pci_isoc2130.c" line="505" col="15" info="Assuming that condition 'nIsoNum<0' is not redundant"/>
+</function-call><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.h:208:6" call-funcname="pci_isoC2130DelChatt" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="513" col="22" call-argexpr="&nChatt" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.h:208:6" call-funcname="pci_isoC2130DelChatt" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="513" col="22" call-argexpr="nChatt" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.h:206:6" call-funcname="pci_isoC2130InputLogic" call-argnr="1" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="516" col="24" call-argexpr="nIsoNum" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="..\workspace\DRIVER\SRC\pci_isoc2130.c" line="505" col="15" info="Assuming that condition 'nIsoNum<0' is not redundant"/>
+</function-call><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.h:206:6" call-funcname="pci_isoC2130InputLogic" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="516" col="24" call-argexpr="&nInput" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.h:206:6" call-funcname="pci_isoC2130InputLogic" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="516" col="24" call-argexpr="nInput" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_isoc2130.h:114:16" call-funcname="C2130GetAddress" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="625" col="27" call-argexpr="&blockSize" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_isoc2130.h:114:16" call-funcname="C2130GetAddress" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="625" col="27" call-argexpr="blockSize" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_isoc2130.h:114:16" call-funcname="C2130GetAddress" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="669" col="27" call-argexpr="&blockSize" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_isoc2130.h:114:16" call-funcname="C2130GetAddress" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="669" col="27" call-argexpr="blockSize" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.h:204:6" call-funcname="pci_isoC2130InputPort" call-argnr="1" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="756" col="23" call-argexpr="nIsoNum" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="..\workspace\DRIVER\SRC\pci_isoc2130.c" line="751" col="15" info="Assuming that condition 'nIsoNum<0' is not redundant"/>
+</function-call><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.h:204:6" call-funcname="pci_isoC2130InputPort" call-argnr="2" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="756" col="23" call-argexpr="&nPortLower" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.h:204:6" call-funcname="pci_isoC2130InputPort" call-argnr="2" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="756" col="23" call-argexpr="nPortLower" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.h:204:6" call-funcname="pci_isoC2130InputPort" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="756" col="23" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.h:204:6" call-funcname="pci_isoC2130InputPort" call-argnr="1" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="757" col="23" call-argexpr="nIsoNum" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="..\workspace\DRIVER\SRC\pci_isoc2130.c" line="751" col="15" info="Assuming that condition 'nIsoNum<0' is not redundant"/>
+</function-call><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.h:204:6" call-funcname="pci_isoC2130InputPort" call-argnr="2" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="757" col="23" call-argexpr="&nPortUpper" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.h:204:6" call-funcname="pci_isoC2130InputPort" call-argnr="2" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="757" col="23" call-argexpr="nPortUpper" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.h:206:6" call-funcname="pci_isoC2130InputLogic" call-argnr="1" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="768" col="24" call-argexpr="nIsoNum" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="..\workspace\DRIVER\SRC\pci_isoc2130.c" line="751" col="15" info="Assuming that condition 'nIsoNum<0' is not redundant"/>
+</function-call><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.h:206:6" call-funcname="pci_isoC2130InputLogic" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="768" col="24" call-argexpr="&nInput" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.h:206:6" call-funcname="pci_isoC2130InputLogic" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="768" col="24" call-argexpr="nInput" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.h:206:6" call-funcname="pci_isoC2130InputLogic" call-argnr="4" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="768" col="24" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.h:206:6" call-funcname="pci_isoC2130InputLogic" call-argnr="1" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="769" col="24" call-argexpr="nIsoNum" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="..\workspace\DRIVER\SRC\pci_isoc2130.c" line="751" col="15" info="Assuming that condition 'nIsoNum<0' is not redundant"/>
+</function-call><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.h:206:6" call-funcname="pci_isoC2130InputLogic" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="769" col="24" call-argexpr="&nInput" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2130.c:46:6" call-funcname="pci_isoC2130CardRegInit" call-argnr="2" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="1136" col="25" call-argexpr="nIsoNum" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="..\workspace\DRIVER\SRC\pci_isoc2130.c" line="1083" col="15" info="Assuming that condition 'nIsoNum<0' is not redundant"/>
+</function-call>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="../workspace/DRIVER/PUBLIC/pci_drv_isoc2130.h:114:16" my-argnr="3" my-argname="blockSize" file="../workspace/DRIVER/SRC/pci_isoc2130.c" line="590" col="3" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="C2130Init" lineNumber="56"/>
+    <functiondecl functionName="C2130Open" lineNumber="75"/>
+    <functiondecl functionName="C2130Close" lineNumber="171"/>
+    <functiondecl functionName="C2130SetIrqConfig" lineNumber="208"/>
+    <functiondecl functionName="C2130StartTimer" lineNumber="246"/>
+    <functiondecl functionName="C2130StopTimer" lineNumber="309"/>
+    <functiondecl functionName="C2130SetInputLogic" lineNumber="356"/>
+    <functiondecl functionName="C2130SetInputTest" lineNumber="392"/>
+    <functiondecl functionName="C2130SetOutputLogic" lineNumber="425"/>
+    <functiondecl functionName="C2130SetOutputTest" lineNumber="438"/>
+    <functiondecl functionName="C2130Input_lower" lineNumber="457"/>
+    <functiondecl functionName="C2130Input_upper" lineNumber="496"/>
+    <functiondecl functionName="C2130GetInputData" lineNumber="547"/>
+    <functiondecl functionName="C2130Output" lineNumber="572"/>
+    <functiondecl functionName="C2130GetAddress" lineNumber="585"/>
+    <functiondecl functionName="C2130RegRead" lineNumber="618"/>
+    <functiondecl functionName="C2130RegWrite" lineNumber="661"/>
+    <functiondecl functionName="pci_isoC2130RegInit" lineNumber="701"/>
+    <functiondecl functionName="pci_isoC2130InputInit" lineNumber="744"/>
+    <functiondecl functionName="pci_isoC2130PciInt" lineNumber="777"/>
+    <functiondecl functionName="pci_isoC2130InputPort" lineNumber="851"/>
+    <functiondecl functionName="pci_isoC2130InputLogic" lineNumber="896"/>
+    <functiondecl functionName="pci_isoC2130DelChatt" lineNumber="923"/>
+    <functiondecl functionName="pci_isoC2130PciOutCorrect" lineNumber="999"/>
+    <functiondecl functionName="pci_isoC2130DeviceSearch" lineNumber="1012"/>
+    <functiondecl functionName="pci_isoC2130DeviceRegist" lineNumber="1029"/>
+    <functiondecl functionName="pci_isoC2130DeviceDelete" lineNumber="1053"/>
+    <functiondecl functionName="pci_isoC2130CardInfoInit" lineNumber="1078"/>
+    <functiondecl functionName="pci_isoC2130CardRegInit" lineNumber="1145"/>
+    <functiondecl functionName="pci_isoC2130IntTimerVal" lineNumber="1193"/>
+    <functioncall functionName="C2130GetAddress"/>
+    <functioncall functionName="C2130StopTimer"/>
+    <functioncall functionName="PIC_IRQ_TO_IVEC"/>
+    <functioncall functionName="addr"/>
+    <functioncall functionName="and"/>
+    <functioncall functionName="arg1"/>
+    <functioncall functionName="arg2"/>
+    <functioncall functionName="argment1"/>
+    <functioncall functionName="argment2"/>
+    <functioncall functionName="baseAddr0"/>
+    <functioncall functionName="blockSize"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="busNo"/>
+    <functioncall functionName="char"/>
+    <functioncall functionName="chatter"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="devNo"/>
+    <functioncall functionName="deviceID"/>
+    <functioncall functionName="edata"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="func"/>
+    <functioncall functionName="funcNo"/>
+    <functioncall functionName="handler"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="index"/>
+    <functioncall functionName="inputIndex"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="intLine"/>
+    <functioncall functionName="intr"/>
+    <functioncall functionName="iret"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="lower"/>
+    <functioncall functionName="memAddr0"/>
+    <functioncall functionName="nAndVal"/>
+    <functioncall functionName="nBaseTctel"/>
+    <functioncall functionName="nBlock"/>
+    <functioncall functionName="nBoard"/>
+    <functioncall functionName="nBoardDef"/>
+    <functioncall functionName="nBoardNum"/>
+    <functioncall functionName="nBuf"/>
+    <functioncall functionName="nCattEnable"/>
+    <functioncall functionName="nChatVal"/>
+    <functioncall functionName="nChatt"/>
+    <functioncall functionName="nInitBoardNum"/>
+    <functioncall functionName="nInput"/>
+    <functioncall functionName="nIntMask"/>
+    <functioncall functionName="nIntSel"/>
+    <functioncall functionName="nIntr"/>
+    <functioncall functionName="nIntrLine"/>
+    <functioncall functionName="nIsoNum"/>
+    <functioncall functionName="nLogicVal"/>
+    <functioncall functionName="nMemBlkAddr0"/>
+    <functioncall functionName="nNextTime"/>
+    <functioncall functionName="nOrVal"/>
+    <functioncall functionName="nPort"/>
+    <functioncall functionName="nPortLower"/>
+    <functioncall functionName="nPortUpper"/>
+    <functioncall functionName="nReg"/>
+    <functioncall functionName="nSck"/>
+    <functioncall functionName="nTctrl"/>
+    <functioncall functionName="nTimer"/>
+    <functioncall functionName="offset"/>
+    <functioncall functionName="or"/>
+    <functioncall functionName="pciConfigInLong"/>
+    <functioncall functionName="pciFindDevice"/>
+    <functioncall functionName="pciIntConnect"/>
+    <functioncall functionName="pciIntDisconnect2"/>
+    <functioncall functionName="pci_comGetIoBlockAddr"/>
+    <functioncall functionName="pci_comPCIendianChg"/>
+    <functioncall functionName="pci_isoC2130CardInfoInit"/>
+    <functioncall functionName="pci_isoC2130CardRegInit"/>
+    <functioncall functionName="pci_isoC2130DelChatt"/>
+    <functioncall functionName="pci_isoC2130DeviceDelete"/>
+    <functioncall functionName="pci_isoC2130DeviceRegist"/>
+    <functioncall functionName="pci_isoC2130DeviceSearch"/>
+    <functioncall functionName="pci_isoC2130InputInit"/>
+    <functioncall functionName="pci_isoC2130InputLogic"/>
+    <functioncall functionName="pci_isoC2130InputPort"/>
+    <functioncall functionName="pci_isoC2130IntTimerVal"/>
+    <functioncall functionName="pci_isoC2130PciInt"/>
+    <functioncall functionName="pci_isoC2130RegInit"/>
+    <functioncall functionName="prevChatt"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="reg"/>
+    <functioncall functionName="ret"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="time"/>
+    <functioncall functionName="timeout"/>
+    <functioncall functionName="upper"/>
+    <functioncall functionName="venderID"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="xor"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,232 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="4287293654">
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;pMemBlock0-&gt;interTimerReg&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;pMemBlock0-&gt;interTimerReg&apos; is reassigned a value before the old one has been used." cwe="563" hash="406802452013212935">
+            <location file0="..\workspace\DRIVER\SRC\pci_c3135.c" file="..\workspace\DRIVER\SRC\pci_c3135.c" line="1941" column="28" info="pMemBlock0-&gt;interTimerReg is overwritten"/>
+            <location file0="..\workspace\DRIVER\SRC\pci_c3135.c" file="..\workspace\DRIVER\SRC\pci_c3135.c" line="1927" column="28" info="pMemBlock0-&gt;interTimerReg is assigned"/>
+            <symbol>pMemBlock0-&gt;interTimerReg</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;pMemBlock0-&gt;timerReg.count0&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;pMemBlock0-&gt;timerReg.count0&apos; is reassigned a value before the old one has been used." cwe="563" hash="1431233574076774311">
+            <location file0="..\workspace\DRIVER\SRC\pci_c3135.c" file="..\workspace\DRIVER\SRC\pci_c3135.c" line="1935" column="30" info="pMemBlock0-&gt;timerReg.count0 is overwritten"/>
+            <location file0="..\workspace\DRIVER\SRC\pci_c3135.c" file="..\workspace\DRIVER\SRC\pci_c3135.c" line="1932" column="30" info="pMemBlock0-&gt;timerReg.count0 is assigned"/>
+            <symbol>pMemBlock0-&gt;timerReg.count0</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;pMemBlock0-&gt;timerReg.count1&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;pMemBlock0-&gt;timerReg.count1&apos; is reassigned a value before the old one has been used." cwe="563" hash="10435516137005883909">
+            <location file0="..\workspace\DRIVER\SRC\pci_c3135.c" file="..\workspace\DRIVER\SRC\pci_c3135.c" line="1949" column="30" info="pMemBlock0-&gt;timerReg.count1 is overwritten"/>
+            <location file0="..\workspace\DRIVER\SRC\pci_c3135.c" file="..\workspace\DRIVER\SRC\pci_c3135.c" line="1946" column="30" info="pMemBlock0-&gt;timerReg.count1 is assigned"/>
+            <symbol>pMemBlock0-&gt;timerReg.count1</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;func&apos; can be reduced." verbose="The scope of the variable &apos;func&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="17977335595161958644">
+            <location file0="..\workspace\DRIVER\SRC\pci_c3135.c" file="..\workspace\DRIVER\SRC\pci_c3135.c" line="1673" column="11"/>
+            <symbol>func</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;i&apos; can be reduced." verbose="The scope of the variable &apos;i&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="17011887159439483750">
+            <location file0="..\workspace\DRIVER\SRC\pci_c3135.c" file="..\workspace\DRIVER\SRC\pci_c3135.c" line="1728" column="7"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;func&apos; can be reduced." verbose="The scope of the variable &apos;func&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="8352545429369062432">
+            <location file0="..\workspace\DRIVER\SRC\pci_c3135.c" file="..\workspace\DRIVER\SRC\pci_c3135.c" line="1729" column="11"/>
+            <symbol>func</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;arg1&apos; can be reduced." verbose="The scope of the variable &apos;arg1&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="49216213904661944">
+            <location file0="..\workspace\DRIVER\SRC\pci_c3135.c" file="..\workspace\DRIVER\SRC\pci_c3135.c" line="1730" column="16"/>
+            <symbol>arg1</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;arg2&apos; can be reduced." verbose="The scope of the variable &apos;arg2&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="4614991918521263870">
+            <location file0="..\workspace\DRIVER\SRC\pci_c3135.c" file="..\workspace\DRIVER\SRC\pci_c3135.c" line="1731" column="16"/>
+            <symbol>arg2</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;intrEvent&apos; is assigned a value that is never used." verbose="Variable &apos;intrEvent&apos; is assigned a value that is never used." cwe="563" hash="14762198175703279955">
+            <location file0="..\workspace\DRIVER\SRC\pci_c3135.c" file="..\workspace\DRIVER\SRC\pci_c3135.c" line="289" column="11"/>
+            <symbol>intrEvent</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;ret&apos; is assigned a value that is never used." verbose="Variable &apos;ret&apos; is assigned a value that is never used." cwe="563" hash="13935749310019199877">
+            <location file0="..\workspace\DRIVER\SRC\pci_c3135.c" file="..\workspace\DRIVER\SRC\pci_c3135.c" line="1048" column="6"/>
+            <symbol>ret</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="../workspace/DRIVER/SRC/pci_c3135.h:249:5" call-funcname="C3135SetSDSetReg" call-argnr="2" file="../workspace/DRIVER/SRC/pci_c3135.c" line="232" col="24" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_c3135.h:253:5" call-funcname="C3135SetInputRangeChSelReg" call-argnr="2" file="../workspace/DRIVER/SRC/pci_c3135.c" line="246" col="34" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_c3135.h:255:5" call-funcname="C3135SetPolarDitgReg" call-argnr="2" file="../workspace/DRIVER/SRC/pci_c3135.c" line="253" col="28" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_c3135.h:259:5" call-funcname="C3135SetSynchSetReg" call-argnr="2" file="../workspace/DRIVER/SRC/pci_c3135.c" line="259" col="27" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_c3135.h:257:5" call-funcname="C3135SetSynchNumSetReg" call-argnr="2" file="../workspace/DRIVER/SRC/pci_c3135.c" line="265" col="30" call-argexpr="0x00000000UL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_c3135.h:261:5" call-funcname="C3135SetAdcSelReg" call-argnr="2" file="../workspace/DRIVER/SRC/pci_c3135.c" line="272" col="25" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_c3135.h:276:6" call-funcname="pci_c3135StopTimer" call-argnr="1" file="../workspace/DRIVER/SRC/pci_c3135.c" line="323" col="20" call-argexpr="nC3135Num" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="..\workspace\DRIVER\SRC\pci_c3135.c" line="317" col="15" info="Assuming that condition 'nC3135Num<0' is not redundant"/>
+</function-call><function-call call-id="../workspace/DRIVER/SRC/pci_common.h:105:6" call-funcname="pci_comRunpulseOut" call-argnr="2" file="../workspace/DRIVER/SRC/pci_c3135.c" line="552" col="20" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_c3135.h:217:5" call-funcname="C3135GetADinput" call-argnr="4" file="../workspace/DRIVER/SRC/pci_c3135.c" line="738" col="26" call-argexpr="&dummy" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="../workspace/DRIVER/SRC/pci_c3135.h:277:6" call-funcname="pci_c3135SetIntrMaskReg" call-argnr="3" file="../workspace/DRIVER/SRC/pci_c3135.c" line="784" col="25" call-argexpr="fIntrDisable" call-argvaluetype="0" call-argvalue="0">
+  <path file="..\workspace\DRIVER\SRC\pci_c3135.c" line="782" col="17" info="Assignment 'fIntrDisable=0', assigned value is 0"/>
+</function-call><function-call call-id="../workspace/DRIVER/SRC/pci_c3135.h:277:6" call-funcname="pci_c3135SetIntrMaskReg" call-argnr="2" file="../workspace/DRIVER/SRC/pci_c3135.c" line="819" col="25" call-argexpr="intrIndex" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="..\workspace\DRIVER\SRC\pci_c3135.c" line="809" col="15" info="Assuming that condition 'intrIndex>0x0000000FUL' is not redundant"/>
+  <path file="..\workspace\DRIVER\SRC\pci_c3135.c" line="815" col="27" info="Assignment 'intrIndex=~(intrIndex)&0x0000000F', assigned value is 0"/>
+</function-call><function-call call-id="../workspace/DRIVER/SRC/pci_c3135.h:278:5" call-funcname="pci_c3135GetInputRange" call-argnr="2" file="../workspace/DRIVER/SRC/pci_c3135.c" line="1048" col="30" call-argexpr="&inputRangeVolt" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="../workspace/DRIVER/SRC/pci_common.h:105:6" call-funcname="pci_comRunpulseOut" call-argnr="2" file="../workspace/DRIVER/SRC/pci_c3135.c" line="1463" col="21" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_common.h:105:6" call-funcname="pci_comRunpulseOut" call-argnr="2" file="../workspace/DRIVER/SRC/pci_c3135.c" line="1475" col="22" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_common.h:105:6" call-funcname="pci_comRunpulseOut" call-argnr="2" file="../workspace/DRIVER/SRC/pci_c3135.c" line="1486" col="21" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_c3135.h:246:5" call-funcname="C3135GetAdcStatusReg" call-argnr="2" file="../workspace/DRIVER/SRC/pci_c3135.c" line="1690" col="28" call-argexpr="&adcStatus" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/SRC/pci_c3135.h:246:5" call-funcname="C3135GetAdcStatusReg" call-argnr="2" file="../workspace/DRIVER/SRC/pci_c3135.c" line="1690" col="28" call-argexpr="adcStatus" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_common.h:105:6" call-funcname="pci_comRunpulseOut" call-argnr="2" file="../workspace/DRIVER/SRC/pci_c3135.c" line="1737" col="20" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_c3135.h:246:5" call-funcname="C3135GetAdcStatusReg" call-argnr="2" file="../workspace/DRIVER/SRC/pci_c3135.c" line="1746" col="28" call-argexpr="&adcStatus" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/SRC/pci_c3135.h:246:5" call-funcname="C3135GetAdcStatusReg" call-argnr="2" file="../workspace/DRIVER/SRC/pci_c3135.c" line="1746" col="28" call-argexpr="adcStatus" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_common.h:105:6" call-funcname="pci_comRunpulseOut" call-argnr="2" file="../workspace/DRIVER/SRC/pci_c3135.c" line="1797" col="21" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_common.h:105:6" call-funcname="pci_comRunpulseOut" call-argnr="2" file="../workspace/DRIVER/SRC/pci_c3135.c" line="1980" col="20" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_c3135.h:217:5" call-funcname="C3135GetADinput" call-argnr="3" file="../workspace/DRIVER/SRC/pci_c3135.c" line="544" col="12" my-id="../workspace/DRIVER/PUBLIC/pci_drv_c3135.h:218:5" my-argnr="3"/>
+<function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_c3135.h:217:5" call-funcname="C3135GetADinput" call-argnr="4" file="../workspace/DRIVER/SRC/pci_c3135.c" line="544" col="12" my-id="../workspace/DRIVER/PUBLIC/pci_drv_c3135.h:218:5" my-argnr="4"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="../workspace/DRIVER/PUBLIC/pci_drv_c3135.h:224:16" my-argnr="3" my-argname="blockSize" file="../workspace/DRIVER/SRC/pci_c3135.c" line="671" col="3" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="C3135Init" lineNumber="110"/>
+    <functiondecl functionName="C3135Open" lineNumber="130"/>
+    <functiondecl functionName="C3135Close" lineNumber="308"/>
+    <functiondecl functionName="C3135SetIrqConfig" lineNumber="360"/>
+    <functiondecl functionName="C3135SetChValid" lineNumber="405"/>
+    <functiondecl functionName="C3135ADConvStart" lineNumber="432"/>
+    <functiondecl functionName="C3135SetADparameter" lineNumber="483"/>
+    <functiondecl functionName="C3135GetADinputBlock" lineNumber="517"/>
+    <functiondecl functionName="C3135GetADinput" lineNumber="569"/>
+    <functiondecl functionName="C3135GetADCfault" lineNumber="636"/>
+    <functiondecl functionName="C3135GetAddress" lineNumber="665"/>
+    <functiondecl functionName="C3135PrintAd" lineNumber="718"/>
+    <functiondecl functionName="C3135IrqEnable" lineNumber="763"/>
+    <functiondecl functionName="C3135IrqDisable" lineNumber="797"/>
+    <functiondecl functionName="C3135GetAdcStatusReg" lineNumber="831"/>
+    <functiondecl functionName="C3135SetAdcCtrlReg" lineNumber="862"/>
+    <functiondecl functionName="C3135GetAdcCtrlReg" lineNumber="914"/>
+    <functiondecl functionName="C3135SetSDSetReg" lineNumber="945"/>
+    <functiondecl functionName="C3135GetSDSetReg" lineNumber="984"/>
+    <functiondecl functionName="C3135SetInputRangeSetReg" lineNumber="1014"/>
+    <functiondecl functionName="C3135GetInputRangeSetReg" lineNumber="1063"/>
+    <functiondecl functionName="C3135SetInputRangeChSelReg" lineNumber="1093"/>
+    <functiondecl functionName="C3135GetInputRangeChSelReg" lineNumber="1131"/>
+    <functiondecl functionName="C3135SetPolarDitgReg" lineNumber="1159"/>
+    <functiondecl functionName="C3135GetPolarDitgReg" lineNumber="1197"/>
+    <functiondecl functionName="C3135SetSynchNumSetReg" lineNumber="1225"/>
+    <functiondecl functionName="C3135GetSynchNumSetReg" lineNumber="1264"/>
+    <functiondecl functionName="C3135SetSynchSetReg" lineNumber="1295"/>
+    <functiondecl functionName="C3135GetSynchSetReg" lineNumber="1333"/>
+    <functiondecl functionName="C3135SetAdcSelReg" lineNumber="1361"/>
+    <functiondecl functionName="C3135GetAdcSelReg" lineNumber="1400"/>
+    <functiondecl functionName="pci_c3135PciInt" lineNumber="1425"/>
+    <functiondecl functionName="pci_c3135DeviceSearch" lineNumber="1496"/>
+    <functiondecl functionName="pci_c3135DeviceRegist" lineNumber="1516"/>
+    <functiondecl functionName="pci_c3135DeviceDelete" lineNumber="1543"/>
+    <functiondecl functionName="pci_c3135CardInit" lineNumber="1569"/>
+    <functiondecl functionName="pci_c3135SetAdcChStatusInit" lineNumber="1628"/>
+    <functiondecl functionName="pci_c3135GetChNumber" lineNumber="1645"/>
+    <functiondecl functionName="pci_c3135TimerIntr" lineNumber="1670"/>
+    <functiondecl functionName="pci_c3135ADConvEndIntr" lineNumber="1723"/>
+    <functiondecl functionName="pci_c3135SetADConvStart" lineNumber="1825"/>
+    <functiondecl functionName="pci_c3135GetADCDataReg" lineNumber="1871"/>
+    <functiondecl functionName="pci_c3135StartTimer" lineNumber="1898"/>
+    <functiondecl functionName="pci_c3135StopTimer" lineNumber="1967"/>
+    <functiondecl functionName="pci_c3135SetIntrMaskReg" lineNumber="1990"/>
+    <functiondecl functionName="pci_c3135GetInputRange" lineNumber="2019"/>
+    <functiondecl functionName="pci_c3135Error" lineNumber="2055"/>
+    <functioncall functionName="C3135GetADinput"/>
+    <functioncall functionName="C3135GetAdcStatusReg"/>
+    <functioncall functionName="C3135IrqDisable"/>
+    <functioncall functionName="C3135IrqEnable"/>
+    <functioncall functionName="C3135SetAdcCtrlReg"/>
+    <functioncall functionName="C3135SetAdcSelReg"/>
+    <functioncall functionName="C3135SetInputRangeChSelReg"/>
+    <functioncall functionName="C3135SetInputRangeSetReg"/>
+    <functioncall functionName="C3135SetPolarDitgReg"/>
+    <functioncall functionName="C3135SetSDSetReg"/>
+    <functioncall functionName="C3135SetSynchNumSetReg"/>
+    <functioncall functionName="C3135SetSynchSetReg"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="PIC_IRQ_TO_IVEC"/>
+    <functioncall functionName="__FUNCTION__"/>
+    <functioncall functionName="adcCtrl"/>
+    <functioncall functionName="adcCtrlData"/>
+    <functioncall functionName="adcCtrlReg"/>
+    <functioncall functionName="adcCtrlSetData"/>
+    <functioncall functionName="adcDataReg"/>
+    <functioncall functionName="adcSel"/>
+    <functioncall functionName="adcSelReg"/>
+    <functioncall functionName="adcSetReg"/>
+    <functioncall functionName="adcStatus"/>
+    <functioncall functionName="arg1"/>
+    <functioncall functionName="arg2"/>
+    <functioncall functionName="argment1"/>
+    <functioncall functionName="argment2"/>
+    <functioncall functionName="baseAddr"/>
+    <functioncall functionName="baseAddr0"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="busNo"/>
+    <functioncall functionName="c_taskDelay"/>
+    <functioncall functionName="chNumber"/>
+    <functioncall functionName="char"/>
+    <functioncall functionName="count0"/>
+    <functioncall functionName="count1"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="devNo"/>
+    <functioncall functionName="deviceID"/>
+    <functioncall functionName="ditg"/>
+    <functioncall functionName="double"/>
+    <functioncall functionName="dummy"/>
+    <functioncall functionName="event"/>
+    <functioncall functionName="fIntrDisable"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="func"/>
+    <functioncall functionName="funcNo"/>
+    <functioncall functionName="gain"/>
+    <functioncall functionName="handler"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="index"/>
+    <functioncall functionName="input"/>
+    <functioncall functionName="inputOld"/>
+    <functioncall functionName="inputRangeChSel"/>
+    <functioncall functionName="inputRangeChSelReg"/>
+    <functioncall functionName="inputRangeSet"/>
+    <functioncall functionName="inputRangeSetReg"/>
+    <functioncall functionName="inputRangeVolt"/>
+    <functioncall functionName="inputVolt"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="intLine"/>
+    <functioncall functionName="intrIndex"/>
+    <functioncall functionName="intrMaskReg"/>
+    <functioncall functionName="intrStatusReg"/>
+    <functioncall functionName="iret"/>
+    <functioncall functionName="j"/>
+    <functioncall functionName="memAddr"/>
+    <functioncall functionName="memAddr0"/>
+    <functioncall functionName="nBlock"/>
+    <functioncall functionName="nBoard"/>
+    <functioncall functionName="nBoardDef"/>
+    <functioncall functionName="nC3135Num"/>
+    <functioncall functionName="nIntrLine"/>
+    <functioncall functionName="nMemBlkAddr0"/>
+    <functioncall functionName="nNo"/>
+    <functioncall functionName="norm"/>
+    <functioncall functionName="normVolt"/>
+    <functioncall functionName="offset"/>
+    <functioncall functionName="pciConfigInLong"/>
+    <functioncall functionName="pciFindDevice"/>
+    <functioncall functionName="pciIntConnect"/>
+    <functioncall functionName="pciIntDisconnect2"/>
+    <functioncall functionName="pci_c3135ADConvEndIntr"/>
+    <functioncall functionName="pci_c3135CardInit"/>
+    <functioncall functionName="pci_c3135DeviceDelete"/>
+    <functioncall functionName="pci_c3135DeviceRegist"/>
+    <functioncall functionName="pci_c3135DeviceSearch"/>
+    <functioncall functionName="pci_c3135Error"/>
+    <functioncall functionName="pci_c3135GetADCDataReg"/>
+    <functioncall functionName="pci_c3135GetChNumber"/>
+    <functioncall functionName="pci_c3135GetInputRange"/>
+    <functioncall functionName="pci_c3135PciInt"/>
+    <functioncall functionName="pci_c3135SetADConvStart"/>
+    <functioncall functionName="pci_c3135SetAdcChStatusInit"/>
+    <functioncall functionName="pci_c3135SetIntrMaskReg"/>
+    <functioncall functionName="pci_c3135StartTimer"/>
+    <functioncall functionName="pci_c3135StopTimer"/>
+    <functioncall functionName="pci_comGetIoBlockAddr"/>
+    <functioncall functionName="pci_comGetMemBlockAddr"/>
+    <functioncall functionName="pci_comPCIendianChg"/>
+    <functioncall functionName="pci_comRunpulseOut"/>
+    <functioncall functionName="polarReg"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="ret"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="retval"/>
+    <functioncall functionName="sdSet"/>
+    <functioncall functionName="sdSetReg"/>
+    <functioncall functionName="sence"/>
+    <functioncall functionName="setCount0"/>
+    <functioncall functionName="setCount1"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="synchNum"/>
+    <functioncall functionName="synchNumReg"/>
+    <functioncall functionName="synchReg"/>
+    <functioncall functionName="synchSet"/>
+    <functioncall functionName="synchSetReg"/>
+    <functioncall functionName="timerGateReg"/>
+    <functioncall functionName="venderID"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="volt"/>
+  </FileInfo>
+</analyzerinfo>

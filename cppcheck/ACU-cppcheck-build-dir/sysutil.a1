@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3135403273">
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="../workspace/SYSDATA/SRC/sysutil.c:21:6" my-argnr="1" my-argname="src" file="../workspace/SYSDATA/SRC/sysutil.c" line="43" col="15" value="0"/>
+    <unsafe-usage my-id="../workspace/SYSDATA/SRC/sysutil.c:21:6" my-argnr="2" my-argname="dist" file="../workspace/SYSDATA/SRC/sysutil.c" line="43" col="9" value="0"/>
+    <unsafe-usage my-id="../workspace/SYSDATA/SRC/sysutil.c:21:6" my-argnr="3" my-argname="suffix" file="../workspace/SYSDATA/SRC/sysutil.c" line="46" col="15" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="../workspace/SYSDATA/SRC/sysutil.c:21:6" my-argnr="1" my-argname="src" file="../workspace/SYSDATA/SRC/sysutil.c" line="43" col="15" value="0"/>
+    <unsafe-usage my-id="../workspace/SYSDATA/SRC/sysutil.c:21:6" my-argnr="3" my-argname="suffix" file="../workspace/SYSDATA/SRC/sysutil.c" line="46" col="15" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="changeSuffix" lineNumber="36"/>
+    <functioncall functionName="dist"/>
+    <functioncall functionName="src"/>
+    <functioncall functionName="strcat"/>
+    <functioncall functionName="strcpy"/>
+    <functioncall functionName="strpbrk"/>
+    <functioncall functionName="suffix"/>
+  </FileInfo>
+</analyzerinfo>

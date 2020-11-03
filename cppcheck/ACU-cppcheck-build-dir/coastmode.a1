@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="137363128">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="m_coast_mode" lineNumber="74"/>
+    <functiondecl functionName="m_coastmode_impl" lineNumber="99"/>
+    <functiondecl functionName="s_coast_st" lineNumber="117"/>
+    <functiondecl functionName="m_coast_mode" lineNumber="74"/>
+    <functiondecl functionName="m_coastmode_impl" lineNumber="99"/>
+    <functiondecl functionName="s_coast_st" lineNumber="117"/>
+    <functiondecl functionName="m_coast_mode" lineNumber="74"/>
+    <functiondecl functionName="m_coastmode_impl" lineNumber="99"/>
+    <functiondecl functionName="s_coast_st" lineNumber="117"/>
+    <functioncall functionName="COAST_EL"/>
+    <functioncall functionName="COAST_OFF"/>
+    <functioncall functionName="COAST_OPN"/>
+    <functioncall functionName="COAST_RDY"/>
+    <functioncall functionName="COAST_SEL"/>
+    <functioncall functionName="F2_BAND"/>
+    <functioncall functionName="FREQ_MAX"/>
+    <functioncall functionName="autom"/>
+    <functioncall functionName="getVariability"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="m_coastmode_impl"/>
+    <functioncall functionName="nullFuncImpl"/>
+    <functioncall functionName="post"/>
+    <functioncall functionName="pre"/>
+    <functioncall functionName="s_coast_st"/>
+  </FileInfo>
+</analyzerinfo>

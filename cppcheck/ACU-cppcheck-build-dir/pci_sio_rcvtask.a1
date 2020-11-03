@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="103138645">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="pci_sioPciRcvTaskCreate" lineNumber="84"/>
+    <functiondecl functionName="pci_sioPciRcvTask" lineNumber="123"/>
+    <functiondecl functionName="pci_sioPciNoticeRecvEnd" lineNumber="204"/>
+    <functiondecl functionName="pci_sioCallRcvHandler" lineNumber="235"/>
+    <functioncall functionName="FsioGetRcvWhenError"/>
+    <functioncall functionName="MSG_PRI_NORMAL"/>
+    <functioncall functionName="MSG_Q_FIFO"/>
+    <functioncall functionName="MSG_Q_ID"/>
+    <functioncall functionName="NO_WAIT"/>
+    <functioncall functionName="PciSioRcvTaskMsg_t"/>
+    <functioncall functionName="VX_FP_TASK"/>
+    <functioncall functionName="WAIT_FOREVER"/>
+    <functioncall functionName="cardIdx"/>
+    <functioncall functionName="ch"/>
+    <functioncall functionName="continue"/>
+    <functioncall functionName="ctrlCdNum"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="hrcv"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="msgQCreate"/>
+    <functioncall functionName="msgQReceive"/>
+    <functioncall functionName="msgQSend"/>
+    <functioncall functionName="msg_id"/>
+    <functioncall functionName="msgid"/>
+    <functioncall functionName="nBoard"/>
+    <functioncall functionName="pRcvData"/>
+    <functioncall functionName="pci_sioCallRcvHandler"/>
+    <functioncall functionName="pci_sioCheckRxData"/>
+    <functioncall functionName="pci_sioGetChannelKind"/>
+    <functioncall functionName="pci_sioPciRcvTask"/>
+    <functioncall functionName="readPtr"/>
+    <functioncall functionName="ret"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="runPulseFunc"/>
+    <functioncall functionName="rxmsg"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="startPos"/>
+    <functioncall functionName="taskPrio"/>
+    <functioncall functionName="taskPulseNo"/>
+    <functioncall functionName="taskSpawn"/>
+    <functioncall functionName="taskid"/>
+    <functioncall functionName="txmsg"/>
+    <functioncall functionName="void"/>
+  </FileInfo>
+</analyzerinfo>

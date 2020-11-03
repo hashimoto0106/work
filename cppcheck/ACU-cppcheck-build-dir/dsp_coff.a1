@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1806002347">
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;*(unsigned char*)&amp;w==0x34&apos; is always false" verbose="Condition &apos;*(unsigned char*)&amp;w==0x34&apos; is always false" cwe="570" hash="4185559727476252483">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\DSP\dsp_coff.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\DSP\dsp_coff.c" line="137" column="29" info="Condition &apos;*(unsigned char*)&amp;w==0x34&apos; is always false"/>
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\DSP\dsp_coff.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\DSP\dsp_coff.c" line="136" column="21" info="Assignment &apos;w=0x1234&apos;, assigned value is 4660"/>
+        </error>
+        <error id="resourceLeak" severity="error" msg="Resource leak: fp" verbose="Resource leak: fp" cwe="775" hash="7605037440892901295">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\DSP\dsp_coff.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\DSP\dsp_coff.c" line="183" column="3"/>
+            <symbol>fp</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;filehdr::f_verid&apos; is never used." verbose="struct member &apos;filehdr::f_verid&apos; is never used." cwe="563" hash="1953995937259181527">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\DSP\dsp_coff.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\DSP\dsp_coff.c" line="35" column="17"/>
+            <symbol>filehdr::f_verid</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;filehdr::f_timdat&apos; is never used." verbose="struct member &apos;filehdr::f_timdat&apos; is never used." cwe="563" hash="8969990740252683356">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\DSP\dsp_coff.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\DSP\dsp_coff.c" line="37" column="8"/>
+            <symbol>filehdr::f_timdat</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;filehdr::f_symptr&apos; is never used." verbose="struct member &apos;filehdr::f_symptr&apos; is never used." cwe="563" hash="11616394565343803198">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\DSP\dsp_coff.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\DSP\dsp_coff.c" line="38" column="8"/>
+            <symbol>filehdr::f_symptr</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;filehdr::f_nsyms&apos; is never used." verbose="struct member &apos;filehdr::f_nsyms&apos; is never used." cwe="563" hash="6526993871322020586">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\DSP\dsp_coff.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\DSP\dsp_coff.c" line="39" column="8"/>
+            <symbol>filehdr::f_nsyms</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;filehdr::f_flags&apos; is never used." verbose="struct member &apos;filehdr::f_flags&apos; is never used." cwe="563" hash="10961047566211135065">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\DSP\dsp_coff.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\DSP\dsp_coff.c" line="41" column="17"/>
+            <symbol>filehdr::f_flags</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;filehdr::f_target&apos; is never used." verbose="struct member &apos;filehdr::f_target&apos; is never used." cwe="563" hash="16936598940635293830">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\DSP\dsp_coff.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\DSP\dsp_coff.c" line="42" column="17"/>
+            <symbol>filehdr::f_target</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;aouthdr::magic&apos; is never used." verbose="struct member &apos;aouthdr::magic&apos; is never used." cwe="563" hash="6370503925371293355">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\DSP\dsp_coff.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\DSP\dsp_coff.c" line="51" column="9"/>
+            <symbol>aouthdr::magic</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;aouthdr::vstamp&apos; is never used." verbose="struct member &apos;aouthdr::vstamp&apos; is never used." cwe="563" hash="9007002230210853618">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\DSP\dsp_coff.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\DSP\dsp_coff.c" line="52" column="9"/>
+            <symbol>aouthdr::vstamp</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;aouthdr::tsize&apos; is never used." verbose="struct member &apos;aouthdr::tsize&apos; is never used." cwe="563" hash="1941209119368405643">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\DSP\dsp_coff.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\DSP\dsp_coff.c" line="53" column="16"/>
+            <symbol>aouthdr::tsize</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;aouthdr::dsize&apos; is never used." verbose="struct member &apos;aouthdr::dsize&apos; is never used." cwe="563" hash="14536247142881751970">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\DSP\dsp_coff.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\DSP\dsp_coff.c" line="54" column="16"/>
+            <symbol>aouthdr::dsize</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;aouthdr::bsize&apos; is never used." verbose="struct member &apos;aouthdr::bsize&apos; is never used." cwe="563" hash="4784281999126287246">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\DSP\dsp_coff.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\DSP\dsp_coff.c" line="55" column="16"/>
+            <symbol>aouthdr::bsize</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;aouthdr::entry&apos; is never used." verbose="struct member &apos;aouthdr::entry&apos; is never used." cwe="563" hash="3722829549679691438">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\DSP\dsp_coff.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\DSP\dsp_coff.c" line="56" column="16"/>
+            <symbol>aouthdr::entry</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;aouthdr::text_start&apos; is never used." verbose="struct member &apos;aouthdr::text_start&apos; is never used." cwe="563" hash="17769224094093116037">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\DSP\dsp_coff.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\DSP\dsp_coff.c" line="57" column="16"/>
+            <symbol>aouthdr::text_start</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;aouthdr::data_start&apos; is never used." verbose="struct member &apos;aouthdr::data_start&apos; is never used." cwe="563" hash="14830148707464308133">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\DSP\dsp_coff.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\DSP\dsp_coff.c" line="58" column="16"/>
+            <symbol>aouthdr::data_start</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/DSP/dsp_hw.h:36:5" call-funcname="dsp_htod_program" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/DSP/dsp_coff.c" line="239" col="19" call-argexpr="tx_dsp_source" call-argvaluetype="7" call-argvalue="65536"/>  </FileInfo>
+        <error id="invalidPrintfArgType_sint" severity="portability" msg="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;size_t {aka unsigned long}&apos;." verbose="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;size_t {aka unsigned long}&apos;." cwe="686" hash="4186219116689822701">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\DSP\dsp_coff.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\DSP\dsp_coff.c" line="172" column="2"/>
+        </error>
+        <error id="invalidPrintfArgType_sint" severity="portability" msg="%d in format string (no. 2) requires &apos;int&apos; but the argument type is &apos;size_t {aka unsigned long}&apos;." verbose="%d in format string (no. 2) requires &apos;int&apos; but the argument type is &apos;size_t {aka unsigned long}&apos;." cwe="686" hash="6126226610253162766">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\DSP\dsp_coff.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\DSP\dsp_coff.c" line="172" column="2"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/DSP/dsp_hw.h:36:5" call-funcname="dsp_htod_program" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/DSP/dsp_coff.c" line="239" col="19" call-argexpr="tx_dsp_source" call-argvaluetype="7" call-argvalue="65536"/>  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/DSP/dsp_hw.h:36:5" call-funcname="dsp_htod_program" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/DSP/dsp_coff.c" line="239" col="19" call-argexpr="tx_dsp_source" call-argvaluetype="7" call-argvalue="65536"/>  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/DSP/dsp_hw.h:36:5" call-funcname="dsp_htod_program" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/DSP/dsp_coff.c" line="239" col="19" call-argexpr="tx_dsp_source" call-argvaluetype="7" call-argvalue="65536"/>  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="is_le" lineNumber="134"/>
+    <functiondecl functionName="dsp_coff_tx" lineNumber="153"/>
+    <functiondecl functionName="is_le" lineNumber="134"/>
+    <functiondecl functionName="dsp_coff_tx" lineNumber="153"/>
+    <functiondecl functionName="is_le" lineNumber="134"/>
+    <functiondecl functionName="dsp_coff_tx" lineNumber="153"/>
+    <functiondecl functionName="is_le" lineNumber="134"/>
+    <functiondecl functionName="dsp_coff_tx" lineNumber="153"/>
+    <functioncall functionName="AOUTHDR"/>
+    <functioncall functionName="AX2_NUM"/>
+    <functioncall functionName="AX3_NUM"/>
+    <functioncall functionName="AXIS_NUM"/>
+    <functioncall functionName="DSP2_NUM"/>
+    <functioncall functionName="DSP_NUM"/>
+    <functioncall functionName="ah"/>
+    <functioncall functionName="char"/>
+    <functioncall functionName="dsp_card_no"/>
+    <functioncall functionName="dsp_get_context"/>
+    <functioncall functionName="dsp_htod_program"/>
+    <functioncall functionName="dsp_id"/>
+    <functioncall functionName="dw_dsp_read"/>
+    <functioncall functionName="f_nscns"/>
+    <functioncall functionName="fclose"/>
+    <functioncall functionName="fh"/>
+    <functioncall functionName="fopen"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="fp"/>
+    <functioncall functionName="fread"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="is_le"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="program_path"/>
+    <functioncall functionName="readbuf"/>
+    <functioncall functionName="s_paddr"/>
+    <functioncall functionName="s_scnptr"/>
+    <functioncall functionName="s_size"/>
+    <functioncall functionName="sh"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="swap_order"/>
+    <functioncall functionName="tx_dsp_address"/>
+    <functioncall functionName="tx_dsp_source"/>
+    <functioncall functionName="tx_size"/>
+    <functioncall functionName="void"/>
+  </FileInfo>
+</analyzerinfo>

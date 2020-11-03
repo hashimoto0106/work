@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="4188061984">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="wakeup" lineNumber="44"/>
+    <functiondecl functionName="scriptWakeup" lineNumber="58"/>
+    <functioncall functionName="abort"/>
+    <functioncall functionName="acuScriptWakeup"/>
+    <functioncall functionName="acuWakeup"/>
+    <functioncall functionName="clog_level"/>
+    <functioncall functionName="constructionImpl"/>
+    <functioncall functionName="ret"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="variabilityImpl"/>
+    <functioncall functionName="wakeup_wait"/>
+  </FileInfo>
+</analyzerinfo>

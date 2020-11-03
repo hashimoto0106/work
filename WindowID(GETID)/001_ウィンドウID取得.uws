@@ -1,4 +1,0 @@
-EXEC("calc")
-CID = MSGBOX("電卓のウィンドウのIDは" + GETID("電卓"))
-SENDSTR(CID,1)
-SAVEIMG("001",CID)

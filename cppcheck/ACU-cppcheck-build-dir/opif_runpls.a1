@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="931788419">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="opifDrv_setRunningFunc" lineNumber="40"/>
+    <functiondecl functionName="runpulseOn" lineNumber="58"/>
+    <functiondecl functionName="runpulseOff" lineNumber="77"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="dw_runPulseNo"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="runPulseFunc"/>
+    <functioncall functionName="runPulseNo"/>
+    <functioncall functionName="s_runPulseFunc"/>
+    <functioncall functionName="void"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="823375895">
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/variability.h:400:6" my-argnr="1" my-argname="variability" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/VARIABILITY/variability.c" line="59" col="19" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/variability.h:400:6" my-argnr="1" my-argname="variability" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/VARIABILITY/variability.c" line="59" col="19" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="getVariability" lineNumber="45"/>
+    <functiondecl functionName="setVariability" lineNumber="55"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="w_variability"/>
+  </FileInfo>
+</analyzerinfo>

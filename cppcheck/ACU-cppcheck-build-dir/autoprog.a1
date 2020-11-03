@@ -1,0 +1,363 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3707916515">
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 of 20 configurations. Use --force to check all configurations." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time." cwe="398">
+            <location file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_LOOP\autoprog.c" line="0" column="0"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;apcmd&apos; can be reduced." verbose="The scope of the variable &apos;apcmd&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="13128584430307882274">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_LOOP\autoprog.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_LOOP\autoprog.c" line="328" column="9"/>
+            <symbol>apcmd</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;ax2real_deg&apos; can be reduced." verbose="The scope of the variable &apos;ax2real_deg&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="17743301138754462701">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_LOOP\autoprog.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_LOOP\autoprog.c" line="449" column="9"/>
+            <symbol>ax2real_deg</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;ax3real_rad&apos; can be reduced." verbose="The scope of the variable &apos;ax3real_rad&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="2319815355811687640">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_LOOP\autoprog.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_LOOP\autoprog.c" line="450" column="9"/>
+            <symbol>ax3real_rad</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;elreal_rad&apos; can be reduced." verbose="The scope of the variable &apos;elreal_rad&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="13229452563338776994">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_LOOP\autoprog.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_LOOP\autoprog.c" line="451" column="9"/>
+            <symbol>elreal_rad</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;sign&apos; can be reduced." verbose="The scope of the variable &apos;sign&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="1891328886766351928">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_LOOP\autoprog.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_LOOP\autoprog.c" line="452" column="9"/>
+            <symbol>sign</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:59:6" call-funcname="ax_cangle_autoprog" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="177" col="20" call-argexpr="&w_Ax1CmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:59:6" call-funcname="ax_cangle_autoprog" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="179" col="20" call-argexpr="&w_Ax2CmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:59:6" call-funcname="ax_cangle_autoprog" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="183" col="21" call-argexpr="&w_Ax3CmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:91:6" call-funcname="aperr_reset_elvanglmode" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="214" col="26" call-argexpr="&ax1AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:91:6" call-funcname="aperr_reset_elvanglmode" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="214" col="26" call-argexpr="&ax3AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:98:6" call-funcname="aperr_reset_aosreset" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="217" col="23" call-argexpr="&ax1AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:98:6" call-funcname="aperr_reset_aosreset" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="217" col="23" call-argexpr="&ax2AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:98:6" call-funcname="aperr_reset_aosreset" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="217" col="23" call-argexpr="&ax3AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:106:6" call-funcname="aperr_reset_trkgfreq" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="221" col="22" call-argexpr="&ax1AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:106:6" call-funcname="aperr_reset_trkgfreq" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="221" col="22" call-argexpr="&ax2AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:106:6" call-funcname="aperr_reset_trkgfreq" call-argnr="5" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="221" col="22" call-argexpr="&ax3AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:50:6" call-funcname="calc_aperr" call-argnr="6" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="232" col="15" call-argexpr="&w_AX1aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:50:6" call-funcname="calc_aperr" call-argnr="6" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="240" col="15" call-argexpr="&w_AX2aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:79:6" call-funcname="lmt_aperr" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="301" col="11" call-argexpr="&aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:50:6" call-funcname="calc_aperr" call-argnr="6" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="386" col="13" call-argexpr="&w_AX1aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:50:6" call-funcname="calc_aperr" call-argnr="6" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="398" col="12" call-argexpr="&w_AX2aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:50:6" call-funcname="calc_aperr" call-argnr="6" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="414" col="13" call-argexpr="&w_AX3aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:79:6" call-funcname="lmt_aperr" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="480" col="11" call-argexpr="&w_AX1aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:79:6" call-funcname="lmt_aperr" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="501" col="11" call-argexpr="&w_AX3aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/cmdangle.h:95:6" call-funcname="s_realtocmd" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="335" col="3" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:59:6" my-argnr="4"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:50:6" my-argnr="6" my-argname="autoprog_err" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="303" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:79:6" my-argnr="2" my-argname="aperr" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="434" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:79:6" my-argnr="2" my-argname="aperr" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="434" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:59:6" call-funcname="ax_cangle_autoprog" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="177" col="20" call-argexpr="&w_Ax1CmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:59:6" call-funcname="ax_cangle_autoprog" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="179" col="20" call-argexpr="&w_Ax2CmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:59:6" call-funcname="ax_cangle_autoprog" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="183" col="21" call-argexpr="&w_Ax3CmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:91:6" call-funcname="aperr_reset_elvanglmode" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="214" col="26" call-argexpr="&ax1AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:91:6" call-funcname="aperr_reset_elvanglmode" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="214" col="26" call-argexpr="&ax3AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:98:6" call-funcname="aperr_reset_aosreset" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="217" col="23" call-argexpr="&ax1AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:98:6" call-funcname="aperr_reset_aosreset" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="217" col="23" call-argexpr="&ax2AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:98:6" call-funcname="aperr_reset_aosreset" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="217" col="23" call-argexpr="&ax3AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:106:6" call-funcname="aperr_reset_trkgfreq" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="221" col="22" call-argexpr="&ax1AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:106:6" call-funcname="aperr_reset_trkgfreq" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="221" col="22" call-argexpr="&ax2AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:106:6" call-funcname="aperr_reset_trkgfreq" call-argnr="5" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="221" col="22" call-argexpr="&ax3AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:50:6" call-funcname="calc_aperr" call-argnr="6" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="232" col="15" call-argexpr="&w_AX1aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:50:6" call-funcname="calc_aperr" call-argnr="6" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="240" col="15" call-argexpr="&w_AX2aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:79:6" call-funcname="lmt_aperr" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="301" col="11" call-argexpr="&aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:50:6" call-funcname="calc_aperr" call-argnr="6" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="386" col="13" call-argexpr="&w_AX1aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:50:6" call-funcname="calc_aperr" call-argnr="6" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="398" col="12" call-argexpr="&w_AX2aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:50:6" call-funcname="calc_aperr" call-argnr="6" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="414" col="13" call-argexpr="&w_AX3aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:79:6" call-funcname="lmt_aperr" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="480" col="11" call-argexpr="&w_AX1aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:79:6" call-funcname="lmt_aperr" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="501" col="11" call-argexpr="&w_AX3aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/cmdangle.h:95:6" call-funcname="s_realtocmd" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="335" col="3" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:59:6" my-argnr="4"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:50:6" my-argnr="6" my-argname="autoprog_err" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="303" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:79:6" my-argnr="2" my-argname="aperr" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="434" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:79:6" my-argnr="2" my-argname="aperr" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="434" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:59:6" call-funcname="ax_cangle_autoprog" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="177" col="20" call-argexpr="&w_Ax1CmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:59:6" call-funcname="ax_cangle_autoprog" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="179" col="20" call-argexpr="&w_Ax2CmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:59:6" call-funcname="ax_cangle_autoprog" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="183" col="21" call-argexpr="&w_Ax3CmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:91:6" call-funcname="aperr_reset_elvanglmode" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="214" col="26" call-argexpr="&ax1AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:91:6" call-funcname="aperr_reset_elvanglmode" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="214" col="26" call-argexpr="&ax3AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:98:6" call-funcname="aperr_reset_aosreset" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="217" col="23" call-argexpr="&ax1AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:98:6" call-funcname="aperr_reset_aosreset" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="217" col="23" call-argexpr="&ax2AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:98:6" call-funcname="aperr_reset_aosreset" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="217" col="23" call-argexpr="&ax3AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:106:6" call-funcname="aperr_reset_trkgfreq" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="221" col="22" call-argexpr="&ax1AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:106:6" call-funcname="aperr_reset_trkgfreq" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="221" col="22" call-argexpr="&ax2AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:106:6" call-funcname="aperr_reset_trkgfreq" call-argnr="5" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="221" col="22" call-argexpr="&ax3AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:50:6" call-funcname="calc_aperr" call-argnr="6" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="232" col="15" call-argexpr="&w_AX1aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:50:6" call-funcname="calc_aperr" call-argnr="6" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="240" col="15" call-argexpr="&w_AX2aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:79:6" call-funcname="lmt_aperr" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="301" col="11" call-argexpr="&aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:50:6" call-funcname="calc_aperr" call-argnr="6" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="386" col="13" call-argexpr="&w_AX1aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:50:6" call-funcname="calc_aperr" call-argnr="6" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="398" col="12" call-argexpr="&w_AX2aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:50:6" call-funcname="calc_aperr" call-argnr="6" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="414" col="13" call-argexpr="&w_AX3aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:79:6" call-funcname="lmt_aperr" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="480" col="11" call-argexpr="&w_AX1aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:79:6" call-funcname="lmt_aperr" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="501" col="11" call-argexpr="&w_AX3aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/cmdangle.h:95:6" call-funcname="s_realtocmd" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="335" col="3" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:59:6" my-argnr="4"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:50:6" my-argnr="6" my-argname="autoprog_err" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="303" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:79:6" my-argnr="2" my-argname="aperr" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="434" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:79:6" my-argnr="2" my-argname="aperr" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="434" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:59:6" call-funcname="ax_cangle_autoprog" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="177" col="20" call-argexpr="&w_Ax1CmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:59:6" call-funcname="ax_cangle_autoprog" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="179" col="20" call-argexpr="&w_Ax2CmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:59:6" call-funcname="ax_cangle_autoprog" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="183" col="21" call-argexpr="&w_Ax3CmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:91:6" call-funcname="aperr_reset_elvanglmode" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="214" col="26" call-argexpr="&ax1AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:91:6" call-funcname="aperr_reset_elvanglmode" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="214" col="26" call-argexpr="&ax3AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:98:6" call-funcname="aperr_reset_aosreset" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="217" col="23" call-argexpr="&ax1AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:98:6" call-funcname="aperr_reset_aosreset" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="217" col="23" call-argexpr="&ax2AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:98:6" call-funcname="aperr_reset_aosreset" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="217" col="23" call-argexpr="&ax3AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:106:6" call-funcname="aperr_reset_trkgfreq" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="221" col="22" call-argexpr="&ax1AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:106:6" call-funcname="aperr_reset_trkgfreq" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="221" col="22" call-argexpr="&ax2AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:106:6" call-funcname="aperr_reset_trkgfreq" call-argnr="5" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="221" col="22" call-argexpr="&ax3AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:50:6" call-funcname="calc_aperr" call-argnr="6" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="232" col="15" call-argexpr="&w_AX1aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:50:6" call-funcname="calc_aperr" call-argnr="6" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="240" col="15" call-argexpr="&w_AX2aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:79:6" call-funcname="lmt_aperr" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="301" col="11" call-argexpr="&aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:50:6" call-funcname="calc_aperr" call-argnr="6" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="386" col="13" call-argexpr="&w_AX1aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:50:6" call-funcname="calc_aperr" call-argnr="6" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="398" col="12" call-argexpr="&w_AX2aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:50:6" call-funcname="calc_aperr" call-argnr="6" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="414" col="13" call-argexpr="&w_AX3aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:79:6" call-funcname="lmt_aperr" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="480" col="11" call-argexpr="&w_AX1aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:79:6" call-funcname="lmt_aperr" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="501" col="11" call-argexpr="&w_AX3aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/cmdangle.h:95:6" call-funcname="s_realtocmd" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="335" col="3" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:59:6" my-argnr="4"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:50:6" my-argnr="6" my-argname="autoprog_err" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="303" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:79:6" my-argnr="2" my-argname="aperr" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="434" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:79:6" my-argnr="2" my-argname="aperr" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="434" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:59:6" call-funcname="ax_cangle_autoprog" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="177" col="20" call-argexpr="&w_Ax1CmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:59:6" call-funcname="ax_cangle_autoprog" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="179" col="20" call-argexpr="&w_Ax2CmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:59:6" call-funcname="ax_cangle_autoprog" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="183" col="21" call-argexpr="&w_Ax3CmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:91:6" call-funcname="aperr_reset_elvanglmode" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="214" col="26" call-argexpr="&ax1AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:91:6" call-funcname="aperr_reset_elvanglmode" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="214" col="26" call-argexpr="&ax3AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:98:6" call-funcname="aperr_reset_aosreset" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="217" col="23" call-argexpr="&ax1AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:98:6" call-funcname="aperr_reset_aosreset" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="217" col="23" call-argexpr="&ax2AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:98:6" call-funcname="aperr_reset_aosreset" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="217" col="23" call-argexpr="&ax3AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:106:6" call-funcname="aperr_reset_trkgfreq" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="221" col="22" call-argexpr="&ax1AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:106:6" call-funcname="aperr_reset_trkgfreq" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="221" col="22" call-argexpr="&ax2AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:106:6" call-funcname="aperr_reset_trkgfreq" call-argnr="5" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="221" col="22" call-argexpr="&ax3AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:50:6" call-funcname="calc_aperr" call-argnr="6" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="232" col="15" call-argexpr="&w_AX1aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:50:6" call-funcname="calc_aperr" call-argnr="6" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="240" col="15" call-argexpr="&w_AX2aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:79:6" call-funcname="lmt_aperr" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="301" col="11" call-argexpr="&aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:50:6" call-funcname="calc_aperr" call-argnr="6" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="386" col="13" call-argexpr="&w_AX1aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:50:6" call-funcname="calc_aperr" call-argnr="6" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="398" col="12" call-argexpr="&w_AX2aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:50:6" call-funcname="calc_aperr" call-argnr="6" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="414" col="13" call-argexpr="&w_AX3aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:79:6" call-funcname="lmt_aperr" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="480" col="11" call-argexpr="&w_AX1aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:79:6" call-funcname="lmt_aperr" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="501" col="11" call-argexpr="&w_AX3aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/cmdangle.h:95:6" call-funcname="s_realtocmd" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="335" col="3" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:59:6" my-argnr="4"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:50:6" my-argnr="6" my-argname="autoprog_err" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="303" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:79:6" my-argnr="2" my-argname="aperr" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="434" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:79:6" my-argnr="2" my-argname="aperr" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="434" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:59:6" call-funcname="ax_cangle_autoprog" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="177" col="20" call-argexpr="&w_Ax1CmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:59:6" call-funcname="ax_cangle_autoprog" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="179" col="20" call-argexpr="&w_Ax2CmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:59:6" call-funcname="ax_cangle_autoprog" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="183" col="21" call-argexpr="&w_Ax3CmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:91:6" call-funcname="aperr_reset_elvanglmode" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="214" col="26" call-argexpr="&ax1AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:91:6" call-funcname="aperr_reset_elvanglmode" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="214" col="26" call-argexpr="&ax3AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:98:6" call-funcname="aperr_reset_aosreset" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="217" col="23" call-argexpr="&ax1AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:98:6" call-funcname="aperr_reset_aosreset" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="217" col="23" call-argexpr="&ax2AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:98:6" call-funcname="aperr_reset_aosreset" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="217" col="23" call-argexpr="&ax3AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:106:6" call-funcname="aperr_reset_trkgfreq" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="221" col="22" call-argexpr="&ax1AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:106:6" call-funcname="aperr_reset_trkgfreq" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="221" col="22" call-argexpr="&ax2AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:106:6" call-funcname="aperr_reset_trkgfreq" call-argnr="5" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="221" col="22" call-argexpr="&ax3AperrRst" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:50:6" call-funcname="calc_aperr" call-argnr="6" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="232" col="15" call-argexpr="&w_AX1aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:50:6" call-funcname="calc_aperr" call-argnr="6" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="240" col="15" call-argexpr="&w_AX2aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:79:6" call-funcname="lmt_aperr" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="301" col="11" call-argexpr="&aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:50:6" call-funcname="calc_aperr" call-argnr="6" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="386" col="13" call-argexpr="&w_AX1aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:50:6" call-funcname="calc_aperr" call-argnr="6" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="398" col="12" call-argexpr="&w_AX2aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:50:6" call-funcname="calc_aperr" call-argnr="6" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="414" col="13" call-argexpr="&w_AX3aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:79:6" call-funcname="lmt_aperr" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="480" col="11" call-argexpr="&w_AX1aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:79:6" call-funcname="lmt_aperr" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="501" col="11" call-argexpr="&w_AX3aperr" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/cmdangle.h:95:6" call-funcname="s_realtocmd" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="335" col="3" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:59:6" my-argnr="4"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:50:6" my-argnr="6" my-argname="autoprog_err" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="303" col="3" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:79:6" my-argnr="2" my-argname="aperr" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="434" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c:79:6" my-argnr="2" my-argname="aperr" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/autoprog.c" line="434" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="s_cangle_autoprog" lineNumber="123"/>
+    <functiondecl functionName="s_calc_aperr" lineNumber="193"/>
+    <functiondecl functionName="calc_aperr" lineNumber="286"/>
+    <functiondecl functionName="ax_cangle_autoprog" lineNumber="317"/>
+    <functiondecl functionName="autoprog_ang_reset" lineNumber="353"/>
+    <functiondecl functionName="calc_aperr_azelcr_ax1" lineNumber="378"/>
+    <functiondecl functionName="calc_aperr_azelcr_ax2" lineNumber="395"/>
+    <functiondecl functionName="calc_aperr_azelcr_ax3" lineNumber="406"/>
+    <functiondecl functionName="lmt_aperr" lineNumber="424"/>
+    <functiondecl functionName="calc_aperr_azelcr_ax1_HightoLow" lineNumber="447"/>
+    <functiondecl functionName="calc_aperr_azelcr_ax3_LowtoHigh" lineNumber="490"/>
+    <functiondecl functionName="aperr_reset_elvanglmode" lineNumber="511"/>
+    <functiondecl functionName="aperr_reset_aosreset" lineNumber="533"/>
+    <functiondecl functionName="aperr_reset_trkgfreq" lineNumber="556"/>
+    <functiondecl functionName="s_cangle_autoprog" lineNumber="123"/>
+    <functiondecl functionName="s_calc_aperr" lineNumber="193"/>
+    <functiondecl functionName="calc_aperr" lineNumber="286"/>
+    <functiondecl functionName="ax_cangle_autoprog" lineNumber="317"/>
+    <functiondecl functionName="autoprog_ang_reset" lineNumber="353"/>
+    <functiondecl functionName="calc_aperr_azelcr_ax1" lineNumber="378"/>
+    <functiondecl functionName="calc_aperr_azelcr_ax2" lineNumber="395"/>
+    <functiondecl functionName="calc_aperr_azelcr_ax3" lineNumber="406"/>
+    <functiondecl functionName="lmt_aperr" lineNumber="424"/>
+    <functiondecl functionName="calc_aperr_azelcr_ax1_HightoLow" lineNumber="447"/>
+    <functiondecl functionName="calc_aperr_azelcr_ax3_LowtoHigh" lineNumber="490"/>
+    <functiondecl functionName="aperr_reset_elvanglmode" lineNumber="511"/>
+    <functiondecl functionName="aperr_reset_aosreset" lineNumber="533"/>
+    <functiondecl functionName="aperr_reset_trkgfreq" lineNumber="556"/>
+    <functiondecl functionName="s_cangle_autoprog" lineNumber="123"/>
+    <functiondecl functionName="s_calc_aperr" lineNumber="193"/>
+    <functiondecl functionName="calc_aperr" lineNumber="286"/>
+    <functiondecl functionName="ax_cangle_autoprog" lineNumber="317"/>
+    <functiondecl functionName="autoprog_ang_reset" lineNumber="353"/>
+    <functiondecl functionName="calc_aperr_azelcr_ax1" lineNumber="378"/>
+    <functiondecl functionName="calc_aperr_azelcr_ax2" lineNumber="395"/>
+    <functiondecl functionName="calc_aperr_azelcr_ax3" lineNumber="406"/>
+    <functiondecl functionName="lmt_aperr" lineNumber="424"/>
+    <functiondecl functionName="calc_aperr_azelcr_ax1_HightoLow" lineNumber="447"/>
+    <functiondecl functionName="calc_aperr_azelcr_ax3_LowtoHigh" lineNumber="490"/>
+    <functiondecl functionName="aperr_reset_elvanglmode" lineNumber="511"/>
+    <functiondecl functionName="aperr_reset_aosreset" lineNumber="533"/>
+    <functiondecl functionName="aperr_reset_trkgfreq" lineNumber="556"/>
+    <functiondecl functionName="s_cangle_autoprog" lineNumber="123"/>
+    <functiondecl functionName="s_calc_aperr" lineNumber="193"/>
+    <functiondecl functionName="calc_aperr" lineNumber="286"/>
+    <functiondecl functionName="ax_cangle_autoprog" lineNumber="317"/>
+    <functiondecl functionName="autoprog_ang_reset" lineNumber="353"/>
+    <functiondecl functionName="calc_aperr_azelcr_ax1" lineNumber="378"/>
+    <functiondecl functionName="calc_aperr_azelcr_ax2" lineNumber="395"/>
+    <functiondecl functionName="calc_aperr_azelcr_ax3" lineNumber="406"/>
+    <functiondecl functionName="lmt_aperr" lineNumber="424"/>
+    <functiondecl functionName="calc_aperr_azelcr_ax1_HightoLow" lineNumber="447"/>
+    <functiondecl functionName="calc_aperr_azelcr_ax3_LowtoHigh" lineNumber="490"/>
+    <functiondecl functionName="aperr_reset_elvanglmode" lineNumber="511"/>
+    <functiondecl functionName="aperr_reset_aosreset" lineNumber="533"/>
+    <functiondecl functionName="aperr_reset_trkgfreq" lineNumber="556"/>
+    <functiondecl functionName="s_cangle_autoprog" lineNumber="123"/>
+    <functiondecl functionName="s_calc_aperr" lineNumber="193"/>
+    <functiondecl functionName="calc_aperr" lineNumber="286"/>
+    <functiondecl functionName="ax_cangle_autoprog" lineNumber="317"/>
+    <functiondecl functionName="autoprog_ang_reset" lineNumber="353"/>
+    <functiondecl functionName="calc_aperr_azelcr_ax1" lineNumber="378"/>
+    <functiondecl functionName="calc_aperr_azelcr_ax2" lineNumber="395"/>
+    <functiondecl functionName="calc_aperr_azelcr_ax3" lineNumber="406"/>
+    <functiondecl functionName="lmt_aperr" lineNumber="424"/>
+    <functiondecl functionName="calc_aperr_azelcr_ax1_HightoLow" lineNumber="447"/>
+    <functiondecl functionName="calc_aperr_azelcr_ax3_LowtoHigh" lineNumber="490"/>
+    <functiondecl functionName="aperr_reset_elvanglmode" lineNumber="511"/>
+    <functiondecl functionName="aperr_reset_aosreset" lineNumber="533"/>
+    <functiondecl functionName="aperr_reset_trkgfreq" lineNumber="556"/>
+    <functiondecl functionName="s_cangle_autoprog" lineNumber="123"/>
+    <functiondecl functionName="s_calc_aperr" lineNumber="193"/>
+    <functiondecl functionName="calc_aperr" lineNumber="286"/>
+    <functiondecl functionName="ax_cangle_autoprog" lineNumber="317"/>
+    <functiondecl functionName="autoprog_ang_reset" lineNumber="353"/>
+    <functiondecl functionName="calc_aperr_azelcr_ax1" lineNumber="378"/>
+    <functiondecl functionName="calc_aperr_azelcr_ax2" lineNumber="395"/>
+    <functiondecl functionName="calc_aperr_azelcr_ax3" lineNumber="406"/>
+    <functiondecl functionName="lmt_aperr" lineNumber="424"/>
+    <functiondecl functionName="calc_aperr_azelcr_ax1_HightoLow" lineNumber="447"/>
+    <functiondecl functionName="calc_aperr_azelcr_ax3_LowtoHigh" lineNumber="490"/>
+    <functiondecl functionName="aperr_reset_elvanglmode" lineNumber="511"/>
+    <functiondecl functionName="aperr_reset_aosreset" lineNumber="533"/>
+    <functiondecl functionName="aperr_reset_trkgfreq" lineNumber="556"/>
+    <functioncall functionName="AX1Prog"/>
+    <functioncall functionName="AX2Prog"/>
+    <functioncall functionName="AX2_NUM"/>
+    <functioncall functionName="AX3Prog"/>
+    <functioncall functionName="AX3_NUM"/>
+    <functioncall functionName="AXIS_AX2"/>
+    <functioncall functionName="AXIS_AX3"/>
+    <functioncall functionName="AXIS_CR"/>
+    <functioncall functionName="AXIS_EL"/>
+    <functioncall functionName="AXIS_NUM"/>
+    <functioncall functionName="DA_AX1_APROG_INTGRL"/>
+    <functioncall functionName="DA_AX1_APROG_INTGRL_OMEGA_A1"/>
+    <functioncall functionName="DA_AX1_BOOST_VAL"/>
+    <functioncall functionName="DA_AX1_DRV_MON"/>
+    <functioncall functionName="DA_AX1_GAIN_CHANGE"/>
+    <functioncall functionName="DA_AX1_MAN_SPEED"/>
+    <functioncall functionName="DA_AX1_OMEGA_1"/>
+    <functioncall functionName="DA_AX1_OMEGA_C"/>
+    <functioncall functionName="DA_AX1_PSNERR_PREADD"/>
+    <functioncall functionName="DA_AX1_PSNERR_PSTADD"/>
+    <functioncall functionName="DA_AX1_PSNFLTR_PRELMTR"/>
+    <functioncall functionName="DA_AX1_PSNFLTR_PSTLMTR"/>
+    <functioncall functionName="DA_AX1_PSNLP_INTGRLMT_PRE"/>
+    <functioncall functionName="DA_AX1_PSNLP_INTGRLMT_PST"/>
+    <functioncall functionName="DA_AX1_PSNLP_INTGR_PRELMTR"/>
+    <functioncall functionName="DA_AX1_PSNLP_INTGR_PSTLMTR"/>
+    <functioncall functionName="DA_AX1_PSNLP_PRELMTR"/>
+    <functioncall functionName="DA_AX1_PSNLP_PSTLMTR"/>
+    <functioncall functionName="DA_AX1_PSNLP_RATIO"/>
+    <functioncall functionName="DA_AX1_PSNLP_RATIO_INTGR"/>
+    <functioncall functionName="DA_AX1_PULSE"/>
+    <functioncall functionName="DA_AX2_APROG_INTGRL"/>
+    <functioncall functionName="DA_AX2_APROG_INTGRL_OMEGA_A1"/>
+    <functioncall functionName="DA_AX2_DRV_MON"/>
+    <functioncall functionName="DA_AX2_MAN_SPEED"/>
+    <functioncall functionName="DA_AX2_PSNFLTR_PRELMTR"/>
+    <functioncall functionName="DA_AX2_PSNFLTR_PSTLMTR"/>
+    <functioncall functionName="DA_AX2_PSNLP_PSTLMTR"/>
+    <functioncall functionName="DA_AX2_PULSE"/>
+    <functioncall functionName="DA_AX3_APROG_INTGRL"/>
+    <functioncall functionName="DA_AX3_APROG_INTGRL_OMEGA_A1"/>
+    <functioncall functionName="DA_AX3_PLS_FREQ"/>
+    <functioncall functionName="DA_AX3_PSNFLTR_PRELMTR"/>
+    <functioncall functionName="DA_AX3_PSNFLTR_PSTLMTR"/>
+    <functioncall functionName="DA_AX3_PSNLP_PSTLMTR"/>
+    <functioncall functionName="DA_AZ_PLS_FREQ_DUMMY"/>
+    <functioncall functionName="DA_AZ_S_BAND_AUTO_ERR"/>
+    <functioncall functionName="DA_AZ_X_BAND_AUTO_ERR"/>
+    <functioncall functionName="DA_CR_BOOST_VAL"/>
+    <functioncall functionName="DA_CR_GAIN_CHANGE"/>
+    <functioncall functionName="DA_CR_OMEGA_1"/>
+    <functioncall functionName="DA_CR_OMEGA_C"/>
+    <functioncall functionName="DA_CR_PSNERR_PREADD"/>
+    <functioncall functionName="DA_CR_PSNLP_INTGRLMT_PRE"/>
+    <functioncall functionName="DA_CR_PSNLP_INTGRLMT_PST"/>
+    <functioncall functionName="DA_CR_PSNLP_INTGR_PRELMTR"/>
+    <functioncall functionName="DA_CR_PSNLP_INTGR_PSTLMTR"/>
+    <functioncall functionName="DA_CR_PSNLP_PRELMTR"/>
+    <functioncall functionName="DA_CR_PSNLP_RATIO"/>
+    <functioncall functionName="DA_CR_PSNLP_RATIO_INTGR"/>
+    <functioncall functionName="DA_DIGITAL_TEST_INPUT"/>
+    <functioncall functionName="DA_EL_BOOST_VAL"/>
+    <functioncall functionName="DA_EL_GAIN_CHANGE"/>
+    <functioncall functionName="DA_EL_OMEGA_1"/>
+    <functioncall functionName="DA_EL_OMEGA_C"/>
+    <functioncall functionName="DA_EL_PLS_FREQ_DUMMY"/>
+    <functioncall functionName="DA_EL_PSNERR_PREADD"/>
+    <functioncall functionName="DA_EL_PSNLP_INTGRLMT_PRE"/>
+    <functioncall functionName="DA_EL_PSNLP_INTGRLMT_PST"/>
+    <functioncall functionName="DA_EL_PSNLP_INTGR_PRELMTR"/>
+    <functioncall functionName="DA_EL_PSNLP_INTGR_PSTLMTR"/>
+    <functioncall functionName="DA_EL_PSNLP_PRELMTR"/>
+    <functioncall functionName="DA_EL_PSNLP_RATIO"/>
+    <functioncall functionName="DA_EL_PSNLP_RATIO_INTGR"/>
+    <functioncall functionName="DA_EL_S_BAND_AUTO_ERR"/>
+    <functioncall functionName="DA_EL_X_BAND_AUTO_ERR"/>
+    <functioncall functionName="DA_F2_BAND_LHCP"/>
+    <functioncall functionName="DA_F2_BAND_RHCP"/>
+    <functioncall functionName="DA_MON_DATA_MAX"/>
+    <functioncall functionName="DA_RCVR_L_AZ_AUTO_ERROR"/>
+    <functioncall functionName="DA_RCVR_L_EL_AUTO_ERROR"/>
+    <functioncall functionName="DA_RCVR_L_LVL"/>
+    <functioncall functionName="DA_RCVR_L_X_AUTO_ERROR"/>
+    <functioncall functionName="DA_RCVR_L_Y_AUTO_ERROR"/>
+    <functioncall functionName="DA_RCVR_R_AZ_AUTO_ERROR"/>
+    <functioncall functionName="DA_RCVR_R_EL_AUTO_ERROR"/>
+    <functioncall functionName="DA_RCVR_R_X_AUTO_ERROR"/>
+    <functioncall functionName="DA_RCVR_R_Y_AUTO_ERROR"/>
+    <functioncall functionName="DA_STEP_BEACON"/>
+    <functioncall functionName="DA_STEP_BEACON_AVE"/>
+    <functioncall functionName="DA_STEP_LVL"/>
+    <functioncall functionName="DA_STEP_MON"/>
+    <functioncall functionName="DA_X_S_BAND_AUTO_ERR"/>
+    <functioncall functionName="DA_X_S_BAND_AUTO_ERR_OFSADD"/>
+    <functioncall functionName="DA_X_X_BAND_AUTO_ERR"/>
+    <functioncall functionName="DA_X_X_BAND_AUTO_ERR_OFSADD"/>
+    <functioncall functionName="DA_X_X_BAND_AUTO_ERR_TRANS"/>
+    <functioncall functionName="DA_Y_S_BAND_AUTO_ERR"/>
+    <functioncall functionName="DA_Y_S_BAND_AUTO_ERR_OFSADD"/>
+    <functioncall functionName="DA_Y_X_BAND_AUTO_ERR"/>
+    <functioncall functionName="DA_Y_X_BAND_AUTO_ERR_OFSADD"/>
+    <functioncall functionName="DA_Y_X_BAND_AUTO_ERR_TRANS"/>
+    <functioncall functionName="DSP2_NUM"/>
+    <functioncall functionName="DSP_NUM"/>
+    <functioncall functionName="ELVANGLMODE_HIGH"/>
+    <functioncall functionName="ELV_NUM"/>
+    <functioncall functionName="F2_BAND"/>
+    <functioncall functionName="FREQ_MAX"/>
+    <functioncall functionName="INTERLOCK_CBANK_FAULT"/>
+    <functioncall functionName="INTERLOCK_COND_OFF_ANS"/>
+    <functioncall functionName="INTERLOCK_DPA_FAULT"/>
+    <functioncall functionName="INTERLOCK_DPA_IF_FAULT"/>
+    <functioncall functionName="INTERLOCK_MOTOR_OVERHEAT"/>
+    <functioncall functionName="T_MODE_MAJOR_FILTER"/>
+    <functioncall functionName="T_MODE_MAJOR_LOOP"/>
+    <functioncall functionName="T_MODE_MINOR_FILTER"/>
+    <functioncall functionName="T_MODE_MINOR_LOOP"/>
+    <functioncall functionName="T_MODE_POSN_FILTER"/>
+    <functioncall functionName="T_MODE_POSN_LOOP"/>
+    <functioncall functionName="WA"/>
+    <functioncall functionName="apcmd"/>
+    <functioncall functionName="aperr"/>
+    <functioncall functionName="aperr_reset_aosreset"/>
+    <functioncall functionName="aperr_reset_elvanglmode"/>
+    <functioncall functionName="aperr_reset_trkgfreq"/>
+    <functioncall functionName="autoprog"/>
+    <functioncall functionName="autoprog_err_l"/>
+    <functioncall functionName="ax1AperrRst"/>
+    <functioncall functionName="ax2AperrRst"/>
+    <functioncall functionName="ax2real_deg"/>
+    <functioncall functionName="ax3AperrRst"/>
+    <functioncall functionName="ax3real_rad"/>
+    <functioncall functionName="ax_cangle_autoprog"/>
+    <functioncall functionName="calc_aperr"/>
+    <functioncall functionName="calc_aperr_azelcr_ax1"/>
+    <functioncall functionName="calc_aperr_azelcr_ax1_HightoLow"/>
+    <functioncall functionName="calc_aperr_azelcr_ax2"/>
+    <functioncall functionName="calc_aperr_azelcr_ax3"/>
+    <functioncall functionName="calc_aperr_azelcr_ax3_LowtoHigh"/>
+    <functioncall functionName="chkTestState"/>
+    <functioncall functionName="cmdAng"/>
+    <functioncall functionName="cmdLim"/>
+    <functioncall functionName="cos"/>
+    <functioncall functionName="damonSetData"/>
+    <functioncall functionName="driveOn"/>
+    <functioncall functionName="elreal_rad"/>
+    <functioncall functionName="getVariability"/>
+    <functioncall functionName="get_aosrst_opn"/>
+    <functioncall functionName="get_drvmode_inf"/>
+    <functioncall functionName="get_trkgFreq"/>
+    <functioncall functionName="get_trkgFreq_l"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="lmt_aperr"/>
+    <functioncall functionName="neg"/>
+    <functioncall functionName="pos"/>
+    <functioncall functionName="ratedangle"/>
+    <functioncall functionName="realAng"/>
+    <functioncall functionName="s_calc_aperr"/>
+    <functioncall functionName="s_cangle_prog"/>
+    <functioncall functionName="s_cmdLimit"/>
+    <functioncall functionName="s_make_autoerr"/>
+    <functioncall functionName="s_realtocmd"/>
+    <functioncall functionName="sync_cnt"/>
+    <functioncall functionName="testMode"/>
+    <functioncall functionName="travelRate"/>
+    <functioncall functionName="travelrate"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="w_AX1aperr"/>
+    <functioncall functionName="w_AX1aperr_l"/>
+    <functioncall functionName="w_AX2aperr"/>
+    <functioncall functionName="w_AX2aperr_l"/>
+    <functioncall functionName="w_AX3aperr"/>
+    <functioncall functionName="w_AX3aperr_l"/>
+    <functioncall functionName="w_Ax1CmdAng"/>
+    <functioncall functionName="w_Ax1RealAng"/>
+    <functioncall functionName="w_Ax2CmdAng"/>
+    <functioncall functionName="w_Ax2RealAng"/>
+    <functioncall functionName="w_Ax3CmdAng"/>
+    <functioncall functionName="w_Ax3RealAng"/>
+    <functioncall functionName="w_ElRealAng"/>
+    <functioncall functionName="w_ax1AutoErr"/>
+    <functioncall functionName="w_ax1TestMode"/>
+    <functioncall functionName="w_ax1_save_wc"/>
+    <functioncall functionName="w_ax2AutoErr"/>
+    <functioncall functionName="w_ax2TestMode"/>
+    <functioncall functionName="w_ax2_save_wc"/>
+    <functioncall functionName="w_ax3AutoErr"/>
+    <functioncall functionName="w_ax3TestMode"/>
+    <functioncall functionName="w_ax3_save_wc"/>
+    <functioncall functionName="w_elvanglmode"/>
+  </FileInfo>
+</analyzerinfo>

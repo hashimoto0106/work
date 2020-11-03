@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1948921087">
+        <error id="invalidPrintfArgType_uint" severity="portability" msg="%u in format string (no. 2) requires &apos;unsigned int&apos; but the argument type is &apos;size_t {aka unsigned long}&apos;." verbose="%u in format string (no. 2) requires &apos;unsigned int&apos; but the argument type is &apos;size_t {aka unsigned long}&apos;." cwe="686" hash="5183734121137002567">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\CPU\flashring.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\CPU\flashring.c" line="204" column="4"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;retSize&apos; can be reduced." verbose="The scope of the variable &apos;retSize&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="13807358719258922461">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\CPU\flashring.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\CPU\flashring.c" line="174" column="9"/>
+            <symbol>retSize</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;ret&apos; can be reduced." verbose="The scope of the variable &apos;ret&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="3136343041197129784">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\CPU\flashring.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\CPU\flashring.c" line="175" column="7"/>
+            <symbol>ret</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;datap&apos; can be reduced." verbose="The scope of the variable &apos;datap&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="16340058162615245125">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\CPU\flashring.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\CPU\flashring.c" line="176" column="8"/>
+            <symbol>datap</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;ret&apos; is assigned a value that is never used." verbose="Variable &apos;ret&apos; is assigned a value that is never used." cwe="563" hash="15445877846800622549">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\CPU\flashring.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\CPU\flashring.c" line="53" column="10"/>
+            <symbol>ret</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;ret&apos; is assigned a value that is never used." verbose="Variable &apos;ret&apos; is assigned a value that is never used." cwe="563" hash="17143135176126082591">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\CPU\flashring.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\CPU\flashring.c" line="117" column="10"/>
+            <symbol>ret</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;block&apos; is assigned a value that is never used." verbose="Variable &apos;block&apos; is assigned a value that is never used." cwe="563" hash="10503123828950687072">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\CPU\flashring.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\CPU\flashring.c" line="173" column="14"/>
+            <symbol>block</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;block&apos; is assigned a value that is never used." verbose="Variable &apos;block&apos; is assigned a value that is never used." cwe="563" hash="7048654486064406328">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\CPU\flashring.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\CPU\flashring.c" line="232" column="14"/>
+            <symbol>block</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;ret&apos; is assigned a value that is never used." verbose="Variable &apos;ret&apos; is assigned a value that is never used." cwe="563" hash="15330185428263609439">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\CPU\flashring.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\CPU\flashring.c" line="234" column="10"/>
+            <symbol>ret</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/cpu_drv.h:82:5" call-funcname="CpuFlashRead" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/CPU/flashring.c" line="60" col="22" call-argexpr="flash_data" call-argvaluetype="7" call-argvalue="131072"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/cpu_drv.h:82:5" call-funcname="CpuFlashRead" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/CPU/flashring.c" line="129" col="22" call-argexpr="flash_data" call-argvaluetype="7" call-argvalue="131072"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/cpu_drv.h:82:5" call-funcname="CpuFlashRead" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/CPU/flashring.c" line="189" col="21" call-argexpr="flash_data" call-argvaluetype="7" call-argvalue="131072"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/CPU/flashring.c:18:7" call-funcname="RINGP" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/CPU/flashring.c" line="114" col="16" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/flash.h:37:7" my-argnr="3"/>
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/CPU/flashring.c:18:7" call-funcname="RINGP" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/CPU/flashring.c" line="114" col="16" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/flash.h:37:7" my-argnr="4"/>
+  </FileInfo>
+  <FileInfo check="Bounds checking">
+    <pointer-arith>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/CPU/flashring.c:18:7" my-argnr="3" my-argname="bottom" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/CPU/flashring.c" line="20" col="22" value="1"/>
+    </pointer-arith>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/flash.h:66:6" my-argnr="1" my-argname="str" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/CPU/flashring.c" line="285" col="18" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/flash.h:66:6" my-argnr="1" my-argname="str" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/CPU/flashring.c" line="285" col="18" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="RINGP" lineNumber="18"/>
+    <functiondecl functionName="flashRingSearchNext" lineNumber="42"/>
+    <functiondecl functionName="flashRingRewindRecords" lineNumber="105"/>
+    <functiondecl functionName="flashRing2File" lineNumber="162"/>
+    <functiondecl functionName="flashRingWrite" lineNumber="221"/>
+    <functiondecl functionName="flashStrPadding" lineNumber="281"/>
+    <functioncall functionName="CpuFlashErase"/>
+    <functioncall functionName="CpuFlashRead"/>
+    <functioncall functionName="CpuFlashWrite"/>
+    <functioncall functionName="FALSE"/>
+    <functioncall functionName="RINGP"/>
+    <functioncall functionName="TRUE"/>
+    <functioncall functionName="block"/>
+    <functioncall functionName="blockSize"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="breaker"/>
+    <functioncall functionName="char"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="datap"/>
+    <functioncall functionName="endp"/>
+    <functioncall functionName="erase_block"/>
+    <functioncall functionName="flash_data"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="fp"/>
+    <functioncall functionName="fwrite"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="lengs"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="nextp"/>
+    <functioncall functionName="p"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="readp"/>
+    <functioncall functionName="ret"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="rewindp"/>
+    <functioncall functionName="ringBottom"/>
+    <functioncall functionName="ringTop"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="startp"/>
+    <functioncall functionName="str"/>
+    <functioncall functionName="strcat"/>
+    <functioncall functionName="strlen"/>
+    <functioncall functionName="top"/>
+    <functioncall functionName="ulong"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="writep"/>
+    <functioncall functionName="writesize"/>
+  </FileInfo>
+</analyzerinfo>

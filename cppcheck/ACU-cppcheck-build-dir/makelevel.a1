@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="324131892">
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 of 13 configurations. Use --force to check all configurations." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time." cwe="398">
+            <location file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_LOOP\makelevel.c" line="0" column="0"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;beacon&apos; can be reduced." verbose="The scope of the variable &apos;beacon&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="1539117133200740334">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_LOOP\makelevel.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_LOOP\makelevel.c" line="82" column="9"/>
+            <symbol>beacon</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;no_noise_beacon&apos; can be reduced." verbose="The scope of the variable &apos;no_noise_beacon&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="11201642909357750858">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_LOOP\makelevel.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_LOOP\makelevel.c" line="106" column="9"/>
+            <symbol>no_noise_beacon</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;beacon&apos; is assigned a value that is never used." verbose="Variable &apos;beacon&apos; is assigned a value that is never used." cwe="563" hash="3414580559794457083">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_LOOP\makelevel.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_LOOP\makelevel.c" line="82" column="16"/>
+            <symbol>beacon</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;no_noise_beacon&apos; is assigned a value that is never used." verbose="Variable &apos;no_noise_beacon&apos; is assigned a value that is never used." cwe="563" hash="16377772137341006035">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_LOOP\makelevel.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_LOOP\makelevel.c" line="106" column="25"/>
+            <symbol>no_noise_beacon</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/DRIVER/PUBLIC/pci_drv_ras.h:176:5" call-funcname="FrasGetADinput" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/makelevel.c" line="139" col="17" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/DRIVER/PUBLIC/pci_drv_ras.h:176:5" call-funcname="FrasGetADinput" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/makelevel.c" line="139" col="17" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/DRIVER/PUBLIC/pci_drv_ras.h:176:5" call-funcname="FrasGetADinput" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/makelevel.c" line="139" col="17" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/DRIVER/PUBLIC/pci_drv_ras.h:176:5" call-funcname="FrasGetADinput" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/makelevel.c" line="139" col="17" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/DRIVER/PUBLIC/pci_drv_ras.h:176:5" call-funcname="FrasGetADinput" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/makelevel.c" line="139" col="17" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/DRIVER/PUBLIC/pci_drv_ras.h:176:5" call-funcname="FrasGetADinput" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/makelevel.c" line="139" col="17" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/DRIVER/PUBLIC/pci_drv_ras.h:176:5" call-funcname="FrasGetADinput" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/makelevel.c" line="139" col="17" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/DRIVER/PUBLIC/pci_drv_ras.h:176:5" call-funcname="FrasGetADinput" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/makelevel.c" line="139" col="17" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/DRIVER/PUBLIC/pci_drv_ras.h:176:5" call-funcname="FrasGetADinput" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/makelevel.c" line="139" col="17" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/DRIVER/PUBLIC/pci_drv_ras.h:176:5" call-funcname="FrasGetADinput" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/makelevel.c" line="139" col="17" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/DRIVER/PUBLIC/pci_drv_ras.h:176:5" call-funcname="FrasGetADinput" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/makelevel.c" line="139" col="17" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/DRIVER/PUBLIC/pci_drv_ras.h:176:5" call-funcname="FrasGetADinput" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/makelevel.c" line="139" col="17" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/DRIVER/PUBLIC/pci_drv_ras.h:176:5" call-funcname="FrasGetADinput" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/makelevel.c" line="139" col="17" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/DRIVER/PUBLIC/pci_drv_ras.h:176:5" call-funcname="FrasGetADinput" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/makelevel.c" line="139" col="17" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="m_makelevel" lineNumber="57"/>
+    <functiondecl functionName="m_make_lvl_impl" lineNumber="80"/>
+    <functiondecl functionName="s_setbeacon" lineNumber="104"/>
+    <functiondecl functionName="m_makelevel" lineNumber="57"/>
+    <functiondecl functionName="m_make_lvl_impl" lineNumber="80"/>
+    <functiondecl functionName="s_setbeacon" lineNumber="104"/>
+    <functiondecl functionName="m_makelevel" lineNumber="57"/>
+    <functiondecl functionName="m_make_lvl_impl" lineNumber="80"/>
+    <functiondecl functionName="s_setbeacon" lineNumber="104"/>
+    <functiondecl functionName="m_makelevel" lineNumber="57"/>
+    <functiondecl functionName="m_make_lvl_impl" lineNumber="80"/>
+    <functiondecl functionName="s_setbeacon" lineNumber="104"/>
+    <functiondecl functionName="m_makelevel" lineNumber="57"/>
+    <functiondecl functionName="m_make_lvl_impl" lineNumber="80"/>
+    <functiondecl functionName="s_setbeacon" lineNumber="104"/>
+    <functiondecl functionName="m_makelevel" lineNumber="57"/>
+    <functiondecl functionName="m_make_lvl_impl" lineNumber="80"/>
+    <functiondecl functionName="s_setbeacon" lineNumber="104"/>
+    <functiondecl functionName="m_makelevel" lineNumber="57"/>
+    <functiondecl functionName="m_make_lvl_impl" lineNumber="80"/>
+    <functiondecl functionName="s_setbeacon" lineNumber="104"/>
+    <functioncall functionName="AX2_NUM"/>
+    <functioncall functionName="AX3_NUM"/>
+    <functioncall functionName="AXIS_NUM"/>
+    <functioncall functionName="DA_AX1_APROG_INTGRL"/>
+    <functioncall functionName="DA_AX1_APROG_INTGRL_OMEGA_A1"/>
+    <functioncall functionName="DA_AX1_BOOST_VAL"/>
+    <functioncall functionName="DA_AX1_DRV_MON"/>
+    <functioncall functionName="DA_AX1_GAIN_CHANGE"/>
+    <functioncall functionName="DA_AX1_MAN_SPEED"/>
+    <functioncall functionName="DA_AX1_OMEGA_1"/>
+    <functioncall functionName="DA_AX1_OMEGA_C"/>
+    <functioncall functionName="DA_AX1_PSNERR_PREADD"/>
+    <functioncall functionName="DA_AX1_PSNERR_PSTADD"/>
+    <functioncall functionName="DA_AX1_PSNFLTR_PRELMTR"/>
+    <functioncall functionName="DA_AX1_PSNFLTR_PSTLMTR"/>
+    <functioncall functionName="DA_AX1_PSNLP_INTGRLMT_PRE"/>
+    <functioncall functionName="DA_AX1_PSNLP_INTGRLMT_PST"/>
+    <functioncall functionName="DA_AX1_PSNLP_INTGR_PRELMTR"/>
+    <functioncall functionName="DA_AX1_PSNLP_INTGR_PSTLMTR"/>
+    <functioncall functionName="DA_AX1_PSNLP_PRELMTR"/>
+    <functioncall functionName="DA_AX1_PSNLP_PSTLMTR"/>
+    <functioncall functionName="DA_AX1_PSNLP_RATIO"/>
+    <functioncall functionName="DA_AX1_PSNLP_RATIO_INTGR"/>
+    <functioncall functionName="DA_AX1_PULSE"/>
+    <functioncall functionName="DA_AX2_APROG_INTGRL"/>
+    <functioncall functionName="DA_AX2_APROG_INTGRL_OMEGA_A1"/>
+    <functioncall functionName="DA_AX2_DRV_MON"/>
+    <functioncall functionName="DA_AX2_MAN_SPEED"/>
+    <functioncall functionName="DA_AX2_PSNFLTR_PRELMTR"/>
+    <functioncall functionName="DA_AX2_PSNFLTR_PSTLMTR"/>
+    <functioncall functionName="DA_AX2_PSNLP_PSTLMTR"/>
+    <functioncall functionName="DA_AX2_PULSE"/>
+    <functioncall functionName="DA_AX3_APROG_INTGRL"/>
+    <functioncall functionName="DA_AX3_APROG_INTGRL_OMEGA_A1"/>
+    <functioncall functionName="DA_AX3_PLS_FREQ"/>
+    <functioncall functionName="DA_AX3_PSNFLTR_PRELMTR"/>
+    <functioncall functionName="DA_AX3_PSNFLTR_PSTLMTR"/>
+    <functioncall functionName="DA_AX3_PSNLP_PSTLMTR"/>
+    <functioncall functionName="DA_AZ_PLS_FREQ_DUMMY"/>
+    <functioncall functionName="DA_AZ_S_BAND_AUTO_ERR"/>
+    <functioncall functionName="DA_AZ_X_BAND_AUTO_ERR"/>
+    <functioncall functionName="DA_CR_BOOST_VAL"/>
+    <functioncall functionName="DA_CR_GAIN_CHANGE"/>
+    <functioncall functionName="DA_CR_OMEGA_1"/>
+    <functioncall functionName="DA_CR_OMEGA_C"/>
+    <functioncall functionName="DA_CR_PSNERR_PREADD"/>
+    <functioncall functionName="DA_CR_PSNLP_INTGRLMT_PRE"/>
+    <functioncall functionName="DA_CR_PSNLP_INTGRLMT_PST"/>
+    <functioncall functionName="DA_CR_PSNLP_INTGR_PRELMTR"/>
+    <functioncall functionName="DA_CR_PSNLP_INTGR_PSTLMTR"/>
+    <functioncall functionName="DA_CR_PSNLP_PRELMTR"/>
+    <functioncall functionName="DA_CR_PSNLP_RATIO"/>
+    <functioncall functionName="DA_CR_PSNLP_RATIO_INTGR"/>
+    <functioncall functionName="DA_DIGITAL_TEST_INPUT"/>
+    <functioncall functionName="DA_EL_BOOST_VAL"/>
+    <functioncall functionName="DA_EL_GAIN_CHANGE"/>
+    <functioncall functionName="DA_EL_OMEGA_1"/>
+    <functioncall functionName="DA_EL_OMEGA_C"/>
+    <functioncall functionName="DA_EL_PLS_FREQ_DUMMY"/>
+    <functioncall functionName="DA_EL_PSNERR_PREADD"/>
+    <functioncall functionName="DA_EL_PSNLP_INTGRLMT_PRE"/>
+    <functioncall functionName="DA_EL_PSNLP_INTGRLMT_PST"/>
+    <functioncall functionName="DA_EL_PSNLP_INTGR_PRELMTR"/>
+    <functioncall functionName="DA_EL_PSNLP_INTGR_PSTLMTR"/>
+    <functioncall functionName="DA_EL_PSNLP_PRELMTR"/>
+    <functioncall functionName="DA_EL_PSNLP_RATIO"/>
+    <functioncall functionName="DA_EL_PSNLP_RATIO_INTGR"/>
+    <functioncall functionName="DA_EL_S_BAND_AUTO_ERR"/>
+    <functioncall functionName="DA_EL_X_BAND_AUTO_ERR"/>
+    <functioncall functionName="DA_F2_BAND_LHCP"/>
+    <functioncall functionName="DA_F2_BAND_RHCP"/>
+    <functioncall functionName="DA_MON_DATA_MAX"/>
+    <functioncall functionName="DA_RCVR_L_AZ_AUTO_ERROR"/>
+    <functioncall functionName="DA_RCVR_L_EL_AUTO_ERROR"/>
+    <functioncall functionName="DA_RCVR_L_LVL"/>
+    <functioncall functionName="DA_RCVR_L_X_AUTO_ERROR"/>
+    <functioncall functionName="DA_RCVR_L_Y_AUTO_ERROR"/>
+    <functioncall functionName="DA_RCVR_R_AZ_AUTO_ERROR"/>
+    <functioncall functionName="DA_RCVR_R_EL_AUTO_ERROR"/>
+    <functioncall functionName="DA_RCVR_R_X_AUTO_ERROR"/>
+    <functioncall functionName="DA_RCVR_R_Y_AUTO_ERROR"/>
+    <functioncall functionName="DA_STEP_BEACON"/>
+    <functioncall functionName="DA_STEP_BEACON_AVE"/>
+    <functioncall functionName="DA_STEP_LVL"/>
+    <functioncall functionName="DA_STEP_MON"/>
+    <functioncall functionName="DA_X_S_BAND_AUTO_ERR"/>
+    <functioncall functionName="DA_X_S_BAND_AUTO_ERR_OFSADD"/>
+    <functioncall functionName="DA_X_X_BAND_AUTO_ERR"/>
+    <functioncall functionName="DA_X_X_BAND_AUTO_ERR_OFSADD"/>
+    <functioncall functionName="DA_X_X_BAND_AUTO_ERR_TRANS"/>
+    <functioncall functionName="DA_Y_S_BAND_AUTO_ERR"/>
+    <functioncall functionName="DA_Y_S_BAND_AUTO_ERR_OFSADD"/>
+    <functioncall functionName="DA_Y_X_BAND_AUTO_ERR"/>
+    <functioncall functionName="DA_Y_X_BAND_AUTO_ERR_OFSADD"/>
+    <functioncall functionName="DA_Y_X_BAND_AUTO_ERR_TRANS"/>
+    <functioncall functionName="DSP2_NUM"/>
+    <functioncall functionName="DSP_NUM"/>
+    <functioncall functionName="FrasGetADinput"/>
+    <functioncall functionName="add_noise_beacon"/>
+    <functioncall functionName="beacon"/>
+    <functioncall functionName="beacon_offset"/>
+    <functioncall functionName="c_lowlevel"/>
+    <functioncall functionName="changeBeacon"/>
+    <functioncall functionName="chgdata"/>
+    <functioncall functionName="damonSetData"/>
+    <functioncall functionName="getVariability"/>
+    <functioncall functionName="get_stepTestNoiseFreq"/>
+    <functioncall functionName="get_stepTestNoiseSwing"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="level_ave"/>
+    <functioncall functionName="loop_period"/>
+    <functioncall functionName="m_make_lvl_impl"/>
+    <functioncall functionName="noise_freq"/>
+    <functioncall functionName="noise_swing"/>
+    <functioncall functionName="normalization"/>
+    <functioncall functionName="nullFuncImpl"/>
+    <functioncall functionName="p"/>
+    <functioncall functionName="post"/>
+    <functioncall functionName="pre"/>
+    <functioncall functionName="q"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="s_setbeacon"/>
+    <functioncall functionName="sin"/>
+    <functioncall functionName="stepTrackCalcBeacon"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="voltdata"/>
+    <functioncall functionName="volthosei"/>
+    <functioncall functionName="w_stepsys"/>
+  </FileInfo>
+</analyzerinfo>

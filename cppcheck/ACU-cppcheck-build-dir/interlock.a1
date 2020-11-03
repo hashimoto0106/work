@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3395321843">
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/srvtest.h:99:6" call-funcname="setAllAxisDriveOffReq" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c" line="128" col="23" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c:39:6" call-funcname="s_drvcontrol" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c" line="335" col="14" call-argexpr="&dw_ax1Drvcont" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c:39:6" call-funcname="s_drvcontrol" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c" line="400" col="14" call-argexpr="&dw_ax2Drvcont" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c:39:6" call-funcname="s_drvcontrol" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c" line="461" col="14" call-argexpr="&dw_ax3Drvcont" call-argvaluetype="7" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c:39:6" my-argnr="1" my-argname="drvcont" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c" line="172" col="5" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c:39:6" my-argnr="6" my-argname="drvstat" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c" line="167" col="3" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/srvtest.h:99:6" call-funcname="setAllAxisDriveOffReq" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c" line="128" col="23" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c:39:6" call-funcname="s_drvcontrol" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c" line="335" col="14" call-argexpr="&dw_ax1Drvcont" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c:39:6" call-funcname="s_drvcontrol" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c" line="400" col="14" call-argexpr="&dw_ax2Drvcont" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c:39:6" call-funcname="s_drvcontrol" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c" line="461" col="14" call-argexpr="&dw_ax3Drvcont" call-argvaluetype="7" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c:39:6" my-argnr="1" my-argname="drvcont" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c" line="172" col="5" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c:39:6" my-argnr="6" my-argname="drvstat" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c" line="167" col="3" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/srvtest.h:99:6" call-funcname="setAllAxisDriveOffReq" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c" line="128" col="23" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c:39:6" call-funcname="s_drvcontrol" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c" line="335" col="14" call-argexpr="&dw_ax1Drvcont" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c:39:6" call-funcname="s_drvcontrol" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c" line="400" col="14" call-argexpr="&dw_ax2Drvcont" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c:39:6" call-funcname="s_drvcontrol" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c" line="461" col="14" call-argexpr="&dw_ax3Drvcont" call-argvaluetype="7" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c:39:6" my-argnr="1" my-argname="drvcont" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c" line="172" col="5" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c:39:6" my-argnr="6" my-argname="drvstat" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c" line="167" col="3" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/srvtest.h:99:6" call-funcname="setAllAxisDriveOffReq" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c" line="128" col="23" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c:39:6" call-funcname="s_drvcontrol" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c" line="335" col="14" call-argexpr="&dw_ax1Drvcont" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c:39:6" call-funcname="s_drvcontrol" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c" line="400" col="14" call-argexpr="&dw_ax2Drvcont" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c:39:6" call-funcname="s_drvcontrol" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c" line="461" col="14" call-argexpr="&dw_ax3Drvcont" call-argvaluetype="7" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c:39:6" my-argnr="1" my-argname="drvcont" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c" line="172" col="5" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c:39:6" my-argnr="6" my-argname="drvstat" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/interlock.c" line="167" col="3" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="m_interlock" lineNumber="89"/>
+    <functiondecl functionName="m_interlock_impl" lineNumber="117"/>
+    <functiondecl functionName="s_drvcontrol" lineNumber="151"/>
+    <functiondecl functionName="s_ax1_interlock" lineNumber="303"/>
+    <functiondecl functionName="s_ax2_interlock" lineNumber="368"/>
+    <functiondecl functionName="s_ax3_interlock" lineNumber="433"/>
+    <functiondecl functionName="m_interlock" lineNumber="89"/>
+    <functiondecl functionName="m_interlock_impl" lineNumber="117"/>
+    <functiondecl functionName="s_drvcontrol" lineNumber="151"/>
+    <functiondecl functionName="s_ax1_interlock" lineNumber="303"/>
+    <functiondecl functionName="s_ax2_interlock" lineNumber="368"/>
+    <functiondecl functionName="s_ax3_interlock" lineNumber="433"/>
+    <functiondecl functionName="m_interlock" lineNumber="89"/>
+    <functiondecl functionName="m_interlock_impl" lineNumber="117"/>
+    <functiondecl functionName="s_drvcontrol" lineNumber="151"/>
+    <functiondecl functionName="s_ax1_interlock" lineNumber="303"/>
+    <functiondecl functionName="s_ax2_interlock" lineNumber="368"/>
+    <functiondecl functionName="s_ax3_interlock" lineNumber="433"/>
+    <functiondecl functionName="m_interlock" lineNumber="89"/>
+    <functiondecl functionName="m_interlock_impl" lineNumber="117"/>
+    <functiondecl functionName="s_drvcontrol" lineNumber="151"/>
+    <functiondecl functionName="s_ax1_interlock" lineNumber="303"/>
+    <functiondecl functionName="s_ax2_interlock" lineNumber="368"/>
+    <functiondecl functionName="s_ax3_interlock" lineNumber="433"/>
+    <functioncall functionName="AX1"/>
+    <functioncall functionName="AX2"/>
+    <functioncall functionName="AX2_NUM"/>
+    <functioncall functionName="AX3"/>
+    <functioncall functionName="AX3_NUM"/>
+    <functioncall functionName="AXIS_NUM"/>
+    <functioncall functionName="AX_NUM"/>
+    <functioncall functionName="DSP2_NUM"/>
+    <functioncall functionName="DSP_NUM"/>
+    <functioncall functionName="INTERLOCK_CBANK_FAULT"/>
+    <functioncall functionName="INTERLOCK_COND_OFF_ANS"/>
+    <functioncall functionName="INTERLOCK_DPA_FAULT"/>
+    <functioncall functionName="INTERLOCK_DPA_IF_FAULT"/>
+    <functioncall functionName="INTERLOCK_MOTOR_OVERHEAT"/>
+    <functioncall functionName="LM_DEBUG"/>
+    <functioncall functionName="LM_INFO"/>
+    <functioncall functionName="LM_SEVERE"/>
+    <functioncall functionName="LM_TRACE"/>
+    <functioncall functionName="LM_WARNING"/>
+    <functioncall functionName="T_MODE_MAJOR_FILTER"/>
+    <functioncall functionName="T_MODE_MAJOR_LOOP"/>
+    <functioncall functionName="T_MODE_MINOR_FILTER"/>
+    <functioncall functionName="T_MODE_MINOR_LOOP"/>
+    <functioncall functionName="T_MODE_POSN_FILTER"/>
+    <functioncall functionName="T_MODE_POSN_LOOP"/>
+    <functioncall functionName="__FUNCTION__"/>
+    <functioncall functionName="bit_pos"/>
+    <functioncall functionName="c_trns_bit"/>
+    <functioncall functionName="clogMsg"/>
+    <functioncall functionName="driveRdy"/>
+    <functioncall functionName="drive_sts"/>
+    <functioncall functionName="drvreq"/>
+    <functioncall functionName="dw_ax1Drvcont"/>
+    <functioncall functionName="dw_ax2Drvcont"/>
+    <functioncall functionName="dw_ax3Drvcont"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="getAllAxisDriveOffReq"/>
+    <functioncall functionName="getVariability"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="interlock_bit_trans_cnv_null"/>
+    <functioncall functionName="lmtRst"/>
+    <functioncall functionName="lmtRstRdy"/>
+    <functioncall functionName="m_interlock_impl"/>
+    <functioncall functionName="nfbtrip"/>
+    <functioncall functionName="nullFuncImpl"/>
+    <functioncall functionName="post"/>
+    <functioncall functionName="pre"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="s_ax1_interlock"/>
+    <functioncall functionName="s_ax2_interlock"/>
+    <functioncall functionName="s_ax3_interlock"/>
+    <functioncall functionName="s_drvcontrol"/>
+    <functioncall functionName="setAllAxisDriveOffReq"/>
+    <functioncall functionName="void"/>
+  </FileInfo>
+</analyzerinfo>

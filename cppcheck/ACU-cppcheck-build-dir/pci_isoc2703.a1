@@ -1,0 +1,270 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3891857769">
+        <error id="invalidPrintfArgType_uint" severity="warning" msg="%X in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%X in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="4181616857024290151">
+            <location file0="..\workspace\DRIVER\SRC\pci_isoc2703.c" file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="487" column="2"/>
+        </error>
+        <error id="invalidPrintfArgType_uint" severity="warning" msg="%X in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%X in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="11721754933560685169">
+            <location file0="..\workspace\DRIVER\SRC\pci_isoc2703.c" file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="488" column="2"/>
+        </error>
+        <error id="invalidPrintfArgType_uint" severity="warning" msg="%X in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%X in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="12956026329449781050">
+            <location file0="..\workspace\DRIVER\SRC\pci_isoc2703.c" file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="489" column="2"/>
+        </error>
+        <error id="invalidPrintfArgType_uint" severity="warning" msg="%X in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%X in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="5296875576061658414">
+            <location file0="..\workspace\DRIVER\SRC\pci_isoc2703.c" file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="490" column="2"/>
+        </error>
+        <error id="invalidPrintfArgType_uint" severity="warning" msg="%X in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%X in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="6274122208255557666">
+            <location file0="..\workspace\DRIVER\SRC\pci_isoc2703.c" file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="491" column="2"/>
+        </error>
+        <error id="invalidPrintfArgType_uint" severity="warning" msg="%X in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%X in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="15327019901094396942">
+            <location file0="..\workspace\DRIVER\SRC\pci_isoc2703.c" file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="492" column="2"/>
+        </error>
+        <error id="invalidPrintfArgType_uint" severity="warning" msg="%X in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%X in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="17786509515417543898">
+            <location file0="..\workspace\DRIVER\SRC\pci_isoc2703.c" file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="493" column="3"/>
+        </error>
+        <error id="invalidPrintfArgType_uint" severity="warning" msg="%X in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%X in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="12755565040641455142">
+            <location file0="..\workspace\DRIVER\SRC\pci_isoc2703.c" file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="494" column="2"/>
+        </error>
+        <error id="invalidPrintfArgType_uint" severity="warning" msg="%X in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%X in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="2528092097374131113">
+            <location file0="..\workspace\DRIVER\SRC\pci_isoc2703.c" file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="515" column="2"/>
+        </error>
+        <error id="invalidPrintfArgType_uint" severity="warning" msg="%X in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%X in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="9108174638197777515">
+            <location file0="..\workspace\DRIVER\SRC\pci_isoc2703.c" file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="516" column="2"/>
+        </error>
+        <error id="invalidPrintfArgType_uint" severity="warning" msg="%X in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%X in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="16965118077631198065">
+            <location file0="..\workspace\DRIVER\SRC\pci_isoc2703.c" file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="517" column="2"/>
+        </error>
+        <error id="invalidPrintfArgType_uint" severity="warning" msg="%X in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%X in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="7698245184070454083">
+            <location file0="..\workspace\DRIVER\SRC\pci_isoc2703.c" file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="518" column="2"/>
+        </error>
+        <error id="invalidPrintfArgType_uint" severity="warning" msg="%X in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%X in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="10638560964216303031">
+            <location file0="..\workspace\DRIVER\SRC\pci_isoc2703.c" file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="519" column="3"/>
+        </error>
+        <error id="invalidPrintfArgType_uint" severity="warning" msg="%X in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%X in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="12083714822429712051">
+            <location file0="..\workspace\DRIVER\SRC\pci_isoc2703.c" file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="520" column="2"/>
+        </error>
+        <error id="invalidPrintfArgType_sint" severity="warning" msg="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="907361388454080282">
+            <location file0="..\workspace\DRIVER\SRC\pci_isoc2703.c" file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="542" column="3"/>
+        </error>
+        <error id="invalidPrintfArgType_uint" severity="warning" msg="%x in format string (no. 2) requires &apos;unsigned int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%x in format string (no. 2) requires &apos;unsigned int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="11142910142162652287">
+            <location file0="..\workspace\DRIVER\SRC\pci_isoc2703.c" file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="1678" column="4"/>
+        </error>
+        <error id="nullPointerArithmeticRedundantCheck" severity="warning" msg="Either the condition &apos;memAddr==(unsigned long*)0&apos; is redundant or there is pointer arithmetic with NULL pointer." verbose="Either the condition &apos;memAddr==(unsigned long*)0&apos; is redundant or there is pointer arithmetic with NULL pointer." cwe="682" hash="14768640562061462062">
+            <location file0="..\workspace\DRIVER\SRC\pci_isoc2703.c" file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="1658" column="17" info="Null pointer addition"/>
+            <location file0="..\workspace\DRIVER\SRC\pci_isoc2703.c" file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="1660" column="13" info="condition &apos;memAddr==(unsigned long*)0&apos;"/>
+        </error>
+        <error id="nullPointerArithmeticRedundantCheck" severity="warning" msg="Either the condition &apos;memAddr==(unsigned long*)0&apos; is redundant or there is pointer arithmetic with NULL pointer." verbose="Either the condition &apos;memAddr==(unsigned long*)0&apos; is redundant or there is pointer arithmetic with NULL pointer." cwe="682" hash="16924876623345972645">
+            <location file0="..\workspace\DRIVER\SRC\pci_isoc2703.c" file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="1702" column="17" info="Null pointer addition"/>
+            <location file0="..\workspace\DRIVER\SRC\pci_isoc2703.c" file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="1703" column="13" info="condition &apos;memAddr==(unsigned long*)0&apos;"/>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;pMemBlock0-&gt;reg&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;pMemBlock0-&gt;reg&apos; is reassigned a value before the old one has been used." cwe="563" hash="2429493865853154095">
+            <location file0="..\workspace\DRIVER\SRC\pci_isoc2703.c" file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="1556" column="19" info="pMemBlock0-&gt;reg is overwritten"/>
+            <location file0="..\workspace\DRIVER\SRC\pci_isoc2703.c" file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="1540" column="19" info="pMemBlock0-&gt;reg is assigned"/>
+            <symbol>pMemBlock0-&gt;reg</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;data&apos; can be reduced." verbose="The scope of the variable &apos;data&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="7997621968089484916">
+            <location file0="..\workspace\DRIVER\SRC\pci_isoc2703.c" file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="535" column="16"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;i&apos; can be reduced." verbose="The scope of the variable &apos;i&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="10395795416830099035">
+            <location file0="..\workspace\DRIVER\SRC\pci_isoc2703.c" file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="1741" column="8"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;func&apos; can be reduced." verbose="The scope of the variable &apos;func&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="17072537736532584357">
+            <location file0="..\workspace\DRIVER\SRC\pci_isoc2703.c" file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="1742" column="12"/>
+            <symbol>func</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;arg1&apos; can be reduced." verbose="The scope of the variable &apos;arg1&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="13421349610400898856">
+            <location file0="..\workspace\DRIVER\SRC\pci_isoc2703.c" file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="1743" column="17"/>
+            <symbol>arg1</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;arg2&apos; can be reduced." verbose="The scope of the variable &apos;arg2&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="8315195209327381089">
+            <location file0="..\workspace\DRIVER\SRC\pci_isoc2703.c" file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="1743" column="23"/>
+            <symbol>arg2</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;data&apos; is assigned a value that is never used." verbose="Variable &apos;data&apos; is assigned a value that is never used." cwe="563" hash="9271621935916277843">
+            <location file0="..\workspace\DRIVER\SRC\pci_isoc2703.c" file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="535" column="21"/>
+            <symbol>data</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:220:6" call-funcname="pci_isoC2703InputLogic" call-argnr="1" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="78" col="24" call-argexpr="nIsoNum" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="70" col="15" info="Assuming that condition 'nIsoNum<0' is not redundant"/>
+</function-call><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:220:6" call-funcname="pci_isoC2703InputLogic" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="78" col="24" call-argexpr="&nInput" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:220:6" call-funcname="pci_isoC2703InputLogic" call-argnr="1" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="114" col="24" call-argexpr="nIsoNum" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="106" col="15" info="Assuming that condition 'nIsoNum<0' is not redundant"/>
+</function-call><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:220:6" call-funcname="pci_isoC2703InputLogic" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="114" col="24" call-argexpr="&nInput" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:218:6" call-funcname="pci_isoC2703InputPort" call-argnr="1" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="202" col="23" call-argexpr="nIsoNum" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="197" col="15" info="Assuming that condition 'nIsoNum<0' is not redundant"/>
+</function-call><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:218:6" call-funcname="pci_isoC2703InputPort" call-argnr="2" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="202" col="23" call-argexpr="&nPort" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:218:6" call-funcname="pci_isoC2703InputPort" call-argnr="2" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="202" col="23" call-argexpr="nPort" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:218:6" call-funcname="pci_isoC2703InputPort" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="202" col="23" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:222:6" call-funcname="pci_isoC2703DelChatt" call-argnr="1" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="205" col="22" call-argexpr="nIsoNum" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="197" col="15" info="Assuming that condition 'nIsoNum<0' is not redundant"/>
+</function-call><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:222:6" call-funcname="pci_isoC2703DelChatt" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="205" col="22" call-argexpr="&nChatt" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:222:6" call-funcname="pci_isoC2703DelChatt" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="205" col="22" call-argexpr="nChatt" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:222:6" call-funcname="pci_isoC2703DelChatt" call-argnr="4" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="205" col="22" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:220:6" call-funcname="pci_isoC2703InputLogic" call-argnr="1" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="208" col="24" call-argexpr="nIsoNum" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="197" col="15" info="Assuming that condition 'nIsoNum<0' is not redundant"/>
+</function-call><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:220:6" call-funcname="pci_isoC2703InputLogic" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="208" col="24" call-argexpr="&nInput" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:220:6" call-funcname="pci_isoC2703InputLogic" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="208" col="24" call-argexpr="nInput" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:220:6" call-funcname="pci_isoC2703InputLogic" call-argnr="4" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="208" col="24" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:218:6" call-funcname="pci_isoC2703InputPort" call-argnr="1" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="241" col="23" call-argexpr="nIsoNum" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="236" col="15" info="Assuming that condition 'nIsoNum<0' is not redundant"/>
+</function-call><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:218:6" call-funcname="pci_isoC2703InputPort" call-argnr="2" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="241" col="23" call-argexpr="&nPort" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:218:6" call-funcname="pci_isoC2703InputPort" call-argnr="2" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="241" col="23" call-argexpr="nPort" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:222:6" call-funcname="pci_isoC2703DelChatt" call-argnr="1" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="244" col="22" call-argexpr="nIsoNum" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="236" col="15" info="Assuming that condition 'nIsoNum<0' is not redundant"/>
+</function-call><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:222:6" call-funcname="pci_isoC2703DelChatt" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="244" col="22" call-argexpr="&nChatt" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:222:6" call-funcname="pci_isoC2703DelChatt" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="244" col="22" call-argexpr="nChatt" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:220:6" call-funcname="pci_isoC2703InputLogic" call-argnr="1" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="247" col="24" call-argexpr="nIsoNum" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="236" col="15" info="Assuming that condition 'nIsoNum<0' is not redundant"/>
+</function-call><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:220:6" call-funcname="pci_isoC2703InputLogic" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="247" col="24" call-argexpr="&nInput" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:220:6" call-funcname="pci_isoC2703InputLogic" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="247" col="24" call-argexpr="nInput" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:224:6" call-funcname="pci_isoC2703OutputLogic" call-argnr="1" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="325" col="25" call-argexpr="nIsoNum" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="321" col="15" info="Assuming that condition 'nIsoNum<0' is not redundant"/>
+</function-call><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:224:6" call-funcname="pci_isoC2703OutputLogic" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="325" col="25" call-argexpr="&wdata" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:224:6" call-funcname="pci_isoC2703OutputLogic" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="325" col="25" call-argexpr="wdata" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:224:6" call-funcname="pci_isoC2703OutputLogic" call-argnr="4" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="325" col="25" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:224:6" call-funcname="pci_isoC2703OutputLogic" call-argnr="1" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="368" col="25" call-argexpr="nIsoNum" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="364" col="15" info="Assuming that condition 'nIsoNum<0' is not redundant"/>
+</function-call><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:224:6" call-funcname="pci_isoC2703OutputLogic" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="368" col="25" call-argexpr="&wdata" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:224:6" call-funcname="pci_isoC2703OutputLogic" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="368" col="25" call-argexpr="wdata" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_isoc2703.h:95:5" call-funcname="C2703Input_lower" call-argnr="2" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="577" col="18" call-argexpr="&racu_low" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_isoc2703.h:95:5" call-funcname="C2703Input_lower" call-argnr="2" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="577" col="18" call-argexpr="racu_low" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_isoc2703.h:101:5" call-funcname="C2703Input_upper" call-argnr="2" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="578" col="18" call-argexpr="&racu_upper" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_isoc2703.h:101:5" call-funcname="C2703Input_upper" call-argnr="2" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="578" col="18" call-argexpr="racu_upper" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:218:6" call-funcname="pci_isoC2703InputPort" call-argnr="1" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="979" col="23" call-argexpr="nIsoNum" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="974" col="15" info="Assuming that condition 'nIsoNum<0' is not redundant"/>
+</function-call><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:218:6" call-funcname="pci_isoC2703InputPort" call-argnr="2" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="979" col="23" call-argexpr="&nPortLower" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:218:6" call-funcname="pci_isoC2703InputPort" call-argnr="2" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="979" col="23" call-argexpr="nPortLower" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:218:6" call-funcname="pci_isoC2703InputPort" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="979" col="23" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:218:6" call-funcname="pci_isoC2703InputPort" call-argnr="1" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="980" col="23" call-argexpr="nIsoNum" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="974" col="15" info="Assuming that condition 'nIsoNum<0' is not redundant"/>
+</function-call><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:218:6" call-funcname="pci_isoC2703InputPort" call-argnr="2" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="980" col="23" call-argexpr="&nPortUpper" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:218:6" call-funcname="pci_isoC2703InputPort" call-argnr="2" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="980" col="23" call-argexpr="nPortUpper" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:220:6" call-funcname="pci_isoC2703InputLogic" call-argnr="1" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="991" col="24" call-argexpr="nIsoNum" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="974" col="15" info="Assuming that condition 'nIsoNum<0' is not redundant"/>
+</function-call><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:220:6" call-funcname="pci_isoC2703InputLogic" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="991" col="24" call-argexpr="&nInput" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:220:6" call-funcname="pci_isoC2703InputLogic" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="991" col="24" call-argexpr="nInput" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:220:6" call-funcname="pci_isoC2703InputLogic" call-argnr="4" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="991" col="24" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:220:6" call-funcname="pci_isoC2703InputLogic" call-argnr="1" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="992" col="24" call-argexpr="nIsoNum" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="974" col="15" info="Assuming that condition 'nIsoNum<0' is not redundant"/>
+</function-call><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.h:220:6" call-funcname="pci_isoC2703InputLogic" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="992" col="24" call-argexpr="&nInput" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.c:46:6" call-funcname="pci_isoC2703CardRegInit" call-argnr="2" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="1119" col="25" call-argexpr="nIsoNum" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="..\workspace\DRIVER\SRC\pci_isoc2703.c" line="1054" col="15" info="Assuming that condition 'nIsoNum<0' is not redundant"/>
+</function-call><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.c:47:6" call-funcname="pci_isoC2703IntTimerVal" call-argnr="2" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="1525" col="31" call-argexpr="&nSck" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.c:47:6" call-funcname="pci_isoC2703IntTimerVal" call-argnr="2" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="1525" col="31" call-argexpr="nSck" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.c:47:6" call-funcname="pci_isoC2703IntTimerVal" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="1525" col="31" call-argexpr="&nTctrl" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="../workspace/DRIVER/SRC/pci_isoc2703.c:47:6" call-funcname="pci_isoC2703IntTimerVal" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="1525" col="31" call-argexpr="nTctrl" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_isoc2703.h:135:16" call-funcname="C2703GetAddress" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="1657" col="27" call-argexpr="&blockSize" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_isoc2703.h:135:16" call-funcname="C2703GetAddress" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="1657" col="27" call-argexpr="blockSize" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_isoc2703.h:135:16" call-funcname="C2703GetAddress" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="1701" col="27" call-argexpr="&blockSize" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_isoc2703.h:135:16" call-funcname="C2703GetAddress" call-argnr="3" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="1701" col="27" call-argexpr="blockSize" call-argvaluetype="4" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="../workspace/DRIVER/PUBLIC/pci_drv_isoc2703.h:135:16" my-argnr="3" my-argname="blockSize" file="../workspace/DRIVER/SRC/pci_isoc2703.c" line="1622" col="3" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="C2703SetInputLogic" lineNumber="58"/>
+    <functiondecl functionName="C2703SetInputTest" lineNumber="95"/>
+    <functiondecl functionName="C2703SetOutputLogic" lineNumber="130"/>
+    <functiondecl functionName="C2703SetOutputTest" lineNumber="156"/>
+    <functiondecl functionName="C2703Input_lower" lineNumber="188"/>
+    <functiondecl functionName="C2703Input_upper" lineNumber="227"/>
+    <functiondecl functionName="C2703GetInputData" lineNumber="279"/>
+    <functiondecl functionName="C2703Output_lower" lineNumber="311"/>
+    <functiondecl functionName="C2703Output_upper" lineNumber="354"/>
+    <functiondecl functionName="C2703GetInputLogic" lineNumber="393"/>
+    <functiondecl functionName="C2703GetInputTest" lineNumber="423"/>
+    <functiondecl functionName="C2703GetOutputLogic" lineNumber="451"/>
+    <functiondecl functionName="C2703DispIn" lineNumber="477"/>
+    <functiondecl functionName="C2703DispOut" lineNumber="505"/>
+    <functiondecl functionName="c2703dispBit" lineNumber="531"/>
+    <functiondecl functionName="readback2703" lineNumber="547"/>
+    <functiondecl functionName="pci_isoC2703InputPort" lineNumber="774"/>
+    <functiondecl functionName="pci_isoC2703InputLogic" lineNumber="819"/>
+    <functiondecl functionName="pci_isoC2703DelChatt" lineNumber="846"/>
+    <functiondecl functionName="pci_isoC2703OutputLogic" lineNumber="922"/>
+    <functiondecl functionName="pci_isoC2703DeviceSearch" lineNumber="950"/>
+    <functiondecl functionName="pci_isoC2703InputInit" lineNumber="967"/>
+    <functiondecl functionName="pci_isoC2703DeviceRegist" lineNumber="1000"/>
+    <functiondecl functionName="pci_isoC2703DeviceDelete" lineNumber="1024"/>
+    <functiondecl functionName="pci_isoC2703CardInfoInit" lineNumber="1049"/>
+    <functiondecl functionName="pci_isoC2703CardRegInit" lineNumber="1128"/>
+    <functiondecl functionName="pci_isoC2703IntTimerVal" lineNumber="1184"/>
+    <functiondecl functionName="C2703GetOutputTest" lineNumber="1233"/>
+    <functiondecl functionName="pci_isoC2703RegInit" lineNumber="1264"/>
+    <functiondecl functionName="C2703Init" lineNumber="1315"/>
+    <functiondecl functionName="C2703Open" lineNumber="1336"/>
+    <functiondecl functionName="C2703Close" lineNumber="1432"/>
+    <functiondecl functionName="C2703SetIrqConfig" lineNumber="1469"/>
+    <functiondecl functionName="C2703StartTimer" lineNumber="1507"/>
+    <functiondecl functionName="C2703StopTimer" lineNumber="1570"/>
+    <functiondecl functionName="C2703GetAddress" lineNumber="1617"/>
+    <functiondecl functionName="C2703RegRead" lineNumber="1650"/>
+    <functiondecl functionName="C2703RegWrite" lineNumber="1693"/>
+    <functiondecl functionName="pci_isoC2703PciInt" lineNumber="1733"/>
+    <functioncall functionName="C2703GetAddress"/>
+    <functioncall functionName="C2703Input_lower"/>
+    <functioncall functionName="C2703Input_upper"/>
+    <functioncall functionName="C2703StopTimer"/>
+    <functioncall functionName="PIC_IRQ_TO_IVEC"/>
+    <functioncall functionName="addr"/>
+    <functioncall functionName="and"/>
+    <functioncall functionName="arg1"/>
+    <functioncall functionName="arg2"/>
+    <functioncall functionName="argment1"/>
+    <functioncall functionName="argment2"/>
+    <functioncall functionName="baseAddr0"/>
+    <functioncall functionName="blockSize"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="busNo"/>
+    <functioncall functionName="c2703dispBit"/>
+    <functioncall functionName="char"/>
+    <functioncall functionName="chatter"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="devNo"/>
+    <functioncall functionName="deviceID"/>
+    <functioncall functionName="edata"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="func"/>
+    <functioncall functionName="funcNo"/>
+    <functioncall functionName="handler"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="index"/>
+    <functioncall functionName="inputIndex"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="intLine"/>
+    <functioncall functionName="intr"/>
+    <functioncall functionName="iret"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="lower"/>
+    <functioncall functionName="memAddr0"/>
+    <functioncall functionName="nAndVal"/>
+    <functioncall functionName="nBaseTctel"/>
+    <functioncall functionName="nBlock"/>
+    <functioncall functionName="nBoard"/>
+    <functioncall functionName="nBoardDef"/>
+    <functioncall functionName="nBoardNum"/>
+    <functioncall functionName="nBuf"/>
+    <functioncall functionName="nCattEnable"/>
+    <functioncall functionName="nChatVal"/>
+    <functioncall functionName="nChatt"/>
+    <functioncall functionName="nInitBoardNum"/>
+    <functioncall functionName="nInput"/>
+    <functioncall functionName="nIntMask"/>
+    <functioncall functionName="nIntSel"/>
+    <functioncall functionName="nIntr"/>
+    <functioncall functionName="nIntrLine"/>
+    <functioncall functionName="nIsoNum"/>
+    <functioncall functionName="nLogicVal"/>
+    <functioncall functionName="nMemBlkAddr0"/>
+    <functioncall functionName="nNextTime"/>
+    <functioncall functionName="nOrVal"/>
+    <functioncall functionName="nOutput"/>
+    <functioncall functionName="nOutput_lower"/>
+    <functioncall functionName="nOutput_upper"/>
+    <functioncall functionName="nPort"/>
+    <functioncall functionName="nPortLower"/>
+    <functioncall functionName="nPortUpper"/>
+    <functioncall functionName="nReg"/>
+    <functioncall functionName="nSck"/>
+    <functioncall functionName="nTctrl"/>
+    <functioncall functionName="nTimer"/>
+    <functioncall functionName="offset"/>
+    <functioncall functionName="or"/>
+    <functioncall functionName="outputIndex"/>
+    <functioncall functionName="pciConfigInLong"/>
+    <functioncall functionName="pciFindDevice"/>
+    <functioncall functionName="pciIntConnect"/>
+    <functioncall functionName="pciIntDisconnect2"/>
+    <functioncall functionName="pci_comGetIoBlockAddr"/>
+    <functioncall functionName="pci_comPCIendianChg"/>
+    <functioncall functionName="pci_isoC2703CardInfoInit"/>
+    <functioncall functionName="pci_isoC2703CardRegInit"/>
+    <functioncall functionName="pci_isoC2703DelChatt"/>
+    <functioncall functionName="pci_isoC2703DeviceDelete"/>
+    <functioncall functionName="pci_isoC2703DeviceRegist"/>
+    <functioncall functionName="pci_isoC2703DeviceSearch"/>
+    <functioncall functionName="pci_isoC2703InputInit"/>
+    <functioncall functionName="pci_isoC2703InputLogic"/>
+    <functioncall functionName="pci_isoC2703InputPort"/>
+    <functioncall functionName="pci_isoC2703IntTimerVal"/>
+    <functioncall functionName="pci_isoC2703OutputLogic"/>
+    <functioncall functionName="pci_isoC2703PciInt"/>
+    <functioncall functionName="pci_isoC2703RegInit"/>
+    <functioncall functionName="prevChatt"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="racu_low"/>
+    <functioncall functionName="racu_upper"/>
+    <functioncall functionName="rdata_low"/>
+    <functioncall functionName="rdata_upper"/>
+    <functioncall functionName="reg"/>
+    <functioncall functionName="ret"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="time"/>
+    <functioncall functionName="timeout"/>
+    <functioncall functionName="upper"/>
+    <functioncall functionName="venderID"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="wdata"/>
+    <functioncall functionName="xor"/>
+  </FileInfo>
+</analyzerinfo>

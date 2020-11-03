@@ -1,0 +1,244 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1763700566">
+        <error id="clarifyCondition" severity="style" msg="Suspicious condition (bitwise operator + comparison); Clarify expression with parentheses." verbose="Suspicious condition. Comparison operators have higher precedence than bitwise operators. Please clarify the condition with parentheses." cwe="398" hash="3939644412426433882">
+            <location file0="..\workspace\DRIVER\SRC\pci_ras.c" file="..\workspace\DRIVER\SRC\pci_ras.c" line="1233" column="5"/>
+        </error>
+        <error id="clarifyCondition" severity="style" msg="Boolean result is used in bitwise operation. Clarify expression with parentheses." verbose="Suspicious expression. Boolean result is used in bitwise operation. The operator &apos;!&apos; and the comparison operators have higher precedence than bitwise operators. It is recommended that the expression is clarified with parentheses." cwe="398" hash="7652701345003120594">
+            <location file0="..\workspace\DRIVER\SRC\pci_ras.c" file="..\workspace\DRIVER\SRC\pci_ras.c" line="1233" column="15"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;baseAddr&amp;0x00000001UL==0&apos; is always false" verbose="Condition &apos;baseAddr&amp;0x00000001UL==0&apos; is always false" cwe="570" hash="12097534335093277788">
+            <location file0="..\workspace\DRIVER\SRC\pci_ras.c" file="..\workspace\DRIVER\SRC\pci_ras.c" line="1233" column="15" info="Condition &apos;baseAddr&amp;0x00000001UL==0&apos; is always false"/>
+        </error>
+        <error id="invalidPrintfArgType_uint" severity="warning" msg="%x in format string (no. 2) requires &apos;unsigned int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%x in format string (no. 2) requires &apos;unsigned int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="3887046386937603936">
+            <location file0="..\workspace\DRIVER\SRC\pci_ras.c" file="..\workspace\DRIVER\SRC\pci_ras.c" line="1805" column="4"/>
+        </error>
+        <error id="nullPointerArithmeticRedundantCheck" severity="warning" msg="Either the condition &apos;memAddr==(unsigned long*)0&apos; is redundant or there is pointer arithmetic with NULL pointer." verbose="Either the condition &apos;memAddr==(unsigned long*)0&apos; is redundant or there is pointer arithmetic with NULL pointer." cwe="682" hash="2864687963260310381">
+            <location file0="..\workspace\DRIVER\SRC\pci_ras.c" file="..\workspace\DRIVER\SRC\pci_ras.c" line="1785" column="17" info="Null pointer addition"/>
+            <location file0="..\workspace\DRIVER\SRC\pci_ras.c" file="..\workspace\DRIVER\SRC\pci_ras.c" line="1787" column="13" info="condition &apos;memAddr==(unsigned long*)0&apos;"/>
+        </error>
+        <error id="nullPointerArithmeticRedundantCheck" severity="warning" msg="Either the condition &apos;memAddr==(unsigned long*)0&apos; is redundant or there is pointer arithmetic with NULL pointer." verbose="Either the condition &apos;memAddr==(unsigned long*)0&apos; is redundant or there is pointer arithmetic with NULL pointer." cwe="682" hash="14100862230668010160">
+            <location file0="..\workspace\DRIVER\SRC\pci_ras.c" file="..\workspace\DRIVER\SRC\pci_ras.c" line="1837" column="17" info="Null pointer addition"/>
+            <location file0="..\workspace\DRIVER\SRC\pci_ras.c" file="..\workspace\DRIVER\SRC\pci_ras.c" line="1838" column="13" info="condition &apos;memAddr==(unsigned long*)0&apos;"/>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;ret&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;ret&apos; is reassigned a value before the old one has been used." cwe="563" hash="10200451019123627844">
+            <location file0="..\workspace\DRIVER\SRC\pci_ras.c" file="..\workspace\DRIVER\SRC\pci_ras.c" line="2514" column="6" info="ret is overwritten"/>
+            <location file0="..\workspace\DRIVER\SRC\pci_ras.c" file="..\workspace\DRIVER\SRC\pci_ras.c" line="2507" column="6" info="ret is assigned"/>
+            <symbol>ret</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: dacReg" verbose="Unused variable: dacReg" cwe="563" hash="18251130653485291860">
+            <location file0="..\workspace\DRIVER\SRC\pci_ras.c" file="..\workspace\DRIVER\SRC\pci_ras.c" line="737" column="17"/>
+            <symbol>dacReg</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: status" verbose="Unused variable: status" cwe="563" hash="7865243848637613987">
+            <location file0="..\workspace\DRIVER\SRC\pci_ras.c" file="..\workspace\DRIVER\SRC\pci_ras.c" line="945" column="17"/>
+            <symbol>status</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: nClk" verbose="Unused variable: nClk" cwe="563" hash="9908066052860727988">
+            <location file0="..\workspace\DRIVER\SRC\pci_ras.c" file="..\workspace\DRIVER\SRC\pci_ras.c" line="1885" column="8"/>
+            <symbol>nClk</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;ret&apos; is assigned a value that is never used." verbose="Variable &apos;ret&apos; is assigned a value that is never used." cwe="563" hash="12236016822693982336">
+            <location file0="..\workspace\DRIVER\SRC\pci_ras.c" file="..\workspace\DRIVER\SRC\pci_ras.c" line="2514" column="6"/>
+            <symbol>ret</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="../workspace/DRIVER/SRC/pci_ras.c:39:5" call-funcname="pci_rasDeviceRegist" call-argnr="1" file="../workspace/DRIVER/SRC/pci_ras.c" line="154" col="33" call-argexpr="nBoard" call-argvaluetype="0" call-argvalue="0">
+  <path file="..\workspace\DRIVER\SRC\pci_ras.c" line="2507" col="17" info="Calling function 'FrasOpen', 1st argument '0' value is 0"/>
+  <path file="..\workspace\DRIVER\SRC\pci_ras.c" line="149" col="20" info="Assuming condition is Assuming condition is false"/>
+</function-call><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_ras.h:264:5" call-funcname="FrasGetDipSwitch" call-argnr="2" file="../workspace/DRIVER/SRC/pci_ras.c" line="211" col="18" call-argexpr="&dipsw" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/SRC/pci_ras.c:38:5" call-funcname="pci_rasDeviceSearch" call-argnr="1" file="../workspace/DRIVER/SRC/pci_ras.c" line="291" col="31" call-argexpr="nBoard" call-argvaluetype="0" call-argvalue="0">
+  <path file="..\workspace\DRIVER\SRC\pci_ras.c" line="2514" col="21" info="Calling function 'FrasSetCycle', 1st argument '0' value is 0"/>
+</function-call><function-call call-id="../workspace/DRIVER/SRC/pci_ras.c:38:5" call-funcname="pci_rasDeviceSearch" call-argnr="1" file="../workspace/DRIVER/SRC/pci_ras.c" line="393" col="31" call-argexpr="nBoard" call-argvaluetype="0" call-argvalue="0">
+  <path file="..\workspace\DRIVER\SRC\pci_ras.c" line="2508" col="19" info="Calling function 'FrasSetIrqConfig', 1st argument '0' value is 0"/>
+</function-call><function-call call-id="../workspace/DRIVER/SRC/pci_ras.c:38:5" call-funcname="pci_rasDeviceSearch" call-argnr="1" file="../workspace/DRIVER/SRC/pci_ras.c" line="441" col="31" call-argexpr="nBoard" call-argvaluetype="0" call-argvalue="0">
+  <path file="..\workspace\DRIVER\SRC\pci_ras.c" line="2515" col="16" info="Calling function 'FrasIrqEnable', 1st argument '0' value is 0"/>
+</function-call><function-call call-id="../workspace/DRIVER/SRC/pci_ras.c:38:5" call-funcname="pci_rasDeviceSearch" call-argnr="1" file="../workspace/DRIVER/SRC/pci_ras.c" line="681" col="31" call-argexpr="nBoard" call-argvaluetype="0" call-argvalue="0">
+  <path file="..\workspace\DRIVER\SRC\pci_ras.c" line="2519" col="18" info="Calling function 'FrasGetADinput', 1st argument '0' value is 0"/>
+</function-call><function-call call-id="../workspace/DRIVER/SRC/pci_ras.c:38:5" call-funcname="pci_rasDeviceSearch" call-argnr="1" file="../workspace/DRIVER/SRC/pci_ras.c" line="742" col="31" call-argexpr="nBoard" call-argvaluetype="0" call-argvalue="0">
+  <path file="..\workspace\DRIVER\SRC\pci_ras.c" line="2521" col="19" info="Calling function 'FrasSetDAoutput', 1st argument '0' value is 0"/>
+</function-call><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_ras.h:191:5" call-funcname="FrasGetDAstatus" call-argnr="1" file="../workspace/DRIVER/SRC/pci_ras.c" line="747" col="23" call-argexpr="nBoard" call-argvaluetype="0" call-argvalue="0">
+  <path file="..\workspace\DRIVER\SRC\pci_ras.c" line="2521" col="19" info="Calling function 'FrasSetDAoutput', 1st argument '0' value is 0"/>
+  <path file="..\workspace\DRIVER\SRC\pci_ras.c" line="743" col="15" info="Assuming condition is Assuming condition is false"/>
+</function-call><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_ras.h:191:5" call-funcname="FrasGetDAstatus" call-argnr="2" file="../workspace/DRIVER/SRC/pci_ras.c" line="747" col="23" call-argexpr="nNo" call-argvaluetype="0" call-argvalue="0">
+  <path file="..\workspace\DRIVER\SRC\pci_ras.c" line="2521" col="22" info="Calling function 'FrasSetDAoutput', 2nd argument '0' value is 0"/>
+  <path file="..\workspace\DRIVER\SRC\pci_ras.c" line="743" col="15" info="Assuming condition is Assuming condition is false"/>
+</function-call><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_ras.h:191:5" call-funcname="FrasGetDAstatus" call-argnr="3" file="../workspace/DRIVER/SRC/pci_ras.c" line="747" col="23" call-argexpr="&stat" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_ras.h:191:5" call-funcname="FrasGetDAstatus" call-argnr="3" file="../workspace/DRIVER/SRC/pci_ras.c" line="747" col="23" call-argexpr="stat" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_ras.h:176:5" call-funcname="FrasGetADinput" call-argnr="2" file="../workspace/DRIVER/SRC/pci_ras.c" line="1755" col="23" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_ras.h:176:5" call-funcname="FrasGetADinput" call-argnr="3" file="../workspace/DRIVER/SRC/pci_ras.c" line="1755" col="23" call-argexpr="volt" call-argvaluetype="7" call-argvalue="16"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_ras.h:176:5" call-funcname="FrasGetADinput" call-argnr="4" file="../workspace/DRIVER/SRC/pci_ras.c" line="1755" col="23" call-argexpr="&dummy" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_ras.h:176:5" call-funcname="FrasGetADinput" call-argnr="4" file="../workspace/DRIVER/SRC/pci_ras.c" line="1755" col="23" call-argexpr="dummy" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_ras.h:176:5" call-funcname="FrasGetADinput" call-argnr="4" file="../workspace/DRIVER/SRC/pci_ras.c" line="1756" col="23" call-argexpr="&dummy" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_ras.h:306:16" call-funcname="FrasGetAddress" call-argnr="3" file="../workspace/DRIVER/SRC/pci_ras.c" line="1784" col="26" call-argexpr="&blockSize" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_ras.h:306:16" call-funcname="FrasGetAddress" call-argnr="3" file="../workspace/DRIVER/SRC/pci_ras.c" line="1784" col="26" call-argexpr="blockSize" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_ras.h:306:16" call-funcname="FrasGetAddress" call-argnr="3" file="../workspace/DRIVER/SRC/pci_ras.c" line="1836" col="26" call-argexpr="&blockSize" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_ras.h:306:16" call-funcname="FrasGetAddress" call-argnr="3" file="../workspace/DRIVER/SRC/pci_ras.c" line="1836" col="26" call-argexpr="blockSize" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_ras.h:118:5" call-funcname="FrasOpen" call-argnr="1" file="../workspace/DRIVER/SRC/pci_ras.c" line="2507" col="16" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_ras.h:118:5" call-funcname="FrasOpen" call-argnr="2" file="../workspace/DRIVER/SRC/pci_ras.c" line="2507" col="16" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_ras.h:137:5" call-funcname="FrasSetIrqConfig" call-argnr="1" file="../workspace/DRIVER/SRC/pci_ras.c" line="2508" col="18" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_ras.h:137:5" call-funcname="FrasSetIrqConfig" call-argnr="2" file="../workspace/DRIVER/SRC/pci_ras.c" line="2508" col="18" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_ras.h:137:5" call-funcname="FrasSetIrqConfig" call-argnr="4" file="../workspace/DRIVER/SRC/pci_ras.c" line="2508" col="18" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_ras.h:137:5" call-funcname="FrasSetIrqConfig" call-argnr="5" file="../workspace/DRIVER/SRC/pci_ras.c" line="2508" col="18" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_ras.h:137:5" call-funcname="FrasSetIrqConfig" call-argnr="1" file="../workspace/DRIVER/SRC/pci_ras.c" line="2509" col="18" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_ras.h:137:5" call-funcname="FrasSetIrqConfig" call-argnr="4" file="../workspace/DRIVER/SRC/pci_ras.c" line="2509" col="18" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_ras.h:137:5" call-funcname="FrasSetIrqConfig" call-argnr="5" file="../workspace/DRIVER/SRC/pci_ras.c" line="2509" col="18" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_ras.h:137:5" call-funcname="FrasSetIrqConfig" call-argnr="1" file="../workspace/DRIVER/SRC/pci_ras.c" line="2510" col="18" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_ras.h:137:5" call-funcname="FrasSetIrqConfig" call-argnr="4" file="../workspace/DRIVER/SRC/pci_ras.c" line="2510" col="18" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_ras.h:137:5" call-funcname="FrasSetIrqConfig" call-argnr="5" file="../workspace/DRIVER/SRC/pci_ras.c" line="2510" col="18" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_ras.h:137:5" call-funcname="FrasSetIrqConfig" call-argnr="1" file="../workspace/DRIVER/SRC/pci_ras.c" line="2511" col="18" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_ras.h:137:5" call-funcname="FrasSetIrqConfig" call-argnr="4" file="../workspace/DRIVER/SRC/pci_ras.c" line="2511" col="18" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_ras.h:137:5" call-funcname="FrasSetIrqConfig" call-argnr="5" file="../workspace/DRIVER/SRC/pci_ras.c" line="2511" col="18" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_ras.h:137:5" call-funcname="FrasSetIrqConfig" call-argnr="1" file="../workspace/DRIVER/SRC/pci_ras.c" line="2512" col="18" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_ras.h:137:5" call-funcname="FrasSetIrqConfig" call-argnr="4" file="../workspace/DRIVER/SRC/pci_ras.c" line="2512" col="18" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_ras.h:137:5" call-funcname="FrasSetIrqConfig" call-argnr="5" file="../workspace/DRIVER/SRC/pci_ras.c" line="2512" col="18" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_ras.h:129:5" call-funcname="FrasSetCycle" call-argnr="1" file="../workspace/DRIVER/SRC/pci_ras.c" line="2514" col="20" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_ras.h:147:5" call-funcname="FrasIrqEnable" call-argnr="1" file="../workspace/DRIVER/SRC/pci_ras.c" line="2515" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_ras.h:176:5" call-funcname="FrasGetADinput" call-argnr="1" file="../workspace/DRIVER/SRC/pci_ras.c" line="2519" col="17" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_ras.h:176:5" call-funcname="FrasGetADinput" call-argnr="3" file="../workspace/DRIVER/SRC/pci_ras.c" line="2519" col="17" call-argexpr="&volt" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_ras.h:176:5" call-funcname="FrasGetADinput" call-argnr="3" file="../workspace/DRIVER/SRC/pci_ras.c" line="2519" col="17" call-argexpr="volt" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_ras.h:176:5" call-funcname="FrasGetADinput" call-argnr="4" file="../workspace/DRIVER/SRC/pci_ras.c" line="2519" col="17" call-argexpr="&norm" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_ras.h:176:5" call-funcname="FrasGetADinput" call-argnr="4" file="../workspace/DRIVER/SRC/pci_ras.c" line="2519" col="17" call-argexpr="norm" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_ras.h:184:5" call-funcname="FrasSetDAoutput" call-argnr="1" file="../workspace/DRIVER/SRC/pci_ras.c" line="2521" col="18" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_ras.h:184:5" call-funcname="FrasSetDAoutput" call-argnr="2" file="../workspace/DRIVER/SRC/pci_ras.c" line="2521" col="18" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="../workspace/DRIVER/PUBLIC/pci_drv_ras.h:306:16" my-argnr="3" my-argname="blockSize" file="../workspace/DRIVER/SRC/pci_ras.c" line="1661" col="3" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="FrasInit" lineNumber="65"/>
+    <functiondecl functionName="FrasOpen" lineNumber="90"/>
+    <functiondecl functionName="FrasClose" lineNumber="230"/>
+    <functiondecl functionName="FrasSetCycle" lineNumber="274"/>
+    <functiondecl functionName="FrasSetIrqConfig" lineNumber="385"/>
+    <functiondecl functionName="FrasIrqEnable" lineNumber="430"/>
+    <functiondecl functionName="FrasIrqDisable" lineNumber="478"/>
+    <functiondecl functionName="FrasSetOpeamp" lineNumber="534"/>
+    <functiondecl functionName="FrasSetADparameter" lineNumber="595"/>
+    <functiondecl functionName="FrasSetDAparameter" lineNumber="629"/>
+    <functiondecl functionName="FrasGetADinput" lineNumber="665"/>
+    <functiondecl functionName="FrasSetDAoutput" lineNumber="731"/>
+    <functiondecl functionName="FrasGetDAstatus" lineNumber="786"/>
+    <functiondecl functionName="FrasSetDAofsTime" lineNumber="826"/>
+    <functiondecl functionName="FrasSetAngleMarker" lineNumber="864"/>
+    <functiondecl functionName="FrasSetRunningPulse" lineNumber="901"/>
+    <functiondecl functionName="FrasGetClockStatus" lineNumber="939"/>
+    <functiondecl functionName="FrasGetExtClockError" lineNumber="986"/>
+    <functiondecl functionName="FrasSetLED" lineNumber="1055"/>
+    <functiondecl functionName="FrasWriteData" lineNumber="1095"/>
+    <functiondecl functionName="FrasReadData" lineNumber="1160"/>
+    <functiondecl functionName="FrasSetRTC" lineNumber="1216"/>
+    <functiondecl functionName="FrasGetRTC" lineNumber="1277"/>
+    <functiondecl functionName="FrasGetDipSwitch" lineNumber="1332"/>
+    <functiondecl functionName="FrasWdtReset" lineNumber="1366"/>
+    <functiondecl functionName="FrasGetWdtFault" lineNumber="1400"/>
+    <functiondecl functionName="FrasGetSeu" lineNumber="1440"/>
+    <functiondecl functionName="FrasGetRearIdFault" lineNumber="1480"/>
+    <functiondecl functionName="FrasGetClockError" lineNumber="1522"/>
+    <functiondecl functionName="FrasHeartBeat" lineNumber="1564"/>
+    <functiondecl functionName="FrasGetADCfault" lineNumber="1619"/>
+    <functiondecl functionName="FrasGetAddress" lineNumber="1655"/>
+    <functiondecl functionName="FrasGetHwVersion" lineNumber="1712"/>
+    <functiondecl functionName="FrasPrintAd" lineNumber="1747"/>
+    <functiondecl functionName="FrasRegRead" lineNumber="1777"/>
+    <functiondecl functionName="FrasRegWrite" lineNumber="1828"/>
+    <functiondecl functionName="pci_rasPciInt" lineNumber="1878"/>
+    <functiondecl functionName="pci_rasDeviceSearch" lineNumber="1996"/>
+    <functiondecl functionName="pci_rasDeviceRegist" lineNumber="2020"/>
+    <functiondecl functionName="pci_rasDeviceDelete" lineNumber="2052"/>
+    <functiondecl functionName="pci_rasCardInit" lineNumber="2083"/>
+    <functiondecl functionName="pci_rasPciIntCheck" lineNumber="2152"/>
+    <functiondecl functionName="pci_rasWriteEnable" lineNumber="2196"/>
+    <functiondecl functionName="pci_rasWriteDisable" lineNumber="2234"/>
+    <functiondecl functionName="int_handl" lineNumber="2488"/>
+    <functiondecl functionName="ras_test" lineNumber="2495"/>
+    <functioncall functionName="Dgain"/>
+    <functioncall functionName="Dofs"/>
+    <functioncall functionName="FrasGetADinput"/>
+    <functioncall functionName="FrasGetAddress"/>
+    <functioncall functionName="FrasGetDAstatus"/>
+    <functioncall functionName="FrasGetDipSwitch"/>
+    <functioncall functionName="FrasInit"/>
+    <functioncall functionName="FrasIrqDisable"/>
+    <functioncall functionName="FrasIrqEnable"/>
+    <functioncall functionName="FrasOpen"/>
+    <functioncall functionName="FrasSetCycle"/>
+    <functioncall functionName="FrasSetDAoutput"/>
+    <functioncall functionName="FrasSetIrqConfig"/>
+    <functioncall functionName="PIC_IRQ_TO_IVEC"/>
+    <functioncall functionName="adcData"/>
+    <functioncall functionName="adcGainOfs"/>
+    <functioncall functionName="adc_set"/>
+    <functioncall functionName="addr"/>
+    <functioncall functionName="angle_mark"/>
+    <functioncall functionName="arg1"/>
+    <functioncall functionName="arg2"/>
+    <functioncall functionName="argment1"/>
+    <functioncall functionName="argment2"/>
+    <functioncall functionName="baseAddr"/>
+    <functioncall functionName="baseAddr0"/>
+    <functioncall functionName="baseAddr1"/>
+    <functioncall functionName="baseAddr2"/>
+    <functioncall functionName="bit_alarm"/>
+    <functioncall functionName="blockSize"/>
+    <functioncall functionName="board_num"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="busNo"/>
+    <functioncall functionName="char"/>
+    <functioncall functionName="com_stat"/>
+    <functioncall functionName="continue"/>
+    <functioncall functionName="cycle"/>
+    <functioncall functionName="dacTime"/>
+    <functioncall functionName="dac_stat"/>
+    <functioncall functionName="dac_time"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="devNo"/>
+    <functioncall functionName="deviceID"/>
+    <functioncall functionName="dip_sw"/>
+    <functioncall functionName="dipsw"/>
+    <functioncall functionName="dist"/>
+    <functioncall functionName="double"/>
+    <functioncall functionName="dummy"/>
+    <functioncall functionName="event"/>
+    <functioncall functionName="externalClock"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="func"/>
+    <functioncall functionName="funcNo"/>
+    <functioncall functionName="gain"/>
+    <functioncall functionName="handler"/>
+    <functioncall functionName="heart_beat"/>
+    <functioncall functionName="hwVersion"/>
+    <functioncall functionName="hw_version"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="index"/>
+    <functioncall functionName="input"/>
+    <functioncall functionName="inputVolt"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="intLine"/>
+    <functioncall functionName="int_event"/>
+    <functioncall functionName="int_handl"/>
+    <functioncall functionName="intrEvent"/>
+    <functioncall functionName="iret"/>
+    <functioncall functionName="j"/>
+    <functioncall functionName="jitter"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="memAddr"/>
+    <functioncall functionName="memAddr0"/>
+    <functioncall functionName="nBlock"/>
+    <functioncall functionName="nBoard"/>
+    <functioncall functionName="nBoardDef"/>
+    <functioncall functionName="nBusNum"/>
+    <functioncall functionName="nCh"/>
+    <functioncall functionName="nCounter"/>
+    <functioncall functionName="nDeviceNum"/>
+    <functioncall functionName="nGain"/>
+    <functioncall functionName="nIntrLine"/>
+    <functioncall functionName="nMemBlkAddr0"/>
+    <functioncall functionName="nNo"/>
+    <functioncall functionName="nNum"/>
+    <functioncall functionName="nOfs"/>
+    <functioncall functionName="nRasNum"/>
+    <functioncall functionName="nfuncNum"/>
+    <functioncall functionName="norm"/>
+    <functioncall functionName="normVolt"/>
+    <functioncall functionName="offset"/>
+    <functioncall functionName="offsetp"/>
+    <functioncall functionName="pciConfigInLong"/>
+    <functioncall functionName="pciConfigOutLong"/>
+    <functioncall functionName="pciFindDevice"/>
+    <functioncall functionName="pciIntConnect"/>
+    <functioncall functionName="pciIntDisconnect2"/>
+    <functioncall functionName="pci_comGetIoBlockAddr"/>
+    <functioncall functionName="pci_comGetMemBlockAddr"/>
+    <functioncall functionName="pci_comPCIendianChg"/>
+    <functioncall functionName="pci_comPciIntrEnable"/>
+    <functioncall functionName="pci_rasCardInit"/>
+    <functioncall functionName="pci_rasDeviceDelete"/>
+    <functioncall functionName="pci_rasDeviceRegist"/>
+    <functioncall functionName="pci_rasDeviceSearch"/>
+    <functioncall functionName="pci_rasPciInt"/>
+    <functioncall functionName="pci_rasPciIntCheck"/>
+    <functioncall functionName="pci_rasWriteDisable"/>
+    <functioncall functionName="pci_rasWriteEnable"/>
+    <functioncall functionName="post_alarm"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="ras_test"/>
+    <functioncall functionName="ret"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="run_pulse"/>
+    <functioncall functionName="sence"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="source"/>
+    <functioncall functionName="stat"/>
+    <functioncall functionName="status"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="synchronous"/>
+    <functioncall functionName="venderID"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="volt"/>
+    <functioncall functionName="wdt_reset"/>
+    <functioncall functionName="while"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1583625151">
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 of 15 configurations. Use --force to check all configurations." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time." cwe="398">
+            <location file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_CONT\trkgfreq.c" line="0" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/trkgfreq.h:49:6" call-funcname="set_trkgFreq" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/trkgfreq.c" line="175" col="15" call-argexpr="F1_BAND" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/trkgfreq.h:49:6" call-funcname="set_trkgFreq" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/trkgfreq.c" line="208" col="17" call-argexpr="F1_BAND" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/trkgfreq.h:49:6" call-funcname="set_trkgFreq" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/trkgfreq.c" line="216" col="17" call-argexpr="F1_BAND" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/trkgfreq.h:49:6" call-funcname="set_trkgFreq" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/trkgfreq.c" line="175" col="15" call-argexpr="F1_BAND" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/trkgfreq.h:49:6" call-funcname="set_trkgFreq" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/trkgfreq.c" line="208" col="17" call-argexpr="F1_BAND" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/trkgfreq.h:49:6" call-funcname="set_trkgFreq" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/trkgfreq.c" line="216" col="17" call-argexpr="F1_BAND" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/trkgfreq.h:49:6" call-funcname="set_trkgFreq" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/trkgfreq.c" line="175" col="15" call-argexpr="F1_BAND" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/trkgfreq.h:49:6" call-funcname="set_trkgFreq" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/trkgfreq.c" line="208" col="17" call-argexpr="F1_BAND" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/trkgfreq.h:49:6" call-funcname="set_trkgFreq" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/trkgfreq.c" line="216" col="17" call-argexpr="F1_BAND" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/trkgfreq.h:49:6" call-funcname="set_trkgFreq" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/trkgfreq.c" line="175" col="15" call-argexpr="F1_BAND" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/trkgfreq.h:49:6" call-funcname="set_trkgFreq" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/trkgfreq.c" line="208" col="17" call-argexpr="F1_BAND" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/trkgfreq.h:49:6" call-funcname="set_trkgFreq" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/trkgfreq.c" line="216" col="17" call-argexpr="F1_BAND" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/trkgfreq.h:49:6" call-funcname="set_trkgFreq" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/trkgfreq.c" line="175" col="15" call-argexpr="F1_BAND" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/trkgfreq.h:49:6" call-funcname="set_trkgFreq" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/trkgfreq.c" line="208" col="17" call-argexpr="F1_BAND" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/trkgfreq.h:49:6" call-funcname="set_trkgFreq" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/trkgfreq.c" line="216" col="17" call-argexpr="F1_BAND" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/trkgfreq.h:49:6" call-funcname="set_trkgFreq" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/trkgfreq.c" line="175" col="15" call-argexpr="F1_BAND" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/trkgfreq.h:49:6" call-funcname="set_trkgFreq" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/trkgfreq.c" line="208" col="17" call-argexpr="F1_BAND" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/trkgfreq.h:49:6" call-funcname="set_trkgFreq" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_CONT/trkgfreq.c" line="216" col="17" call-argexpr="F1_BAND" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="m_chg_trkgfreq" lineNumber="101"/>
+    <functiondecl functionName="m_chg_trkgfreq_impl" lineNumber="128"/>
+    <functiondecl functionName="chg_trkgfreq_by_sel" lineNumber="168"/>
+    <functiondecl functionName="chg_trkgfreq_auto" lineNumber="191"/>
+    <functiondecl functionName="get_trkgFreq" lineNumber="231"/>
+    <functiondecl functionName="get_trkgFreq_l" lineNumber="241"/>
+    <functiondecl functionName="set_trkgFreq" lineNumber="251"/>
+    <functiondecl functionName="chk_f2band_trkg_flt" lineNumber="281"/>
+    <functiondecl functionName="cancel_f2band_trkg_flt" lineNumber="310"/>
+    <functiondecl functionName="m_chg_trkgfreq" lineNumber="101"/>
+    <functiondecl functionName="m_chg_trkgfreq_impl" lineNumber="128"/>
+    <functiondecl functionName="chg_trkgfreq_by_sel" lineNumber="168"/>
+    <functiondecl functionName="chg_trkgfreq_auto" lineNumber="191"/>
+    <functiondecl functionName="get_trkgFreq" lineNumber="231"/>
+    <functiondecl functionName="get_trkgFreq_l" lineNumber="241"/>
+    <functiondecl functionName="set_trkgFreq" lineNumber="251"/>
+    <functiondecl functionName="chk_f2band_trkg_flt" lineNumber="281"/>
+    <functiondecl functionName="cancel_f2band_trkg_flt" lineNumber="310"/>
+    <functiondecl functionName="m_chg_trkgfreq" lineNumber="101"/>
+    <functiondecl functionName="m_chg_trkgfreq_impl" lineNumber="128"/>
+    <functiondecl functionName="chg_trkgfreq_by_sel" lineNumber="168"/>
+    <functiondecl functionName="chg_trkgfreq_auto" lineNumber="191"/>
+    <functiondecl functionName="get_trkgFreq" lineNumber="231"/>
+    <functiondecl functionName="get_trkgFreq_l" lineNumber="241"/>
+    <functiondecl functionName="set_trkgFreq" lineNumber="251"/>
+    <functiondecl functionName="chk_f2band_trkg_flt" lineNumber="281"/>
+    <functiondecl functionName="cancel_f2band_trkg_flt" lineNumber="310"/>
+    <functiondecl functionName="m_chg_trkgfreq" lineNumber="101"/>
+    <functiondecl functionName="m_chg_trkgfreq_impl" lineNumber="128"/>
+    <functiondecl functionName="chg_trkgfreq_by_sel" lineNumber="168"/>
+    <functiondecl functionName="chg_trkgfreq_auto" lineNumber="191"/>
+    <functiondecl functionName="get_trkgFreq" lineNumber="231"/>
+    <functiondecl functionName="get_trkgFreq_l" lineNumber="241"/>
+    <functiondecl functionName="set_trkgFreq" lineNumber="251"/>
+    <functiondecl functionName="chk_f2band_trkg_flt" lineNumber="281"/>
+    <functiondecl functionName="cancel_f2band_trkg_flt" lineNumber="310"/>
+    <functiondecl functionName="m_chg_trkgfreq" lineNumber="101"/>
+    <functiondecl functionName="m_chg_trkgfreq_impl" lineNumber="128"/>
+    <functiondecl functionName="chg_trkgfreq_by_sel" lineNumber="168"/>
+    <functiondecl functionName="chg_trkgfreq_auto" lineNumber="191"/>
+    <functiondecl functionName="get_trkgFreq" lineNumber="231"/>
+    <functiondecl functionName="get_trkgFreq_l" lineNumber="241"/>
+    <functiondecl functionName="set_trkgFreq" lineNumber="251"/>
+    <functiondecl functionName="chk_f2band_trkg_flt" lineNumber="281"/>
+    <functiondecl functionName="cancel_f2band_trkg_flt" lineNumber="310"/>
+    <functiondecl functionName="m_chg_trkgfreq" lineNumber="101"/>
+    <functiondecl functionName="m_chg_trkgfreq_impl" lineNumber="128"/>
+    <functiondecl functionName="chg_trkgfreq_by_sel" lineNumber="168"/>
+    <functiondecl functionName="chg_trkgfreq_auto" lineNumber="191"/>
+    <functiondecl functionName="get_trkgFreq" lineNumber="231"/>
+    <functiondecl functionName="get_trkgFreq_l" lineNumber="241"/>
+    <functiondecl functionName="set_trkgFreq" lineNumber="251"/>
+    <functiondecl functionName="chk_f2band_trkg_flt" lineNumber="281"/>
+    <functiondecl functionName="cancel_f2band_trkg_flt" lineNumber="310"/>
+    <functioncall functionName="AX2_NUM"/>
+    <functioncall functionName="AX3_NUM"/>
+    <functioncall functionName="AXIS_AX2"/>
+    <functioncall functionName="AXIS_AX3"/>
+    <functioncall functionName="AXIS_CR"/>
+    <functioncall functionName="AXIS_EL"/>
+    <functioncall functionName="AXIS_NUM"/>
+    <functioncall functionName="DSP2_NUM"/>
+    <functioncall functionName="DSP_NUM"/>
+    <functioncall functionName="F1_BAND"/>
+    <functioncall functionName="F2_BAND"/>
+    <functioncall functionName="FREQ_MAX"/>
+    <functioncall functionName="NOT_OPN"/>
+    <functioncall functionName="autom"/>
+    <functioncall functionName="autoprog"/>
+    <functioncall functionName="cancel_f2band_trkg_flt"/>
+    <functioncall functionName="chg_trkgfreq_by_sel"/>
+    <functioncall functionName="chk_f2band_trkg_flt"/>
+    <functioncall functionName="cont_period"/>
+    <functioncall functionName="f_drvmode"/>
+    <functioncall functionName="first_time_trkgfreq"/>
+    <functioncall functionName="getVariability"/>
+    <functioncall functionName="get_aosrst_opn"/>
+    <functioncall functionName="get_trkgFreq"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="m_chg_trkgfreq_impl"/>
+    <functioncall functionName="nullFuncImpl"/>
+    <functioncall functionName="post"/>
+    <functioncall functionName="pow"/>
+    <functioncall functionName="pre"/>
+    <functioncall functionName="sBandShiftErrorTh_Es"/>
+    <functioncall functionName="set_trkgFreq"/>
+    <functioncall functionName="sigf1TrkgFreqSel"/>
+    <functioncall functionName="sigf2TrkgFreqSel"/>
+    <functioncall functionName="sqrt"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="w_f1_x_trav_err_deg"/>
+    <functioncall functionName="w_f1_y_trav_err_deg"/>
+  </FileInfo>
+</analyzerinfo>

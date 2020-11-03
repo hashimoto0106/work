@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1816050681">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="construct_clock_hook_impl" lineNumber="72"/>
+    <functiondecl functionName="construct_clock_hook_impl" lineNumber="72"/>
+    <functioncall functionName="PCIDRV_RAS_EXT_DISABLE"/>
+    <functioncall functionName="PCIDRV_RAS_EXT_EDGE_UP"/>
+    <functioncall functionName="PCIDRV_RAS_EXT_ENABLE"/>
+    <functioncall functionName="PCIDRV_RAS_EXT_RS422"/>
+    <functioncall functionName="PCIDRV_RAS_EXT_SYNC"/>
+    <functioncall functionName="PCIDRV_RAS_EXT_UNSYNC"/>
+    <functioncall functionName="PCIDRV_RAS_INTR_CLK0"/>
+    <functioncall functionName="PCIDRV_RAS_INTR_CLK2"/>
+    <functioncall functionName="externalClock_impl"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="long"/>
+  </FileInfo>
+</analyzerinfo>

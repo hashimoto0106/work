@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3998863624">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="OswrapVer" lineNumber="42"/>
+    <functioncall functionName="printf"/>
+  </FileInfo>
+</analyzerinfo>

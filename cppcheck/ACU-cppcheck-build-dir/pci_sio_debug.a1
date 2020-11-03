@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3386027336">
+        <error id="invalidPrintfArgType_uint" severity="warning" msg="%x in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;char *&apos;." verbose="%x in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;char *&apos;." cwe="686" hash="11204559939054076515">
+            <location file0="..\workspace\DRIVER\SRC\pci_sio_debug.c" file="..\workspace\DRIVER\SRC\pci_sio_debug.c" line="186" column="2"/>
+        </error>
+        <error id="invalidPrintfArgType_uint" severity="warning" msg="%x in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;char *&apos;." verbose="%x in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;char *&apos;." cwe="686" hash="5891675701752008308">
+            <location file0="..\workspace\DRIVER\SRC\pci_sio_debug.c" file="..\workspace\DRIVER\SRC\pci_sio_debug.c" line="193" column="2"/>
+        </error>
+        <error id="invalidPrintfArgType_sint" severity="warning" msg="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="6323938804920654325">
+            <location file0="..\workspace\DRIVER\SRC\pci_sio_debug.c" file="..\workspace\DRIVER\SRC\pci_sio_debug.c" line="199" column="2"/>
+        </error>
+        <error id="invalidPrintfArgType_sint" severity="warning" msg="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="6590120974795783237">
+            <location file0="..\workspace\DRIVER\SRC\pci_sio_debug.c" file="..\workspace\DRIVER\SRC\pci_sio_debug.c" line="201" column="2"/>
+        </error>
+        <error id="invalidPrintfArgType_sint" severity="warning" msg="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="10297876080209446438">
+            <location file0="..\workspace\DRIVER\SRC\pci_sio_debug.c" file="..\workspace\DRIVER\SRC\pci_sio_debug.c" line="206" column="2"/>
+        </error>
+        <error id="invalidPrintfArgType_sint" severity="warning" msg="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="12754289906829354295">
+            <location file0="..\workspace\DRIVER\SRC\pci_sio_debug.c" file="..\workspace\DRIVER\SRC\pci_sio_debug.c" line="213" column="3"/>
+        </error>
+        <error id="invalidPrintfArgType_sint" severity="warning" msg="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="14049519657350787733">
+            <location file0="..\workspace\DRIVER\SRC\pci_sio_debug.c" file="..\workspace\DRIVER\SRC\pci_sio_debug.c" line="214" column="3"/>
+        </error>
+        <error id="invalidPrintfArgType_sint" severity="warning" msg="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="1536054285538023467">
+            <location file0="..\workspace\DRIVER\SRC\pci_sio_debug.c" file="..\workspace\DRIVER\SRC\pci_sio_debug.c" line="215" column="3"/>
+        </error>
+        <error id="invalidPrintfArgType_sint" severity="warning" msg="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="10379965655004554706">
+            <location file0="..\workspace\DRIVER\SRC\pci_sio_debug.c" file="..\workspace\DRIVER\SRC\pci_sio_debug.c" line="216" column="3"/>
+        </error>
+        <error id="invalidPrintfArgType_sint" severity="warning" msg="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="373718453929227430">
+            <location file0="..\workspace\DRIVER\SRC\pci_sio_debug.c" file="..\workspace\DRIVER\SRC\pci_sio_debug.c" line="217" column="3"/>
+        </error>
+        <error id="invalidPrintfArgType_sint" severity="warning" msg="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="17085618368888633488">
+            <location file0="..\workspace\DRIVER\SRC\pci_sio_debug.c" file="..\workspace\DRIVER\SRC\pci_sio_debug.c" line="218" column="3"/>
+        </error>
+        <error id="invalidPrintfArgType_sint" severity="warning" msg="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="10272760814012985065">
+            <location file0="..\workspace\DRIVER\SRC\pci_sio_debug.c" file="..\workspace\DRIVER\SRC\pci_sio_debug.c" line="219" column="3"/>
+        </error>
+        <error id="invalidPrintfArgType_sint" severity="warning" msg="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="531847309532916311">
+            <location file0="..\workspace\DRIVER\SRC\pci_sio_debug.c" file="..\workspace\DRIVER\SRC\pci_sio_debug.c" line="220" column="3"/>
+        </error>
+        <error id="invalidPrintfArgType_sint" severity="warning" msg="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="12453931603422465845">
+            <location file0="..\workspace\DRIVER\SRC\pci_sio_debug.c" file="..\workspace\DRIVER\SRC\pci_sio_debug.c" line="221" column="3"/>
+        </error>
+        <error id="invalidPrintfArgType_sint" severity="warning" msg="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="12833130284214462010">
+            <location file0="..\workspace\DRIVER\SRC\pci_sio_debug.c" file="..\workspace\DRIVER\SRC\pci_sio_debug.c" line="222" column="3"/>
+        </error>
+        <error id="invalidPrintfArgType_sint" severity="warning" msg="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="10787674245567842084">
+            <location file0="..\workspace\DRIVER\SRC\pci_sio_debug.c" file="..\workspace\DRIVER\SRC\pci_sio_debug.c" line="223" column="3"/>
+        </error>
+        <error id="invalidPrintfArgType_sint" severity="warning" msg="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="11085407121435747782">
+            <location file0="..\workspace\DRIVER\SRC\pci_sio_debug.c" file="..\workspace\DRIVER\SRC\pci_sio_debug.c" line="224" column="3"/>
+        </error>
+        <error id="invalidPrintfArgType_sint" severity="warning" msg="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="3708247452519684449">
+            <location file0="..\workspace\DRIVER\SRC\pci_sio_debug.c" file="..\workspace\DRIVER\SRC\pci_sio_debug.c" line="225" column="3"/>
+        </error>
+        <error id="invalidPrintfArgType_sint" severity="warning" msg="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="8553080409804523673">
+            <location file0="..\workspace\DRIVER\SRC\pci_sio_debug.c" file="..\workspace\DRIVER\SRC\pci_sio_debug.c" line="226" column="3"/>
+        </error>
+        <error id="invalidPrintfArgType_sint" severity="warning" msg="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="4388397934925391276">
+            <location file0="..\workspace\DRIVER\SRC\pci_sio_debug.c" file="..\workspace\DRIVER\SRC\pci_sio_debug.c" line="228" column="3"/>
+        </error>
+        <error id="invalidPrintfArgType_sint" severity="warning" msg="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="7422080841127199874">
+            <location file0="..\workspace\DRIVER\SRC\pci_sio_debug.c" file="..\workspace\DRIVER\SRC\pci_sio_debug.c" line="229" column="3"/>
+        </error>
+        <error id="invalidPrintfArgType_sint" severity="warning" msg="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="7866150064164188727">
+            <location file0="..\workspace\DRIVER\SRC\pci_sio_debug.c" file="..\workspace\DRIVER\SRC\pci_sio_debug.c" line="230" column="3"/>
+        </error>
+        <error id="invalidPrintfArgType_sint" severity="warning" msg="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="3879071153625802823">
+            <location file0="..\workspace\DRIVER\SRC\pci_sio_debug.c" file="..\workspace\DRIVER\SRC\pci_sio_debug.c" line="231" column="3"/>
+        </error>
+        <error id="invalidPrintfArgType_sint" severity="warning" msg="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="832279391272668081">
+            <location file0="..\workspace\DRIVER\SRC\pci_sio_debug.c" file="..\workspace\DRIVER\SRC\pci_sio_debug.c" line="232" column="3"/>
+        </error>
+        <error id="invalidPrintfArgType_sint" severity="warning" msg="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="857462503973329372">
+            <location file0="..\workspace\DRIVER\SRC\pci_sio_debug.c" file="..\workspace\DRIVER\SRC\pci_sio_debug.c" line="233" column="3"/>
+        </error>
+        <error id="invalidPrintfArgType_sint" severity="warning" msg="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="16006249812956790398">
+            <location file0="..\workspace\DRIVER\SRC\pci_sio_debug.c" file="..\workspace\DRIVER\SRC\pci_sio_debug.c" line="234" column="3"/>
+        </error>
+        <error id="invalidPrintfArgType_sint" severity="warning" msg="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="14475157093930522908">
+            <location file0="..\workspace\DRIVER\SRC\pci_sio_debug.c" file="..\workspace\DRIVER\SRC\pci_sio_debug.c" line="235" column="3"/>
+        </error>
+        <error id="invalidPrintfArgType_sint" severity="warning" msg="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="11212500645915377733">
+            <location file0="..\workspace\DRIVER\SRC\pci_sio_debug.c" file="..\workspace\DRIVER\SRC\pci_sio_debug.c" line="236" column="3"/>
+        </error>
+        <error id="invalidPrintfArgType_sint" severity="warning" msg="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="559440689808634502">
+            <location file0="..\workspace\DRIVER\SRC\pci_sio_debug.c" file="..\workspace\DRIVER\SRC\pci_sio_debug.c" line="237" column="3"/>
+        </error>
+        <error id="invalidPrintfArgType_sint" severity="warning" msg="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="13427415112141043696">
+            <location file0="..\workspace\DRIVER\SRC\pci_sio_debug.c" file="..\workspace\DRIVER\SRC\pci_sio_debug.c" line="238" column="3"/>
+        </error>
+        <error id="invalidPrintfArgType_sint" severity="warning" msg="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." verbose="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;unsigned long&apos;." cwe="686" hash="5896915313286350910">
+            <location file0="..\workspace\DRIVER\SRC\pci_sio_debug.c" file="..\workspace\DRIVER\SRC\pci_sio_debug.c" line="239" column="3"/>
+        </error>
+        <error id="invalidPrintfArgType_uint" severity="warning" msg="%x in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;char *&apos;." verbose="%x in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;char *&apos;." cwe="686" hash="15953223309435444083">
+            <location file0="..\workspace\DRIVER\SRC\pci_sio_debug.c" file="..\workspace\DRIVER\SRC\pci_sio_debug.c" line="259" column="3"/>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: pSioCard" verbose="Unused variable: pSioCard" cwe="563" hash="8411756821772332748">
+            <location file0="..\workspace\DRIVER\SRC\pci_sio_debug.c" file="..\workspace\DRIVER\SRC\pci_sio_debug.c" line="51" column="17"/>
+            <symbol>pSioCard</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;pSioCard&apos; is assigned a value that is never used." verbose="Variable &apos;pSioCard&apos; is assigned a value that is never used." cwe="563" hash="7336921334700390025">
+            <location file0="..\workspace\DRIVER\SRC\pci_sio_debug.c" file="..\workspace\DRIVER\SRC\pci_sio_debug.c" line="169" column="11"/>
+            <symbol>pSioCard</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;pMemBlock1&apos; is assigned a value that is never used." verbose="Variable &apos;pMemBlock1&apos; is assigned a value that is never used." cwe="563" hash="7043113544274170140">
+            <location file0="..\workspace\DRIVER\SRC\pci_sio_debug.c" file="..\workspace\DRIVER\SRC\pci_sio_debug.c" line="192" column="13"/>
+            <symbol>pMemBlock1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: pMemBlock0" verbose="Unused variable: pMemBlock0" cwe="563" hash="9308546197523834770">
+            <location file0="..\workspace\DRIVER\SRC\pci_sio_debug.c" file="..\workspace\DRIVER\SRC\pci_sio_debug.c" line="141" column="21"/>
+            <symbol>pMemBlock0</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: memBlockSize0" verbose="Unused variable: memBlockSize0" cwe="563" hash="13588588447226228065">
+            <location file0="..\workspace\DRIVER\SRC\pci_sio_debug.c" file="..\workspace\DRIVER\SRC\pci_sio_debug.c" line="142" column="17"/>
+            <symbol>memBlockSize0</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: errCountHdlc" verbose="Unused variable: errCountHdlc" cwe="563" hash="11138173681085506147">
+            <location file0="..\workspace\DRIVER\SRC\pci_sio_debug.c" file="..\workspace\DRIVER\SRC\pci_sio_debug.c" line="146" column="15"/>
+            <symbol>errCountHdlc</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: errCountUart" verbose="Unused variable: errCountUart" cwe="563" hash="2547535088109843892">
+            <location file0="..\workspace\DRIVER\SRC\pci_sio_debug.c" file="..\workspace\DRIVER\SRC\pci_sio_debug.c" line="147" column="15"/>
+            <symbol>errCountUart</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: buf" verbose="Unused variable: buf" cwe="563" hash="9950475504978255840">
+            <location file0="..\workspace\DRIVER\SRC\pci_sio_debug.c" file="..\workspace\DRIVER\SRC\pci_sio_debug.c" line="283" column="8"/>
+            <symbol>buf</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="../workspace/DRIVER/SRC/pci_sio.h:329:16" call-funcname="pci_sioGetMemAddress" call-argnr="2" file="../workspace/DRIVER/SRC/pci_sio_debug.c" line="93" col="42" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_sio.h:329:16" call-funcname="pci_sioGetMemAddress" call-argnr="3" file="../workspace/DRIVER/SRC/pci_sio_debug.c" line="93" col="42" call-argexpr="&memBlockSize0" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/SRC/pci_sio.h:329:16" call-funcname="pci_sioGetMemAddress" call-argnr="3" file="../workspace/DRIVER/SRC/pci_sio_debug.c" line="100" col="42" call-argexpr="&memBlockSize1" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_sio.h:184:5" call-funcname="FsioGetHdlcErrCount" call-argnr="3" file="../workspace/DRIVER/SRC/pci_sio_debug.c" line="118" col="22" call-argexpr="&errCountHdlc" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/PUBLIC/pci_drv_sio.h:191:5" call-funcname="FsioGetUartErrCount" call-argnr="3" file="../workspace/DRIVER/SRC/pci_sio_debug.c" line="121" col="22" call-argexpr="&errCountUart" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_sio_debug.h:72:6" call-funcname="timespec2asc_sio" call-argnr="2" file="../workspace/DRIVER/SRC/pci_sio_debug.c" line="181" col="18" call-argexpr="asctime" call-argvaluetype="7" call-argvalue="24"/><function-call call-id="../workspace/DRIVER/SRC/pci_sio.h:329:16" call-funcname="pci_sioGetMemAddress" call-argnr="3" file="../workspace/DRIVER/SRC/pci_sio_debug.c" line="192" col="55" call-argexpr="&memBlockSize1" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/DRIVER/SRC/pci_sio_debug.h:71:7" call-funcname="shiftDump" call-argnr="3" file="../workspace/DRIVER/SRC/pci_sio_debug.c" line="204" col="11" call-argexpr="(char*)0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/DRIVER/SRC/pci_sio_debug.h:71:7" call-funcname="shiftDump" call-argnr="3" file="../workspace/DRIVER/SRC/pci_sio_debug.c" line="209" col="11" call-argexpr="(char*)0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="FsioStoreDebugReg" lineNumber="49"/>
+    <functiondecl functionName="FsioDumpDebugReg" lineNumber="138"/>
+    <functiondecl functionName="shiftDump" lineNumber="255"/>
+    <functiondecl functionName="timespec2asc_sio" lineNumber="276"/>
+    <functiondecl functionName="FsioGetFifoFault" lineNumber="310"/>
+    <functiondecl functionName="FsioUnitTest" lineNumber="340"/>
+    <functiondecl functionName="FsioGetRcvWhenError" lineNumber="361"/>
+    <functiondecl functionName="FsioSetRcvWhenError" lineNumber="374"/>
+    <functioncall functionName="CLOCK_REALTIME"/>
+    <functioncall functionName="FsioGetHdlcErrCount"/>
+    <functioncall functionName="FsioGetUartErrCount"/>
+    <functioncall functionName="area"/>
+    <functioncall functionName="asc_time"/>
+    <functioncall functionName="asctime"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="ch"/>
+    <functioncall functionName="clock_gettime"/>
+    <functioncall functionName="currentSndData"/>
+    <functioncall functionName="currentSndLength"/>
+    <functioncall functionName="double"/>
+    <functioncall functionName="errCountHdlc"/>
+    <functioncall functionName="errCountUart"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="indexAddr"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="lastSndData"/>
+    <functioncall functionName="lastSndLength"/>
+    <functioncall functionName="lastTxLengthError"/>
+    <functioncall functionName="localtime"/>
+    <functioncall functionName="mem"/>
+    <functioncall functionName="memBlockSize0"/>
+    <functioncall functionName="memBlockSize1"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="memoryBlock0"/>
+    <functioncall functionName="memoryBlock0Addr"/>
+    <functioncall functionName="memoryBlock1"/>
+    <functioncall functionName="memoryBlock1Addr"/>
+    <functioncall functionName="msec"/>
+    <functioncall functionName="nBoard"/>
+    <functioncall functionName="nSioNum"/>
+    <functioncall functionName="pMemBlock0"/>
+    <functioncall functionName="pMemBlock1"/>
+    <functioncall functionName="pci_sioDeviceSearch"/>
+    <functioncall functionName="pci_sioGetMemAddress"/>
+    <functioncall functionName="pci_sioRcvWhenError"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="ret"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="rxAbort"/>
+    <functioncall functionName="rxBlockForm"/>
+    <functioncall functionName="rxFcs"/>
+    <functioncall functionName="rxFifo"/>
+    <functioncall functionName="rxFrameLengs"/>
+    <functioncall functionName="rxFraming"/>
+    <functioncall functionName="rxLengs"/>
+    <functioncall functionName="rxMsgQRecv"/>
+    <functioncall functionName="rxMsgQSend"/>
+    <functioncall functionName="rxNonOctet"/>
+    <functioncall functionName="rxOverrun"/>
+    <functioncall functionName="rxParity"/>
+    <functioncall functionName="set"/>
+    <functioncall functionName="shiftDump"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="sndData"/>
+    <functioncall functionName="sndLength"/>
+    <functioncall functionName="sprintf"/>
+    <functioncall functionName="testFlag"/>
+    <functioncall functionName="time"/>
+    <functioncall functionName="timespec2asc_sio"/>
+    <functioncall functionName="tm_hour"/>
+    <functioncall functionName="tm_mday"/>
+    <functioncall functionName="tm_min"/>
+    <functioncall functionName="tm_sec"/>
+    <functioncall functionName="tp"/>
+    <functioncall functionName="tv_sec"/>
+    <functioncall functionName="txFifo"/>
+    <functioncall functionName="txFifoFault"/>
+    <functioncall functionName="txLengs"/>
+    <functioncall functionName="txNotReady"/>
+    <functioncall functionName="void"/>
+  </FileInfo>
+</analyzerinfo>

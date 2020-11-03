@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="4223336629">
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/DRIVER/PUBLIC/pci_drv_ilc.h:77:5" call-funcname="FilcSetIrqConfig" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/ERROR/errintr.c" line="59" col="24" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/DRIVER/PUBLIC/pci_drv_ilc.h:77:5" call-funcname="FilcSetIrqConfig" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/ERROR/errintr.c" line="59" col="24" call-argexpr="0UL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/DRIVER/PUBLIC/pci_drv_ilc.h:77:5" call-funcname="FilcSetIrqConfig" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/ERROR/errintr.c" line="59" col="24" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/DRIVER/PUBLIC/pci_drv_ilc.h:77:5" call-funcname="FilcSetIrqConfig" call-argnr="5" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/ERROR/errintr.c" line="59" col="24" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/drivererror.h:51:6" call-funcname="driverError" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/ERROR/errintr.c" line="60" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/OSWRAP/PUBLIC/clogmsg.h:34:6" call-funcname="clogMsg" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/ERROR/errintr.c" line="144" col="10" call-argexpr="string" call-argvaluetype="7" call-argvalue="128"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/runpulse.h:24:6" call-funcname="runpulseOut" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/ERROR/errintr.c" line="155" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/DRIVER/PUBLIC/pci_drv_ilc.h:77:5" call-funcname="FilcSetIrqConfig" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/ERROR/errintr.c" line="59" col="24" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/DRIVER/PUBLIC/pci_drv_ilc.h:77:5" call-funcname="FilcSetIrqConfig" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/ERROR/errintr.c" line="59" col="24" call-argexpr="0UL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/DRIVER/PUBLIC/pci_drv_ilc.h:77:5" call-funcname="FilcSetIrqConfig" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/ERROR/errintr.c" line="59" col="24" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/DRIVER/PUBLIC/pci_drv_ilc.h:77:5" call-funcname="FilcSetIrqConfig" call-argnr="5" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/ERROR/errintr.c" line="59" col="24" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/drivererror.h:51:6" call-funcname="driverError" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/ERROR/errintr.c" line="60" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/OSWRAP/PUBLIC/clogmsg.h:34:6" call-funcname="clogMsg" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/ERROR/errintr.c" line="144" col="10" call-argexpr="string" call-argvaluetype="7" call-argvalue="128"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/runpulse.h:24:6" call-funcname="runpulseOut" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/ERROR/errintr.c" line="155" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="psuError_init" lineNumber="52"/>
+    <functiondecl functionName="cpuError_init" lineNumber="69"/>
+    <functiondecl functionName="i_psuErrorHandler" lineNumber="93"/>
+    <functiondecl functionName="i_cpuErrorHandler" lineNumber="117"/>
+    <functiondecl functionName="psuError_init" lineNumber="52"/>
+    <functiondecl functionName="cpuError_init" lineNumber="69"/>
+    <functiondecl functionName="i_psuErrorHandler" lineNumber="93"/>
+    <functiondecl functionName="i_cpuErrorHandler" lineNumber="117"/>
+    <functioncall functionName="FUNCPTR"/>
+    <functioncall functionName="FilcSetIrqConfig"/>
+    <functioncall functionName="IVEC_TO_INUM"/>
+    <functioncall functionName="LM_DEBUG"/>
+    <functioncall functionName="LM_INFO"/>
+    <functioncall functionName="LM_SEVERE"/>
+    <functioncall functionName="LM_TRACE"/>
+    <functioncall functionName="LM_WARNING"/>
+    <functioncall functionName="__FUNCTION__"/>
+    <functioncall functionName="clogMsg"/>
+    <functioncall functionName="driverError"/>
+    <functioncall functionName="event"/>
+    <functioncall functionName="excHookAdd"/>
+    <functioncall functionName="i_cpuErrorHandler"/>
+    <functioncall functionName="i_psuErrorHandler"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="info"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="intNum"/>
+    <functioncall functionName="pc"/>
+    <functioncall functionName="pteh"/>
+    <functioncall functionName="ret"/>
+    <functioncall functionName="runpulseOut"/>
+    <functioncall functionName="sr"/>
+    <functioncall functionName="strcat"/>
+    <functioncall functionName="strcpy"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="task"/>
+    <functioncall functionName="taskN"/>
+    <functioncall functionName="taskName"/>
+    <functioncall functionName="vecNum"/>
+    <functioncall functionName="void"/>
+  </FileInfo>
+</analyzerinfo>

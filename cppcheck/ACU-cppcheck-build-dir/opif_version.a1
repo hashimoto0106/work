@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1545190468">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="OpifDriverVer" lineNumber="26"/>
+    <functioncall functionName="printf"/>
+  </FileInfo>
+</analyzerinfo>

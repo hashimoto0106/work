@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2570917518">
+        <error id="resourceLeak" severity="error" msg="Resource leak: sFd" verbose="Resource leak: sFd" cwe="775" hash="2058330795250408735">
+            <location file0="..\workspace\OPIFDRV\SRC\opif_main.c" file="..\workspace\OPIFDRV\SRC\opif_main.c" line="297" column="3"/>
+            <symbol>sFd</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;chk_rcv&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;chk_rcv&apos; is reassigned a value before the old one has been used." cwe="563" hash="3599986320817431445">
+            <location file0="..\workspace\OPIFDRV\SRC\opif_main.c" file="..\workspace\OPIFDRV\SRC\opif_main.c" line="330" column="12" info="chk_rcv is overwritten"/>
+            <location file0="..\workspace\OPIFDRV\SRC\opif_main.c" file="..\workspace\OPIFDRV\SRC\opif_main.c" line="329" column="12" info="chk_rcv is assigned"/>
+            <symbol>chk_rcv</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;chk_rcv&apos; is assigned a value that is never used." verbose="Variable &apos;chk_rcv&apos; is assigned a value that is never used." cwe="563" hash="2779114659329467496">
+            <location file0="..\workspace\OPIFDRV\SRC\opif_main.c" file="..\workspace\OPIFDRV\SRC\opif_main.c" line="283" column="15"/>
+            <symbol>chk_rcv</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;tx_ret&apos; is assigned a value that is never used." verbose="Variable &apos;tx_ret&apos; is assigned a value that is never used." cwe="563" hash="13137338176539033606">
+            <location file0="..\workspace\OPIFDRV\SRC\opif_main.c" file="..\workspace\OPIFDRV\SRC\opif_main.c" line="478" column="13"/>
+            <symbol>tx_ret</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;ret&apos; is assigned a value that is never used." verbose="Variable &apos;ret&apos; is assigned a value that is never used." cwe="563" hash="4058633391994618722">
+            <location file0="..\workspace\OPIFDRV\SRC\opif_main.c" file="..\workspace\OPIFDRV\SRC\opif_main.c" line="515" column="6"/>
+            <symbol>ret</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;ret&apos; is assigned a value that is never used." verbose="Variable &apos;ret&apos; is assigned a value that is never used." cwe="563" hash="6115262397901846468">
+            <location file0="..\workspace\OPIFDRV\SRC\opif_main.c" file="..\workspace\OPIFDRV\SRC\opif_main.c" line="534" column="6"/>
+            <symbol>ret</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="../workspace/OPIFDRV/SRC/opif_cmd.h:32:5" call-funcname="analyzeCommand" call-argnr="1" file="../workspace/OPIFDRV/SRC/opif_main.c" line="344" col="20" call-argexpr="rcv_buf" call-argvaluetype="7" call-argvalue="512"/><function-call call-id="../workspace/OPIFDRV/SRC/opif_cmd.h:32:5" call-funcname="analyzeCommand" call-argnr="3" file="../workspace/OPIFDRV/SRC/opif_main.c" line="344" col="20" call-argexpr="&req_cstr" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/OSWRAP/PUBLIC/system_call.h:65:5" call-funcname="c_msgQReceive" call-argnr="2" file="../workspace/OPIFDRV/SRC/opif_main.c" line="486" col="27" call-argexpr="buf" call-argvaluetype="7" call-argvalue="512"/><function-call call-id="../workspace/OPIFDRV/SRC/opif_cmd.h:15:6" call-funcname="setAllCstr" call-argnr="1" file="../workspace/OPIFDRV/SRC/opif_main.c" line="111" col="2" my-id="../workspace/OPIFDRV/PUBLIC/opif_driver.h:33:5" my-argnr="2"/>
+<function-call call-id="../workspace/OPIFDRV/SRC/opif_cmd.h:15:6" call-funcname="setAllCstr" call-argnr="2" file="../workspace/OPIFDRV/SRC/opif_main.c" line="111" col="2" my-id="../workspace/OPIFDRV/PUBLIC/opif_driver.h:33:5" my-argnr="3"/>
+<function-call call-id="../workspace/OPIFDRV/SRC/opif_cmd.h:15:6" call-funcname="setAllCstr" call-argnr="3" file="../workspace/OPIFDRV/SRC/opif_main.c" line="111" col="2" my-id="../workspace/OPIFDRV/PUBLIC/opif_driver.h:33:5" my-argnr="4"/>
+<function-call call-id="../workspace/OPIFDRV/SRC/opif_cmd.h:15:6" call-funcname="setAllCstr" call-argnr="4" file="../workspace/OPIFDRV/SRC/opif_main.c" line="111" col="2" my-id="../workspace/OPIFDRV/PUBLIC/opif_driver.h:33:5" my-argnr="5"/>
+<function-call call-id="../workspace/OPIFDRV/SRC/opif_cmd.h:15:6" call-funcname="setAllCstr" call-argnr="5" file="../workspace/OPIFDRV/SRC/opif_main.c" line="111" col="2" my-id="../workspace/OPIFDRV/PUBLIC/opif_driver.h:33:5" my-argnr="6"/>
+<function-call call-id="../workspace/OPIFDRV/SRC/opif_cmd.h:15:6" call-funcname="setAllCstr" call-argnr="6" file="../workspace/OPIFDRV/SRC/opif_main.c" line="111" col="2" my-id="../workspace/OPIFDRV/PUBLIC/opif_driver.h:33:5" my-argnr="7"/>
+<function-call call-id="../workspace/OPIFDRV/SRC/opif_cmd.h:15:6" call-funcname="setAllCstr" call-argnr="7" file="../workspace/OPIFDRV/SRC/opif_main.c" line="111" col="2" my-id="../workspace/OPIFDRV/PUBLIC/opif_driver.h:33:5" my-argnr="8"/>
+<function-call call-id="../workspace/OPIFDRV/SRC/opif_cmd.h:15:6" call-funcname="setAllCstr" call-argnr="8" file="../workspace/OPIFDRV/SRC/opif_main.c" line="111" col="2" my-id="../workspace/OPIFDRV/PUBLIC/opif_driver.h:33:5" my-argnr="9"/>
+<function-call call-id="../workspace/OPIFDRV/SRC/opif_cmd.h:15:6" call-funcname="setAllCstr" call-argnr="9" file="../workspace/OPIFDRV/SRC/opif_main.c" line="111" col="2" my-id="../workspace/OPIFDRV/PUBLIC/opif_driver.h:33:5" my-argnr="10"/>
+<function-call call-id="../workspace/OPIFDRV/SRC/opif_cmd.h:15:6" call-funcname="setAllCstr" call-argnr="10" file="../workspace/OPIFDRV/SRC/opif_main.c" line="111" col="2" my-id="../workspace/OPIFDRV/PUBLIC/opif_driver.h:33:5" my-argnr="11"/>
+<function-call call-id="../workspace/OPIFDRV/SRC/opif_cmd.h:15:6" call-funcname="setAllCstr" call-argnr="11" file="../workspace/OPIFDRV/SRC/opif_main.c" line="111" col="2" my-id="../workspace/OPIFDRV/PUBLIC/opif_driver.h:33:5" my-argnr="12"/>
+<function-call call-id="../workspace/OPIFDRV/SRC/opif_cmd.h:15:6" call-funcname="setAllCstr" call-argnr="12" file="../workspace/OPIFDRV/SRC/opif_main.c" line="111" col="2" my-id="../workspace/OPIFDRV/PUBLIC/opif_driver.h:33:5" my-argnr="13"/>
+<function-call call-id="../workspace/OPIFDRV/SRC/opif_cmd.h:15:6" call-funcname="setAllCstr" call-argnr="13" file="../workspace/OPIFDRV/SRC/opif_main.c" line="111" col="2" my-id="../workspace/OPIFDRV/PUBLIC/opif_driver.h:33:5" my-argnr="14"/>
+<function-call call-id="../workspace/OPIFDRV/SRC/opif_cmd.h:15:6" call-funcname="setAllCstr" call-argnr="14" file="../workspace/OPIFDRV/SRC/opif_main.c" line="111" col="2" my-id="../workspace/OPIFDRV/PUBLIC/opif_driver.h:33:5" my-argnr="15"/>
+<function-call call-id="../workspace/OPIFDRV/SRC/opif_cmd.h:15:6" call-funcname="setAllCstr" call-argnr="15" file="../workspace/OPIFDRV/SRC/opif_main.c" line="111" col="2" my-id="../workspace/OPIFDRV/PUBLIC/opif_driver.h:33:5" my-argnr="16"/>
+<function-call call-id="../workspace/OSWRAP/PUBLIC/system_call.h:73:8" call-funcname="c_msgQSend" call-argnr="2" file="../workspace/OPIFDRV/SRC/opif_main.c" line="515" col="8" my-id="../workspace/OPIFDRV/SRC/opif_main.c:74:6" my-argnr="1"/>
+<function-call call-id="../workspace/OSWRAP/PUBLIC/system_call.h:73:8" call-funcname="c_msgQSend" call-argnr="2" file="../workspace/OPIFDRV/SRC/opif_main.c" line="534" col="8" my-id="../workspace/OPIFDRV/SRC/opif_main.c:75:6" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="opifDrv_run" lineNumber="90"/>
+    <functiondecl functionName="opifDrv_setPriority" lineNumber="137"/>
+    <functiondecl functionName="opifDrv_getStatus" lineNumber="157"/>
+    <functiondecl functionName="p_opifDrv" lineNumber="203"/>
+    <functiondecl functionName="s_initialize" lineNumber="236"/>
+    <functiondecl functionName="s_connectOPIF" lineNumber="274"/>
+    <functiondecl functionName="closeConnect" lineNumber="389"/>
+    <functiondecl functionName="s_chkReceivable" lineNumber="412"/>
+    <functiondecl functionName="sendEmgcyMsg" lineNumber="447"/>
+    <functiondecl functionName="s_sendMsg" lineNumber="474"/>
+    <functiondecl functionName="pushMsgToSendQueue" lineNumber="512"/>
+    <functiondecl functionName="pushMsgToCstrQueue" lineNumber="531"/>
+    <functioncall functionName="AF_INET"/>
+    <functioncall functionName="ERROR"/>
+    <functioncall functionName="FD_SET"/>
+    <functioncall functionName="FD_SETSIZE"/>
+    <functioncall functionName="FD_ZERO"/>
+    <functioncall functionName="FUNCPTR"/>
+    <functioncall functionName="INADDR_ANY"/>
+    <functioncall functionName="INSTRUCTION"/>
+    <functioncall functionName="LM_DEBUG"/>
+    <functioncall functionName="LM_INFO"/>
+    <functioncall functionName="LM_SEVERE"/>
+    <functioncall functionName="LM_TRACE"/>
+    <functioncall functionName="LM_WARNING"/>
+    <functioncall functionName="MSG_PRI_NORMAL"/>
+    <functioncall functionName="MSG_Q_FIFO"/>
+    <functioncall functionName="MSG_Q_ID"/>
+    <functioncall functionName="NO_WAIT"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="OK"/>
+    <functioncall functionName="SOCK_STREAM"/>
+    <functioncall functionName="VX_FP_TASK"/>
+    <functioncall functionName="__FUNCTION__"/>
+    <functioncall functionName="accept"/>
+    <functioncall functionName="alm"/>
+    <functioncall functionName="analyzeCommand"/>
+    <functioncall functionName="asrv"/>
+    <functioncall functionName="ax"/>
+    <functioncall functionName="axnum"/>
+    <functioncall functionName="bind"/>
+    <functioncall functionName="buf"/>
+    <functioncall functionName="c_0div_enable"/>
+    <functioncall functionName="c_msgQCreate"/>
+    <functioncall functionName="c_msgQReceive"/>
+    <functioncall functionName="c_msgQSend"/>
+    <functioncall functionName="c_taskNameToId"/>
+    <functioncall functionName="c_taskPrioritySet"/>
+    <functioncall functionName="c_taskSpawn"/>
+    <functioncall functionName="clientAddr"/>
+    <functioncall functionName="clogMsg"/>
+    <functioncall functionName="close"/>
+    <functioncall functionName="closeConnect"/>
+    <functioncall functionName="double"/>
+    <functioncall functionName="drm"/>
+    <functioncall functionName="dsent"/>
+    <functioncall functionName="dsrv"/>
+    <functioncall functionName="dti"/>
+    <functioncall functionName="dw_socketFd"/>
+    <functioncall functionName="fd"/>
+    <functioncall functionName="fdset"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="gpm"/>
+    <functioncall functionName="htonl"/>
+    <functioncall functionName="htons"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="key"/>
+    <functioncall functionName="key_cl"/>
+    <functioncall functionName="led"/>
+    <functioncall functionName="len"/>
+    <functioncall functionName="level"/>
+    <functioncall functionName="listen"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="mon"/>
+    <functioncall functionName="mqdes"/>
+    <functioncall functionName="msg"/>
+    <functioncall functionName="msg_size"/>
+    <functioncall functionName="p_opifDrv"/>
+    <functioncall functionName="rcv_buf"/>
+    <functioncall functionName="rcv_size"/>
+    <functioncall functionName="recv"/>
+    <functioncall functionName="reqMsgPoolClear"/>
+    <functioncall functionName="req_cstr"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="runpulseOff"/>
+    <functioncall functionName="runpulseOn"/>
+    <functioncall functionName="sFd"/>
+    <functioncall functionName="s_chkReceivable"/>
+    <functioncall functionName="s_connectOPIF"/>
+    <functioncall functionName="s_initialize"/>
+    <functioncall functionName="s_sendMsg"/>
+    <functioncall functionName="select"/>
+    <functioncall functionName="send"/>
+    <functioncall functionName="serverAddr"/>
+    <functioncall functionName="setAllCstr"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="slew"/>
+    <functioncall functionName="sockAddrSize"/>
+    <functioncall functionName="socket"/>
+    <functioncall functionName="sts"/>
+    <functioncall functionName="tId"/>
+    <functioncall functionName="timeout"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="w_mqdisCstrMsg"/>
+    <functioncall functionName="w_mqdisSendMsg"/>
+    <functioncall functionName="while"/>
+  </FileInfo>
+</analyzerinfo>

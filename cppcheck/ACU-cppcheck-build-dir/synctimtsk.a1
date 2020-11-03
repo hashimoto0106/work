@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3137543493">
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;rtn&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;rtn&apos; is reassigned a value before the old one has been used." cwe="563" hash="7835631699465233711">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\SNTP\synctimtsk.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\SNTP\synctimtsk.c" line="448" column="8" info="rtn is overwritten"/>
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\SNTP\synctimtsk.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\SNTP\synctimtsk.c" line="445" column="8" info="rtn is assigned"/>
+            <symbol>rtn</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;ret&apos; can be reduced." verbose="The scope of the variable &apos;ret&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="6672937335239229698">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\SNTP\synctimtsk.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\SNTP\synctimtsk.c" line="142" column="10"/>
+            <symbol>ret</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;yymmdd&apos; can be reduced." verbose="The scope of the variable &apos;yymmdd&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="16117904636593519733">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\SNTP\synctimtsk.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\SNTP\synctimtsk.c" line="274" column="8"/>
+            <symbol>yymmdd</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;hhmmss&apos; can be reduced." verbose="The scope of the variable &apos;hhmmss&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="16296263509107320203">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\SNTP\synctimtsk.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\SNTP\synctimtsk.c" line="275" column="8"/>
+            <symbol>hhmmss</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;yymmdd&apos; is assigned a value that is never used." verbose="Variable &apos;yymmdd&apos; is assigned a value that is never used." cwe="563" hash="12542935729141865677">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\SNTP\synctimtsk.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\SNTP\synctimtsk.c" line="274" column="15"/>
+            <symbol>yymmdd</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;hhmmss&apos; is assigned a value that is never used." verbose="Variable &apos;hhmmss&apos; is assigned a value that is never used." cwe="563" hash="11269820858794760490">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\SNTP\synctimtsk.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\SNTP\synctimtsk.c" line="275" column="15"/>
+            <symbol>hhmmss</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;rtn&apos; is assigned a value that is never used." verbose="Variable &apos;rtn&apos; is assigned a value that is never used." cwe="563" hash="3214263962370813771">
+            <location file0="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\SNTP\synctimtsk.c" file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\SNTP\synctimtsk.c" line="448" column="8"/>
+            <symbol>rtn</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/OSWRAP/PUBLIC/system_call.h:162:17" call-funcname="c_msgQOpen" call-argnr="6" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/SNTP/synctimtsk.c" line="114" col="32" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/OSWRAP/PUBLIC/system_call.h:162:17" call-funcname="c_msgQOpen" call-argnr="6" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/SNTP/synctimtsk.c" line="116" col="32" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/SNTP/synctimtsk.c:59:5" call-funcname="syncTim" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/SNTP/synctimtsk.c" line="156" col="26" call-argexpr="&reqMsg" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/OSWRAP/PUBLIC/system_call.h:173:12" call-funcname="c_sntpcTimeGet" call-argnr="3" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/SNTP/synctimtsk.c" line="197" col="22" call-argexpr="&sntpTim" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/SNTP/synctimtsk.c:64:5" call-funcname="updateTim" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/SNTP/synctimtsk.c" line="210" col="29" call-argexpr="&sntpTim" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/OSWRAP/PUBLIC/system_call.h:118:5" call-funcname="c_clock_gettime" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/SNTP/synctimtsk.c" line="223" col="25" call-argexpr="&sysTimNow" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/SNTP/synctimtsk.c:75:8" call-funcname="getDiffTime" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/SNTP/synctimtsk.c" line="233" col="32" call-argexpr="&sysTimNow" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/SNTP/synctimtsk.c:75:8" call-funcname="getDiffTime" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/SNTP/synctimtsk.c" line="233" col="32" call-argexpr="&sntpTim" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/SNTP/synctimtsk.c:64:5" call-funcname="updateTim" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/SNTP/synctimtsk.c" line="246" col="31" call-argexpr="&sntpTim" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/OSWRAP/PUBLIC/system_call.h:181:12" call-funcname="c_localtime_r" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/SNTP/synctimtsk.c" line="293" col="16" call-argexpr="&rtcTime" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/OSWRAP/PUBLIC/system_call.h:181:12" call-funcname="c_localtime_r" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/SNTP/synctimtsk.c" line="293" col="16" call-argexpr="rtcTime" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/OSWRAP/PUBLIC/system_call.h:118:5" call-funcname="c_clock_gettime" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/SNTP/synctimtsk.c" line="445" col="25" call-argexpr="&ts_val" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/OSWRAP/PUBLIC/system_call.h:181:12" call-funcname="c_localtime_r" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/SNTP/synctimtsk.c" line="448" col="23" call-argexpr="&tm_val_p" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/OSWRAP/PUBLIC/system_call.h:181:12" call-funcname="c_localtime_r" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/SNTP/synctimtsk.c" line="448" col="23" call-argexpr="tm_val_p" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/OSWRAP/PUBLIC/system_call.h:124:5" call-funcname="c_clock_settime" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/SNTP/synctimtsk.c" line="279" col="8" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/SNTP/synctimtsk.c:64:5" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/SNTP/synctimtsk.c:59:5" my-argnr="1" my-argname="reqMsg" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/SNTP/synctimtsk.c" line="197" col="23" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/SNTP/synctimtsk.c:69:6" my-argnr="1" my-argname="nowTime" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/SNTP/synctimtsk.c" line="331" col="5" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/SNTP/synctimtsk.c:75:8" my-argnr="1" my-argname="stdTime" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/SNTP/synctimtsk.c" line="365" col="24" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/SNTP/synctimtsk.c:75:8" my-argnr="2" my-argname="subtractTime" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/SNTP/synctimtsk.c" line="366" col="29" value="0"/>
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/synctimtsk.h:45:12" my-argnr="1" my-argname="ipaddr" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/SNTP/synctimtsk.c" line="392" col="28" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/synctimtsk.h:45:12" my-argnr="1" my-argname="ipaddr" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/SNTP/synctimtsk.c" line="392" col="28" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="m_syncTim_init" lineNumber="108"/>
+    <functiondecl functionName="p_synctimtask" lineNumber="138"/>
+    <functiondecl functionName="syncTim" lineNumber="183"/>
+    <functiondecl functionName="updateTim" lineNumber="267"/>
+    <functiondecl functionName="getSumTime" lineNumber="326"/>
+    <functiondecl functionName="getDiffTime" lineNumber="354"/>
+    <functiondecl functionName="m_TimeSyncReq" lineNumber="386"/>
+    <functiondecl functionName="m_GetTimeSyncAns" lineNumber="410"/>
+    <functiondecl functionName="m_SysTimeDisp" lineNumber="438"/>
+    <functiondecl functionName="m_GetAcuPceSyncTimeMsgStat" lineNumber="470"/>
+    <functioncall functionName="CLOCK_REALTIME"/>
+    <functioncall functionName="CpuSetRTC"/>
+    <functioncall functionName="ERROR"/>
+    <functioncall functionName="LM_DEBUG"/>
+    <functioncall functionName="LM_INFO"/>
+    <functioncall functionName="LM_SEVERE"/>
+    <functioncall functionName="LM_TRACE"/>
+    <functioncall functionName="LM_WARNING"/>
+    <functioncall functionName="MSG_PRI_NORMAL"/>
+    <functioncall functionName="MSG_Q_FIFO"/>
+    <functioncall functionName="OM_CREATE"/>
+    <functioncall functionName="VX_FP_TASK"/>
+    <functioncall functionName="WAIT_FOREVER"/>
+    <functioncall functionName="__FUNCTION__"/>
+    <functioncall functionName="ansMsg"/>
+    <functioncall functionName="c_0div_enable"/>
+    <functioncall functionName="c_clock_gettime"/>
+    <functioncall functionName="c_clock_settime"/>
+    <functioncall functionName="c_localtime_r"/>
+    <functioncall functionName="c_msgQNumMsgs"/>
+    <functioncall functionName="c_msgQOpen"/>
+    <functioncall functionName="c_msgQReceive"/>
+    <functioncall functionName="c_msgQSend"/>
+    <functioncall functionName="c_sntpcTimeGet"/>
+    <functioncall functionName="c_taskSpawn"/>
+    <functioncall functionName="clogMsg"/>
+    <functioncall functionName="continue"/>
+    <functioncall functionName="difTimSntpSys"/>
+    <functioncall functionName="double"/>
+    <functioncall functionName="fabs"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="getDiffTime"/>
+    <functioncall functionName="getSumTime"/>
+    <functioncall functionName="hhmmss"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="ipaddr"/>
+    <functioncall functionName="p_synctimtask"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="reqMsg"/>
+    <functioncall functionName="result"/>
+    <functioncall functionName="resultSyncTim"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="rtcTime"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="sndAnsMsgqName"/>
+    <functioncall functionName="sndReqMsgqName"/>
+    <functioncall functionName="sntpTim"/>
+    <functioncall functionName="sntp_host"/>
+    <functioncall functionName="strncpy"/>
+    <functioncall functionName="subtractTime_tmp"/>
+    <functioncall functionName="syncTim"/>
+    <functioncall functionName="sysTimNow"/>
+    <functioncall functionName="taskPriority"/>
+    <functioncall functionName="tm_hour"/>
+    <functioncall functionName="tm_mday"/>
+    <functioncall functionName="tm_min"/>
+    <functioncall functionName="tm_mon"/>
+    <functioncall functionName="tm_sec"/>
+    <functioncall functionName="tm_val_p"/>
+    <functioncall functionName="tm_year"/>
+    <functioncall functionName="ts_val"/>
+    <functioncall functionName="tv_sec"/>
+    <functioncall functionName="updateTim"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="w_syncTimAnsMbxId"/>
+    <functioncall functionName="w_syncTimReqMbxId"/>
+    <functioncall functionName="yymmdd"/>
+  </FileInfo>
+</analyzerinfo>

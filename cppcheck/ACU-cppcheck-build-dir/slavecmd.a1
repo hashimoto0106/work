@@ -1,0 +1,191 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="4179429061">
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 of 17 configurations. Use --force to check all configurations." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time." cwe="398">
+            <location file="Z:\ACU\ACU_SXA\workspace\J2STD\SRC\P_LOOP\slavecmd.c" line="0" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:47:6" call-funcname="makeSlaveCmd" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="102" col="14" call-argexpr="&w_Ax1SlaveCmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:47:6" call-funcname="makeSlaveCmd" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="105" col="14" call-argexpr="&w_Ax2SlaveCmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:63:6" call-funcname="ax_cangle_slave" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="113" col="17" call-argexpr="&w_Ax1CmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:63:6" call-funcname="ax_cangle_slave" call-argnr="5" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="113" col="17" call-argexpr="&w_Ax1SlaveCmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:63:6" call-funcname="ax_cangle_slave" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="115" col="17" call-argexpr="&w_Ax2CmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:63:6" call-funcname="ax_cangle_slave" call-argnr="5" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="115" col="17" call-argexpr="&w_Ax2SlaveCmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/cmdangle.h:95:6" call-funcname="s_realtocmd" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="318" col="3" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:63:6" my-argnr="4"/>
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:40:6" call-funcname="checkCmdLimit" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="321" col="3" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:63:6" my-argnr="5"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:40:6" my-argnr="1" my-argname="slaveCmd" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="156" col="7" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:40:6" my-argnr="1" my-argname="slaveCmd" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="156" col="7" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:47:6" call-funcname="makeSlaveCmd" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="102" col="14" call-argexpr="&w_Ax1SlaveCmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:47:6" call-funcname="makeSlaveCmd" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="105" col="14" call-argexpr="&w_Ax2SlaveCmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:63:6" call-funcname="ax_cangle_slave" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="113" col="17" call-argexpr="&w_Ax1CmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:63:6" call-funcname="ax_cangle_slave" call-argnr="5" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="113" col="17" call-argexpr="&w_Ax1SlaveCmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:63:6" call-funcname="ax_cangle_slave" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="115" col="17" call-argexpr="&w_Ax2CmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:63:6" call-funcname="ax_cangle_slave" call-argnr="5" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="115" col="17" call-argexpr="&w_Ax2SlaveCmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/cmdangle.h:95:6" call-funcname="s_realtocmd" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="318" col="3" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:63:6" my-argnr="4"/>
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:40:6" call-funcname="checkCmdLimit" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="321" col="3" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:63:6" my-argnr="5"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:40:6" my-argnr="1" my-argname="slaveCmd" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="156" col="7" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:40:6" my-argnr="1" my-argname="slaveCmd" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="156" col="7" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:47:6" call-funcname="makeSlaveCmd" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="102" col="14" call-argexpr="&w_Ax1SlaveCmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:47:6" call-funcname="makeSlaveCmd" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="105" col="14" call-argexpr="&w_Ax2SlaveCmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:63:6" call-funcname="ax_cangle_slave" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="113" col="17" call-argexpr="&w_Ax1CmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:63:6" call-funcname="ax_cangle_slave" call-argnr="5" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="113" col="17" call-argexpr="&w_Ax1SlaveCmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:63:6" call-funcname="ax_cangle_slave" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="115" col="17" call-argexpr="&w_Ax2CmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:63:6" call-funcname="ax_cangle_slave" call-argnr="5" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="115" col="17" call-argexpr="&w_Ax2SlaveCmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/cmdangle.h:95:6" call-funcname="s_realtocmd" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="318" col="3" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:63:6" my-argnr="4"/>
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:40:6" call-funcname="checkCmdLimit" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="321" col="3" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:63:6" my-argnr="5"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:40:6" my-argnr="1" my-argname="slaveCmd" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="156" col="7" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:40:6" my-argnr="1" my-argname="slaveCmd" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="156" col="7" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:47:6" call-funcname="makeSlaveCmd" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="102" col="14" call-argexpr="&w_Ax1SlaveCmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:47:6" call-funcname="makeSlaveCmd" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="105" col="14" call-argexpr="&w_Ax2SlaveCmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:63:6" call-funcname="ax_cangle_slave" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="113" col="17" call-argexpr="&w_Ax1CmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:63:6" call-funcname="ax_cangle_slave" call-argnr="5" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="113" col="17" call-argexpr="&w_Ax1SlaveCmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:63:6" call-funcname="ax_cangle_slave" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="115" col="17" call-argexpr="&w_Ax2CmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:63:6" call-funcname="ax_cangle_slave" call-argnr="5" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="115" col="17" call-argexpr="&w_Ax2SlaveCmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/cmdangle.h:95:6" call-funcname="s_realtocmd" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="318" col="3" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:63:6" my-argnr="4"/>
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:40:6" call-funcname="checkCmdLimit" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="321" col="3" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:63:6" my-argnr="5"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:40:6" my-argnr="1" my-argname="slaveCmd" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="156" col="7" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:40:6" my-argnr="1" my-argname="slaveCmd" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="156" col="7" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:47:6" call-funcname="makeSlaveCmd" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="102" col="14" call-argexpr="&w_Ax1SlaveCmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:47:6" call-funcname="makeSlaveCmd" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="105" col="14" call-argexpr="&w_Ax2SlaveCmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:63:6" call-funcname="ax_cangle_slave" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="113" col="17" call-argexpr="&w_Ax1CmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:63:6" call-funcname="ax_cangle_slave" call-argnr="5" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="113" col="17" call-argexpr="&w_Ax1SlaveCmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:63:6" call-funcname="ax_cangle_slave" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="115" col="17" call-argexpr="&w_Ax2CmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:63:6" call-funcname="ax_cangle_slave" call-argnr="5" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="115" col="17" call-argexpr="&w_Ax2SlaveCmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/cmdangle.h:95:6" call-funcname="s_realtocmd" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="318" col="3" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:63:6" my-argnr="4"/>
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:40:6" call-funcname="checkCmdLimit" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="321" col="3" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:63:6" my-argnr="5"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:40:6" my-argnr="1" my-argname="slaveCmd" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="156" col="7" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:40:6" my-argnr="1" my-argname="slaveCmd" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="156" col="7" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:47:6" call-funcname="makeSlaveCmd" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="102" col="14" call-argexpr="&w_Ax1SlaveCmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:47:6" call-funcname="makeSlaveCmd" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="105" col="14" call-argexpr="&w_Ax2SlaveCmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:63:6" call-funcname="ax_cangle_slave" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="113" col="17" call-argexpr="&w_Ax1CmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:63:6" call-funcname="ax_cangle_slave" call-argnr="5" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="113" col="17" call-argexpr="&w_Ax1SlaveCmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:63:6" call-funcname="ax_cangle_slave" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="115" col="17" call-argexpr="&w_Ax2CmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:63:6" call-funcname="ax_cangle_slave" call-argnr="5" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="115" col="17" call-argexpr="&w_Ax2SlaveCmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/cmdangle.h:95:6" call-funcname="s_realtocmd" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="318" col="3" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:63:6" my-argnr="4"/>
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:40:6" call-funcname="checkCmdLimit" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="321" col="3" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:63:6" my-argnr="5"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:40:6" my-argnr="1" my-argname="slaveCmd" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="156" col="7" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:40:6" my-argnr="1" my-argname="slaveCmd" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="156" col="7" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:47:6" call-funcname="makeSlaveCmd" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="102" col="14" call-argexpr="&w_Ax1SlaveCmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:47:6" call-funcname="makeSlaveCmd" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="105" col="14" call-argexpr="&w_Ax2SlaveCmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:63:6" call-funcname="ax_cangle_slave" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="113" col="17" call-argexpr="&w_Ax1CmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:63:6" call-funcname="ax_cangle_slave" call-argnr="5" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="113" col="17" call-argexpr="&w_Ax1SlaveCmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:63:6" call-funcname="ax_cangle_slave" call-argnr="4" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="115" col="17" call-argexpr="&w_Ax2CmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:63:6" call-funcname="ax_cangle_slave" call-argnr="5" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="115" col="17" call-argexpr="&w_Ax2SlaveCmdAng" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/PUBLIC/cmdangle.h:95:6" call-funcname="s_realtocmd" call-argnr="2" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="318" col="3" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:63:6" my-argnr="4"/>
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:40:6" call-funcname="checkCmdLimit" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="321" col="3" my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:63:6" my-argnr="5"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:40:6" my-argnr="1" my-argname="slaveCmd" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="156" col="7" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c:40:6" my-argnr="1" my-argname="slaveCmd" file="Z:/ACU/ACU_SXA/workspace/J2STD/SRC/P_LOOP/slavecmd.c" line="156" col="7" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="s_cangle_slave" lineNumber="97"/>
+    <functiondecl functionName="makeSlaveCmd" lineNumber="124"/>
+    <functiondecl functionName="checkCmdLimit" lineNumber="148"/>
+    <functiondecl functionName="s_calc_extcmd_slave" lineNumber="179"/>
+    <functiondecl functionName="calc_rcvSlavecmd" lineNumber="213"/>
+    <functiondecl functionName="calc_extcmd" lineNumber="277"/>
+    <functiondecl functionName="ax_cangle_slave" lineNumber="302"/>
+    <functiondecl functionName="s_cangle_slave" lineNumber="97"/>
+    <functiondecl functionName="makeSlaveCmd" lineNumber="124"/>
+    <functiondecl functionName="checkCmdLimit" lineNumber="148"/>
+    <functiondecl functionName="s_calc_extcmd_slave" lineNumber="179"/>
+    <functiondecl functionName="calc_rcvSlavecmd" lineNumber="213"/>
+    <functiondecl functionName="calc_extcmd" lineNumber="277"/>
+    <functiondecl functionName="ax_cangle_slave" lineNumber="302"/>
+    <functiondecl functionName="s_cangle_slave" lineNumber="97"/>
+    <functiondecl functionName="makeSlaveCmd" lineNumber="124"/>
+    <functiondecl functionName="checkCmdLimit" lineNumber="148"/>
+    <functiondecl functionName="s_calc_extcmd_slave" lineNumber="179"/>
+    <functiondecl functionName="calc_rcvSlavecmd" lineNumber="213"/>
+    <functiondecl functionName="calc_extcmd" lineNumber="277"/>
+    <functiondecl functionName="ax_cangle_slave" lineNumber="302"/>
+    <functiondecl functionName="s_cangle_slave" lineNumber="97"/>
+    <functiondecl functionName="makeSlaveCmd" lineNumber="124"/>
+    <functiondecl functionName="checkCmdLimit" lineNumber="148"/>
+    <functiondecl functionName="s_calc_extcmd_slave" lineNumber="179"/>
+    <functiondecl functionName="calc_rcvSlavecmd" lineNumber="213"/>
+    <functiondecl functionName="calc_extcmd" lineNumber="277"/>
+    <functiondecl functionName="ax_cangle_slave" lineNumber="302"/>
+    <functiondecl functionName="s_cangle_slave" lineNumber="97"/>
+    <functiondecl functionName="makeSlaveCmd" lineNumber="124"/>
+    <functiondecl functionName="checkCmdLimit" lineNumber="148"/>
+    <functiondecl functionName="s_calc_extcmd_slave" lineNumber="179"/>
+    <functiondecl functionName="calc_rcvSlavecmd" lineNumber="213"/>
+    <functiondecl functionName="calc_extcmd" lineNumber="277"/>
+    <functiondecl functionName="ax_cangle_slave" lineNumber="302"/>
+    <functiondecl functionName="s_cangle_slave" lineNumber="97"/>
+    <functiondecl functionName="makeSlaveCmd" lineNumber="124"/>
+    <functiondecl functionName="checkCmdLimit" lineNumber="148"/>
+    <functiondecl functionName="s_calc_extcmd_slave" lineNumber="179"/>
+    <functiondecl functionName="calc_rcvSlavecmd" lineNumber="213"/>
+    <functiondecl functionName="calc_extcmd" lineNumber="277"/>
+    <functiondecl functionName="ax_cangle_slave" lineNumber="302"/>
+    <functiondecl functionName="s_cangle_slave" lineNumber="97"/>
+    <functiondecl functionName="makeSlaveCmd" lineNumber="124"/>
+    <functiondecl functionName="checkCmdLimit" lineNumber="148"/>
+    <functiondecl functionName="s_calc_extcmd_slave" lineNumber="179"/>
+    <functiondecl functionName="calc_rcvSlavecmd" lineNumber="213"/>
+    <functiondecl functionName="calc_extcmd" lineNumber="277"/>
+    <functiondecl functionName="ax_cangle_slave" lineNumber="302"/>
+    <functioncall functionName="AX2_NUM"/>
+    <functioncall functionName="AX3_NUM"/>
+    <functioncall functionName="AXIS_AX2"/>
+    <functioncall functionName="AXIS_AX3"/>
+    <functioncall functionName="AXIS_CR"/>
+    <functioncall functionName="AXIS_EL"/>
+    <functioncall functionName="AXIS_NUM"/>
+    <functioncall functionName="DSP2_NUM"/>
+    <functioncall functionName="DSP_NUM"/>
+    <functioncall functionName="INTERLOCK_CBANK_FAULT"/>
+    <functioncall functionName="INTERLOCK_COND_OFF_ANS"/>
+    <functioncall functionName="INTERLOCK_DPA_FAULT"/>
+    <functioncall functionName="INTERLOCK_DPA_IF_FAULT"/>
+    <functioncall functionName="INTERLOCK_MOTOR_OVERHEAT"/>
+    <functioncall functionName="T_MODE_MAJOR_FILTER"/>
+    <functioncall functionName="T_MODE_MAJOR_LOOP"/>
+    <functioncall functionName="T_MODE_MINOR_FILTER"/>
+    <functioncall functionName="T_MODE_MINOR_LOOP"/>
+    <functioncall functionName="T_MODE_POSN_FILTER"/>
+    <functioncall functionName="T_MODE_POSN_LOOP"/>
+    <functioncall functionName="angle"/>
+    <functioncall functionName="ax_cangle_slave"/>
+    <functioncall functionName="calc_extcmd"/>
+    <functioncall functionName="calc_rcvSlavecmd"/>
+    <functioncall functionName="checkCmdLimit"/>
+    <functioncall functionName="chkTestState"/>
+    <functioncall functionName="cmdAng"/>
+    <functioncall functionName="cmdLim"/>
+    <functioncall functionName="cmd_lim_ang_neg"/>
+    <functioncall functionName="cmd_lim_ang_pos"/>
+    <functioncall functionName="double"/>
+    <functioncall functionName="driveOn"/>
+    <functioncall functionName="extCmd"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="loop_period"/>
+    <functioncall functionName="makeSlaveCmd"/>
+    <functioncall functionName="neg"/>
+    <functioncall functionName="pos"/>
+    <functioncall functionName="realAng"/>
+    <functioncall functionName="s_realtocmd"/>
+    <functioncall functionName="slaveCmd"/>
+    <functioncall functionName="slaveCmdOld"/>
+    <functioncall functionName="slvcmd"/>
+    <functioncall functionName="testMode"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="w_Ax1CmdAng"/>
+    <functioncall functionName="w_Ax1ExtCmd"/>
+    <functioncall functionName="w_Ax1RealAng"/>
+    <functioncall functionName="w_Ax1SlaveCmdAng"/>
+    <functioncall functionName="w_Ax1SlvCmd"/>
+    <functioncall functionName="w_Ax1SlvCmdold"/>
+    <functioncall functionName="w_Ax2CmdAng"/>
+    <functioncall functionName="w_Ax2ExtCmd"/>
+    <functioncall functionName="w_Ax2RealAng"/>
+    <functioncall functionName="w_Ax2SlaveCmdAng"/>
+    <functioncall functionName="w_Ax2SlvCmd"/>
+    <functioncall functionName="w_Ax2SlvCmdold"/>
+    <functioncall functionName="w_ar"/>
+    <functioncall functionName="w_ax1TestMode"/>
+    <functioncall functionName="w_ax2TestMode"/>
+    <functioncall functionName="w_rmtAx1SlvOfsAng"/>
+    <functioncall functionName="w_rmtAx2SlvOfsAng"/>
+    <functioncall functionName="w_tcnt"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1561662179">
+        <error id="unusedVariable" severity="style" msg="Unused variable: buf" verbose="Unused variable: buf" cwe="563" hash="7424364875163479473">
+            <location file0="..\workspace\OSWRAP\SRC\clogmsg.c" file="..\workspace\OSWRAP\SRC\clogmsg.c" line="233" column="8"/>
+            <symbol>buf</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="../workspace/OSWRAP/PUBLIC/system_call.h:118:5" call-funcname="c_clock_gettime" call-argnr="2" file="../workspace/OSWRAP/SRC/clogmsg.c" line="75" col="17" call-argexpr="&tp" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="../workspace/OSWRAP/PUBLIC/clogmsg.h:60:6" call-funcname="timespec2asc" call-argnr="1" file="../workspace/OSWRAP/SRC/clogmsg.c" line="76" col="14" call-argexpr="&tp" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="../workspace/OSWRAP/PUBLIC/clogmsg.h:60:6" call-funcname="timespec2asc" call-argnr="2" file="../workspace/OSWRAP/SRC/clogmsg.c" line="76" col="14" call-argexpr="ascTime" call-argvaluetype="7" call-argvalue="64"/><function-call call-id="../workspace/OSWRAP/PUBLIC/clogmsg.h:45:6" call-funcname="clogSetLevel" call-argnr="1" file="../workspace/OSWRAP/SRC/clogmsg.c" line="80" col="15" call-argexpr="LM_SUPER" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/OSWRAP/PUBLIC/clogmsg.h:50:6" call-funcname="clogPriority" call-argnr="1" file="../workspace/OSWRAP/SRC/clogmsg.c" line="81" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/OSWRAP/PUBLIC/system_call.h:40:8" call-funcname="c_taskPrioritySet" call-argnr="2" file="../workspace/OSWRAP/SRC/clogmsg.c" line="191" col="19" call-argexpr="priority" call-argvaluetype="0" call-argvalue="0">
+  <path file="..\workspace\OSWRAP\SRC\clogmsg.c" line="81" col="16" info="Calling function 'clogPriority', 1st argument '0' value is 0"/>
+</function-call><function-call call-id="../workspace/OSWRAP/PUBLIC/system_call.h:87:8" call-funcname="c_semTake" call-argnr="3" file="../workspace/OSWRAP/SRC/clogmsg.c" line="88" col="9" my-id="../workspace/OSWRAP/PUBLIC/clogmsg.h:34:6" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="clogMsg" lineNumber="52"/>
+    <functiondecl functionName="clogInit" lineNumber="149"/>
+    <functiondecl functionName="clogSetLevel" lineNumber="167"/>
+    <functiondecl functionName="clogPriority" lineNumber="185"/>
+    <functiondecl functionName="clogSevereHook" lineNumber="207"/>
+    <functiondecl functionName="timespec2asc" lineNumber="226"/>
+    <functioncall functionName="CLOCK_REALTIME"/>
+    <functioncall functionName="LM_DEBUG"/>
+    <functioncall functionName="LM_INFO"/>
+    <functioncall functionName="LM_SEVERE"/>
+    <functioncall functionName="LM_SUPER"/>
+    <functioncall functionName="LM_TRACE"/>
+    <functioncall functionName="LM_WARNING"/>
+    <functioncall functionName="NO_WAIT"/>
+    <functioncall functionName="SEM_Q_PRIORITY"/>
+    <functioncall functionName="VOIDFUNCPTR"/>
+    <functioncall functionName="__FUNCTION__"/>
+    <functioncall functionName="arg1"/>
+    <functioncall functionName="arg2"/>
+    <functioncall functionName="arg3"/>
+    <functioncall functionName="arg4"/>
+    <functioncall functionName="arg5"/>
+    <functioncall functionName="arg6"/>
+    <functioncall functionName="ascTime"/>
+    <functioncall functionName="asc_time"/>
+    <functioncall functionName="c_clock_gettime"/>
+    <functioncall functionName="c_semGive"/>
+    <functioncall functionName="c_semMCreate"/>
+    <functioncall functionName="c_semTake"/>
+    <functioncall functionName="c_taskNameToId"/>
+    <functioncall functionName="c_taskPrioritySet"/>
+    <functioncall functionName="clogPriority"/>
+    <functioncall functionName="clogSetLevel"/>
+    <functioncall functionName="format"/>
+    <functioncall functionName="func"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="level"/>
+    <functioncall functionName="lm_strings"/>
+    <functioncall functionName="localtime"/>
+    <functioncall functionName="logBuf"/>
+    <functioncall functionName="logMsg"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="msec"/>
+    <functioncall functionName="pointer"/>
+    <functioncall functionName="priority"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="severeFunc"/>
+    <functioncall functionName="severe_strings"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="sprintf"/>
+    <functioncall functionName="strcat"/>
+    <functioncall functionName="strcpy"/>
+    <functioncall functionName="tId"/>
+    <functioncall functionName="timespec2asc"/>
+    <functioncall functionName="tm_hour"/>
+    <functioncall functionName="tm_mday"/>
+    <functioncall functionName="tm_min"/>
+    <functioncall functionName="tm_sec"/>
+    <functioncall functionName="tp"/>
+    <functioncall functionName="tv_sec"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="w_lm_sem"/>
+  </FileInfo>
+</analyzerinfo>

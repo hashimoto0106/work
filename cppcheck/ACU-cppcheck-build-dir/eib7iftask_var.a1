@@ -1,0 +1,413 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1076417334">
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;error&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;error&apos; is reassigned a value before the old one has been used." cwe="563" hash="15855109652570957041">
+            <location file0="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" file="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" line="1275" column="9" info="error is overwritten"/>
+            <location file0="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" file="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" line="1273" column="9" info="error is assigned"/>
+            <symbol>error</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;error&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;error&apos; is reassigned a value before the old one has been used." cwe="563" hash="6534504949972228398">
+            <location file0="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" file="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" line="1277" column="9" info="error is overwritten"/>
+            <location file0="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" file="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" line="1275" column="9" info="error is assigned"/>
+            <symbol>error</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;error&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;error&apos; is reassigned a value before the old one has been used." cwe="563" hash="9546723548525379429">
+            <location file0="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" file="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" line="1279" column="9" info="error is overwritten"/>
+            <location file0="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" file="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" line="1277" column="9" info="error is assigned"/>
+            <symbol>error</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;error&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;error&apos; is reassigned a value before the old one has been used." cwe="563" hash="16843514640585040354">
+            <location file0="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" file="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" line="1283" column="9" info="error is overwritten"/>
+            <location file0="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" file="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" line="1279" column="9" info="error is assigned"/>
+            <symbol>error</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;Nb&apos; can be reduced." verbose="The scope of the variable &apos;Nb&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="13394993040969191765">
+            <location file0="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" file="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" line="645" column="16"/>
+            <symbol>Nb</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;Rb&apos; can be reduced." verbose="The scope of the variable &apos;Rb&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="15099531403188749858">
+            <location file0="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" file="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" line="646" column="9"/>
+            <symbol>Rb</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;tmp_d&apos; can be reduced." verbose="The scope of the variable &apos;tmp_d&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="6266692735101566052">
+            <location file0="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" file="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" line="647" column="9"/>
+            <symbol>tmp_d</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;param_S&apos; can be reduced." verbose="The scope of the variable &apos;param_S&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="6607785955386483372">
+            <location file0="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" file="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" line="648" column="6"/>
+            <symbol>param_S</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;param_Xo&apos; can be reduced." verbose="The scope of the variable &apos;param_Xo&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="3542731657837930917">
+            <location file0="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" file="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" line="648" column="19"/>
+            <symbol>param_Xo</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;Na&apos; can be reduced." verbose="The scope of the variable &apos;Na&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="15178513281640696329">
+            <location file0="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" file="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" line="649" column="16"/>
+            <symbol>Na</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;Rt&apos; can be reduced." verbose="The scope of the variable &apos;Rt&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="17949532248345464775">
+            <location file0="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" file="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" line="650" column="9"/>
+            <symbol>Rt</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;status_word&apos; can be reduced." verbose="The scope of the variable &apos;status_word&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="10014469349065256353">
+            <location file0="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" file="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" line="651" column="17"/>
+            <symbol>status_word</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;i&apos; can be reduced." verbose="The scope of the variable &apos;i&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="12168544226630530349">
+            <location file0="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" file="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" line="991" column="6"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;status_word&apos; can be reduced." verbose="The scope of the variable &apos;status_word&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="3909241284832136467">
+            <location file0="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" file="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" line="992" column="17"/>
+            <symbol>status_word</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;interval&apos; can be reduced." verbose="The scope of the variable &apos;interval&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="3822079369068582905">
+            <location file0="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" file="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" line="1126" column="12"/>
+            <symbol>interval</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;i&apos; is assigned a value that is never used." verbose="Variable &apos;i&apos; is assigned a value that is never used." cwe="563" hash="17272436235455611002">
+            <location file0="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" file="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" line="316" column="8"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;i&apos; is assigned a value that is never used." verbose="Variable &apos;i&apos; is assigned a value that is never used." cwe="563" hash="6817434882057425880">
+            <location file0="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" file="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" line="638" column="8"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;i&apos; is assigned a value that is never used." verbose="Variable &apos;i&apos; is assigned a value that is never used." cwe="563" hash="2136212743175704646">
+            <location file0="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" file="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" line="991" column="8"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;interval&apos; is assigned a value that is never used." verbose="Variable &apos;interval&apos; is assigned a value that is never used." cwe="563" hash="1173418071035905393">
+            <location file0="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" file="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" line="1126" column="21"/>
+            <symbol>interval</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;error&apos; is assigned a value that is never used." verbose="Variable &apos;error&apos; is assigned a value that is never used." cwe="563" hash="15834333224710816958">
+            <location file0="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" file="Z:\ACU\ACU_SXA\workspace\SXA_SMCFCU\SRC\EIB7IF\eib7iftask_var.c" line="1283" column="9"/>
+            <symbol>error</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/SXA_SMCFCU/SRC/EIB7IF/eib7iftask_var.c:95:13" call-funcname="EIB_GetStartTime" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/SXA_SMCFCU/SRC/EIB7IF/eib7iftask_var.c" line="693" col="24" call-argexpr="&starttime_el" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/SXA_SMCFCU/SRC/EIB7IF/eib7iftask_var.c:96:12" call-funcname="EIB_TimeElapsed" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/SXA_SMCFCU/SRC/EIB7IF/eib7iftask_var.c" line="698" col="36" call-argexpr="&starttime_el" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/SXA_SMCFCU/SRC/EIB7IF/eib7iftask_var.c:95:13" call-funcname="EIB_GetStartTime" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/SXA_SMCFCU/SRC/EIB7IF/eib7iftask_var.c" line="700" col="24" call-argexpr="&starttime_el" call-argvaluetype="7" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/SXA_SMCFCU/SRC/EIB7IF/eib7iftask_var.c:95:13" call-funcname="EIB_GetStartTime" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/SXA_SMCFCU/SRC/EIB7IF/eib7iftask_var.c" line="693" col="24" call-argexpr="&starttime_el" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/SXA_SMCFCU/SRC/EIB7IF/eib7iftask_var.c:96:12" call-funcname="EIB_TimeElapsed" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/SXA_SMCFCU/SRC/EIB7IF/eib7iftask_var.c" line="698" col="36" call-argexpr="&starttime_el" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/SXA_SMCFCU/SRC/EIB7IF/eib7iftask_var.c:95:13" call-funcname="EIB_GetStartTime" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/SXA_SMCFCU/SRC/EIB7IF/eib7iftask_var.c" line="700" col="24" call-argexpr="&starttime_el" call-argvaluetype="7" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/SXA_SMCFCU/SRC/EIB7IF/eib7iftask_var.c:95:13" call-funcname="EIB_GetStartTime" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/SXA_SMCFCU/SRC/EIB7IF/eib7iftask_var.c" line="693" col="24" call-argexpr="&starttime_el" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/SXA_SMCFCU/SRC/EIB7IF/eib7iftask_var.c:96:12" call-funcname="EIB_TimeElapsed" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/SXA_SMCFCU/SRC/EIB7IF/eib7iftask_var.c" line="698" col="36" call-argexpr="&starttime_el" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/SXA_SMCFCU/SRC/EIB7IF/eib7iftask_var.c:95:13" call-funcname="EIB_GetStartTime" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/SXA_SMCFCU/SRC/EIB7IF/eib7iftask_var.c" line="700" col="24" call-argexpr="&starttime_el" call-argvaluetype="7" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/SXA_SMCFCU/SRC/EIB7IF/eib7iftask_var.c:95:13" call-funcname="EIB_GetStartTime" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/SXA_SMCFCU/SRC/EIB7IF/eib7iftask_var.c" line="693" col="24" call-argexpr="&starttime_el" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/SXA_SMCFCU/SRC/EIB7IF/eib7iftask_var.c:96:12" call-funcname="EIB_TimeElapsed" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/SXA_SMCFCU/SRC/EIB7IF/eib7iftask_var.c" line="698" col="36" call-argexpr="&starttime_el" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/SXA_SMCFCU/SRC/EIB7IF/eib7iftask_var.c:95:13" call-funcname="EIB_GetStartTime" call-argnr="1" file="Z:/ACU/ACU_SXA/workspace/SXA_SMCFCU/SRC/EIB7IF/eib7iftask_var.c" line="700" col="24" call-argexpr="&starttime_el" call-argvaluetype="7" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="construct_eib7if_hook_impl" lineNumber="174"/>
+    <functiondecl functionName="m_eib7if_init_impl" lineNumber="187"/>
+    <functiondecl functionName="m_eib7if_impl" lineNumber="226"/>
+    <functiondecl functionName="s_eibCheckCycle" lineNumber="274"/>
+    <functiondecl functionName="s_eibInitialize" lineNumber="313"/>
+    <functiondecl functionName="get_time_us" lineNumber="617"/>
+    <functiondecl functionName="s_eibRecieveData" lineNumber="634"/>
+    <functiondecl functionName="m_eibClose" lineNumber="905"/>
+    <functiondecl functionName="m_eibCheckHealth" lineNumber="945"/>
+    <functiondecl functionName="m_eibStop" lineNumber="977"/>
+    <functiondecl functionName="s_eibOpifCheckStatus" lineNumber="988"/>
+    <functiondecl functionName="showEib7ShortEst" lineNumber="1119"/>
+    <functiondecl functionName="setEIB7State" lineNumber="1146"/>
+    <functiondecl functionName="showEIB7State" lineNumber="1159"/>
+    <functiondecl functionName="showEib7Packet" lineNumber="1189"/>
+    <functiondecl functionName="showEib7PacketData" lineNumber="1199"/>
+    <functiondecl functionName="showEIB7Info" lineNumber="1250"/>
+    <functiondecl functionName="setEib7StatusWord" lineNumber="1303"/>
+    <functiondecl functionName="CheckError" lineNumber="1314"/>
+    <functiondecl functionName="construct_eib7if_hook_impl" lineNumber="174"/>
+    <functiondecl functionName="m_eib7if_init_impl" lineNumber="187"/>
+    <functiondecl functionName="m_eib7if_impl" lineNumber="226"/>
+    <functiondecl functionName="s_eibCheckCycle" lineNumber="274"/>
+    <functiondecl functionName="s_eibInitialize" lineNumber="313"/>
+    <functiondecl functionName="get_time_us" lineNumber="617"/>
+    <functiondecl functionName="s_eibRecieveData" lineNumber="634"/>
+    <functiondecl functionName="m_eibClose" lineNumber="905"/>
+    <functiondecl functionName="m_eibCheckHealth" lineNumber="945"/>
+    <functiondecl functionName="m_eibStop" lineNumber="977"/>
+    <functiondecl functionName="s_eibOpifCheckStatus" lineNumber="988"/>
+    <functiondecl functionName="showEib7ShortEst" lineNumber="1119"/>
+    <functiondecl functionName="setEIB7State" lineNumber="1146"/>
+    <functiondecl functionName="showEIB7State" lineNumber="1159"/>
+    <functiondecl functionName="showEib7Packet" lineNumber="1189"/>
+    <functiondecl functionName="showEib7PacketData" lineNumber="1199"/>
+    <functiondecl functionName="showEIB7Info" lineNumber="1250"/>
+    <functiondecl functionName="setEib7StatusWord" lineNumber="1303"/>
+    <functiondecl functionName="CheckError" lineNumber="1314"/>
+    <functiondecl functionName="construct_eib7if_hook_impl" lineNumber="174"/>
+    <functiondecl functionName="m_eib7if_init_impl" lineNumber="187"/>
+    <functiondecl functionName="m_eib7if_impl" lineNumber="226"/>
+    <functiondecl functionName="s_eibCheckCycle" lineNumber="274"/>
+    <functiondecl functionName="s_eibInitialize" lineNumber="313"/>
+    <functiondecl functionName="get_time_us" lineNumber="617"/>
+    <functiondecl functionName="s_eibRecieveData" lineNumber="634"/>
+    <functiondecl functionName="m_eibClose" lineNumber="905"/>
+    <functiondecl functionName="m_eibCheckHealth" lineNumber="945"/>
+    <functiondecl functionName="m_eibStop" lineNumber="977"/>
+    <functiondecl functionName="s_eibOpifCheckStatus" lineNumber="988"/>
+    <functiondecl functionName="showEib7ShortEst" lineNumber="1119"/>
+    <functiondecl functionName="setEIB7State" lineNumber="1146"/>
+    <functiondecl functionName="showEIB7State" lineNumber="1159"/>
+    <functiondecl functionName="showEib7Packet" lineNumber="1189"/>
+    <functiondecl functionName="showEib7PacketData" lineNumber="1199"/>
+    <functiondecl functionName="showEIB7Info" lineNumber="1250"/>
+    <functiondecl functionName="setEib7StatusWord" lineNumber="1303"/>
+    <functiondecl functionName="CheckError" lineNumber="1314"/>
+    <functiondecl functionName="construct_eib7if_hook_impl" lineNumber="174"/>
+    <functiondecl functionName="m_eib7if_init_impl" lineNumber="187"/>
+    <functiondecl functionName="m_eib7if_impl" lineNumber="226"/>
+    <functiondecl functionName="s_eibCheckCycle" lineNumber="274"/>
+    <functiondecl functionName="s_eibInitialize" lineNumber="313"/>
+    <functiondecl functionName="get_time_us" lineNumber="617"/>
+    <functiondecl functionName="s_eibRecieveData" lineNumber="634"/>
+    <functiondecl functionName="m_eibClose" lineNumber="905"/>
+    <functiondecl functionName="m_eibCheckHealth" lineNumber="945"/>
+    <functiondecl functionName="m_eibStop" lineNumber="977"/>
+    <functiondecl functionName="s_eibOpifCheckStatus" lineNumber="988"/>
+    <functiondecl functionName="showEib7ShortEst" lineNumber="1119"/>
+    <functiondecl functionName="setEIB7State" lineNumber="1146"/>
+    <functiondecl functionName="showEIB7State" lineNumber="1159"/>
+    <functiondecl functionName="showEib7Packet" lineNumber="1189"/>
+    <functiondecl functionName="showEib7PacketData" lineNumber="1199"/>
+    <functiondecl functionName="showEIB7Info" lineNumber="1250"/>
+    <functiondecl functionName="setEib7StatusWord" lineNumber="1303"/>
+    <functiondecl functionName="CheckError" lineNumber="1314"/>
+    <functioncall functionName="AX2_NUM"/>
+    <functioncall functionName="AX3_NUM"/>
+    <functioncall functionName="AXIS_NUM"/>
+    <functioncall functionName="CLOCK_REALTIME"/>
+    <functioncall functionName="CheckError"/>
+    <functioncall functionName="DSP2_NUM"/>
+    <functioncall functionName="DSP_NUM"/>
+    <functioncall functionName="EIB7AddDataPacketSection"/>
+    <functioncall functionName="EIB7AuxSetRITriggerEdge"/>
+    <functioncall functionName="EIB7AxisTriggerSource"/>
+    <functioncall functionName="EIB7ClearEnDatErrorMsg"/>
+    <functioncall functionName="EIB7ClearEncoderErrors"/>
+    <functioncall functionName="EIB7ClearFIFO"/>
+    <functioncall functionName="EIB7ClearLostTriggerError"/>
+    <functioncall functionName="EIB7ClearPowerSupplyError"/>
+    <functioncall functionName="EIB7Close"/>
+    <functioncall functionName="EIB7ConfigDataPacket"/>
+    <functioncall functionName="EIB7FIFOEntryCount"/>
+    <functioncall functionName="EIB7GetAxis"/>
+    <functioncall functionName="EIB7GetDataFieldPtr"/>
+    <functioncall functionName="EIB7GetErrorInfo"/>
+    <functioncall functionName="EIB7GetFIFOSize"/>
+    <functioncall functionName="EIB7GetHostIP"/>
+    <functioncall functionName="EIB7GetHostname"/>
+    <functioncall functionName="EIB7GetIdentNumber"/>
+    <functioncall functionName="EIB7GetMAC"/>
+    <functioncall functionName="EIB7GetSerialNumber"/>
+    <functioncall functionName="EIB7GetTimerTriggerTicks"/>
+    <functioncall functionName="EIB7GetTimestampTicks"/>
+    <functioncall functionName="EIB7GetVersion"/>
+    <functioncall functionName="EIB7GlobalTriggerEnable"/>
+    <functioncall functionName="EIB7IF_AXIS_2"/>
+    <functioncall functionName="EIB7IF_AXIS_3"/>
+    <functioncall functionName="EIB7IF_AXIS_4"/>
+    <functioncall functionName="EIB7IF_AXIS_NUM"/>
+    <functioncall functionName="EIB7IF_STATE_INIT"/>
+    <functioncall functionName="EIB7IF_STATE_RECIEVING"/>
+    <functioncall functionName="EIB7IF_STATE_STOP"/>
+    <functioncall functionName="EIB7InitAxis"/>
+    <functioncall functionName="EIB7MasterTriggerSource"/>
+    <functioncall functionName="EIB7Open"/>
+    <functioncall functionName="EIB7ReadFIFOData"/>
+    <functioncall functionName="EIB7SelectMode"/>
+    <functioncall functionName="EIB7SetTimerTriggerPeriod"/>
+    <functioncall functionName="EIB7SetTimestamp"/>
+    <functioncall functionName="EIB7SetTimestampPeriod"/>
+    <functioncall functionName="EIB7_AXIS"/>
+    <functioncall functionName="EIB7_DR_Encoder1"/>
+    <functioncall functionName="EIB7_DR_Encoder2"/>
+    <functioncall functionName="EIB7_DR_Encoder3"/>
+    <functioncall functionName="EIB7_DR_Encoder4"/>
+    <functioncall functionName="EIB7_DR_Global"/>
+    <functioncall functionName="EIB7_FIRMWARE_VER"/>
+    <functioncall functionName="EIB7_FW_CurrentlyBooted"/>
+    <functioncall functionName="EIB7_HOSTNAME"/>
+    <functioncall functionName="EIB7_IDENT_NUMBER"/>
+    <functioncall functionName="EIB7_MD_Disable"/>
+    <functioncall functionName="EIB7_MD_Enable"/>
+    <functioncall functionName="EIB7_NoError"/>
+    <functioncall functionName="EIB7_OM_Polling"/>
+    <functioncall functionName="EIB7_OUT_MAX"/>
+    <functioncall functionName="EIB7_PDF_PositionData"/>
+    <functioncall functionName="EIB7_PDF_StatusWord"/>
+    <functioncall functionName="EIB7_PDF_Timestamp"/>
+    <functioncall functionName="EIB7_PDF_TriggerCounter"/>
+    <functioncall functionName="EIB7_SERIAL_NUMBER"/>
+    <functioncall functionName="EIB7_TS_All"/>
+    <functioncall functionName="EIB_GetStartTime"/>
+    <functioncall functionName="EIB_TimeElapsed"/>
+    <functioncall functionName="ERR_CLOSE_FINAL_CLOSE"/>
+    <functioncall functionName="ERR_CLOSE_GLOBAL_TRIGGER_ENABLE"/>
+    <functioncall functionName="ERR_CLOSE_SELECT_MODE"/>
+    <functioncall functionName="ERR_INIT_ADDPACKET_ENCODER"/>
+    <functioncall functionName="ERR_INIT_ADDPACKET_GLOBAL"/>
+    <functioncall functionName="ERR_INIT_AUX_SET_RI_TRIGGER_EDGE"/>
+    <functioncall functionName="ERR_INIT_AXIS_TRIGGER_SOURCE"/>
+    <functioncall functionName="ERR_INIT_CONFIG_PACKET"/>
+    <functioncall functionName="ERR_INIT_GET_AXIS"/>
+    <functioncall functionName="ERR_INIT_GET_HOST_IP"/>
+    <functioncall functionName="ERR_INIT_GET_TIMER_TRIGGER_TICKS"/>
+    <functioncall functionName="ERR_INIT_GET_TIMESTANP_TICKS"/>
+    <functioncall functionName="ERR_INIT_GLOBAL_TRIGGER_ENABLE"/>
+    <functioncall functionName="ERR_INIT_INIT_AXIS"/>
+    <functioncall functionName="ERR_INIT_MASTER_TRIGGER_SOURCE"/>
+    <functioncall functionName="ERR_INIT_OPEN"/>
+    <functioncall functionName="ERR_INIT_SELECT_MODE"/>
+    <functioncall functionName="ERR_INIT_SET_TIMER_TRIGGER_PERIOD"/>
+    <functioncall functionName="ERR_INIT_SET_TIMESTAMP_AXIS"/>
+    <functioncall functionName="ERR_INIT_SET_TIMESTAMP_PERIOD"/>
+    <functioncall functionName="ERR_NO_ERROR"/>
+    <functioncall functionName="ERR_RECIEVE_FIELD_PTR_AXIS_POSITIONDATA"/>
+    <functioncall functionName="ERR_RECIEVE_FIELD_PTR_AXIS_STATUSWORD"/>
+    <functioncall functionName="ERR_RECIEVE_FIELD_PTR_AXIS_TIMESTAMP"/>
+    <functioncall functionName="ERR_RECIEVE_FIELD_PTR_GLOBAL_TRIGGER"/>
+    <functioncall functionName="ERR_RECIEVE_FIFO_ENTRY_COUNT"/>
+    <functioncall functionName="ERR_RECIEVE_OVER_MAX_DATA_NUM"/>
+    <functioncall functionName="ERR_RECIEVE_READ_FIFO_DATA"/>
+    <functioncall functionName="ERR_RECIEVE_READ_FIFO_OVERFLOW"/>
+    <functioncall functionName="EnDatclock"/>
+    <functioncall functionName="FALSE"/>
+    <functioncall functionName="LM_DEBUG"/>
+    <functioncall functionName="LM_INFO"/>
+    <functioncall functionName="LM_SEVERE"/>
+    <functioncall functionName="LM_TRACE"/>
+    <functioncall functionName="LM_WARNING"/>
+    <functioncall functionName="Na"/>
+    <functioncall functionName="Nb"/>
+    <functioncall functionName="Recovery"/>
+    <functioncall functionName="STATUS_BIT_VALID_POSITION"/>
+    <functioncall functionName="TRUE"/>
+    <functioncall functionName="TimerPeriod"/>
+    <functioncall functionName="TimerTicks"/>
+    <functioncall functionName="TimestampPeriod"/>
+    <functioncall functionName="TimestampTicks"/>
+    <functioncall functionName="__FUNCTION__"/>
+    <functioncall functionName="axis"/>
+    <functioncall functionName="axis_num"/>
+    <functioncall functionName="bandwidth"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="calculation"/>
+    <functioncall functionName="char"/>
+    <functioncall functionName="clock_gettime"/>
+    <functioncall functionName="clogMsg"/>
+    <functioncall functionName="compensation"/>
+    <functioncall functionName="cont_period"/>
+    <functioncall functionName="continue"/>
+    <functioncall functionName="debugRecvCount"/>
+    <functioncall functionName="debugShortEstList"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="double"/>
+    <functioncall functionName="eib7_ip_01to08bit"/>
+    <functioncall functionName="eib7_ip_09to16bit"/>
+    <functioncall functionName="eib7_ip_17to24bit"/>
+    <functioncall functionName="eib7_ip_25to32bit"/>
+    <functioncall functionName="eib7if_period"/>
+    <functioncall functionName="elapsed_us"/>
+    <functioncall functionName="encoderData"/>
+    <functioncall functionName="entries"/>
+    <functioncall functionName="entry_count"/>
+    <functioncall functionName="error"/>
+    <functioncall functionName="field"/>
+    <functioncall functionName="fifo_size"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="g_eib7if_call_count"/>
+    <functioncall functionName="g_eib7if_encData"/>
+    <functioncall functionName="g_eib7if_sigClearEncoder"/>
+    <functioncall functionName="g_eib7if_sigClearEndat"/>
+    <functioncall functionName="g_eib7if_sigClearLostTrigger"/>
+    <functioncall functionName="g_eib7if_sigClearPowSupply"/>
+    <functioncall functionName="get_time_us"/>
+    <functioncall functionName="global_trigger_source"/>
+    <functioncall functionName="homing"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="iface"/>
+    <functioncall functionName="increment"/>
+    <functioncall functionName="index"/>
+    <functioncall functionName="inputData"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="interval"/>
+    <functioncall functionName="ip"/>
+    <functioncall functionName="ip_01to08bit"/>
+    <functioncall functionName="ip_09to16bit"/>
+    <functioncall functionName="ip_17to24bit"/>
+    <functioncall functionName="ip_25to32bit"/>
+    <functioncall functionName="ipaddress"/>
+    <functioncall functionName="limit"/>
+    <functioncall functionName="linecounts"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="m_bSetStartTime"/>
+    <functioncall functionName="m_bShowEib7Packet"/>
+    <functioncall functionName="m_cycle_start_count"/>
+    <functioncall functionName="m_eib"/>
+    <functioncall functionName="m_eib7if_impl"/>
+    <functioncall functionName="m_eib7if_init_impl"/>
+    <functioncall functionName="m_eibCheckHealth"/>
+    <functioncall functionName="m_eibClose"/>
+    <functioncall functionName="m_eibStop"/>
+    <functioncall functionName="m_enable_first_initialize"/>
+    <functioncall functionName="m_fw_version"/>
+    <functioncall functionName="m_last_Rb"/>
+    <functioncall functionName="m_no_recieve_data_count"/>
+    <functioncall functionName="m_recieve_err_count"/>
+    <functioncall functionName="m_state"/>
+    <functioncall functionName="m_timeout_occured_count"/>
+    <functioncall functionName="m_udpData"/>
+    <functioncall functionName="m_using_axis"/>
+    <functioncall functionName="macAddr"/>
+    <functioncall functionName="max_tm"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="message"/>
+    <functioncall functionName="min_tm"/>
+    <functioncall functionName="mnemonic"/>
+    <functioncall functionName="mode"/>
+    <functioncall functionName="now"/>
+    <functioncall functionName="offset"/>
+    <functioncall functionName="packet"/>
+    <functioncall functionName="packet_index"/>
+    <functioncall functionName="packetitems"/>
+    <functioncall functionName="param_Xo"/>
+    <functioncall functionName="position"/>
+    <functioncall functionName="posn_data_period"/>
+    <functioncall functionName="pow"/>
+    <functioncall functionName="rcvTime"/>
+    <functioncall functionName="refmarks"/>
+    <functioncall functionName="region"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="s_eibCheckCycle"/>
+    <functioncall functionName="s_eibInitialize"/>
+    <functioncall functionName="s_eibOpifCheckStatus"/>
+    <functioncall functionName="s_eibRecieveData"/>
+    <functioncall functionName="setEIB7State"/>
+    <functioncall functionName="short"/>
+    <functioncall functionName="showEib7PacketData"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="snprintf"/>
+    <functioncall functionName="sprintf"/>
+    <functioncall functionName="starttime_el"/>
+    <functioncall functionName="status"/>
+    <functioncall functionName="statusError"/>
+    <functioncall functionName="status_err_count"/>
+    <functioncall functionName="strAddr"/>
+    <functioncall functionName="strOut"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="sz"/>
+    <functioncall functionName="timestamp"/>
+    <functioncall functionName="timestamp_pulse_us"/>
+    <functioncall functionName="triggerCounter"/>
+    <functioncall functionName="trigger_edge"/>
+    <functioncall functionName="trigger_source"/>
+    <functioncall functionName="tv_sec"/>
+    <functioncall functionName="type"/>
+    <functioncall functionName="udpData"/>
+    <functioncall functionName="usAndTbl"/>
+    <functioncall functionName="usOrTbl"/>
+    <functioncall functionName="valid"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="whole_axis"/>
+  </FileInfo>
+</analyzerinfo>

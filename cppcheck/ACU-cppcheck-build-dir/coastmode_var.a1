@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3122703069">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="construct_coastmode_hook_impl" lineNumber="56"/>
+    <functiondecl functionName="post_coastmode_hook_impl" lineNumber="67"/>
+    <functiondecl functionName="construct_coastmode_hook_impl" lineNumber="56"/>
+    <functiondecl functionName="post_coastmode_hook_impl" lineNumber="67"/>
+    <functioncall functionName="INTERLOCK_CBANK_FAULT"/>
+    <functioncall functionName="INTERLOCK_COND_OFF_ANS"/>
+    <functioncall functionName="INTERLOCK_DPA_FAULT"/>
+    <functioncall functionName="INTERLOCK_DPA_IF_FAULT"/>
+    <functioncall functionName="INTERLOCK_MOTOR_OVERHEAT"/>
+    <functioncall functionName="m_interlock"/>
+    <functioncall functionName="post_coastmode_hook_impl"/>
+  </FileInfo>
+</analyzerinfo>

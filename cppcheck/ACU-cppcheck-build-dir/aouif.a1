@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1277782213">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="initAou" lineNumber="121"/>
+    <functiondecl functionName="p_aouRecvTask" lineNumber="134"/>
+    <functiondecl functionName="p_aouSendTask" lineNumber="150"/>
+    <functiondecl functionName="wakeupAouSendTask" lineNumber="166"/>
+    <functiondecl functionName="initAou" lineNumber="121"/>
+    <functiondecl functionName="p_aouRecvTask" lineNumber="134"/>
+    <functiondecl functionName="p_aouSendTask" lineNumber="150"/>
+    <functiondecl functionName="wakeupAouSendTask" lineNumber="166"/>
+    <functiondecl functionName="initAou" lineNumber="121"/>
+    <functiondecl functionName="p_aouRecvTask" lineNumber="134"/>
+    <functiondecl functionName="p_aouSendTask" lineNumber="150"/>
+    <functiondecl functionName="wakeupAouSendTask" lineNumber="166"/>
+    <functiondecl functionName="initAou" lineNumber="121"/>
+    <functiondecl functionName="p_aouRecvTask" lineNumber="134"/>
+    <functiondecl functionName="p_aouSendTask" lineNumber="150"/>
+    <functiondecl functionName="wakeupAouSendTask" lineNumber="166"/>
+    <functioncall functionName="AX2_NUM"/>
+    <functioncall functionName="AX3_NUM"/>
+    <functioncall functionName="AXIS_NUM"/>
+    <functioncall functionName="DSP2_NUM"/>
+    <functioncall functionName="DSP_NUM"/>
+    <functioncall functionName="SERIAL_CH_MAX"/>
+    <functioncall functionName="SIOUSER_AOU"/>
+    <functioncall functionName="SIOUSER_OTHER"/>
+    <functioncall functionName="SIO_ADD_CH1"/>
+    <functioncall functionName="SIO_ADD_CH2"/>
+    <functioncall functionName="SIO_ADD_CH3"/>
+    <functioncall functionName="SIO_ADD_CH4"/>
+    <functioncall functionName="SIO_CH2"/>
+    <functioncall functionName="SIO_CH3"/>
+    <functioncall functionName="SIO_CH4"/>
+    <functioncall functionName="VX_FP_TASK"/>
+    <functioncall functionName="aouInfo"/>
+    <functioncall functionName="aouRecvTaskParam"/>
+    <functioncall functionName="aouSendTaskParam"/>
+    <functioncall functionName="aouTout"/>
+    <functioncall functionName="dw_aouTxBuf"/>
+    <functioncall functionName="dw_aouif_channel"/>
+    <functioncall functionName="external"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="nullFuncImpl"/>
+    <functioncall functionName="p_aouRecvTask"/>
+    <functioncall functionName="p_aouSendTask"/>
+    <functioncall functionName="p_serialRecvTask"/>
+    <functioncall functionName="p_serialSendTask"/>
+    <functioncall functionName="recvDataFromAOU"/>
+    <functioncall functionName="ret"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="serialTRxCnv_null"/>
+    <functioncall functionName="setSerialInfo"/>
+    <functioncall functionName="sigAouIfFlt"/>
+    <functioncall functionName="sync_count"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="wakeupAouSendTask"/>
+    <functioncall functionName="wakeupSerialSendTask"/>
+  </FileInfo>
+</analyzerinfo>

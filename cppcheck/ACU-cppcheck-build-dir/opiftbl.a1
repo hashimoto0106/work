@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2839515576">
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="ALLOW"/>
+    <functioncall functionName="AX2_NUM"/>
+    <functioncall functionName="AX3_NUM"/>
+    <functioncall functionName="AXIS_NUM"/>
+    <functioncall functionName="DSP2_NUM"/>
+    <functioncall functionName="DSP_NUM"/>
+    <functioncall functionName="INSTRUCTION"/>
+    <functioncall functionName="double"/>
+    <functioncall functionName="dummyOn"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="t_alm_func_tbl_null"/>
+    <functioncall functionName="t_asrv_func_digit_tbl_null"/>
+    <functioncall functionName="t_asrv_func_tbl_null"/>
+    <functioncall functionName="t_ax_func_digit_tbl_null"/>
+    <functioncall functionName="t_ax_func_tbl_null"/>
+    <functioncall functionName="t_axnum_tbl_null"/>
+    <functioncall functionName="t_drm_func_tbl_null"/>
+    <functioncall functionName="t_dsrv_ent_func_tbl_null"/>
+    <functioncall functionName="t_dsrv_func_digit_tbl_null"/>
+    <functioncall functionName="t_dsrv_func_tbl_null"/>
+    <functioncall functionName="t_dti_func_digit_tbl_null"/>
+    <functioncall functionName="t_dti_func_tbl_null"/>
+    <functioncall functionName="t_gpm_func_tbl_null"/>
+    <functioncall functionName="t_led_funx_tbl_null"/>
+    <functioncall functionName="t_mon_func_digit_tbl_null"/>
+    <functioncall functionName="t_mon_func_tbl_null"/>
+    <functioncall functionName="t_slew_func_tbl_null"/>
+    <functioncall functionName="t_sts_func_tbl_null"/>
+    <functioncall functionName="t_sw_func_tbl_null"/>
+    <functioncall functionName="t_swcl_tbl_null"/>
+    <functioncall functionName="void"/>
+  </FileInfo>
+</analyzerinfo>

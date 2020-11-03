@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3809370244">
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;ctmp&apos; can be reduced." verbose="The scope of the variable &apos;ctmp&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="5963483990366990981">
+            <location file0="..\workspace\SUMCHECK\SRC\sumcheck.c" file="..\workspace\SUMCHECK\SRC\sumcheck.c" line="635" column="16"/>
+            <symbol>ctmp</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;itmp&apos; can be reduced." verbose="The scope of the variable &apos;itmp&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="1345202495405855045">
+            <location file0="..\workspace\SUMCHECK\SRC\sumcheck.c" file="..\workspace\SUMCHECK\SRC\sumcheck.c" line="951" column="6"/>
+            <symbol>itmp</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ii" verbose="Unused variable: ii" cwe="563" hash="7013330266886508570">
+            <location file0="..\workspace\SUMCHECK\SRC\sumcheck.c" file="..\workspace\SUMCHECK\SRC\sumcheck.c" line="300" column="6"/>
+            <symbol>ii</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="../workspace/SUMCHECK/SRC/sumcheck.c:28:5" call-funcname="FileCheck" call-argnr="2" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="306" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/SUMCHECK/SRC/sumcheck.c:27:6" call-funcname="NameChange" call-argnr="2" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="316" col="13" call-argexpr="cOutFileName" call-argvaluetype="7" call-argvalue="256"/><function-call call-id="../workspace/SUMCHECK/SRC/sumcheck.c:27:6" call-funcname="NameChange" call-argnr="3" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="316" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/SUMCHECK/SRC/sumcheck.c:28:5" call-funcname="FileCheck" call-argnr="2" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="318" col="20" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/SUMCHECK/SRC/sumcheck.c:24:5" call-funcname="WriteFile" call-argnr="1" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="343" col="18" call-argexpr="cOutFileName" call-argvaluetype="7" call-argvalue="256"/><function-call call-id="../workspace/SUMCHECK/SRC/sumcheck.c:28:5" call-funcname="FileCheck" call-argnr="2" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="381" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/SUMCHECK/SRC/sumcheck.c:27:6" call-funcname="NameChange" call-argnr="2" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="391" col="13" call-argexpr="cOutFileName" call-argvaluetype="7" call-argvalue="256"/><function-call call-id="../workspace/SUMCHECK/SRC/sumcheck.c:28:5" call-funcname="FileCheck" call-argnr="2" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="393" col="20" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/SUMCHECK/SRC/sumcheck.c:24:5" call-funcname="WriteFile" call-argnr="1" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="435" col="18" call-argexpr="cOutFileName" call-argvaluetype="7" call-argvalue="256"/><function-call call-id="../workspace/SUMCHECK/SRC/sumcheck.c:28:5" call-funcname="FileCheck" call-argnr="2" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="472" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/SUMCHECK/SRC/sumcheck.c:29:5" call-funcname="ErrLog" call-argnr="3" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="475" col="10" call-argexpr="(char*)0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/SUMCHECK/SRC/sumcheck.c:29:5" call-funcname="ErrLog" call-argnr="4" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="475" col="10" call-argexpr="(char*)0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/SUMCHECK/SRC/sumcheck.c:29:5" call-funcname="ErrLog" call-argnr="3" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="490" col="10" call-argexpr="(char*)0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/SUMCHECK/SRC/sumcheck.c:29:5" call-funcname="ErrLog" call-argnr="4" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="490" col="10" call-argexpr="(char*)0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/SUMCHECK/SRC/sumcheck.c:26:5" call-funcname="ASCtoINT" call-argnr="1" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="524" col="22" call-argexpr="cSumBuf" call-argvaluetype="7" call-argvalue="9"/><function-call call-id="../workspace/SUMCHECK/SRC/sumcheck.c:26:5" call-funcname="ASCtoINT" call-argnr="1" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="527" col="21" call-argexpr="s_cSum" call-argvaluetype="7" call-argvalue="9"/><function-call call-id="../workspace/SUMCHECK/SRC/sumcheck.c:29:5" call-funcname="ErrLog" call-argnr="3" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="536" col="10" call-argexpr="cSumBuf" call-argvaluetype="7" call-argvalue="9"/><function-call call-id="../workspace/SUMCHECK/SRC/sumcheck.c:29:5" call-funcname="ErrLog" call-argnr="4" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="536" col="10" call-argexpr="s_cSum" call-argvaluetype="7" call-argvalue="9"/><function-call call-id="../workspace/SUMCHECK/SRC/sumcheck.c:29:5" call-funcname="ErrLog" call-argnr="3" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="547" col="10" call-argexpr="cSumBuf" call-argvaluetype="7" call-argvalue="9"/><function-call call-id="../workspace/SUMCHECK/SRC/sumcheck.c:29:5" call-funcname="ErrLog" call-argnr="4" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="547" col="10" call-argexpr="s_cSum" call-argvaluetype="7" call-argvalue="9"/><function-call call-id="../workspace/SUMCHECK/SRC/sumcheck.c:25:6" call-funcname="INTtoASC" call-argnr="2" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="663" col="11" call-argexpr="ctmp2" call-argvaluetype="7" call-argvalue="3"/><function-call call-id="../workspace/SUMCHECK/SRC/sumcheck.c:28:5" call-funcname="FileCheck" call-argnr="1" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="306" col="10" my-id="Z:/ACU/ACU_SXA/workspace/SUMCHECK/PUBLIC/sumcheck.h:53:12" my-argnr="1"/>
+<function-call call-id="../workspace/SUMCHECK/SRC/sumcheck.c:28:5" call-funcname="FileCheck" call-argnr="1" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="381" col="10" my-id="../workspace/SUMCHECK/SRC/sumcheck.c:21:5" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/SUMCHECK/PUBLIC/sumcheck.h:52:12" my-argnr="1" my-argname="FileName" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="467" col="21" value="0"/>
+    <unsafe-usage my-id="../workspace/SUMCHECK/SRC/sumcheck.c:23:5" my-argnr="1" my-argname="cFileName" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="577" col="14" value="0"/>
+    <unsafe-usage my-id="../workspace/SUMCHECK/SRC/sumcheck.c:24:5" my-argnr="1" my-argname="cFileName" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="697" col="14" value="0"/>
+    <unsafe-usage my-id="../workspace/SUMCHECK/SRC/sumcheck.c:27:6" my-argnr="1" my-argname="InName" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="750" col="9" value="0"/>
+    <unsafe-usage my-id="../workspace/SUMCHECK/SRC/sumcheck.c:28:5" my-argnr="1" my-argname="InName" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="801" col="9" value="0"/>
+    <unsafe-usage my-id="../workspace/SUMCHECK/SRC/sumcheck.c:29:5" my-argnr="1" my-argname="cFileName" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="888" col="43" value="0"/>
+    <unsafe-usage my-id="../workspace/SUMCHECK/SRC/sumcheck.c:26:5" my-argnr="1" my-argname="cNum" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="1001" col="17" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/SUMCHECK/PUBLIC/sumcheck.h:52:12" my-argnr="1" my-argname="FileName" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="467" col="21" value="0"/>
+    <unsafe-usage my-id="../workspace/SUMCHECK/SRC/sumcheck.c:23:5" my-argnr="1" my-argname="cFileName" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="577" col="14" value="0"/>
+    <unsafe-usage my-id="../workspace/SUMCHECK/SRC/sumcheck.c:24:5" my-argnr="1" my-argname="cFileName" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="697" col="14" value="0"/>
+    <unsafe-usage my-id="../workspace/SUMCHECK/SRC/sumcheck.c:27:6" my-argnr="1" my-argname="InName" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="750" col="9" value="0"/>
+    <unsafe-usage my-id="../workspace/SUMCHECK/SRC/sumcheck.c:28:5" my-argnr="1" my-argname="InName" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="801" col="9" value="0"/>
+    <unsafe-usage my-id="../workspace/SUMCHECK/SRC/sumcheck.c:29:5" my-argnr="1" my-argname="cFileName" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="888" col="43" value="0"/>
+    <unsafe-usage my-id="../workspace/SUMCHECK/SRC/sumcheck.c:26:5" my-argnr="1" my-argname="cNum" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="1001" col="17" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="Z:/ACU/ACU_SXA/workspace/SUMCHECK/PUBLIC/sumcheck.h:53:12" call-funcname="AddSum" call-argnr="2" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="187" col="17" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/SUMCHECK/SRC/sumcheck.c:21:5" call-funcname="DelSum" call-argnr="2" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="212" col="17" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/SUMCHECK/PUBLIC/sumcheck.h:52:12" call-funcname="ChkSum" call-argnr="2" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="236" col="16" call-argexpr="&iReadSum" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="Z:/ACU/ACU_SXA/workspace/SUMCHECK/PUBLIC/sumcheck.h:52:12" call-funcname="ChkSum" call-argnr="3" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="236" col="16" call-argexpr="&iCalSum" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="../workspace/SUMCHECK/SRC/sumcheck.c:28:5" call-funcname="FileCheck" call-argnr="2" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="306" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/SUMCHECK/SRC/sumcheck.c:27:6" call-funcname="NameChange" call-argnr="2" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="316" col="13" call-argexpr="cOutFileName" call-argvaluetype="7" call-argvalue="256"/><function-call call-id="../workspace/SUMCHECK/SRC/sumcheck.c:27:6" call-funcname="NameChange" call-argnr="3" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="316" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/SUMCHECK/SRC/sumcheck.c:28:5" call-funcname="FileCheck" call-argnr="2" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="318" col="20" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/SUMCHECK/SRC/sumcheck.c:24:5" call-funcname="WriteFile" call-argnr="1" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="343" col="18" call-argexpr="cOutFileName" call-argvaluetype="7" call-argvalue="256"/><function-call call-id="../workspace/SUMCHECK/SRC/sumcheck.c:28:5" call-funcname="FileCheck" call-argnr="2" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="381" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/SUMCHECK/SRC/sumcheck.c:27:6" call-funcname="NameChange" call-argnr="2" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="391" col="13" call-argexpr="cOutFileName" call-argvaluetype="7" call-argvalue="256"/><function-call call-id="../workspace/SUMCHECK/SRC/sumcheck.c:28:5" call-funcname="FileCheck" call-argnr="2" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="393" col="20" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/SUMCHECK/SRC/sumcheck.c:24:5" call-funcname="WriteFile" call-argnr="1" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="435" col="18" call-argexpr="cOutFileName" call-argvaluetype="7" call-argvalue="256"/><function-call call-id="../workspace/SUMCHECK/SRC/sumcheck.c:28:5" call-funcname="FileCheck" call-argnr="2" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="472" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="../workspace/SUMCHECK/SRC/sumcheck.c:26:5" call-funcname="ASCtoINT" call-argnr="1" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="524" col="22" call-argexpr="cSumBuf" call-argvaluetype="7" call-argvalue="9"/><function-call call-id="../workspace/SUMCHECK/SRC/sumcheck.c:26:5" call-funcname="ASCtoINT" call-argnr="1" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="527" col="21" call-argexpr="s_cSum" call-argvaluetype="7" call-argvalue="9"/><function-call call-id="../workspace/SUMCHECK/SRC/sumcheck.c:25:6" call-funcname="INTtoASC" call-argnr="2" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="663" col="11" call-argexpr="ctmp2" call-argvaluetype="7" call-argvalue="3"/><function-call call-id="../workspace/SUMCHECK/SRC/sumcheck.c:28:5" call-funcname="FileCheck" call-argnr="1" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="306" col="10" my-id="Z:/ACU/ACU_SXA/workspace/SUMCHECK/PUBLIC/sumcheck.h:53:12" my-argnr="1"/>
+<function-call call-id="../workspace/SUMCHECK/SRC/sumcheck.c:28:5" call-funcname="FileCheck" call-argnr="1" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="381" col="10" my-id="../workspace/SUMCHECK/SRC/sumcheck.c:21:5" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/SUMCHECK/PUBLIC/sumcheck.h:52:12" my-argnr="1" my-argname="FileName" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="467" col="21" value="0"/>
+    <unsafe-usage my-id="../workspace/SUMCHECK/SRC/sumcheck.c:23:5" my-argnr="1" my-argname="cFileName" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="577" col="14" value="0"/>
+    <unsafe-usage my-id="../workspace/SUMCHECK/SRC/sumcheck.c:24:5" my-argnr="1" my-argname="cFileName" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="697" col="14" value="0"/>
+    <unsafe-usage my-id="../workspace/SUMCHECK/SRC/sumcheck.c:27:6" my-argnr="1" my-argname="InName" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="750" col="9" value="0"/>
+    <unsafe-usage my-id="../workspace/SUMCHECK/SRC/sumcheck.c:28:5" my-argnr="1" my-argname="InName" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="801" col="9" value="0"/>
+    <unsafe-usage my-id="../workspace/SUMCHECK/SRC/sumcheck.c:29:5" my-argnr="1" my-argname="cFileName" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="888" col="43" value="0"/>
+    <unsafe-usage my-id="../workspace/SUMCHECK/SRC/sumcheck.c:26:5" my-argnr="1" my-argname="cNum" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="1001" col="17" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="Z:/ACU/ACU_SXA/workspace/SUMCHECK/PUBLIC/sumcheck.h:52:12" my-argnr="1" my-argname="FileName" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="467" col="21" value="0"/>
+    <unsafe-usage my-id="../workspace/SUMCHECK/SRC/sumcheck.c:23:5" my-argnr="1" my-argname="cFileName" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="577" col="14" value="0"/>
+    <unsafe-usage my-id="../workspace/SUMCHECK/SRC/sumcheck.c:24:5" my-argnr="1" my-argname="cFileName" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="697" col="14" value="0"/>
+    <unsafe-usage my-id="../workspace/SUMCHECK/SRC/sumcheck.c:27:6" my-argnr="1" my-argname="InName" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="750" col="9" value="0"/>
+    <unsafe-usage my-id="../workspace/SUMCHECK/SRC/sumcheck.c:28:5" my-argnr="1" my-argname="InName" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="801" col="9" value="0"/>
+    <unsafe-usage my-id="../workspace/SUMCHECK/SRC/sumcheck.c:29:5" my-argnr="1" my-argname="cFileName" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="888" col="43" value="0"/>
+    <unsafe-usage my-id="../workspace/SUMCHECK/SRC/sumcheck.c:26:5" my-argnr="1" my-argname="cNum" file="../workspace/SUMCHECK/SRC/sumcheck.c" line="1001" col="17" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="AddSum" lineNumber="294"/>
+    <functiondecl functionName="DelSum" lineNumber="369"/>
+    <functiondecl functionName="ChkSum" lineNumber="461"/>
+    <functiondecl functionName="LoadFile" lineNumber="570"/>
+    <functiondecl functionName="GetSumCheck" lineNumber="631"/>
+    <functiondecl functionName="WriteFile" lineNumber="690"/>
+    <functiondecl functionName="NameChange" lineNumber="737"/>
+    <functiondecl functionName="FileCheck" lineNumber="784"/>
+    <functiondecl functionName="ErrLog" lineNumber="867"/>
+    <functiondecl functionName="INTtoASC" lineNumber="948"/>
+    <functiondecl functionName="ASCtoINT" lineNumber="993"/>
+    <functiondecl functionName="main" lineNumber="137"/>
+    <functiondecl functionName="AddSum" lineNumber="294"/>
+    <functiondecl functionName="DelSum" lineNumber="369"/>
+    <functiondecl functionName="ChkSum" lineNumber="461"/>
+    <functiondecl functionName="LoadFile" lineNumber="570"/>
+    <functiondecl functionName="GetSumCheck" lineNumber="631"/>
+    <functiondecl functionName="WriteFile" lineNumber="690"/>
+    <functiondecl functionName="NameChange" lineNumber="737"/>
+    <functiondecl functionName="FileCheck" lineNumber="784"/>
+    <functiondecl functionName="ErrLog" lineNumber="867"/>
+    <functiondecl functionName="INTtoASC" lineNumber="948"/>
+    <functiondecl functionName="ASCtoINT" lineNumber="993"/>
+    <functioncall functionName="ASCtoINT"/>
+    <functioncall functionName="AddSum"/>
+    <functioncall functionName="ChkSum"/>
+    <functioncall functionName="DelSum"/>
+    <functioncall functionName="ErrLog"/>
+    <functioncall functionName="FileCheck"/>
+    <functioncall functionName="FileName"/>
+    <functioncall functionName="GetSumCheck"/>
+    <functioncall functionName="INTtoASC"/>
+    <functioncall functionName="LoadFile"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="NameChange"/>
+    <functioncall functionName="PlainFileName"/>
+    <functioncall functionName="SumFileName"/>
+    <functioncall functionName="SumcheckVer"/>
+    <functioncall functionName="WriteFile"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="cBuf"/>
+    <functioncall functionName="cFileName"/>
+    <functioncall functionName="cNum"/>
+    <functioncall functionName="cOutFileName"/>
+    <functioncall functionName="cSumBuf"/>
+    <functioncall functionName="char"/>
+    <functioncall functionName="ctmp"/>
+    <functioncall functionName="ctmp2"/>
+    <functioncall functionName="fclose"/>
+    <functioncall functionName="fopen"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="fp"/>
+    <functioncall functionName="fwrite"/>
+    <functioncall functionName="g_cReadBuf"/>
+    <functioncall functionName="g_fileName"/>
+    <functioncall functionName="getc"/>
+    <functioncall functionName="iCalSum"/>
+    <functioncall functionName="iCnt2"/>
+    <functioncall functionName="iFlg"/>
+    <functioncall functionName="iIndex"/>
+    <functioncall functionName="iLen"/>
+    <functioncall functionName="iNum"/>
+    <functioncall functionName="iReadSum"/>
+    <functioncall functionName="iRet"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="ii"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="itmpSum"/>
+    <functioncall functionName="jj"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="s_cSum"/>
+    <functioncall functionName="s_iCnt"/>
+    <functioncall functionName="s_iErrFlg"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="strcmp"/>
+    <functioncall functionName="strcpy"/>
+    <functioncall functionName="strlen"/>
+    <functioncall functionName="tolower"/>
+    <functioncall functionName="while"/>
+  </FileInfo>
+</analyzerinfo>

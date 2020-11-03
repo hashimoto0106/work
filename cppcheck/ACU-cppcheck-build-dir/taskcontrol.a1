@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="104573880">
+  <FileInfo check="ctu">
+<function-call call-id="../workspace/OSWRAP/PUBLIC/system_call.h:46:5" call-funcname="c_taskNameToId" call-argnr="1" file="../workspace/OSWRAP/SRC/taskcontrol.c" line="50" col="8" my-id="../workspace/OSWRAP/PUBLIC/taskcontrol.h:33:6" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="chgTaskPriority" lineNumber="43"/>
+    <functioncall functionName="__FUNCTION__"/>
+    <functioncall functionName="c_taskNameToId"/>
+    <functioncall functionName="c_taskPrioritySet"/>
+    <functioncall functionName="name"/>
+    <functioncall functionName="priority"/>
+    <functioncall functionName="tId"/>
+  </FileInfo>
+</analyzerinfo>

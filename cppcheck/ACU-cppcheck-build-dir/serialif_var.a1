@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<analyzerinfo checksum="3464556215">
-  <FileInfo check="CheckUnusedFunctions">
-    <functiondecl functionName="construct_serialif_hook_impl" lineNumber="60"/>
-    <functioncall functionName="SIO_CH1"/>
-    <functioncall functionName="construct_remoteif"/>
-  </FileInfo>
-</analyzerinfo>

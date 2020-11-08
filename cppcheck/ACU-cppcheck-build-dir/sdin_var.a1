@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<analyzerinfo checksum="1628138705">
-  <FileInfo check="CheckUnusedFunctions">
-    <functiondecl functionName="construct_sdin_hook_impl" lineNumber="54"/>
-    <functiondecl functionName="construct_sdin_hook_impl" lineNumber="54"/>
-    <functioncall functionName="void"/>
-  </FileInfo>
-</analyzerinfo>

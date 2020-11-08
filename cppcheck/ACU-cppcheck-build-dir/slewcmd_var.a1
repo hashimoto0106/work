@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<analyzerinfo checksum="2560231899">
-  <FileInfo check="CheckUnusedFunctions">
-    <functiondecl functionName="construct_slewcmd_hook_impl" lineNumber="55"/>
-    <functioncall functionName="double"/>
-    <functioncall functionName="int"/>
-  </FileInfo>
-</analyzerinfo>

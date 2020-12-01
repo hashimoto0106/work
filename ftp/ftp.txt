@@ -1,0 +1,17 @@
+https://yamaryu0508.hatenablog.com/entry/2014/12/02/102648
+
+
+sudo apt-get install vsftpd
+sudo service vsftpd restart
+ps agx | grep vsftpd
+
+
+
+==================================
+centos6
+
+rpm -qa | grep vsftpd
+cat /etc/redhat-release 
+https://vault.centos.org/6.4/os/i386/Packages/vsftpd-2.2.2-11.el6_3.1.i686.rpm
+yum -y install vsftpd-2.2.2-11.el6_3.1.i686.rpm
+

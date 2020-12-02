@@ -1,0 +1,34 @@
+
+
+-------------------------------------------------------------------------------
+
+ÅöNG
+tshark -i 3 -f "port 1024 and tcp" -a  duration:3
+tshark -i 3 -f "port 1514 and tcp" -a  duration:3
+tshark -i 3 -f "port 1514" -a  duration:3
+tshark -i 3 -f "port 305" -a  duration:5
+tshark -i 3 -f "port 1024" -a  duration:3
+tshark -i 3 -f "tcp" -a  duration:3
+
+
+tshark -i 3 'tcp.dstport==1024' -n -a  duration:5
+tshark -i 3 -f "tcp.dstport==1024" -a  duration:5
+
+
+-------------------------------------------------------------------------------
+
+ÅöOK
+tshark -i 3 -w ./binary.pcap -f "tcp" -a  duration:1
+tshark -i 3 -f "tcp" -a  duration:1
+tshark -i 3 -w ./binary.pcap -f "tcp" -f "host 192.168.11.11" -a  duration:3
+tshark -i 3 -f "arp" -a  duration:5
+tshark -i 3 -f "udp" -a  duration:5
+
+
+
+
+
+
+
+
+

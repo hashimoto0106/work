@@ -1,0 +1,6 @@
+frame.number,frame.time_delta,ip.src,ip.dst,_ws.col.Protocol,frame.len,_ws.col.Info
+1,0.000000000,192.168.11.5,192.168.11.255,UDP,305,54915 → 54915 Len=263
+2,0.301502000,,,0x8899,60,Realtek Layer 2 Protocols
+3,0.713201000,192.168.11.5,192.168.11.255,UDP,305,54915 → 54915 Len=263
+4,1.014107000,192.168.11.5,192.168.11.255,UDP,305,54915 → 54915 Len=263
+5,0.272745000,,,0x8899,60,Realtek Layer 2 Protocols

@@ -1,0 +1,325 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>plot &mdash; src  documentation</title>
+    
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="top" title="src  documentation" href="../index.html" />
+    <link rel="up" title="Module code" href="index.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <h1>Source code for plot</h1><div class="highlight"><pre>
+<span></span><span class="c1"># -*- coding: utf-8 -*-</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Created on Sat Jul 28 21:15:26 2018</span>
+
+<span class="sd">@author: hashimoto</span>
+<span class="sd">&quot;&quot;&quot;</span>
+
+<span class="kn">import</span> <span class="nn">matplotlib.pylab</span> <span class="kn">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="kn">as</span> <span class="nn">matplt</span>
+<span class="kn">from</span> <span class="nn">mpl_toolkits.mplot3d</span> <span class="kn">import</span> <span class="n">Axes3D</span>
+
+
+<div class="viewcode-block" id="show_2D_grahp"><a class="viewcode-back" href="../plot.html#plot.show_2D_grahp">[docs]</a><span class="k">def</span> <span class="nf">show_2D_grahp</span><span class="p">(</span><span class="n">title</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">xlabel</span><span class="p">,</span> <span class="n">ylabel</span><span class="p">,</span> <span class="n">xmin</span><span class="p">,</span> <span class="n">xmax</span><span class="p">,</span> <span class="n">ymin</span><span class="p">,</span> <span class="n">ymax</span><span class="p">,</span> <span class="n">arg</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    2次元グラフ表示</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    title : グラフタイトル</span>
+<span class="sd">    x : x軸データ</span>
+<span class="sd">    y : y軸データ</span>
+<span class="sd">    xlabel : x軸ラベル</span>
+<span class="sd">    ylabel : y軸ラベル</span>
+<span class="sd">    xmin : x軸最小値</span>
+<span class="sd">    xmax : x軸最大値</span>
+<span class="sd">    ymin : y軸最小値</span>
+<span class="sd">    ymax : y軸最大値</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    - : -</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="n">title</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="n">xlabel</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="n">ylabel</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">xmin</span> <span class="o">!=</span> <span class="n">xmax</span><span class="p">:</span>
+        <span class="n">plt</span><span class="o">.</span><span class="n">xlim</span><span class="p">(</span><span class="n">xmin</span><span class="p">,</span> <span class="n">xmax</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">ymin</span> <span class="o">!=</span> <span class="n">ymax</span><span class="p">:</span>
+        <span class="n">plt</span><span class="o">.</span><span class="n">ylim</span><span class="p">(</span><span class="n">ymin</span><span class="p">,</span> <span class="n">ymax</span><span class="p">)</span>
+
+    <span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">()</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">arg</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+
+</div>
+<div class="viewcode-block" id="show_3D_grahp"><a class="viewcode-back" href="../plot.html#plot.show_3D_grahp">[docs]</a><span class="k">def</span> <span class="nf">show_3D_grahp</span><span class="p">(</span><span class="n">title</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span><span class="p">,</span> <span class="n">xlabel</span><span class="p">,</span> <span class="n">ylabel</span><span class="p">,</span> <span class="n">zlabel</span><span class="p">,</span> <span class="n">legend</span><span class="p">,</span> <span class="n">xmin</span><span class="p">,</span> <span class="n">xmax</span><span class="p">,</span> <span class="n">ymin</span><span class="p">,</span> <span class="n">ymax</span><span class="p">,</span> <span class="n">zmin</span><span class="p">,</span> <span class="n">zmax</span><span class="p">,</span> <span class="n">arg</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    3次元グラフ表示</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    title : グラフタイトル</span>
+<span class="sd">    x : x軸データ</span>
+<span class="sd">    y : y軸データ</span>
+<span class="sd">    z : y軸データ</span>
+<span class="sd">    xlabel : x軸ラベル</span>
+<span class="sd">    ylabel : y軸ラベル</span>
+<span class="sd">    zlabel : y軸ラベル</span>
+<span class="sd">    xmin : x軸最小値</span>
+<span class="sd">    xmax : x軸最大値</span>
+<span class="sd">    ymin : y軸最小値</span>
+<span class="sd">    ymax : y軸最大値</span>
+<span class="sd">    zmin : z軸最小値</span>
+<span class="sd">    zmax : z軸最大値</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    - : -</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
+    <span class="n">ax</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">111</span><span class="p">,</span> <span class="n">projection</span><span class="o">=</span><span class="s1">&#39;3d&#39;</span><span class="p">)</span>
+
+    <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="n">title</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">xmin</span> <span class="o">!=</span> <span class="n">xmax</span><span class="p">:</span>
+        <span class="n">plt</span><span class="o">.</span><span class="n">xlim</span><span class="p">(</span><span class="n">xmin</span><span class="p">,</span> <span class="n">xmax</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">ymin</span> <span class="o">!=</span> <span class="n">ymax</span><span class="p">:</span>
+        <span class="n">plt</span><span class="o">.</span><span class="n">ylim</span><span class="p">(</span><span class="n">ymin</span><span class="p">,</span> <span class="n">ymax</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">zmin</span> <span class="o">!=</span> <span class="n">zmax</span><span class="p">:</span>
+        <span class="n">plt</span><span class="o">.</span><span class="n">ylim</span><span class="p">(</span><span class="n">zmin</span><span class="p">,</span> <span class="n">zmax</span><span class="p">)</span>
+
+    <span class="n">ax</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span><span class="p">,</span>
+               <span class="n">s</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span>  <span class="c1"># マーカー大きさ</span>
+               <span class="n">c</span><span class="o">=</span><span class="s1">&#39;r&#39;</span><span class="p">,</span>  <span class="c1"># マーカー色</span>
+               <span class="n">alpha</span><span class="o">=</span><span class="mf">0.3</span><span class="p">,</span>  <span class="c1"># マーカー透明度(0-1)</span>
+               <span class="n">linewidths</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span>  <span class="c1"># マーカー枠線幅</span>
+               <span class="n">marker</span><span class="o">=</span><span class="s1">&#39;^&#39;</span><span class="p">,</span>  <span class="c1"># マーカー形</span>
+               <span class="n">label</span><span class="o">=</span><span class="n">legend</span><span class="p">)</span>  <span class="c1"># 凡例名</span>
+
+    <span class="n">ax</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+    <span class="n">ax</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="n">xlabel</span><span class="p">)</span>
+    <span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="n">ylabel</span><span class="p">)</span>
+    <span class="n">ax</span><span class="o">.</span><span class="n">set_zlabel</span><span class="p">(</span><span class="n">zlabel</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+
+</div>
+<div class="viewcode-block" id="show_histgram"><a class="viewcode-back" href="../plot.html#plot.show_histgram">[docs]</a><span class="k">def</span> <span class="nf">show_histgram</span><span class="p">(</span><span class="n">title</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">bins</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    ヒストグラム表示</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    title : グラフタイトル</span>
+<span class="sd">    data : データ</span>
+<span class="sd">    bins : 階級数</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    - : -</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">matplt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="n">title</span><span class="p">)</span>
+    <span class="n">matplt</span><span class="o">.</span><span class="n">grid</span><span class="p">()</span>
+
+    <span class="n">matplt</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span>
+                <span class="n">data</span><span class="p">,</span>  <span class="c1"># ヒストグラムを作成するための生データの配列</span>
+                <span class="n">bins</span><span class="p">,</span>  <span class="c1"># ビン (表示する棒) の数。階級数。(デフォルト値: 10)</span>
+                <span class="nb">range</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span>  <span class="c1"># ビンの最小値と最大値を指定。(デフォルト値: (x.min(), x.max()))</span>
+                <span class="n">normed</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>  <span class="c1"># True に設定すると正規化 (合計値が 1 になるように変換)。 (デフォルト値: False)</span>
+                <span class="n">weights</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span>  <span class="c1"># </span>
+                <span class="n">cumulative</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>  <span class="c1"># True に設定すると、累積ヒストグラムを出力。 (デフォルト値: False)</span>
+                <span class="n">bottom</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span>  <span class="c1"># 各棒の下側の余白を数値または配列で指定</span>
+                <span class="n">histtype</span><span class="o">=</span><span class="s1">&#39;bar&#39;</span><span class="p">,</span>  <span class="c1"># ‘bar’ (通常のヒストグラム), ‘barstacked’ (積み上げヒストグラム), ‘step’ (線), ‘stepfilled ‘ (塗りつぶしありの線) から選択。 (デフォルト値: ‘bar’)</span>
+                <span class="n">align</span><span class="o">=</span><span class="s1">&#39;mid&#39;</span><span class="p">,</span>  <span class="c1"># 各棒の中心を X 軸目盛上のどの横位置で出力するか。 ‘left’, ‘mid’, ‘right’ から選択。(デフォルト値: ‘mid’)</span>
+                <span class="n">orientation</span><span class="o">=</span><span class="s1">&#39;vertical&#39;</span><span class="p">,</span>  <span class="c1"># 棒の方向。’horizontal’ (水平方向), ‘vertical’ (垂直方向) から選択。(デフォルト値: ‘vertical’)</span>
+                <span class="n">rwidth</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span>  <span class="c1"># 各棒の幅を数値または、配列で指定</span>
+                <span class="n">log</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>  <span class="c1"># True に設定すると、縦軸を対数目盛で表示</span>
+                <span class="n">color</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span>  <span class="c1"># ヒストグラムの色。配列で指定し、データセット単位で色を指定</span>
+                <span class="n">label</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span>  <span class="c1"># 凡例</span>
+                <span class="n">stacked</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>  <span class="c1"># True に設定すると積み上げヒストグラムで出力します。False に設定すると、横に並べて出力</span>
+                <span class="n">hold</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span>  <span class="c1"># </span>
+                <span class="n">data</span><span class="o">=</span><span class="bp">None</span>  <span class="c1"># </span>
+                <span class="p">)</span>
+
+    <span class="n">matplt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+
+</div>
+<div class="viewcode-block" id="show_2D_vector"><a class="viewcode-back" href="../plot.html#plot.show_2D_vector">[docs]</a><span class="k">def</span> <span class="nf">show_2D_vector</span><span class="p">(</span><span class="n">title</span><span class="p">,</span> <span class="n">X</span><span class="p">,</span> <span class="n">Y</span><span class="p">,</span> <span class="n">U</span><span class="p">,</span> <span class="n">V</span><span class="p">,</span> <span class="n">xlabel</span><span class="p">,</span> <span class="n">ylabel</span><span class="p">,</span> <span class="n">xmin</span><span class="p">,</span> <span class="n">xmax</span><span class="p">,</span> <span class="n">ymin</span><span class="p">,</span> <span class="n">ymax</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    2Dベクトル</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    title : グラフタイトル</span>
+<span class="sd">    X : ベクトル始点X</span>
+<span class="sd">    Y : ベクトル始点Y</span>
+<span class="sd">    U : ベクトル）成分X</span>
+<span class="sd">    V : ベクトル）成分Y</span>
+<span class="sd">    xlabel : x軸ラベル</span>
+<span class="sd">    ylabel : y軸ラベル</span>
+<span class="sd">    xmin : x軸最小値</span>
+<span class="sd">    xmax : x軸最大値</span>
+<span class="sd">    ymin : y軸最小値</span>
+<span class="sd">    ymax : y軸最大値</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    - : -</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">matplt</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
+
+    <span class="n">matplt</span><span class="o">.</span><span class="n">quiver</span><span class="p">(</span><span class="n">U</span><span class="p">,</span> <span class="n">V</span><span class="p">,</span> <span class="n">angles</span><span class="o">=</span><span class="s1">&#39;xy&#39;</span><span class="p">,</span> <span class="n">scale_units</span><span class="o">=</span><span class="s1">&#39;xy&#39;</span><span class="p">,</span> <span class="n">scale</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+
+    <span class="c1"># グラフ描画</span>
+    <span class="n">matplt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="n">title</span><span class="p">)</span>
+    <span class="n">matplt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="n">xlabel</span><span class="p">)</span>
+    <span class="n">matplt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="n">ylabel</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">xmin</span> <span class="o">!=</span> <span class="n">xmax</span><span class="p">:</span>
+        <span class="n">plt</span><span class="o">.</span><span class="n">xlim</span><span class="p">(</span><span class="n">xmin</span><span class="p">,</span> <span class="n">xmax</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">ymin</span> <span class="o">!=</span> <span class="n">ymax</span><span class="p">:</span>
+        <span class="n">plt</span><span class="o">.</span><span class="n">ylim</span><span class="p">(</span><span class="n">ymin</span><span class="p">,</span> <span class="n">ymax</span><span class="p">)</span>
+
+    <span class="n">matplt</span><span class="o">.</span><span class="n">grid</span><span class="p">()</span>
+    <span class="n">matplt</span><span class="o">.</span><span class="n">draw</span><span class="p">()</span>
+    <span class="n">matplt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+
+</div>
+<div class="viewcode-block" id="show_3D_vector"><a class="viewcode-back" href="../plot.html#plot.show_3D_vector">[docs]</a><span class="k">def</span> <span class="nf">show_3D_vector</span><span class="p">(</span><span class="n">title</span><span class="p">,</span> <span class="n">X</span><span class="p">,</span> <span class="n">Y</span><span class="p">,</span> <span class="n">Z</span><span class="p">,</span> <span class="n">U</span><span class="p">,</span> <span class="n">V</span><span class="p">,</span> <span class="n">W</span><span class="p">,</span> <span class="n">xlabel</span><span class="p">,</span> <span class="n">ylabel</span><span class="p">,</span> <span class="n">zlabel</span><span class="p">,</span> <span class="n">xmin</span><span class="p">,</span> <span class="n">xmax</span><span class="p">,</span> <span class="n">ymin</span><span class="p">,</span> <span class="n">ymax</span><span class="p">,</span> <span class="n">zmin</span><span class="p">,</span> <span class="n">zmax</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    3Dベクトル</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    title : グラフタイトル</span>
+<span class="sd">    X : ベクトル始点X</span>
+<span class="sd">    Y : ベクトル始点Y</span>
+<span class="sd">    Z : ベクトル始点Z</span>
+<span class="sd">    U : ベクトル終点X</span>
+<span class="sd">    V : ベクトル終点Y</span>
+<span class="sd">    W : ベクトル終点W</span>
+<span class="sd">    xlabel : x軸ラベル</span>
+<span class="sd">    ylabel : y軸ラベル</span>
+<span class="sd">    zlabel : z軸ラベル</span>
+<span class="sd">    xmin : x軸最小値</span>
+<span class="sd">    xmax : x軸最大値</span>
+<span class="sd">    zmin : z軸最小値</span>
+<span class="sd">    ymax : y軸最大値</span>
+<span class="sd">    zmin : z軸最小値</span>
+<span class="sd">    zmax : z軸最大値</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    - : -</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">fig</span> <span class="o">=</span> <span class="n">matplt</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
+    <span class="n">ax</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">gca</span><span class="p">(</span><span class="n">projection</span><span class="o">=</span><span class="s1">&#39;3d&#39;</span><span class="p">)</span>
+    <span class="n">ax</span><span class="o">.</span><span class="n">set_aspect</span><span class="p">(</span><span class="s2">&quot;equal&quot;</span><span class="p">)</span>
+
+    <span class="n">matplt</span><span class="o">.</span><span class="n">quiver</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">Y</span><span class="p">,</span> <span class="n">Z</span><span class="p">,</span>
+                  <span class="n">U</span><span class="p">,</span> <span class="n">V</span><span class="p">,</span> <span class="n">W</span><span class="p">,</span>
+                  <span class="n">length</span><span class="o">=</span><span class="mf">1.0</span><span class="p">,</span>
+                  <span class="n">arrow_length_ratio</span><span class="o">=</span><span class="mf">0.3</span><span class="p">)</span>
+
+    <span class="c1"># グラフ描画</span>
+    <span class="n">matplt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="n">title</span><span class="p">)</span>
+    <span class="n">ax</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="n">xlabel</span><span class="p">)</span>
+    <span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="n">ylabel</span><span class="p">)</span>
+    <span class="n">ax</span><span class="o">.</span><span class="n">set_zlabel</span><span class="p">(</span><span class="n">zlabel</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">xmin</span> <span class="o">!=</span> <span class="n">xmax</span><span class="p">:</span>
+        <span class="n">plt</span><span class="o">.</span><span class="n">xlim</span><span class="p">(</span><span class="n">xmin</span><span class="p">,</span> <span class="n">xmax</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">ymin</span> <span class="o">!=</span> <span class="n">ymax</span><span class="p">:</span>
+        <span class="n">plt</span><span class="o">.</span><span class="n">ylim</span><span class="p">(</span><span class="n">ymin</span><span class="p">,</span> <span class="n">ymax</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">zmin</span> <span class="o">!=</span> <span class="n">zmax</span><span class="p">:</span>
+        <span class="n">plt</span><span class="o">.</span><span class="n">zlim</span><span class="p">(</span><span class="n">zmin</span><span class="p">,</span> <span class="n">zmax</span><span class="p">)</span>
+
+    <span class="n">matplt</span><span class="o">.</span><span class="n">grid</span><span class="p">()</span>
+    <span class="n">matplt</span><span class="o">.</span><span class="n">draw</span><span class="p">()</span>
+    <span class="n">matplt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span></div>
+</pre></div>
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  <li><a href="index.html">Module code</a><ul>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Author.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.3.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.8</a>
+      
+    </div>
+
+    
+
+    
+  </body>
+</html>

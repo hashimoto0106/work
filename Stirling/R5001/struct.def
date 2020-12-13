@@ -1,0 +1,126 @@
+struct sample
+{
+	char	sample;
+	char	sample[3];
+	CHAR	sample;
+	byte	sample;
+	BYTE	sample;
+	short   sample;
+	SHORT   sample;
+	word	sample;
+	WORD	sample;
+	dword	sample;
+	DWORD   sample;
+};
+
+struct 共通ヘッダ {
+	dword	メッセージサイズ;
+	DWORD	送信シーケンス番号;
+	DWORD	メッセージ番号;
+	dword	予備;
+	BYTE	データ配信用送信先機材番号;
+	BYTE	データ配信用送信元機材番号;
+	byte	予備;
+	byte	予備;
+};
+
+struct 機器制御データ {
+	BYTE	★;
+	BYTE	★;
+	BYTE	★;
+	BYTE	★;
+};
+
+struct 系切替制御データ {
+	BYTE	★;
+	BYTE	★;
+	BYTE	★;
+	BYTE	★;
+};
+
+struct DP_機器制御データ {
+	共通ヘッダ	共通ヘッダ;
+	dword	機器制御情報数(3固定);
+	機器制御データ	ADC;
+	機器制御データ	AZ_DCPA;
+	機器制御データ	EL_DCPA;
+};
+
+struct DP_BITデータ {
+	共通ヘッダ	共通ヘッダ;
+};
+
+struct DP_系切替制御データ {
+	共通ヘッダ	共通ヘッダ;
+	DWORD	系切替制御時刻(未使用);
+	dword	系切替制御情報数(10固定);
+	系切替制御データ	SGC-A-1;
+	系切替制御データ	SGC-A-2;
+	系切替制御データ	SGC-B-1;
+	系切替制御データ	SGC-B-2;
+	系切替制御データ	DP-A-1;
+	系切替制御データ	DP-A-2;
+	系切替制御データ	DP-B-1;
+	系切替制御データ	DP-B-2;
+	系切替制御データ	DSU-A;
+	系切替制御データ	DSU-B;
+};
+
+struct DP_駆動モード制御データ {
+	共通ヘッダ	共通ヘッダ;
+	DWORD	駆動モード(1:POSN_2:PROG);
+};
+
+struct DP_時刻設定通知データ {
+	共通ヘッダ	共通ヘッダ;
+};
+
+struct DP_リミットリセット制御データ {
+	共通ヘッダ	共通ヘッダ;
+};
+
+struct DP_Drive設定要求 {
+	共通ヘッダ	共通ヘッダ;
+	DWORD	Drive(1:ON_2:OFF);
+};
+
+struct DP_駆動停止要求 {
+	共通ヘッダ	共通ヘッダ;
+};
+
+struct DP_運用開始要求 {
+	共通ヘッダ	共通ヘッダ;
+};
+
+struct DP_運用停止要求 {
+	共通ヘッダ	共通ヘッダ;
+};
+
+
+struct SGC_駆動制御データ {
+	共通ヘッダ	共通ヘッダ;
+	DWORD	AZ角度指令値(Binary);
+	DWORD	EL角度指令値(Binary);
+};
+
+
+struct SGC_駆動ステータス {
+	共通ヘッダ	共通ヘッダ;
+	DWORD	編集時刻(年月日);
+	DWORD	編集時刻(時分秒);
+	DWORD	AZ_REAL_ANGLE(Binary);
+	DWORD	EL_REAL_ANGLE(Binary);
+	DWORD	AZ_CMD_ANGLE(Binary);
+	DWORD	EL_CMD_ANGLE(Binary);
+	DWORD	AZ_DELTA_ANGLE(Binary);
+	DWORD	EL_DELTA_ANGLE(Binary);
+};
+
+
+
+
+struct RSP_IF_応答結果 {
+	共通ヘッダ	共通ヘッダ;
+	DWORD	応答結果コード;
+};
+

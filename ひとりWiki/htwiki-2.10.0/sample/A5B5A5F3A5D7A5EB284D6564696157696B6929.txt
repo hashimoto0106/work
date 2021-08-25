@@ -1,0 +1,128 @@
+(MediaWiki風でご覧下さい)
+
+== サンプルです ==
+
+=== ひとりWikiについて ===
+
+ウェブブラウザを利用してWeb上のドキュメントを編集する仕組みのひとつと
+してWikiというものがあります。ひとりWikiはWeb上ではなくローカルの
+ドキュメントを対象にしたソフトです。
+
+一般的なWikiはウェブブラウザ経由での編集／閲覧となるためWebサーバの
+設定が必要ですが、本プログラムでは個人向け利用に的を絞ることで
+サーバの設定が必要なく、簡単に導入することができます。
+
+=== 箇条書き ===
+
+*春
+**桜
+**菜の花
+*夏
+*秋
+*冬
+
+=== 番号リスト ===
+
+#はじめに
+#目的
+##ニーズの把握
+##課題の抽出
+#調査方法
+#結果
+#まとめ
+
+=== 整形済みテキスト ===
+
+ use strict;
+ 
+ foreach my $i (1 .. 10) {
+   print $i, "\n";
+ }
+
+=== 強制改行 ===
+
+強制<br />改行
+
+=== 文字修飾 ===
+
+*シングルクォート2個ではさむと''イタリック''になります。
+*シングルクォート3個ではさむと'''ボールド'''になります。
+
+*<tt>等幅フォント</tt>
+*<code>code</code>
+*<small>小さなテキスト</small>
+*<s>削除線</s>
+*<u>下線</u>
+*<del>削除</del>
+*<ins>追加</ins>
+*x<sup>2</sup>
+*a<sub>1</sub>
+*x&sup2;&nbsp;&gt;&nbsp;0
+
+*コメントアウト<!-- コメント -->
+
+=== 文字参照 ===
+&Agrave; &Aacute; &Acirc; &Atilde; &Auml; &Aring;
+&AElig; &Ccedil; &Egrave; &Eacute; &Ecirc; &Euml;
+&Igrave; &Iacute; &Icirc; &Iuml; &Ntilde; &Ograve;
+&Oacute; &Ocirc; &Otilde; &Ouml; &Oslash; &Ugrave;
+&Uacute; &Ucirc; &Uuml; &szlig; &agrave; &aacute;
+&acirc; &atilde; &auml; &aring; &aelig; &ccedil;
+&egrave; &eacute; &ecirc; &euml; &igrave; &iacute;
+&icirc; &iuml; &ntilde; &ograve; &oacute; &ocirc;
+&otilde; &ouml; &oslash; &ugrave; &uacute; &ucirc;
+&uuml; &yuml;
+
+&iquest; &iexcl; &sect; &para; &dagger; &Dagger; &bull;
+&ndash; &mdash; &lsaquo; &rsaquo; &laquo; &raquo; &lsquo;
+&rsquo; &ldquo; &rdquo;
+
+&trade; &copy; &reg; &cent; &euro; &yen; &pound; &curren;
+
+&alpha; &beta; &gamma; &delta; &epsilon; &zeta;
+&eta; &theta; &iota; &kappa; &lambda; &mu; &nu;
+&xi; &omicron; &pi; &rho; &sigma; &sigmaf;
+&tau; &upsilon; &phi; &chi; &psi; &omega;
+&Gamma; &Delta; &Theta; &Lambda; &Xi; &Pi;
+&Sigma; &Phi; &Psi; &Omega;
+
+&int; &sum; &prod; &radic; &minus; &plusmn; &infin;
+&asymp; &prop; &equiv; &ne; &lt; &gt; &rarr;
+&times; &middot; &divide; &part; &prime; &Prime;
+&nabla; &permil; &deg; &there4; &alefsym; &oslash;
+&isin; &notin; &cap; &cup; &sub; &sup; &sube; &supe;
+&not; &and; &or; &exist; &forall; &rArr; &hArr;
+
+=== 文字配置 ===
+
+<center>中央揃え</center>
+
+=== 用語解説 ===
+
+; 羊 : 今もどこかで誰かが数を数えている
+; キリン : ビールで有名
+; 象 : 筆箱の耐久試験に利用
+; 鹿 : 馬と一緒に見かけることが多い
+; 虎 : 大阪で人気
+
+=== テーブル ===
+
+<table border="1" cellpadding="2">
+<caption>かけ算の表</caption>
+<tr><th>&times;</th><th>1</th><th>2</th><th>3</th></tr>
+<tr><th>1</th><td>1</td><td>2</td><td>3</td></tr>
+<tr><th>2</th><td>2</td><td>4</td><td>6</td></tr>
+<tr><th>3</th><td>3</td><td>6</td><td>9</td></tr>
+<tr><th>4</th><td>4</td><td>8</td><td>12</td></tr>
+<tr><th>5</th><td>5</td><td>10</td><td>15</td></tr>
+</table>
+
+=== 別名 ===
+
+*[[http://www.google.co.jp|Google]]
+*[[http://www.yahoo.co.jp|Yahoo! JAPAN]]
+
+=== プラグイン ===
+
+{{ruby|檸檬|レモン}}
+

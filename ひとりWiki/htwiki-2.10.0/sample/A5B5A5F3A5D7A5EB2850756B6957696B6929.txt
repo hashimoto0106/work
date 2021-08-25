@@ -1,0 +1,109 @@
+(PukiWiki風でご覧下さい)
+
+*サンプルです
+
+**ひとりWikiについて
+
+ウェブブラウザを利用してWeb上のドキュメントを編集する仕組みのひとつと
+してWikiというものがあります。ひとりWikiはWeb上ではなくローカルの
+ドキュメントを対象にしたソフトです。
+
+一般的なWikiはウェブブラウザ経由での編集／閲覧となるためWebサーバの
+設定が必要ですが、本プログラムでは個人向け利用に的を絞ることで
+サーバの設定が必要なく((Internal Server Errorを見なくて済みます))、
+簡単に導入することができます。
+
+**箇条書き
+
+-春
+--桜
+--菜の花
+-夏
+-秋
+-冬
+
+-Perl
+ print "hello."
+ say "hello."
+-Ruby
+ print "hello."
+ puts "hello."
+
+**番号リスト
+
++はじめに
++目的
+++ニーズの把握
+++課題の抽出
++調査方法
++結果
++まとめ
+
++作業開始
+ 手順詳細
+ 手順詳細2
++作業結果確認
++作業結果報告
+
+**整形済みテキスト
+
+ use strict;
+ 
+ foreach my $i (1 .. 10) {
+   print $i, "\n";
+ }
+
+**文字修飾
+
+-シングルクォート2個ではさむと''ボールド''になります。
+-シングルクォート3個ではさむと'''イタリック'''になります。
+-パーセント2個で挟むと%%削除%%になります。
+
+**文字配置
+
+RIGHT:右寄せ
+CENTER:中央揃え
+LEFT:左寄せ
+
+**引用
+
+>物事を論じるときは複数の軸から論じるとそれっぽく聞こえる
+
+と言っていました。
+
+**用語解説
+
+:羊|今もどこかで誰かが数を数えている
+:キリン|ビールで有名
+:象|筆箱の耐久試験に利用
+:鹿|馬と一緒に見かけることが多い
+:虎|大阪で人気
+
+**テーブル
+
+, ''番号'' , ''名称'' , ''URL'' 
+, 1,PukiWiki,http://pukiwiki.sourceforge.jp
+, 2,ひとりWiki,http://www2u.biglobe.ne.jp/~MAS/soft.html#htwiki
+, 項目連結 ,==,==
+,左 , 中 , 右
+," カンマ(,)混じりのデータはダブルクォート("")で囲みます ",==,==
+
+|~番号|~略語|~名称|
+|RIGHT:1|ADSL|Asymmetric Digital Subscriber Line|
+|RIGHT:2|ARP|Address Resolution Protocol|
+|>|>|CENTER:項目連結|
+|左|CENTER:中|RIGHT:右|
+|左|CENTER:BGCOLOR(pink):COLOR(darkred):中|RIGHT:右|
+|上のセルと連結|~|~|
+
+**画像
+
+拡張子が .gif .jpeg .jpg .png の場合画像を表示します。
+
+http://www2u.biglobe.ne.jp/~MAS/image/mas02.png
+
+**別名
+
+-[[Google>http://www.google.co.jp]]
+-[[Yahoo! JAPAN>http://www.yahoo.co.jp]]
+-[[http://www2u.biglobe.ne.jp/~MAS/image/mas02.png>http://www2u.biglobe.ne.jp/~MAS/]]

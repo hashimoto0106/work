@@ -1,0 +1,75 @@
+(YukiWiki風でご覧下さい)
+
+*説明
+
+ひとりWiki Version 1.0.0からプラグインの利用ができるようになりました。
+
+プラグインを利用する場合は、htwiki.exeがあるフォルダの中に
+pluginというフォルダを作成して、その中にプラグインファイル(*.dll)を
+置いて下さい。
+
+以下のプラグインを同梱しています。
+
+-link
+-ruby
+-verb
+
+*書き方
+
+**YukiWiki風
+
+ &プラグイン名(引数)
+
+**PukiWiki風
+
+ &プラグイン名;
+ &プラグイン名(引数);
+ &プラグイン名(引数){引数};
+
+**はてな風
+
+ [プラグイン名:引数]
+
+**MediaWiki風
+
+ {{プラグイン名|引数|引数}}
+
+**livedoor Wiki風
+
+ &プラグイン名(引数){引数}
+
+**FreeStyleWiki風
+
+ {{プラグイン名 引数,引数}}
+
+**Textile風
+
+ {{プラグイン名(引数,引数)}}
+
+*サンプル
+
+以下はYukiWiki風形式で記載しています。
+
+**link
+
+見出し付きリンク作成プラグインです。
+
+ &link(MASのページ,http://www2u.biglobe.ne.jp/~MAS/)
+
+&link(MASのページ,http://www2u.biglobe.ne.jp/~MAS/)
+
+**ruby
+
+ルビ付き文字列作成プラグインです。
+
+ &ruby(薔薇,バラ)
+
+&ruby(薔薇,バラ)
+
+**verb
+
+文字列をそのまま表示するプラグインです。
+
+ &verb(http://www2u.biglobe.ne.jp/~MAS/)
+
+&verb(http://www2u.biglobe.ne.jp/~MAS/)

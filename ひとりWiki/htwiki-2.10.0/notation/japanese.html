@@ -1,0 +1,647 @@
+<html>
+<head>
+<title>テキスト整形のルール</title>
+<style>
+h1 {
+	width: 100%;
+	border-style: solid;
+	border-width: 1px 2px 2px 1px;
+	border-color: darkblue;
+	padding: 4px;
+	background-color: aliceblue;
+	font-size: large;
+	font-weight: normal;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+h2 {
+	width: 100%;
+	border-style: solid;
+	border-width: 1px 1px 1px 10px;
+	border-color: green;
+	padding: 4px 0px 3px 10px;
+	background-color: mintcream;
+	font-size: large;
+	font-weight: normal;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+table {
+	margin: 8px;
+	border-collapse: collapse;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #008b8b;
+	background-color: lightcyan;
+}
+td {
+	vertical-align: top;
+	border-color: #008b8b;
+	border-style: solid;
+	border-width: 1px;
+	padding: 3pt;
+}
+th {
+	vertical-align: middle;
+	border-color: #008b8b;
+	border-style: solid;
+	border-width: 1px;
+	padding: 3pt;
+}
+</style>
+</head>
+<body>
+<h1>テキスト整形のルール</h1>
+
+<h2>YukiWiki風</h2>
+<p>
+通常は入力した文字がそのまま出力されますが、
+以下のルールに従ってテキスト整形を行うことができます。
+</p>
+<ul>
+  <li>連続した複数行は連結されます。</li>
+  <li>空行は段落の区切りとなります。</li>
+  <li>行頭がスペースで始まっていると、その段落は整形済みとして扱われます。プログラムを書き込むときに使うと便利です。</li>
+  <li>HTMLのタグは書けません。</li>
+  <li>シングルクォート2個('')ではさむと<b>ボールド</b>になります。</li>
+  <li>シングルクォート3個(''')ではさむと<i>イタリック</i>になります。</li>
+  <li>アスタリスク(*)を行頭に書くと、大見出しになります。</li>
+  <li>アスタリスク2個(**)を行頭に書くと、中見出しになります。</li>
+  <li>アスタリスク3個(***)を行頭に書くと、小見出しになります。</li>
+  <li>マイナス(-)を行頭に書くと、箇条書きになります。- -- --- の3レベルがあります。</li>
+  <li>大なり記号(&gt;)を行頭に書くと、引用文が書けます。&gt; &gt;&gt; &gt;&gt;&gt; の3レベルがあります。</li>
+  <li>マイナス4個(----)を行頭に書くと、水平線になります。</li>
+  <li>コロン(:)2個で用語と解説が書けます(:用語:解説)。</li>
+  <li>カンマ(,)を行頭に書くとテーブルが作れます。各項目はカンマで区切ります(,項目1,項目2,項目3)。</li>
+  <li>http://～およびfile://～はリンクになります。拡張子部分が.gif .jpeg .jpg .pngの場合は画像表示になります。</li>
+  <ul>
+    <li>画像表示の例</li>
+    <ul>
+      <li>http://www.google.co.jp/logos/earthday06.gif</li>
+      <li>file:///C:/DOCUME~1/user/MYDOCU~1/logo.png</li>
+    </ul>
+  </ul>
+  <li>HitoriWikiのように大文字小文字を混ぜた英文字列を書くと、ひとりWikiのページ名になります。</li>
+  <li>二重の大かっこ[[ ]]でくくった文字列を書くと、ひとりWikiのページ名になります。大かっこの中にはスペースを含めてはいけません。日本語も使えます。</li>
+  <li>--( と --) でくくられた行は書いたまま表示されますが、リンクや文字飾りは有効です(バーベイタム・ソフト)。</li>
+  <li>---( と ---) でくくられた行は整形済みテキストと同じように、リンクや文字飾りも無視されて書いたまま表示されます(バーベイタム・ハード)。</li>
+  <li>&プラグイン名(引数1,引数2,……,引数n)でプラグインが利用できます。</li>
+</ul>
+
+<h2>PukiWiki風</h2>
+<p>
+通常は入力した文字がそのまま出力されますが、
+以下のルールに従ってテキスト整形を行うことができます。
+</p>
+<ul>
+  <li>連続した複数行は連結されます。</li>
+  <li>空行は段落の区切りとなります。</li>
+  <li>行頭がチルダ(~)で始まっていると、チルダ以降の文字が出力されます。行頭に書式文字(*, -, + など)を書きたい場合に使います。</li>
+  <li>HTMLのタグは書けません。</li>
+</ul>
+
+<table>
+<tr>
+  <th>見出し(大)</th><td>*～～</td><td></td>
+</tr>
+<tr>
+  <th>見出し(中)</th><td>**～～</td><td></td>
+</tr>
+<tr>
+  <th>見出し(小)</th><td>***～～</td><td></td>
+</tr>
+<tr>
+  <th>強調</th><td>''～～''</td><td></td>
+</tr>
+<tr>
+  <th>斜体</th><td>'''～～'''</td><td></td>
+</tr>
+<tr>
+  <th>取消線</th><td>%%～～%%</td><td></td>
+</tr>
+<tr>
+  <th>左寄せ</th><td>LEFT:～～</td><td></td>
+</tr>
+<tr>
+  <th>センタリング</th><td>CENTER:～～</td><td></td>
+</tr>
+<tr>
+  <th>右寄せ</th><td>RIGHT:～～</td><td></td>
+</tr>
+<tr>
+  <th>整形済みテキスト</th><td>半角空白～～</td><td></td>
+</tr>
+<tr>
+  <th>引用レベル1</th><td>&gt;～～</td><td></td>
+</tr>
+<tr>
+  <th>引用レベル2</th><td>&gt;&gt;～～</td><td></td>
+</tr>
+<tr>
+  <th>引用レベル3</th><td>&gt;&gt;&gt;～～</td><td></td>
+</tr>
+<tr>
+  <th>WikiName</th><td>HitoriWiki</td><td>大文字小文字を混ぜた英文字列を書くと、ひとりWikiのページ名になります。</td>
+</tr>
+<tr>
+  <th>ページ名リンク</th><td>[[ページ名]]</td><td>ページ名でリンクします。</td>
+</tr>
+<tr>
+  <th>リンク</th><td>[[別名&gt;ページ名]]</td><td>ページ名に別名を付けます。</td>
+</tr>
+<tr>
+  <th>自動リンク</th><td>http://～ https://～ ftp://～ file://～</td><td>拡張子部分が.gif .jpeg .jpg .pngの場合は画像表示になります。</td>
+</tr>
+<tr>
+  <th>エイリアス</th><td>[[エイリアス名&gt;リンク先URL]]</td><td></td>
+</tr>
+<tr>
+  <th>注釈表示</th><td>((～～))</td><td></td>
+</tr>
+<tr>
+  <th>箇条書きリスト</th><td>-～～<br />--～～<br />---～～</td><td></td>
+</tr>
+<tr>
+  <th>番号書きリスト</th><td>+～～<br />++～～<br />+++～～</td><td></td>
+</tr>
+<tr>
+  <th>定義リスト</th><td>:定義語|説明文</td><td></td>
+</tr>
+<tr>
+  <th>表組み(テーブル)</th><td>,～～,～～</td><td></td>
+</tr>
+<tr>
+  <th>表組み(テーブル)</th><td>|～～|～～|</td><td></td>
+</tr>
+<tr>
+  <th>書式指定行</th><td>|～～|～～|c</td><td>ひとりWikiでは無視します。</td>
+</tr>
+<tr>
+  <th>右に結合(colspan)</th><td>|>|～～|</td><td></td>
+</tr>
+<tr>
+  <th>上と結合(rowspan)</th><td>|~|～～|</td><td></td>
+</tr>
+<tr>
+  <th>ヘッダ</th><td>|~～～|~～～|</td><td></td>
+</tr>
+<tr>
+  <th>文字の左寄せ</th><td>|LEFT:～～|</td><td></td>
+</tr>
+<tr>
+  <th>文字のセンタリング</th><td>|CENTER:～～|</td><td></td>
+</tr>
+<tr>
+  <th>文字の右寄せ</th><td>|RIGHT:～～|</td><td></td>
+</tr>
+<tr>
+  <th>文字色</th><td>|COLOR(色指定):～～|</td><td></td>
+</tr>
+<tr>
+  <th>文字サイズ</th><td>|SIZE(サイズ指定):～～|</td><td></td>
+</tr>
+<tr>
+  <th>背景色</th><td>|BGCOLOR(色指定):～～|</td><td></td>
+</tr>
+<tr>
+  <th>水平線</th><td>----</td><td></td>
+</tr>
+<tr>
+  <th>改行</th><td>～～~</td><td></td>
+</tr>
+<tr>
+  <th>コメント</th><td>//～～</td><td></td>
+</tr>
+<tr>
+  <th>プラグイン</th><td>&プラグイン名(引数1,引数2,……,引数n){}<br />&プラグイン名;</td><td></td>
+</tr>
+<tr>
+  <th>複数行プラグイン</th><td>#プラグイン名(){{<br />引数<br />}}</td><td></td>
+</tr>
+</table>
+
+
+<h2>はてな風</h2>
+<table>
+<tr>
+  <th>見出し記法</th><td>*～～</td>
+</tr>
+<tr>
+  <th>小見出し記法</th><td>**～～</td>
+</tr>
+<tr>
+  <th>小々見出し記法</th><td>***～～</td>
+</tr>
+<tr>
+  <th>リスト記法</th><td>-～～, --～～, +～～, ++～～</td>
+</tr>
+<tr>
+  <th>定義リスト記法</th><td>:～～:～～</td>
+</tr>
+<tr>
+  <th>表組み記法</th><td>| ～～ | ～～ |, | *～～ |</td>
+</tr>
+<tr>
+  <th>引用記法</th><td>&gt;&gt;<br />～～<br />&lt;&lt;</td>
+</tr>
+<tr>
+  <th>pre記法</th><td>&gt;|<br />～～<br />|&lt;</td>
+</tr>
+<tr>
+  <th>スーパーpre記法</th><td>&gt;||<br />～～<br />||&lt;</td>
+</tr>
+<tr>
+  <th>aa記法</th><td>&gt;|aa|<br />～～<br />||&lt;</td>
+</tr>
+<tr>
+  <th>脚注記法</th><td>(( ～～ ))</td>
+</tr>
+<tr>
+  <th>水平線</th><td>====</td>
+</tr>
+<tr>
+  <th>改行記法</th><td>(連続した空白の行2つ)</td>
+</tr>
+<tr>
+  <th>http記法</th><td>http://～～</td>
+</tr>
+<tr>
+  <th>mailto記法</th><td>mailto:～～</td>
+</tr>
+<tr>
+  <th>keyword記法</th><td>[[～～]]</td>
+</tr>
+<tr>
+  <th>プラグイン</th><td>[プラグイン名:引数,引数2,……,引数n]</td>
+</tr>
+</table>
+<br>
+<a href="http://hatenadiary.g.hatena.ne.jp/keyword/%E3%81%AF%E3%81%A6%E3%81%AA%E8%A8%98%E6%B3%95%E4%B8%80%E8%A6%A7">はてな記法一覧</a>を参考にしています。
+
+<h2>MediaWiki風</h2>
+<p>以下のルールに従ってテキスト整形を行うことができます。</p>
+<ul>
+  <li>連続した複数行は連結されます。</li>
+  <li>空行は段落の区切りとなります。</li>
+  <li>行頭がスペースで始まっていると、その段落は整形済みとして扱われます。プログラムを書き込むときに使うと便利です。</li>
+</ul>
+
+<table>
+<tr>
+  <th>斜体表示</th><td>''～～''</td>
+</tr>
+<tr>
+  <th>強調表示</th><td>'''～～'''</td>
+</tr>
+<tr>
+  <th>HTMLタグ</th><td>&lt;タグ&gt;～～&lt;/タグ&gt;</td>
+</tr>
+<tr>
+  <th>大見出し</th><td>== ～～ ==</td>
+</tr>
+<tr>
+  <th>中見出し</th><td>=== ～～ ===</td>
+</tr>
+<tr>
+  <th>小見出し</th><td>==== ～～ ====</td>
+</tr>
+<tr>
+  <th>箇条書きリスト</th><td>*～～<br />**～～<br />***～～</td>
+</tr>
+<tr>
+  <th>番号書きリスト</th><td>#～～<br />##～～<br />###～～</td>
+</tr>
+<tr>
+  <th>水平線</th><td>----</td>
+</tr>
+<tr>
+  <th>用語と解説</th><td>; 用語 : 解説</td>
+</tr>
+<tr>
+  <th>自動リンク</th><td>http://～～ file://～～</td>
+</tr>
+<tr>
+  <th>ページ名リンク</th><td>[[ページ名]]</td>
+</tr>
+<tr>
+  <th>リンク</th><td>[[～～|ページ名]]</td>
+</tr>
+<tr>
+  <th>プラグイン</th><td>{{プラグイン名|引数1|引数2|……|引数n}}</td>
+</tr>
+</table>
+
+<a href="http://ja.wikipedia.org/wiki/Wikipedia:%E7%B7%A8%E9%9B%86%E3%81%AE%E4%BB%95%E6%96%B9#.E8.A1.A8">Wikipedia:編集の仕方</a>を参考にしています。<br>
+
+<h2>livedoor Wiki風</h2>
+<table>
+<tr>
+  <th>見出し(大)</th><td>*～～</td><td></td>
+</tr>
+<tr>
+  <th>見出し(中)</th><td>**～～</td><td></td>
+</tr>
+<tr>
+  <th>見出し(小)</th><td>***～～</td><td></td>
+</tr>
+<tr>
+  <th>太字</th><td>''～～''</td><td></td>
+</tr>
+<tr>
+  <th>斜体</th><td>'''～～'''</td><td></td>
+</tr>
+<tr>
+  <th>取消線</th><td>%%～～%%</td><td></td>
+</tr>
+<tr>
+  <th>下線</th><td>%%%～～%%%</td><td></td>
+</tr>
+<tr>
+  <th>下付き文字</th><td>__～～__</td><td></td>
+</tr>
+<tr>
+  <th>引用1</th><td>半角スペース～～</td><td></td>
+</tr>
+<tr>
+  <th>引用2</th><td>&gt;～～</td><td></td>
+</tr>
+<tr>
+  <th>簡単コピペ記法</th><td>=||<br />コピペ内容<br />コピペ内容<br />||=</td><td>ひとりWikiでは簡単コピペ記法(枠付き)と同じ表示になります。</td>
+</tr>
+<tr>
+  <th>簡単コピペ記法<br />(枠付き)</th><td>=|BOX|<br />コピペ内容<br />コピペ内容<br />||=</td><td></td>
+</tr>
+<tr>
+  <th>AA記法</th><td>=|AA|<br />コピペ内容<br />コピペ内容<br />||=</td><td></td>
+</tr>
+<tr>
+  <th>AA記法<br />(スクロールバー付き)</th><td>=|AAS|<br />コピペ内容<br />コピペ内容<br />||=</td><td>ひとりWikiではスクロールバーはつきません。AA記法と同じになります。</td>
+</tr>
+<tr>
+  <th>ページ名リンク</th><td>[[ページ名]]</td><td>ページ名でリンクします。</td>
+</tr>
+<tr>
+  <th>リンク</th><td>[[～～&gt;ページ名]]</td><td>ページ名に別名を付けます。</td>
+</tr>
+<tr>
+  <th>自動リンク</th><td>http://～ https://～ ftp://～ file://～</td><td>拡張子部分が.gif .jpeg .jpg .pngの場合は画像表示になります。</td>
+</tr>
+<tr>
+  <th>外部リンク</th><td>[[～～&gt;リンク先URL]]</td><td></td>
+</tr>
+<tr>
+  <th>別ウィンドウリンク</th><td>[[～～&gt;&gt;リンク先URL]]</td><td>ひとりWikiでは外部リンクと同じです。</td>
+</tr>
+<tr>
+  <th>クッションページリンク</th><td>[[～～&gt;&gt;&gt;リンク先URL]]</td><td>ひとりWikiでは外部リンクと同じです。</td>
+</tr>
+<tr>
+  <th>注釈表示</th><td>((～～))</td><td></td>
+</tr>
+<tr>
+  <th>箇条書きリスト</th><td>-～～<br />--～～<br />---～～</td><td></td>
+</tr>
+<tr>
+  <th>番号書きリスト</th><td>+～～<br />++～～<br />+++～～</td><td></td>
+</tr>
+<tr>
+  <th>定義リスト</th><td>:定義語|説明文</td><td></td>
+</tr>
+<tr>
+  <th>表組み(テーブル)</th><td>|～～|～～|</td><td></td>
+</tr>
+<tr>
+  <th>右に結合(colspan)</th><td>|>|～～|</td><td></td>
+</tr>
+<tr>
+  <th>上と結合(rowspan)</th><td>|^|～～|</td><td></td>
+</tr>
+<tr>
+  <th>ヘッダ(行全体)</th><td>|~～～|</td><td></td>
+</tr>
+<tr>
+  <th>文字の左寄せ</th><td>|left:～～|</td><td></td>
+</tr>
+<tr>
+  <th>文字のセンタリング</th><td>|center:～～|</td><td></td>
+</tr>
+<tr>
+  <th>文字の右寄せ</th><td>|right:～～|</td><td></td>
+</tr>
+<tr>
+  <th>文字色</th><td>|color(色指定):～～|</td><td></td>
+</tr>
+<tr>
+  <th>文字サイズ</th><td>|size(サイズ指定):～～|</td><td></td>
+</tr>
+<tr>
+  <th>背景色</th><td>|bgcolor(色指定):～～|</td><td></td>
+</tr>
+<tr>
+  <th>水平線</th><td>----</td><td></td>
+</tr>
+<tr>
+  <th>改行</th><td>～～~~～～</td><td></td>
+</tr>
+<tr>
+  <th>コメント</th><td>//～～</td><td></td>
+</tr>
+<tr>
+  <th>プラグイン</th><td>&プラグイン名(引数1,引数2,……,引数n){}</td><td></td>
+</tr>
+</table>
+
+<p><a href="http://wiki.livedoor.jp/tag_guide/">livedoor Wiki　簡単記法リファレンス</a>を参考にしています。<p>
+
+<h2>FreeSytle Wiki風</h2>
+<p>
+通常は入力した文字がそのまま出力されますが、
+以下のルールに従ってテキスト整形を行うことができます。
+</p>
+<ul>
+  <li>連続した複数行は連結されます。</li>
+  <li>空行は段落の区切りとなります。</li>
+  <li>行頭がスペースで始まっていると、その段落は整形済みとして扱われます。プログラムを書き込むときに使うと便利です。</li>
+  <li>HTMLのタグは書けません。</li>
+  <li>シングルクォート2個('')ではさむと<em>斜体表示</em>になります。</li>
+  <li>シングルクォート3個(''')ではさむと<strong>強調表示</strong>になります。</li>
+  <li>イコール2個(==)で挟むと<del>削除</del>になります。</li>
+  <li>アンダースコア2個(__)で挟むと<u>下線</u>になります。</li>
+  <li>エクスクラメーションマーク3個(!!!)を行頭に書くと、大見出しになります。</li>
+  <li>エクスクラメーションマーク2個(!!)を行頭に書くと、中見出しになります。</li>
+  <li>アスタリスク(!)を行頭に書くと、小見出しになります。</li>
+  <li>ワイルドカード(*)を行頭に書くと、箇条書きになります。* ** *** の3レベルがあります。</li>
+  <li>プラス(+)を行頭に書くと、番号付きリストになります。+ ++ +++ の3レベルがあります。</li>
+  <li>ダブルクォーテンション2個("")で開始すると引用文が書けます。</li>
+  <li>マイナス4個(----)を行頭に書くと、水平線になります。</li>
+  <li>コロン(:)とコロン(:)で用語と解説が書けます(:用語:解説)。</li>
+  <li>カンマ(,)を行頭に書くとテーブルが作れます。各項目はカンマで区切ります(,項目1,項目2,項目3)。</li>
+  <ul>
+  </ul>
+  <li>http://～およびfile://～はリンクになります。拡張子部分が.gif .jpeg .jpg .pngの場合は画像表示になります。</li>
+  <ul>
+    <li>画像表示の例</li>
+    <ul>
+      <li>http://www.google.co.jp/logos/earthday06.gif</li>
+      <li>file:///C:/DOCUME~1/user/MYDOCU~1/logo.png</li>
+    </ul>
+  </ul>
+  <li>二重の大かっこ[ ]でくくった文字列を書くと、ひとりWikiのページ名になります。日本語も使えます。</li>
+  <li>[[別名&gt;ページ名]]でページ名に別名を付けることができます。</li>
+  <li>[別名&gt;リンク先]でリンク先に別名を付けることができます。</li>
+  <li>スラッシュ2個(//)を行頭に書くと、コメント行になります。</li>
+  <li>{{プラグイン名 引数1,引数2,……,引数n}}でプラグインが利用できます。</li>
+</ul>
+
+<p><a href="http://fswiki.org/wiki.pl?page=Help">Help - FreeStyleWiki</a>を参考にしています。<p>
+
+<h2>Textile風</h2>
+<table>
+<tr>
+  <th>見出し</th><td>h1. 見出し1<br />h2. 見出し2<br />h3. 見出し3<br />h4. 見出し4<br />h5. 見出し5<br />h6. 見出し6<br /></td>
+</tr>
+<tr>
+  <th>太字</th><td>*～～*</td>
+</tr>
+<tr>
+  <th>斜体</th><td>_～～_</td>
+</tr>
+<tr>
+  <th>取消線</th><td>-～～-</td>
+</tr>
+<tr>
+  <th>下線</th><td>+～～+</td>
+</tr>
+<tr>
+  <th>引用</th><td>??～～??</td>
+</tr>
+<tr>
+  <th>等幅</th><td>@～～@</td>
+</tr>
+<tr>
+  <th>左寄せ</th><td>p. ～～</td>
+</tr>
+<tr>
+  <th>センタリング</th><td>p=. ～～</td>
+</tr>
+<tr>
+  <th>右寄せ</th><td>p>. ～～</td>
+</tr>
+<tr>
+  <th>引用</th><td>bq. ～～</td>
+</tr>
+</tr>
+  <th>リンク</th><td>&quot;名称&quot;:http://～～</td>
+</tr>
+<tr>
+  <th>リスト</th><td>* ～～, ** ～～, *** ～～</td>
+</tr>
+<tr>
+  <th>番号付きリスト</th><td># ～～, ## ～～, ### ～～</td>
+</tr>
+<tr>
+  <th>表組み(テーブル)</th><td>|～～|～～|</td>
+</tr>
+<tr>
+  <th>ヘッダ</th><td>|_. ～～|_. ～～|</td>
+</tr>
+<tr>
+  <th>文字の左寄せ</th><td>|&lt;. ～～|</td>
+</tr>
+<tr>
+  <th>文字のセンタリング</th><td>|=. ～～|</td>
+</tr>
+<tr>
+  <th>文字の右寄せ</th><td>|&gt;. ～～|</td>
+</tr>
+<tr>
+  <th>横に結合(colspan)</th><td>|\2. ～～|</td>
+</tr>
+<tr>
+  <th>縦に結合(rowspan)</th><td>|/2. ～～|</td>
+</tr>
+<tr>
+  <th>整形済みテキスト</th><td>&lt;pre&gt;<br />～～<br />&lt;/pre&gt;</td>
+</tr>
+<tr>
+  <th>水平線</th><td>---</td>
+</tr>
+<tr>
+  <th>スタイル</th><td>%{スタイル}～～%</td>
+</tr>
+<tr>
+  <th>プラグイン</th><td>{{プラグイン名(引数1,引数2,……,引数n)}}</td>
+</tr>
+</table>
+<br>
+<a href="http://redcloth.org/textile">Textile Reference Manual for RedCloth 4</a>を参考にしています。
+
+<h2>Markdown風</h2>
+<table>
+  <tr>
+    <th>見出し</th>
+    <td># 見出し1<br />## 見出し2<br />### 見出し3<br />#### 見出し4<br />##### 見出し5<br />###### 見出し6<br /></td>
+  </tr>
+  <tr>
+    <th>見出し</th>
+    <td>見出し1<br />=======<br /><br />見出し2<br />-------</td>
+  </tr>
+  <tr>
+    <th>引用</th>
+    <td>&gt; ～～</td>
+  </tr>
+  <tr>
+    <th>リスト</th>
+    <td>*  ～～<br />* ～～<br /><br />+  ～～<br />+ ～～<br /><br />-  ～～<br />- ～～<br /></td>
+  </tr>
+  <tr>
+    <th>番号付きリスト</th>
+    <td>1.  ～～<br />2. ～～<br /></td>
+  </tr>
+  <tr>
+    <th>整形済みテキスト</th>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;～～(行頭に空白4つ)</td>
+  </tr>
+  <tr>
+    <th>整形済みテキスト</th>
+    <td>```<br />～～<br />```</td>
+  </tr>
+  <tr>
+    <th>水平線</th>
+    <td>---</td>
+  </tr>
+  <tr>
+    <th>ページ名リンク</th>
+    <td>[[ページ名]]</td>
+  </tr>
+  <tr>
+    <th>外部リンク</th>
+    <td>[名称](リンク先URL)</td>
+  </tr>
+  <tr>
+    <th>自動リンク</th>
+    <td>&lt;リンク先URL&gt;</td>
+  </tr>
+  <tr>
+    <th>画像</th>
+    <td>![代替テキスト](画像URL)</td>
+  </tr>
+  <tr>
+    <th>太字</th>
+    <td>**～～**<br />__～～__<br /></td>
+  </tr>
+  <tr>
+    <th>斜体</th>
+    <td>*～～*<br />_～～_<br /></td>
+  </tr>
+  <tr>
+    <th>テーブル</th>
+    <td>|ヘッダ|ヘッダ|<br />|------|------|<br />|項目|項目|<br />|項目|項目|</td>
+  </tr>
+</table>
+<br />
+<p><a href="http://blog.2310.net/archives/6">Markdown文法の全訳</a>を参考にしています。</p>
+
+</body>
+</html>

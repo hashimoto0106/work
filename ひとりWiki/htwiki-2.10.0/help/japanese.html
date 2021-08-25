@@ -1,0 +1,909 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<style type="text/css">
+<!--
+	body {
+		background-color: whitesmoke;
+	}
+	div.contents {
+		margin: 10px;
+	}
+	h2.caption {
+		border-style: solid;
+		border-width: 1px 1px 1px 16px;
+		border-color: green;
+		padding: 4px;
+		background-color: mintcream;
+		font-size: 150%;
+		font-weight: normal;
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+	h3.item {
+		border-style: solid;
+		border-width: 0px 0px 1px 10px;
+		border-color: darkblue;
+		padding: 4px 0px 3px 10px;
+		font-size: 100%;
+		font-weight: normal;
+	}
+	h4.menu, h4.soft {
+		text-decoration: underline;
+		font-weight: normal;
+		margin-bottom: 1px;
+	}
+	li {
+		margin-top: 1px;
+	}
+	span.version {
+		color: darkgreen;
+	}
+	table {
+		margin: 10px;
+		border-collapse: collapse;
+		border-style: solid;
+		border-width: 2px;
+		border-color: darkblue;
+	}
+	td {
+		border-style: solid;
+		border-width: 1px;
+		padding: 3pt;
+		vertical-align: top;
+	}
+	td.center {
+		text-align: center;
+	}
+	td.right {
+		text-align: right;
+	}
+	th {
+		background-color: lightblue;
+		border-style: solid;
+		border-width: 1px;
+		padding: 3pt;
+		vertical-align: top;
+	}
+	ul {
+		margin-top: 2px;
+		margin-bottom: 5px;
+	}
+-->
+</style>
+<title>ひとりWiki Help</title>
+</head>
+<body>
+
+<a name="head"> </a>
+
+<div align="center">
+ひとりで使うWikiクローン
+<h1>ひとりWiki</h1>
+version 2.10.0
+</div>
+
+<hr>
+<a href="#about">概要</a><br>
+<a href="#install">インストール・実行・アンインストール</a><br>
+<a href="#menu">使い方</a><br>
+<a href="#edit">編集ダイアログ</a><br>
+<a href="#settings">設定ダイアログ</a><br>
+<a href="#editorsettings">エディタの設定ダイアログ</a><br>
+<a href="#plugin">プラグインの使い方ダイアログ</a><br>
+<a href="#template">テンプレート</a><br>
+<a href="#css">スタイルシート</a><br>
+<a href="#others">その他</a><br>
+
+<h2 class="caption"><a name="about">概要</a></h2>
+
+<h3 class="item">ひとりWikiについて</h3>
+<div class="contents">
+　ウェブブラウザを利用してWeb上のドキュメントを編集する仕組みのひとつとしてWikiというものがあります。ひとりWikiはWeb上ではなくローカルのドキュメントを対象にしたソフトです。<br>
+　一般的なWikiはウェブブラウザ経由での編集／閲覧となるためWebサーバの設定が必要ですが、本プログラムでは個人向け利用に的を絞ることでサーバの設定が必要なく、簡単に導入することができます。<br>
+</div>
+
+<h3 class="item">動作環境</h3>
+<div class="contents">
+　Windows10(64bit)。<br>
+</div>
+
+<h3 class="item">基本的な使い方</h3>
+<div class="contents">
+<ol>
+<li>データ保存用のフォルダ(Wikiファイル保存フォルダ)を作っておきます。</li>
+<li>ひとりWikiを起動します。</li>
+<li>[ファイル][新Wiki作成]を選び、Wikiファイル保存フォルダの選択、タイトルの入力を行います。</li>
+<li>編集ウィンドウが開くので、データを入力します。</li>
+<li>編集ウィンドウの[ファイル][保存]でデータを保存します。</li>
+<li>メインウィンドウに保存したデータの内容が表示されます。</li>
+</ol>
+
+　使い方がよく分からなかったら、[ファイル][開く]でsampleフォルダのファイルを開いてみて下さい。<br>
+</div>
+
+<a href="#head">先頭に戻る</a>
+
+<h2 class="caption"><a name="install">インストール・実行・アンインストール</a></h2>
+
+<h3 class="item">インストール</h3>
+<div class="contents">
+　収録ファイルをフォルダ構造を崩さないように展開して下さい。<br>
+</div>
+
+<h3 class="item">実行方法</h3>
+<div class="contents">
+　htwiki.exeを実行して下さい。<br>
+</div>
+
+<h3 class="item">アンインストール</h3>
+<div class="contents">
+　インストールしたファイルを全て削除してください。<br>
+　HKEY_CURRENT_USER\Software\Mas\HitoriWikiというキーをレジストリに作成するので気になる方は各自で削除してください(削除しなくても問題はありません)。<br>
+</div>
+
+<a href="#head">先頭に戻る</a>
+
+<h2 class="caption"><a name="menu">使い方</a></h2>
+
+<h3 class="item">ファイル</h3>
+<div class="contents">
+<h4 class="menu">新Wiki作成</h4>
+　新しい文書を作成します。文書を作成するフォルダを選択後、新しく作成する文書のタイトルを入力して下さい。<br>
+　文書を作成するフォルダは先に作っておいて下さい。<br>
+<h4 class="menu">新規作成(Ctrl+N)</h4>
+　現在のWikiデータに新しい文書を作成します。<br>
+<h4 class="menu">開く(Ctrl+O)</h4>
+　文書を読み込みます。<br>
+<h4 class="menu">名前変更</h4>
+　現在表示中の文書を新しい名前に変更します。<br>
+<h4 class="menu">コピー</h4>
+　現在表示中の文書を新しい名前でコピーします。<br>
+<h4 class="menu">削除</h4>
+　現在表示中の文書を削除します。<br>
+<h4 class="menu">プロパティ</h4>
+　現在表示中の文章のファイルプロパティ表示します。<br>
+<h4 class="menu">HTML出力</h4>
+　文書をHTML形式で保存します。Wikiデータの他にファイル一覧が記載されたindex.htmlファイルも作成されます。<br>
+<h4 class="menu">終了</h4>
+　アプリケーションを終了します。<br>
+</div>
+
+<a href="#head">先頭に戻る</a>
+
+<h3 class="item">編集</h3>
+<div class="contents">
+<h4 class="menu">編集(Ctrl+E)</h4>
+　編集ダイアログを表示します。<br>
+</div>
+
+<a href="#head">先頭に戻る</a>
+
+<h3 class="item">表示</h3>
+<div class="contents">
+<h4 class="menu">一覧(Ctrl+1)</h4>
+　一覧タブを選択します。<br>
+<h4 class="menu">最近(Ctrl+2)</h4>
+　最近タブを選択します。<br>
+<h4 class="menu">目次(Ctrl+3)</h4>
+　目次タブを選択します。<br>
+<h4 class="menu">検索(Ctrl+4)</h4>
+　検索タブを選択します。<br>
+<h4 class="menu">トップ(Alt+Home)</h4>
+　トップページへ移動します。<br>
+<h4 class="menu">戻る(Ctrl+B)</h4>
+　前に表示していた文章を表示します。<br>
+<h4 class="menu">再読込</h4>
+　現在の文書を再度読み込み直します。<br>
+</div>
+
+<a href="#head">先頭に戻る</a>
+
+<h3 class="item">設定</h3>
+<div class="contents">
+<h4 class="menu">ひとりWikiの設定</h4>
+　設定ダイアログを表示します。<br>
+<h4 class="menu">記法</h4>
+　記法を選択します。<br>
+　・YukiWiki風<br>
+　・PukiWiki風<br>
+　・はてな風<br>
+　・MediaWiki風<br>
+　・livedoor Wiki風<br>
+　・FreeStyle Wiki風<br>
+　・Textile風<br>
+　・Markdown風<br>
+<h4 class="menu">デザインの選択</h4>
+　デザインの選択ダイアログを表示します。<br>
+<h4 class="menu">テンプレート</h4>
+　テンプレートを選択します。<br>
+</div>
+
+<a href="#head">先頭に戻る</a>
+
+<h3 class="item">ヘルプ</h3>
+<div class="contents">
+<h4 class="menu">記法</h4>
+　テキスト整形のルール表示します。<br>
+<h4 class="menu">プラグイン</h4>
+　プラグインの使い方を表示します。<br>
+<h4 class="menu">ヘルプ</h4>
+　ヘルプ表示します。<br>
+<h4 class="menu">バージョン情報</h4>
+　バージョンや著作権の表示をします。<br>
+</div>
+
+<a href="#head">先頭に戻る</a>
+
+<h2 class="caption"><a name="edit">編集ダイアログ</a></h2>
+
+<h3 class="item">ファイル</h3>
+<div class="contents">
+<h4 class="menu">終了</h4>
+　編集ダイアログを閉じます。<br>
+</div>
+
+<a href="#head">先頭に戻る</a>
+
+<h3 class="item">編集</h3>
+<div class="contents">
+<h4 class="menu">元に戻す(Ctrl+Z)</h4>
+　直前の操作を取り消します。<br>
+<h4 class="menu">やり直し(Ctrl+Alt+Z)</h4>
+　元に戻した操作をやり直します。<br>
+<h4 class="menu">切り取り(Ctrl+X Shift+Del)</h4>
+　選択したテキストを削除してクリップボードにコピーします。<br>
+<h4 class="menu">コピー(Ctrl+C Ctrl+Ins)</h4>
+　選択したテキストをクリップボードにコピーします。<br>
+<h4 class="menu">貼り付け(Ctrl+V Shift+Ins)</h4>
+　クリップボードのテキストを貼り付けます。<br>
+<h4 class="menu">すべて選択(Ctrl+A)</h4>
+　テキストをすべて選択します。<br>
+<h4 class="menu">検索(Ctrl+F)</h4>
+　検索ダイアログを表示します。<br>
+</div>
+
+<a href="#head">先頭に戻る</a>
+
+<h3 class="item">挿入</h3>
+<div class="contents">
+<h4 class="menu">日付(Ctrl+;)</h4>
+　現在の日付を挿入します。<br>
+<h4 class="menu">時刻(Ctrl+:)</h4>
+　現在の時刻を挿入します。<br>
+<h4 class="menu">日時</h4>
+　現在の日時を挿入します。<br>
+</div>
+
+<a href="#head">先頭に戻る</a>
+
+<h3 class="item">設定</h3>
+<div class="contents">
+<h4 class="menu">エディタの設定</h4>
+　エディタの設定ダイアログを表示します。<br>
+</div>
+
+<a href="#head">先頭に戻る</a>
+<h3 class="item">ヘルプ</h3>
+<div class="contents">
+<h4 class="menu">記法(F1)</h4>
+　テキスト整形のルール表示します。<br>
+<h4 class="menu">プラグイン</h4>
+　プラグインの使い方を表示します。<br>
+</div>
+
+<a href="#head">先頭に戻る</a>
+
+<h2 class="caption"><a name="settings">設定ダイアログ</a></h2>
+
+<h3 class="item">ファイル</h3>
+<div class="contents">
+<h4 class="menu">トップページ名</h4>
+　トップページの名称を設定します。[表示][トップ]で移動する先になります。<br>
+<h4 class="menu">ファイル拡張子</h4>
+　ファイル拡張子を設定します。通常は「.txt」を使ってください。<br>
+</div>
+
+<a href="#head">先頭に戻る</a>
+
+<h3 class="item">リンク</h3>
+<div class="contents">
+<h4 class="menu">外部リンクはブラウザで開く</h4>
+　外部リンクをクリックしたときに、リンク先をブラウザで表示するようにします。<br>
+<h4 class="menu">WikiName形式の?リンクを表示しない</h4>
+　WikiName形式の文字列は自動的に内部リンクになります。この時、そのページが存在しない場合は?のリンクが表示されますがこれを表示しないようにします。<br>
+</div>
+
+<a href="#head">先頭に戻る</a>
+
+<h3 class="item">表示方式</h3>
+<div class="contents">
+<h4 class="menu">about:blank(標準)</h4>
+　バージョン1.3.0までと同じ表示方式です。通常はこちらを使って下さい。<br>
+<h4 class="menu">一時ファイル</h4>
+　ローカルファイルアクセス(file://形式のリンク)を有効にしたい場合にこちらをご利用下さい。文書保存時にスクロールバーの位置が保存されないなどいくつかの制限があります。<br>
+</div>
+
+<a href="#head">先頭に戻る</a>
+
+<h3 class="item">エディタ</h3>
+<div class="contents">
+<h4 class="menu">内蔵エディタ</h4>
+　ひとりWiki内蔵のエディタを利用します。<br>
+<h4 class="menu">標準エディタ</h4>
+　テキストファイルに関連付けされているエディタを利用します。<br>
+　ひとりWikiでは文字コードにEUC-JPを利用していますので、EUC-JPが利用できるエディタをご利用下さい。<br>
+<h4 class="menu">指定エディタ</h4>
+　利用するエディタを指定できます。<br>
+</div>
+
+<a href="#head">先頭に戻る</a>
+
+<h3 class="item">文字コード</h3>
+<div class="contents">
+<h4 class="menu">EUC</h4>
+　EUC-JPコードで読み込みます。<br>
+<h4 class="menu">自動判別</h4>
+　文字コードを自動判別して読み込みます。標準エディタを使用していてShift JISで文書を保存するような場合に使用して下さい。<br>
+<h4 class="menu">#TitleをUTF-8で出力する</h4>
+　テンプレートの#Title部分をUTF-8で出力します。文字コードをUTF-8で使用する場合にチェックをします。<br>
+</div>
+
+<a href="#head">先頭に戻る</a>
+
+<h3 class="item">トレイ</h3>
+<div class="contents">
+<h4 class="menu">最小化時システムトレイ(タスクトレイ)に格納する</h4>
+　最小化を行った時にタスクバーの表示は行わず、システムトレイにアイコンを表示するようにします。<br>
+</div>
+
+<a href="#head">先頭に戻る</a>
+
+<h3 class="item">制限</h3>
+<div class="contents">
+<h4 class="menu">記法を固定する</h4>
+　記法を変更できなくなります。<br>
+<h4 class="menu">新Wiki作成を無効にする</h4>
+　新Wiki作成ができなくなります。<br>
+</div>
+
+<a href="#head">先頭に戻る</a>
+
+<h2 class="caption"><a name="editorsettings">エディタの設定ダイアログ</a></h2>
+
+<h3 class="item">折り返し</h3>
+<div class="contents">
+<h4 class="menu">折り返さない</h4>
+　折り返しを行いません。<br>
+<h4 class="menu">右端で折り返す</h4>
+　画面右端で折り返します。<br>
+<h4 class="menu">指定桁数で折り返す</h4>
+　指定した桁数でで折り返します。<br>
+</div>
+
+<h3 class="item">表示</h3>
+<div class="contents">
+<h4 class="menu">前面に表示</h4>
+　編集画面を常に最前面に表示します。<br>
+</div>
+
+<a href="#head">先頭に戻る</a>
+
+<h3 class="item">詳細設定</h3>
+<div class="contents">
+　エディタの詳細設定ダイアログを表示します。<br>
+</div>
+
+<a href="#head">先頭に戻る</a>
+
+<h2 class="caption"><a name="plugin">プラグインの使い方ダイアログ</a></h2>
+<div class="contents">
+　利用できるプラグインの一覧を表示します。<br>
+　一覧からプラグインを選択すると、実例などを表示します。<br>
+</div>
+
+<a href="#head">先頭に戻る</a>
+
+<h2 class="caption"><a name="template">テンプレート</a></h2>
+<div class="contents">
+　同梱のファイルを書き換えることで見た目を変更することができます。templateフォルダにあるファイルが表示の元になっています。<br>
+<table>
+<tr>
+  <th>exportフォルダ</th><td>HTML出力用テンプレート</td>
+</tr>
+<tr>
+  <th>listフォルダ</th><td>HTML出力用インデックステンプレート</td>
+</tr>
+<tr>
+  <th>mainフォルダ</th><td>通常表示テンプレート</td>
+</tr>
+</table>
+　共通のヘッダ・フッタ・メニューバーを入れる場合はテンプレートを修正して下さい。<br>
+　テンプレートには特殊なタグが利用できます。以下のタグは実行時に置換されて出力されます。
+<table>
+<tr>
+  <th>タグ</th>
+  <th>説明</th>
+</tr>
+<tr>
+  <td>#Contents</td>
+  <td>目次</td>
+</tr>
+<tr>
+  <td>#CSSFile</td>
+  <td>スタイルシートファイル名</td>
+</tr>
+<tr>
+  <td>#CSSPath</td>
+  <td>スタイルシート保存フォルダ名</td>
+</tr>
+<tr>
+  <td>#DocumentPath</td>
+  <td>Wikiファイル保存フォルダ名</td>
+</tr>
+<tr>
+  <td>#Encoding</td>
+  <td>出力文字コード(HTML出力用のみ利用するようにしてください)</td>
+</tr>
+<tr>
+  <td>#Main</td>
+  <td>本文</td>
+</tr>
+<tr>
+  <td>#Menubar</td>
+  <td>「MenuBar」に記載されている内容(メニューバー)</td>
+</tr>
+<tr>
+  <td>#TemplatePath</td>
+  <td>テンプレート保存フォルダ名</td>
+</tr>
+<tr>
+  <td>#Title</td>
+  <td>文書名</td>
+</tr>
+<tr>
+  <td>#Version</td>
+  <td>バージョン番号</td>
+</tr>
+</table>
+
+</div>
+
+<a href="#head">先頭に戻る</a>
+
+<h2 class="caption"><a name="css">スタイルシート</a></h2>
+<div class="contents">
+　cssフォルダの中にフォルダを作りその中にwiki.cssというファイル名でスタイルシートを作成すると、デザインの選択ダイアログでそのスタイルシートを選択することができます。<br>
+</div>
+
+<a href="#head">先頭に戻る</a>
+
+<h2 class="caption"><a name="others">その他</a></h2>
+
+<h3 class="item">履歴</h3>
+<div class="contents">
+
+<span class="version">version 2.10.0</span><br>
+<ul>
+  <li>ページ内に目次を表示できるようにしました(&lt;#Contents&gt;の追加)。</li>
+  <li>アイコンを変更しました。</li>
+  <li>Mediawiki風のpreで改行が消えるバグを修正しました。</li>
+</ul>
+
+<span class="version">version 2.9.0</span><br>
+<ul>
+  <li>Textile風でページリンクに対応しました。</li>
+</ul>
+
+<span class="version">version 2.8.0</span><br>
+<ul>
+  <li>ファイル拡張子を設定できるようにしました。</li>
+  <li>目次タブを表示した状態で新しい文書を作成し、文章を保存せずエディタを閉じた状態で目次を選んだときにエラーが発生するバグを修正しました。</li>
+  <li>リンク先文書が存在しない場合のリンク名にスタイルを設定できるようにしました。</li>
+  <li>MediaWiki風でプラグインを利用できるようにしました。</li>
+  <li>空白区切りの文字列で検索した場合に、AND検索になるようにしました。</li>
+  <li>UTF-8のファイルを読み込むと文字化けするバグを修正しました。</li>
+  <li>機能制限の設定を追加し、記法を固定する・新Wiki作成を無効にする設定をできるようにしました。</li>
+</ul>
+
+<span class="version">version 2.7.0</span><br>
+<ul>
+  <li>#TitleをUTF-8で出力できるようにしました。</li>
+</ul>
+
+<span class="version">version 2.6.0</span><br>
+<ul>
+  <li>Markdown風でリンク中にアンダースコアが複数あると斜体になりリンクがおかしくなるバグを修正しました。</li>
+  <li>Markdown風でテーブルに対応しました。</li>
+  <li>Textile風で水平線に対応しました。</li>
+  <li>Textile風でスタイルに対応しました。</li>
+  <li>Textile風でプラグインに対応しました。</li>
+  <li>文書を保存しているフォルダーを開く機能を追加しました。</li>
+</ul>
+<span class="version">version 2.5.1</span><br>
+<ul>
+  <li>「最近」タブから別の文書に移動した時に編集中の文書が消えるバグを修正しました。</li>
+</ul>
+<span class="version">version 2.5.0</span><br>
+<ul>
+  <li>表記文字を設定ファイルで指定できるようにしました。</li>
+  <li>「前の文書に戻る」を実行した時に編集中の文書が消えるバグを修正しました。</li>
+</ul>
+<span class="version">version 2.4.0</span><br>
+<ul>
+  <li>PukiWiki風でリスト内に整形済みテキストを書けるようにしました。</li>
+  <li>PukiWiki風で前の行がリスト指定になっていて現在行に行レベルの書式指定がない場合はliを継続するようにしました。</li>
+  <li>Markdown風の記法に対応しました。</li>
+  <li>脚注の改行コードがおかしかったのを修正しました。</li>
+  <li>テンプレートを選択できるようにしました。</li>
+  <li>アイコンを変更しました。</li>
+</ul>
+<span class="version">version 2.3.2</span><br>
+<ul>
+  <li>属性の前に余計な空白が入るのを修正しました。</li>
+</ul>
+<span class="version">version 2.3.1</span><br>
+<ul>
+  <li>Textile風のテーブルで余計な文字が混ざるバグを修正しました。</li>
+  <li>Textile風で&lt;/p&gt;の直前の&lt;br&gt;を出力しないようにしました。</li>
+</ul>
+<span class="version">version 2.3.0</span><br>
+<ul>
+  <li>livedoor Wiki風の記法でテーブルを使うとエラーが発生したり、表示がおかしくなるバグを修正しました。</li>
+  <li>Textile風の記法に対応しました。</li>
+</ul>
+<span class="version">version 2.2.0</span><br>
+<ul>
+  <li>Pukiwiki風の記法で上と結合(~)に対応しました。</li>
+  <li>livedoor Wiki風の記法で上と結合(^)に対応しました。</li>
+  <li>PukiWiki風のテーブルでSIZE:に対応しました。</li>
+  <li>指定エディタを選択していても、新規作成時に標準エディタが起動するバグを修正しました。</li>
+  <li>pink-heartのデザインを追加しました。</li>
+</ul>
+<span class="version">version 2.1.0</span><br>
+<ul>
+  <li>プラグインにタイトルの情報が渡らないバグを修正しました。</li>
+  <li>はてな風でプラグインを使うと前後の文字が消えるバグを修正しました。</li>
+  <li>PukiWiki風でテーブルの書式指定行を無視するようにしました。</li>
+  <li>星のデザインを追加しました。</li>
+</ul>
+<span class="version">version 2.0.0</span><br>
+<ul>
+  <li>使用エディタの設定に「指定エディタ」を追加しました。</li>
+  <li>内蔵エディタで検索できるようにしました。</li>
+  <li>はてな風の記法でプラグインを利用できるようにしました。</li>
+  <li>livedoor Wiki風の記法を全体的に見直しました。</li>
+  <li>HTML出力時にフォルダをコピーするかどうかを選択できるようにしました。</li>
+  <li>PukiWiki風の記法で複数行プラグイン(#plugin(){{ ... }})の書式に対応しました。</li>
+  <li>デザインを変更できるようにしました。</li>
+  <li>HTML出力でindex.htmlに出力文字コードが設定されないバグを修正しました。</li>
+  <li>HTML出力で未更新のファイルを出力しないようにした時に未更新のファイルがindex.htmlの一覧に出力されなかったのを出力されるように変更しました。</li>
+  <li>自動保存を常に有効にするようにしました。</li>
+</ul>
+<span class="version">version 1.16.5</span><br>
+<ul>
+  <li>文字化けするバグを修正しました。</li>
+</ul>
+<span class="version">version 1.16.4</span><br>
+<ul>
+  <li>文字化けするバグを修正しました。</li>
+  <li>一覧のタイトルをダブルクリックするとエディタを開くようにしました。ただし、現在表示している以外の文書をダブルクリックすると、表示処理の都合上エディタがメインのウィンドウより後ろになってしまいます。</li>
+  <li>再読込機能を追加しました。</li>
+</ul>
+<span class="version">version 1.16.3</span><br>
+<ul>
+  <li>目次が文字化けするバグを修正しました。</li>
+</ul>
+<span class="version">version 1.16.2</span><br>
+<ul>
+  <li>リンクが文字化けするバグを修正しました。</li>
+</ul>
+<span class="version">version 1.16.1</span><br>
+<ul>
+  <li>リンクが文字化けするバグを修正しました。</li>
+</ul>
+<span class="version">version 1.16.0</span><br>
+<ul>
+  <li>MediaWiki風の記法でタグの中に[[ページ名]]と書いたときにリンクにならないバグを修正しました。</li>
+  <li>livedoor Wiki風で~~と書いても改行されない場合があるバグを修正しました。</li>
+  <li>文書毎にHTML出力先フォルダ名を保存するようにしました。</li>
+  <li>HTML出力時に出力文字コードを選択できるようにしました。</li>
+</ul>
+<span class="version">version 1.15.1</span><br>
+<ul>
+  <li>はてな風の記法で====で水平線にならず----で水平線になるバグを修正しました。</li>
+</ul>
+<span class="version">version 1.15.0</span><br>
+<ul>
+  <li>Pukiwiki風とlivedoor Wiki風の記法で、テーブルの連結(&gt;)に対応しました。</li>
+  <li>検索機能でタイトルも検索対象にするようにしました。</li>
+  <li>livedoor Wiki風の記法で、テーブルヘッダを作る際に各項目の最初に~を書くようにしていたのを先頭の項目の最初に~を書くように変更しました。</li>
+  <li>はてな風の記法で====で水平線にならないバグを修正しました。→直っていませんでした。</li>
+  <li>文書毎にトップページ名と記法を設定するようにしました。</li>
+  <li>FreeStyle Wiki風の記法に対応しました。</li>
+</ul>
+<span class="version">version 1.14.1</span><br>
+<ul>
+  <li>WindowsのDPI設定が120DPIの場合にHTML出力の設定ダイアログのレイアウトが崩れるバグを修正しました。</li>
+</ul>
+<span class="version">version 1.14.0</span><br>
+<ul>
+  <li>「トップに移動」にショートカット(Alt+Home)を割り当てました。</li>
+  <li>HTML出力の設定ダイアログのサイズを保存するようにしました。</li>
+  <li>検索機能を追加しました。</li>
+</ul>
+<span class="version">version 1.13.3</span><br>
+<ul>
+  <li>はてな風の記法で脚注にURLを書くと表示がおかしくなるのを修正しました。</li>
+</ul>
+<span class="version">version 1.13.2</span><br>
+<ul>
+  <li>編集メニューの切り取り・コピー・貼り付けに2つ目のショートカットを割り当てました。</li>
+  <li>挿入メニューの日付・時刻にショートカットを割り当てました。</li>
+</ul>
+<span class="version">version 1.13.1</span><br>
+<ul>
+  <li>livedoor Wiki風でカンマを使ったテーブルで最後のカンマの扱いがおかしいのを修正しました。</li>
+</ul>
+<span class="version">version 1.13.0</span><br>
+<ul>
+  <li>livedoor Wiki風の記法に対応しました。</li>
+  <li>PukiWiki風の記法で[[画像&gt;URL]]の書き方に対応しました。</li>
+</ul>
+<span class="version">version 1.12.0</span><br>
+<ul>
+  <li>最小化時システムトレイに格納できるようにしました。</li>
+  <li>前の文書に戻れるようにしました。</li>
+  <li>メニューの記法にMediaWiki風を追加しました。</li>
+</ul>
+<span class="version">version 1.11.1</span><br>
+<ul>
+  <li>はてな風の記法でaa記法に対応しました。</li>
+</ul>
+<span class="version">version 1.11.0</span><br>
+<ul>
+  <li>HTML出力で、更新されていないファイルの出力をしないようにできるようにしました。</li>
+  <li>MediaWiki風の記法に対応しました。</li>
+</ul>
+<span class="version">version 1.10.3</span><br>
+<ul>
+  <li>「一時ファイル」の場合、外部リンク先を表示した後の操作で目次を選択するとエラーが発生するのを修正しました。</li>
+  <li>フォルダを表示しているとキー押下が二重になるバグを修正しました。</li>
+  <li>一覧部分およびメイン部分へのフォーカス移動をそれぞれCtrl+JおよびCtrl+Kでできるようにしました。</li>
+  <li>違うフォルダのファイルを開いた時に「最近」タブをクリアするようにしました。</li>
+  <li>PukiWiki風の記法でテーブル(|)の最後にfまたはhがあった場合にもテーブルとして扱うようにしました。</li>
+</ul>
+<span class="version">version 1.10.2</span><br>
+<ul>
+  <li>PageUp/Downでスクロールしすぎるのを修正しました。</li>
+  <li>外部リンク先を表示した後の操作で目次を選択するとエラーが発生するのを修正しました。</li>
+</ul>
+<span class="version">version 1.10.1</span><br>
+<ul>
+  <li>PukiWiki風のテーブルで書式の指定(LEFT:など)とヘッダの指定(~)を両方行う場合の処理がおかしかったのを修正しました。</li>
+</ul>
+<span class="version">version 1.10.0</span><br>
+<ul>
+  <li>トップページ名を指定して、ボタン一つでトップに移動できるようにしました。</li>
+  <li>PukiWiki風のテーブルでLEFT: CENTER: RIGHT: COLOR: BGCOLOR: に対応しました。</li>
+  <li>PukiWiki風で行頭のLEFT: CENTER: RIGHT: に対応しました。</li>
+  <li>テンプレートで&lt;#Menubar&gt;と記述すると、MenuBarファイルの内容を表示するようにしました。</li>
+  <li>HTML出力時のファイル名をタイトル名称と同じにできるようにしました。</li>
+</ul>
+<span class="version">version 1.9.0</span><br>
+<ul>
+  <li>プラグイン名の大文字／小文字の区別を、YukiWiki風／区別する、PukiWiki風／区別しないようにしました。</li>
+  <li>PukiWiki風で見出し行に[#～]がある場合に[#～]を削除して～部分をnameに設定するようにしました。</li>
+  <li>注釈の中にリンクを書くとおかしくなるバグを修正しました。</li>
+  <li>プラグインでGetVersionの代わりにGetPluginVersionでも受け付けるようにしました。</li>
+  <li>ファイル読み込み時の文字コードを設定できるようにしました。</li>
+</ul>
+<span class="version">version 1.8.0</span><br>
+<ul>
+  <li>YukiWiki風とPukiWiki風で画像表示に対応しました。</li>
+  <li>はてな風の記法でタグの中でもhttp://～などをリンクに変換してしまうバグを修正しました。</li>
+  <li>PukiWiki風の記法でテーブルのthの書き方を、行末のhから項目先頭の~に変更しました。</li>
+</ul>
+<span class="version">version 1.7.1</span><br>
+<ul>
+  <li>PukiWiki風の記法で、脚注が初期化されないバグを修正しました。</li>
+</ul>
+<span class="version">version 1.7.0</span><br>
+<ul>
+  <li>はてな風の記法に対応しました。</li>
+  <li>PukiWiki風の記法で、脚注(( ))およびテーブル| | |に対応しました。</li>
+</ul>
+<span class="version">version 1.6.0</span><br>
+<ul>
+  <li>外部エディタを使えるようにしました。</li>
+</ul>
+<span class="version">version 1.5.3</span><br>
+<ul>
+  <li>プラグインで作成した文字が文字化けするバグを修正しました。</li>
+  <li>ネットワークドライブ上で実行した時に異常終了するバグを修正しました。</li>
+  <li>PukiWiki風の時に行末にチルダ(~)があると次の行の書式が無効になるバグを修正しました。</li>
+</ul>
+<span class="version">version 1.5.2</span><br>
+<ul>
+  <li>行末に特定の文字を書くと文字化けするバグを修正しました。</li>
+</ul>
+<span class="version">version 1.5.1</span><br>
+<ul>
+  <li>新規作成した文書のタイトルが文字化けするバグを修正しました。</li>
+  <li>EditorHelpにプラグインの書き方を追加しました。</li>
+</ul>
+<span class="version">version 1.5.0</span><br>
+<ul>
+  <li>目次でスクロールした際に、画面を左寄せするようにしました。</li>
+  <li>Wikiファイル保存フォルダからの相対パス指定をできるようにしました。</li>
+  <li>ドロップダウンリストで記法を選べるようにしました。</li>
+  <li>linkプラグインでローカルファイルへリンクできるようにしました。</li>
+</ul>
+<span class="version">version 1.4.0</span><br>
+<ul>
+  <li>URLに#が含まれているとそのページに移動できないバグを修正しました。</li>
+  <li>編集画面を前面に表示できるようにしました。</li>
+  <li>PukiWiki風の記法で、&amp;verb(&amp;br;); が意図した表示(&amp;br;)になるようにしました。</li>
+  <li>一覧の右クリックメニューに[編集]を追加しました。</li>
+  <li>ローカルファイルへリンクできるようにしました。</li>
+</ul>
+<span class="version">version 1.3.0</span><br>
+<ul>
+  <li>記法をYukiWiki風とPukiWiki風から選べるようにしました。</li>
+</ul>
+<span class="version">version 1.2.0</span><br>
+<ul>
+  <li>目次を表示するようにしました。</li>
+  <li>表示メニューからタブの選択をできるようにしました。</li>
+  <li>文書ファイルのプロパティを表示できるようにしました。</li>
+  <li>名前変更時に現在の名前をデフォルト値としてあらかじめ表示しておくようにしました。</li>
+</ul>
+<span class="version">version 1.1.0</span><br>
+<ul>
+  <li>文書を保存した時に表示画面のスクロールバーの位置が初期化されないようにしました。</li>
+  <li>メイン画面からもテキスト整形のルールを表示できるようにしました。</li>
+  <li>プラグインを使用した文書をHTML出力できないバグを修正しました。</li>
+  <li>プラグインの使い方を表示するようにしました。</li>
+  <li>最近表示したページの一覧を表示するようにしました。</li>
+</ul>
+<span class="version">version 1.0.1</span><br>
+<ul>
+  <li>1行に2箇所以上プラグインの記述があるとプラグインが機能しない場合があるバグを修正しました。</li>
+</ul>
+<span class="version">version 1.0.0</span><br>
+<ul>
+  <li>文書タイトル(H1)をテンプレート側で付けるようにしました。</li>
+  <li>プラグインの利用ができるようになりました。</li>
+</ul>
+<span class="version">version 0.9.0</span><br>
+<ul>
+  <li>エディタの設定で折り返しの設定をできるようにしました。</li>
+  <li>名前変更をできるようにしました。</li>
+  <li>http://～ と [[ ]] の色を変えるようにしました。</li>
+  <li>エディタの詳細設定をできるようにしました。</li>
+</ul>
+<span class="version">version 0.8.1</span><br>
+<ul>
+  <li>設定で「WikiName形式の?リンクを表示しない」を有効にすると[[ ]]形式のリンクがおかしくなるバグを修正しました。</li>
+</ul>
+<span class="version">version 0.8.0</span><br>
+<ul>
+  <li>HTML出力対象を選択できるようにしました。</li>
+  <li>日付、時刻、日時の挿入をできるようにしました。</li>
+</ul>
+<span class="version">version 0.7.0</span><br>
+<ul>
+  <li>ツールバーに設定ボタンを追加しました。</li>
+  <li>WikiName形式で?リンクを表示しないように設定できるようにしました。</li>
+  <li>テーブル内にカンマ混じりのデータを書けるようにしました。</li>
+  <li>用語と解説(::)でリンクや文字飾りを使えるようにしました。</li>
+  <li>HTML出力先フォルダ名を保存するようにしました。</li>
+  <li>HTML出力時にindex.htmlを作成しないことを可能にしました。</li>
+</ul>
+<span class="version">version 0.6.0</span><br>
+<ul>
+  <li>HTML出力機能を追加しました。</li>
+</ul>
+<span class="version">version 0.5.1</span><br>
+<ul>
+  <li>編集したあとにエディタを閉じても画面が変化しなくて、保存されていないように見えるバグを修正しました。</li>
+  <li>テーブルの書式でカンマが連続したときの処理がおかしかったのを修正しました。</li>
+</ul>
+<span class="version">version 0.5.0</span><br>
+<ul>
+  <li>バーベイタム・ソフトとバーベイタム・ハードに対応しました。</li>
+  <li>ファイルの自動保存機能を追加しました。</li>
+  <li>外部リンクの場合にはブラウザで開くこともできるようにしました。</li>
+</ul>
+<span class="version">version 0.4.0</span><br>
+<ul>
+  <li>箇条書き(-)と引用(&gt;)で3レベルまで対応しました。</li>
+  <li>ステータスバーを追加しました。</li>
+  <li>ファイルコピーをできるようにしました。</li>
+</ul>
+<span class="version">version 0.3.0</span><br>
+<ul>
+  <li>テーブルの項目連結(==)に対応しました。</li>
+  <li>コマンドライン引数に対応しました。</li>
+  <li>リスト部と表示部の仕切り位置を保存するようにしました。</li>
+  <li>Ctrl+TABでメインフォームと編集画面を切り替えられるようにしました。</li>
+  <li>ドロップされたファイルを読み込むようにしました。</li>
+</ul>
+<span class="version">version 0.2.0</span><br>
+<ul>
+  <li>用語解説&lt;dl&gt;の書式を追加しました。</li>
+  <li>テーブル&lt;table&gt;の書式を追加しました。</li>
+</ul>
+<span class="version">version 0.1.0</span><br>
+<ul>
+  <li>WinCVSのアウトプット欄に入力できなくなるバグを修正しました。</li>
+  <li>イタリック&lt;i&gt;、ボールド&lt;b&gt;の書式を追加しました。</li>
+  <li>引用&lt;blockquote&gt;の書式を追加しました。</li>
+  <li>各フォームの位置とサイズを保存するようにしました。</li>
+  <li>Wikiページの削除機能を追加しました。</li>
+</ul>
+<span class="version">version 0.0.0</span><br>
+<ul>
+  <li>初公開。</li>
+</ul>
+</div>
+
+<h3 class="item">セキュリティー</h3>
+<div class="contents">
+　本プログラムはInternet Explorerの部品を使用しています。そのためInternet Explorerのセキュリティーホールの影響を受けます。<br>
+　ご利用の際にはWindows Update等を利用してセキュリティーホールをふさぐようにしてください。<br>
+</div>
+
+<h3 class="item">制限事項</h3>
+<div class="contents">
+　エディタの折り返し桁数を変更するとそれ以前の状態にUndoできなくなります。<br>
+　右端で折り返すを選択した場合、エディタのサイズを変更する度にそれ以前の状態にUndoできなくなりますのでご注意下さい。<br>
+</div>
+
+<h3 class="item">配布に関して</h3>
+<div class="contents">
+　本プログラムはフリーソフトです。著作権は私がもってます(除BREGEXP.DLL)。配布は自由です。ただしダウンロードした状態のままで手を加えず配布して下さい。<br>
+　本プログラムの使用によるいかなる損害についても、作者は責任を負いません。また、作者はバグを修正する義務も負いません。<br>
+　スタイルシートおよびスタイルシートが参照する画像ファイルについては、スタイルシート内に記載しているライセンスに従い利用をお願いします。<br>
+</div>
+
+<h3 class="item">謝辞</h3>
+<div class="contents">
+　馬場達夫氏の<a href="http://www.hi-ho.ne.jp/~babaq/bregexp.html">BREGEXP.DLL</a>を利用させていただいています。ありがとうございます。<br>
+　武内修氏の<a href="http://www2.big.or.jp/~osamu/Delphi/MyLibrary.htm">BRegExp.pas</a>を利用させていただいています。ありがとうございます。<br>
+　本田勝彦氏の<a href="http://homepage3.nifty.com/~katsuhiko/delphi.html">TEditor</a>を利用させていただいています。ありがとうございます。<br>
+　由木尾晃氏の<a href="http://www33.ocn.ne.jp/~takoyakusi/delphi/UIWebBrowser/index.htm">TUIWebBrowser</a>を利用させていただいています。ありがとうございます。<br>
+　EarthWave Soft(IKEDA Takahiro)氏のjconvert.pasを利用させていただいています。ありがとうございます。<br>
+　かとちん氏の<a href="http://hpcgi2.nifty.com/t-katochin/wiki/wiki.cgi?p=%BC%EA%BA%EE%A4%EA%C9%F4%C9%CA">TrayIconコンポーネント</a>を利用させていただいています。ありがとうございます。<br>
+　結城浩氏の<a href="http://www.hyuki.com/yukiwiki/">YukiWiki</a>を参考にさせていただきました。ありがとうございます。<br>
+　PukiWiki Developers Teamの<a href="http://pukiwiki.sourceforge.jp/">PukiWiki</a>を参考にさせていただきました。ありがとうございます。<br>
+　株式会社はてなの<a href="http://d.hatena.ne.jp/">はてなダイアリー</a>を参考にさせていただきました。ありがとうございます。<br>
+　ウィキメディア財団の<a href="http://ja.wikipedia.org/">ウィキペディア</a>を参考にさせていただきました。ありがとうございます。<br>
+　株式会社ライブドアの<a href="http://wiki.livedoor.com/">livedoor Wiki</a>を参考にさせていただきました。ありがとうございます。<br>
+　takezoe氏の<a href="http://fswiki.org/">FreeStyle Wiki</a>を参考にさせていただきました。ありがとうございます。<br>
+　Dean Allen氏のTextileを参考にさせていただきました。ありがとうございます。<br>
+　The Daring Fireball Company LLCの<a href="http://daringfireball.net/projects/markdown/syntax">Markdown: Syntax</a>を参考にさせていただきました。ありがとうございます。<br>
+</div>
+
+<h3 class="item">関連ソフト</h3>
+<div class="contents">
+<h4 class="menu"><a href="http://www2u.biglobe.ne.jp/~MAS/soft.html#htwikiplugin">ひとりWikiプラグイン集</a></h4>
+　本ソフトで利用可能なプラグイン集です。<br>
+</div>
+
+<a href="#head">先頭に戻る</a>
+
+<hr>
+<table>
+<tr>
+  <th>電子メール宛先</th>
+  <td><a href="mailto:t-masuda@mvd.biglobe.ne.jp">t-masuda@mvd.biglobe.ne.jp</a></td>
+</tr><tr>
+  <th>作者のページ</th>
+  <td><a href="http://www2u.biglobe.ne.jp/~MAS/">http://www2u.biglobe.ne.jp/~MAS/</a></td>
+</tr>
+</table>
+
+</body>
+</html>

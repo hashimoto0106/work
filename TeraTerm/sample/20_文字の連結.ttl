@@ -1,0 +1,18 @@
+;01文字の連結
+
+;-----初期設定-----
+who = '私'
+person = '太郎'
+age = 10
+text1 = ''
+text2 = ''
+
+;-----メインルーチン-----
+
+sprintf2 text1 '%sの名前は%sです。%d歳です。' who person age
+messagebox text1 'text1の内容'
+
+sprintf2 text2 '%sの名前は%sです。%d歳です。' '父' '和雄' 42
+messagebox text2 'text2の内容'
+
+end

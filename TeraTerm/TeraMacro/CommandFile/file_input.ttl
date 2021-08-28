@@ -1,0 +1,21 @@
+getdir file_dir
+strconcat file_dir '\'
+strconcat file_dir 'command.txt'
+messagebox file_dir '確認'
+
+fileopen fh file_dir 0
+;fileopen fh '\\redmagic\Software\ProgramingLanguage\017_TeraMacro\FileInput\command.txt' 0
+
+:freadloop
+filereadln fh buf
+if result goto breakloop
+    messagebox buf '確認'
+    pause 1
+    sendln buf
+	wait '$' '#'
+goto freadloop
+ 
+:breakloop
+ 
+fileclose fh
+

@@ -1,0 +1,51 @@
+;04ログの場所
+
+;-----目的-----
+;--
+;--ログ保存場所は、実行するMacroと同じディレクトリとする
+
+;-----初期設定-----
+host = ''
+datetime = ''
+logname = ''
+getdir logdir ;MACRO の現在のディレクトリを変数logdirに格納
+logfilepath = ''
+
+;-----メインルーチン-----
+
+messagebox 'ログファイルの保存ディレクトリは、本Macroを実行した位置になります' 'Infomation'
+
+;--ログファイルパス1 生成
+
+host = 'Apple'
+call create_logname
+call create_logfullpath
+
+;--ログファイルパス2 生成
+host = 'Banana'
+call create_logname
+call create_logfullpath
+
+;--ログファイルパス3 生成
+host = 'Citrus'
+call create_logname
+call create_logfullpath
+
+end
+
+
+;-----サブルーチン-----
+:create_logname
+getdate datetime "_%Y%m%d-%H%M%S.log"
+sprintf2 logname '%s%s' host datetime
+messagebox logname '確認' ;生成したログ名の確認
+
+return
+
+
+
+:create_logfullpath
+makepath logfilepath logdir logname ;<dir> とファイル名 <name> からフルパス名を作成し、文字列変数に格納（\は適宜入る）
+messagebox logfilepath '確認' ;生成したログファイルパスの確認
+
+return

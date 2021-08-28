@@ -1,0 +1,45 @@
+;=====================================================================
+; 接続情報
+HOSTADDR = '192.168.11.16'
+USERNAME = 'control'
+PASSWORD = 'taniken84'
+WINDOW_TITLE = 'test window'
+;=====================================================================
+
+; コマンドオプション組立て
+COMMAND = HOSTADDR
+strconcat COMMAND ':22 /ssh /2 /auth=password /user='
+strconcat COMMAND USERNAME
+strconcat COMMAND ' /passwd='
+strconcat COMMAND PASSWORD
+
+; 接続
+connect COMMAND
+
+; ウインドウタイト
+settitle WINDOW_TITLE
+
+wait '$'
+
+; グローバル変数
+Count = 0
+true = 1
+false = 0
+ 
+; 以下、dateコマンドを無限に繰り返す
+while true
+  call show_counter
+  sendln "date"
+  wait ']$'
+  pause 1
+endwhile
+ 
+; カウンタの表示
+:show_counter
+sprintf2 str "%d 回目" Count
+statusbox str "カウンタ"
+Count = Count + 1
+return
+
+
+end

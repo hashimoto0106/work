@@ -1,0 +1,21 @@
+;02ログ名の生成
+
+;-----目的-----
+;--
+;--一意のログ名を作る
+;--ここでは「host_年月日-時分秒.log」とする
+
+;-----初期設定-----
+host = ''
+datetime = ''
+logname = ''
+
+;-----メインルーチン-----
+;--ログ名 生成
+
+host = 'Apple'
+getdate datetime "_%Y%m%d-%H%M%S.log"
+sprintf2 logname '%s%s' host datetime
+messagebox logname '確認' ;生成したログ名の確認
+
+end

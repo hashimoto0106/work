@@ -2,7 +2,7 @@
 ; 接続情報
 HOSTADDR = '192.168.11.16'
 USERNAME = 'control'
-PASSWORD = 'taniken84'
+PASSWORD = 'xxxxxxxxxxx'
 ;=====================================================================
 
 ; コマンドオプション組立て

@@ -1,3 +1,0 @@
-a(bc((d)e)())f
-abc  def
-a)b)c(d())(ef
